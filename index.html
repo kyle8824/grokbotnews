@@ -59,6 +59,7 @@
         <p class="credit">Photo: U.S. Navy via Stars and Stripes</p>
         <p class="byline">Event summary from public agency statements and named outlets</p>
 
+        <p class="views-row"><button type="button" class="views-btn" data-open-views>Two views</button></p>
         <div class="frames">
           <div class="frame cl">
             <h3>Center-left view</h3>
@@ -133,6 +134,7 @@
         <p class="kicker">Supreme Court</p>
         <h2 class="story-hed">Supreme Court, 5–4, allows White House ballroom construction to continue</h2>
         <p class="dek">An unsigned order pauses a federal judge’s halt on above-ground work. The majority said the National Trust for Historic Preservation likely lacks standing and did not decide whether Congress had to approve demolition of the East Wing. The administration has told the court the project is about two-thirds complete and includes underground security construction.</p>
+        <p class="views-row"><button type="button" class="views-btn" data-open-views>Two views</button></p>
         <div class="frames">
           <div class="frame cl">
             <h3>Center-left view</h3>
@@ -165,6 +167,7 @@
         <p class="kicker">Defense Department</p>
         <h2 class="story-hed">Army Secretary Dan Driscoll submits resignation after 18 months</h2>
         <p class="dek">Administration officials said Driscoll handed President Trump his resignation on Monday. ABC News reports he had repeatedly warned the White House and chief of staff Susie Wiles about Defense Secretary Pete Hegseth’s firings of senior officers. He had been Army secretary for 18 months. The Army has had no Senate-confirmed chief of staff since April and now also lacks a confirmed secretary amid the Iran war.</p>
+        <p class="views-row"><button type="button" class="views-btn" data-open-views>Two views</button></p>
         <div class="frames">
           <div class="frame cl">
             <h3>Center-left view</h3>
@@ -197,6 +200,7 @@
         <p class="kicker">Postal Service</p>
         <h2 class="story-hed">Senator releases USPS whistleblower complaint; hearing set for Sept. 3</h2>
         <p class="dek">Sen. Richard Blumenthal, D-Conn., made public a complaint from an anonymous official represented by Whistleblower Aid. The complaint says the Postal Service built an online portal to carry out President Trump’s executive order on mail voting and planned a September launch. It describes a rule under which a failed barcode scan could return an entire batch of ballots. A Senate Homeland Security subcommittee hearing on the disclosure is set for Thursday, Sept. 3. The underlying order remains in court.</p>
+        <p class="views-row"><button type="button" class="views-btn" data-open-views>Two views</button></p>
         <div class="frames">
           <div class="frame cl">
             <h3>Center-left view</h3>
@@ -229,6 +233,7 @@
         <p class="kicker">Congress</p>
         <h2 class="story-hed">House votes 370–48 to fund the government through Dec. 11; bill awaits signature</h2>
         <p class="dek">The continuing resolution, already passed by the Senate, holds most agency budgets at current levels through Dec. 11. The text delays a scheduled ban on intoxicating hemp products, blocks a White House rule that would put political appointees over federal-grant approval, and bars a transfer of funds to Border Patrol. It is on President Trump’s desk and has not been signed as of Wednesday morning public wires; officials expect a signature before the Sept. 30 fiscal-year end.</p>
+        <p class="views-row"><button type="button" class="views-btn" data-open-views>Two views</button></p>
         <div class="frames">
           <div class="frame cl">
             <h3>Center-left view</h3>
@@ -263,6 +268,7 @@
         <p class="kicker">Arizona</p>
         <h2 class="story-hed">Park Service identifies two dead in Grand Canyon flood; one hiker still missing</h2>
         <p class="dek">The National Park Service identified John Giusti, 46, and Brent Rosenkranz, 42, both of Granbury, Texas, as the two people found dead after Saturday’s flash flood along Bright Angel Creek. Timothy Allen Smith, 53, remains missing. Rangers and helicopters evacuated 82 people from the Phantom Ranch area. The search continues with dogs, boats, and helicopters.</p>
+        <p class="views-row"><button type="button" class="views-btn" data-open-views>Two views</button></p>
         <div class="frames">
           <div class="frame cl">
             <h3>Center-left view</h3>
@@ -295,6 +301,7 @@
         <p class="kicker">Gulf Coast</p>
         <h2 class="story-hed">Tropical Depression Edouard triggers East Texas flash flood emergency</h2>
         <p class="dek">The National Weather Service issued a Flash Flood Emergency for Hardin and Tyler counties early Wednesday as the remnants of Edouard pushed inland. National Hurricane Center guidance calls for rainfall totals up to about 12 inches in parts of East Texas; radar estimates in some counties ran higher. Flood watches extend into Wednesday evening. Fox Weather reported more than 70,000 customers without power. Port Arthur recorded gusts near 90 mph at landfall Tuesday. The center was near the Lufkin area Wednesday morning and was forecast to weaken and dissipate Wednesday night.</p>
+        <p class="views-row"><button type="button" class="views-btn" data-open-views>Two views</button></p>
         <div class="frames">
           <div class="frame cl">
             <h3>Center-left view</h3>
@@ -385,5 +392,21 @@
       <p class="legal">Independent staging page for grokbotnews.com. Original wordmark. Not affiliated with any broadcast or cable news company. No accounts, no comments, no donations. Photographs are news-file images used for layout; they are not claimed as original field work by this site.</p>
     </div>
   </footer>
+
+  <div class="views-layer" id="views-layer" hidden>
+    <div class="views-backdrop" data-views-close></div>
+    <div class="views-sheet" role="dialog" aria-modal="true" aria-labelledby="views-title">
+      <div class="views-head">
+        <div>
+          <p class="kicker" id="views-kicker"></p>
+          <h2 id="views-title"></h2>
+        </div>
+        <button type="button" class="views-close" data-views-close aria-label="Close two views">Close</button>
+      </div>
+      <p class="views-note">Same story. Two frames. Same weight. You decide.</p>
+      <div class="views-body" id="views-body"></div>
+    </div>
+  </div>
+  <script src="js/views.js" defer></script>
 </body>
 </html>

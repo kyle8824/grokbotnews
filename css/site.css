@@ -409,3 +409,90 @@ footer {
   .nav { justify-content: space-between; padding: 0 8px; }
   .nav a { padding: 8px 4px 7px; font-size: 10.5px; letter-spacing: .06em; }
 }
+
+/* two-views sheet (branch prototype; main keeps on-page frames) */
+.views-row { margin: 4px 0 0; }
+.views-btn {
+  appearance: none;
+  background: #fff;
+  border: 1px solid var(--navy);
+  color: var(--navy);
+  font: 700 11px/1 "Source Sans 3", sans-serif;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  padding: 9px 14px;
+  cursor: pointer;
+}
+.views-btn:hover { background: var(--navy); color: #fff; }
+.has-views-js .frames { display: none; }
+.has-views-js .views-layer .frames {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+body.views-open { overflow: hidden; }
+.views-layer {
+  position: fixed; inset: 0; z-index: 40;
+  display: flex; align-items: flex-end; justify-content: center;
+}
+.views-layer[hidden] { display: none; }
+.views-backdrop {
+  position: absolute; inset: 0;
+  background: rgba(8,18,28,.55);
+}
+.views-sheet {
+  position: relative;
+  background: var(--paper);
+  width: min(920px, 100%);
+  max-height: min(88vh, 760px);
+  overflow: auto;
+  padding: 18px 18px 28px;
+  border-top: 4px solid var(--navy);
+  box-shadow: 0 -12px 40px rgba(0,0,0,.25);
+}
+.views-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+.views-head h2 {
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-size: clamp(18px, 3vw, 26px);
+  line-height: 1.2;
+  margin: 4px 0 0;
+}
+.views-note {
+  margin: 0 0 16px;
+  font-size: 11px;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.views-close {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  font: 700 11px/1 "Source Sans 3", sans-serif;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--navy);
+  cursor: pointer;
+  padding: 8px 0 0;
+  flex: 0 0 auto;
+}
+.views-close:hover { color: var(--red); }
+
+@media (min-width: 720px) {
+  .views-layer { align-items: center; padding: 24px; }
+  .views-sheet {
+    border: 1px solid var(--navy);
+    border-top-width: 4px;
+    max-height: 82vh;
+    padding: 22px 24px 28px;
+  }
+}
+@media (max-width: 719px) {
+  .has-views-js .views-layer .frames { grid-template-columns: 1fr; }
+}
