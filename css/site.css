@@ -411,19 +411,42 @@ footer {
 }
 
 /* two-views sheet (branch prototype; main keeps on-page frames) */
-.views-row { margin: 4px 0 0; }
+.views-row { margin: 12px 0 4px; }
 .views-btn {
   appearance: none;
-  background: #fff;
-  border: 1px solid var(--navy);
-  color: var(--navy);
-  font: 700 11px/1 "Source Sans 3", sans-serif;
-  letter-spacing: .16em;
-  text-transform: uppercase;
-  padding: 9px 14px;
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: var(--navy);
+  color: #fff;
+  border: 0;
+  border-left: 6px solid var(--red);
+  padding: 12px 14px 13px;
   cursor: pointer;
+  box-shadow: 0 1px 0 rgba(8,18,28,.12);
 }
-.views-btn:hover { background: var(--navy); color: #fff; }
+.views-btn:hover { background: #122232; }
+.views-btn-kicker {
+  display: block;
+  font: 700 10px/1 "Source Sans 3", sans-serif;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: #f0c36a;
+  margin-bottom: 5px;
+}
+.views-btn-label {
+  display: block;
+  font: 800 16px/1.15 "Source Sans 3", sans-serif;
+  letter-spacing: .02em;
+}
+.views-btn-sub {
+  display: block;
+  margin-top: 5px;
+  font: 600 12.5px/1.35 "Source Sans 3", sans-serif;
+  color: #c9d2db;
+  letter-spacing: 0;
+  text-transform: none;
+}
 .has-views-js .frames { display: none; }
 .has-views-js .views-layer .frames {
   display: grid;
