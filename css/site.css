@@ -52,18 +52,6 @@ a:hover { color: var(--red-dark); }
   flex-wrap: wrap;
 }
 .utility a { color: #d7dde4; text-decoration: none; }
-.live-dot {
-  display: inline-block;
-  width: 7px; height: 7px;
-  background: #e23b3b;
-  border-radius: 50%;
-  margin-right: 6px;
-  box-shadow: 0 0 0 0 rgba(226,59,59,.7);
-  animation: pulse 1.6s infinite;
-}
-@keyframes pulse {
-  70% { box-shadow: 0 0 0 6px rgba(226,59,59,0); }
-}
 
 /* —— masthead —— */
 .masthead {
@@ -160,10 +148,16 @@ a:hover { color: var(--red-dark); }
   object-fit: cover;
   background: #1a1a1a;
 }
+.caption {
+  font-size: 14px;
+  color: #2b3036;
+  margin: 8px 0 0;
+  line-height: 1.4;
+}
 .credit {
   font-size: 11px;
   color: var(--muted);
-  margin-top: 6px;
+  margin-top: 4px;
 }
 .kicker {
   font-size: 12px;
@@ -172,6 +166,15 @@ a:hover { color: var(--red-dark); }
   text-transform: uppercase;
   color: var(--red);
   margin: 0 0 8px;
+}
+.stamp {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 6px 0 0;
 }
 .lead-hed {
   font-family: "Libre Baskerville", Georgia, serif;
