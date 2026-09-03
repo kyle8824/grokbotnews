@@ -70,7 +70,7 @@ a:hover { color: var(--red-dark); }
 .masthead-inner {
   max-width: var(--max);
   margin: 0 auto;
-  padding: 12px 16px 8px;
+  padding: 16px 16px 12px;
   text-align: center;
 }
 .brand {
@@ -82,25 +82,25 @@ a:hover { color: var(--red-dark); }
   color: inherit;
 }
 .brand-mark {
-  width: 10px;
-  height: 28px;
+  width: 12px;
+  height: 42px;
   background: var(--red);
   box-shadow: 3px 0 0 var(--navy);
   flex: 0 0 auto;
 }
 .wordmark {
-  font-family: "Libre Baskerville", Georgia, "Times New Roman", serif;
-  font-weight: 700;
-  font-size: clamp(22px, 6vw, 40px);
-  letter-spacing: .045em;
-  line-height: .95;
+  font-family: "Playfair Display", "Libre Baskerville", Georgia, "Times New Roman", serif;
+  font-weight: 900;
+  font-size: clamp(42px, 12vw, 72px);
+  letter-spacing: .02em;
+  line-height: .9;
   margin: 0;
   color: var(--navy);
 }
 .tagline {
-  margin: 6px 0 0;
-  font-size: 10px;
-  letter-spacing: .22em;
+  margin: 10px 0 0;
+  font-size: 11px;
+  letter-spacing: .24em;
   text-transform: uppercase;
   color: var(--muted);
 }
@@ -165,6 +165,9 @@ a:hover { color: var(--red-dark); }
   grid-template-columns: 1.55fr .95fr;
   gap: 28px;
   align-items: start;
+  padding-bottom: 8px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid var(--rule);
 }
 .photo-wrap { position: relative; }
 .photo-wrap img {
@@ -392,7 +395,13 @@ footer {
   .photo-wrap img { height: 240px; }
   .frames { grid-template-columns: 1fr; }
   .story img { height: 210px; }
-  .wordmark { letter-spacing: .04em; }
+  .wordmark { letter-spacing: .01em; }
+  .lead-grid > article {
+    padding-bottom: 22px;
+    margin-bottom: 6px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .lead-grid > .stack { padding-top: 8px; }
   .utility-inner { flex-wrap: wrap; justify-content: center; text-align: center; }
   .utility-mkts { white-space: normal; }
   .nav { justify-content: flex-start; }
@@ -405,7 +414,8 @@ footer {
   .utility { font-size: 10px; }
   .utility-inner { padding: 7px 12px; gap: 4px; }
   .masthead-inner { padding: 10px 12px 6px; }
-  .brand-mark { height: 22px; width: 8px; }
+  .brand-mark { height: 40px; width: 11px; }
+  .masthead-inner { padding: 14px 12px 10px; }
   .nav { justify-content: space-between; padding: 0 8px; }
   .nav a { padding: 8px 4px 7px; font-size: 10.5px; letter-spacing: .06em; }
 }
