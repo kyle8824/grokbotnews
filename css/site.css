@@ -519,3 +519,14 @@ body.views-open { overflow: hidden; }
 @media (max-width: 719px) {
   .has-views-js .views-layer .frames { grid-template-columns: 1fr; }
 }
+
+/* story pages */
+.story-page { padding-top: 28px; }
+.story-page .lead-hed { margin-bottom: 8px; }
+.story-page .frames { margin-top: 22px; }
+.story-page .photo-wrap img, .story-page > article img { width: 100%; max-height: 420px; object-fit: cover; }
+.back-home { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; font-weight: 700; text-decoration: none; color: var(--muted); display: inline-block; margin-bottom: 14px; }
+.back-home:hover { color: var(--red); }
+
+.lead-hed a, .story-hed a, .stack-item h2 a { color: inherit; text-decoration: none; }
+.lead-hed a:hover, .story-hed a:hover { color: var(--red-dark); }
