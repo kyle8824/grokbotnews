@@ -1,0 +1,54 @@
+{
+  "slug": "us-iran-tanker-strikes",
+  "kicker": "Persian Gulf",
+  "hed": "U.S. destroys five Iranian oil tankers after warship attacks; Iran fires on Jordan base as Brent tops $100",
+  "stamp": "NEW · Wed. 8 a.m. EDT",
+  "dek": "U.S. Central Command said forces destroyed five IRGC-linked crude carriers on Sept. 8 — Kaviz, Charminar, Horizon 1, and Riesco in the Gulf of Oman and Derya near Kharg Island — after the IRGC twice targeted a U.S. Navy warship with ballistic missiles. The ship evaded the attacks; no U.S. personnel were harmed, and crews were told to abandon the tankers first. Iran’s IRGC claimed missile strikes on Al Azraq in Jordan and on vessels in Hormuz; Jordan said 18 of 20 projectiles were intercepted, two fell in unpopulated areas, and there were no casualties. Brent crude printed about $100.07 — the first close above $100 since July 24 — with WTI near $94.73, Reuters reported Wednesday.",
+  "image": "img/iran-tanker-strikes.jpg",
+  "alt": "Oil tanker taking on crude at a Persian Gulf terminal",
+  "caption": "An oil tanker takes on crude at a Persian Gulf terminal. File photograph; not from Tuesday’s Gulf of Oman or Kharg strikes.",
+  "credit": "U.S. Navy / Photographer’s Mate Airman Eben Boothby (public domain)",
+  "byline": "Event summary from public agency statements and named outlets",
+  "section": "lead",
+  "updated": "2026-09-09",
+  "frames": {
+    "cl": {
+      "body": "NPR, Al Jazeera, and BBC emphasize CENTCOM’s destruction of five tankers after warship attacks, Jordan’s intercept tally at Al Azraq, and regional escalation as oil crossed $100.",
+      "sources": [
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/09/09/nx-s1-5962641/us-destroy-iranian-oil-tankers"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/9/us-destroys-five-iranian-tankers-iran-retaliates-with-attacks-on-jordan-base"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/articles/cyvznqypz0yo"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Reuters energy desks, WSJ market live coverage, and JNS stress Brent topping $100, IRGC targeting of a U.S. warship, and the tanker sinkings as Gulf risk priced into crude.",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/energy/brent-crude-rises-above-100-barrel-middle-east-conflict-escalates-2026-09-09/"
+        },
+        {
+          "name": "Wall Street Journal",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-09-2026"
+        },
+        {
+          "name": "JNS",
+          "url": "https://www.jns.org/news/u-s-news/us-forces-destroy-five-iranian-oil-tankers-after-warship-targeted"
+        }
+      ]
+    }
+  },
+  "seo_description": "CENTCOM destroyed five IRGC-linked crude carriers Sept. 8 after missiles targeted a U.S. Navy warship; Iran claimed strikes on a Jordan base as Brent rose above $100.",
+  "date_modified": "2026-09-09T08:00:00-04:00",
+  "date_published": "2026-09-09T08:00:00-04:00",
+  "article_section": "Energy"
+}

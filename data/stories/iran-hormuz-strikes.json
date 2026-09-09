@@ -1,0 +1,54 @@
+{
+  "slug": "iran-hormuz-strikes",
+  "kicker": "Persian Gulf",
+  "hed": "Iran’s Hormuz exclusion-zone plans remain as Brent clears $100 on wider Gulf fighting",
+  "stamp": "UPDATED · Wed. 8 a.m. EDT",
+  "dek": "CENTCOM spokesperson Capt. Tim Hawkins’s Monday denial that Iran struck an uncrewed U.S. military vessel in the Strait of Hormuz — calling the claim a “total lie” — still stood Wednesday morning. Iran’s Supreme National Security Council secretary Mohsen Rezaei has said Tehran would announce a restricted/exclusion zone and Hormuz shipping corridor maps, with an Oman corridor still discussed. Overnight U.S. destruction of five Iranian oil tankers and Iran’s claimed Jordan-base fire shifted the energy story to Brent about $100.07 and WTI near $94.73; this item tracks the standing Hormuz-zone and denial context separate from the tanker lead.",
+  "image": "img/lead-hormuz.jpg",
+  "alt": "A U.S. sailor stands watch on a warship as another vessel crosses the water",
+  "caption": "",
+  "credit": "Persian Gulf · file",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "weather",
+  "updated": "2026-09-09",
+  "frames": {
+    "cl": {
+      "body": "AP denial coverage, Al-Monitor restricted-zone reporting, and Reuters oil desks pair CENTCOM’s standing denial with Rezaei’s corridor maps as Brent cleared $100 on wider fighting.",
+      "sources": [
+        {
+          "name": "Associated Press via WOWT",
+          "url": "https://www.wowt.com/2026/09/07/us-denies-that-iran-struck-an-uncrewed-us-military-ship-strait-hormuz/"
+        },
+        {
+          "name": "Al-Monitor",
+          "url": "https://www.al-monitor.com/originals/2026/09/iran-says-announce-new-restricted-zone-gulf-coming-days"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/energy/brent-crude-rises-above-100-barrel-middle-east-conflict-escalates-2026-09-09/"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Energy desks emphasize CENTCOM’s standing denial, throughput remarks, and oil above $100 as exclusion-zone and Oman corridor plans remain in play beside the tanker strikes.",
+      "sources": [
+        {
+          "name": "Globe and Mail",
+          "url": "https://www.theglobeandmail.com/world/article-oil-prices-iran-gulf-restricted-zone-strait-of-hormuz/"
+        },
+        {
+          "name": "NY Post",
+          "url": "https://nypost.com/2026/09/07/business/oil-prices-hit-six-week-high-amid-us-iran-conflict-but-drivers-could-soon-get-relief-at-the-pump/"
+        },
+        {
+          "name": "JNS",
+          "url": "https://www.jns.org/news/u-s-news/us-forces-destroy-five-iranian-oil-tankers-after-warship-targeted"
+        }
+      ]
+    }
+  },
+  "seo_description": "CENTCOM’s denial of an Iranian uncrewed-vessel strike claim still stands; Rezaei’s Hormuz corridor maps remain pending as Brent tops $100 after tanker strikes.",
+  "date_modified": "2026-09-09T08:00:00-04:00",
+  "date_published": "2026-09-07T12:00:00-04:00",
+  "article_section": "Energy"
+}

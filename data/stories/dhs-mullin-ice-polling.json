@@ -1,0 +1,54 @@
+{
+  "slug": "dhs-mullin-ice-polling",
+  "kicker": "Homeland Security",
+  "hed": "DHS secretary says ICE will not patrol polls but could enter for threats or warrants",
+  "stamp": "NEW · Tue. midday EDT",
+  "dek": "Homeland Security Secretary Markwayne Mullin told reporters in New York that ICE “isn’t there to patrol the polling places” but could be present if there is a threat to a site or to serve a warrant on someone agents are actively tracking. A senior DHS official told NBC News that ICE officers have not received guidance to do anything beyond regular duties on Election Day. Democrats and voting-rights groups warn that federal agents at polls could intimidate voters; Mullin and DHS say any presence would be limited to specific threats or warrant service, not election patrols.",
+  "image": "img/ice-border.jpg",
+  "alt": "U.S. Border Patrol agent outdoors during an enforcement encounter",
+  "caption": "U.S. Customs and Border Protection file photograph; not from a polling place.",
+  "credit": "Gerald L. Nino / CBP",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "politics",
+  "updated": "2026-09-08",
+  "frames": {
+    "cl": {
+      "body": "NBC, Guardian, and POLITICO frame Mullin’s comments as leaving the door open to ICE at polling places, with Democrats and advocates citing voter-intimidation risks and federal limits on armed federal presence at elections.",
+      "sources": [
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/news/us-news/dhs-no-plans-ice-polls-midterm-elections-rcna595594"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/01/trump-homeland-security-markwayne-mullin-polling"
+        },
+        {
+          "name": "POLITICO",
+          "url": "https://www.politico.com/news/2026/09/01/mullin-says-dhs-could-deploy-to-polling-sites-for-specific-threats-arrests-01060040"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Epoch Times and DHS/Mullin remarks emphasize no planned polling patrols, presence only for specific threats or active warrants, and immigration enforcement duties that do not pause on Election Day.",
+      "sources": [
+        {
+          "name": "Epoch Times",
+          "url": "https://www.theepochtimes.com/us/mullin-says-dhs-may-deploy-to-polling-sites-for-specific-threats-6082069"
+        },
+        {
+          "name": "NBC News (DHS official)",
+          "url": "https://www.nbcnews.com/news/us-news/dhs-no-plans-ice-polls-midterm-elections-rcna595594"
+        },
+        {
+          "name": "El País English",
+          "url": "https://english.elpais.com/usa/2026-09-02/homeland-security-secretary-says-ice-could-be-at-polling-places-during-november-elections.html"
+        }
+      ]
+    }
+  },
+  "seo_description": "Homeland Security Secretary Markwayne Mullin said ICE is not planning to patrol polling places but could enter for specific threats or to serve warrants.",
+  "date_modified": "2026-09-08T12:30:00-04:00",
+  "date_published": "2026-09-02T16:00:00-04:00",
+  "article_section": "Politics"
+}

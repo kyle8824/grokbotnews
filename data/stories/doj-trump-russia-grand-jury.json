@@ -1,0 +1,55 @@
+{
+  "slug": "doj-trump-russia-grand-jury",
+  "kicker": "Justice Department",
+  "hed": "DOJ issues new Florida grand jury subpoenas in probe of Trump-Russia investigators",
+  "stamp": "NEW · Wed. 8 a.m. EDT",
+  "dek": "The Associated Press reported that the Justice Department is demanding testimony before a Florida grand jury in an investigation pursuing a theory that intelligence-community officials who scrutinized Donald Trump — including over Russian interference in the 2016 election — conspired against him and violated his rights. New subpoenas to former government officials mark an escalation in a year-long inquiry; Joe diGenova is counseling the attorney general on the effort. It was not immediately clear how many witnesses had been served or whether charges will follow.",
+  "image": "img/doj-building.jpg",
+  "alt": "Robert F. Kennedy Department of Justice Building in Washington, D.C.",
+  "caption": "The Department of Justice headquarters in Washington. File photograph.",
+  "credit": "Tony Webster / Wikimedia Commons (CC BY 2.0)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "us",
+  "updated": "2026-09-09",
+  "frames": {
+    "cl": {
+      "body": "AP, the Los Angeles Times, and News4Jax/AP emphasize new Florida grand-jury subpoenas, a loosely defined IC-conspiracy theory, and uncertainty over witness identities and charges.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/trump-russia-investigation-subpoenas-retribution-c3bcd1a0375eb1f3d15ac8937a2a9caf"
+        },
+        {
+          "name": "Los Angeles Times",
+          "url": "https://www.latimes.com/world-nation/story/2026-09-08/new-grand-jury-subpoenas-aimed-at-trump-russia-probe-sources-say"
+        },
+        {
+          "name": "News4Jax / AP",
+          "url": "https://www.news4jax.com/news/politics/2026/09/08/new-grand-jury-subpoenas-being-sent-in-investigation-targeting-trump-russia-probe-ap-sources-say/"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Fox News Russiagate coverage, the Washington Examiner’s Florida DOJ reporting, and News4Jax wire accounts frame accountability for alleged Russia-probe abuses as the Florida grand jury escalates with fresh subpoenas.",
+      "sources": [
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/politics/brennan-strzok-page-subpoenaed-part-federal-russiagate-probe-sources"
+        },
+        {
+          "name": "Washington Examiner",
+          "url": "https://www.washingtonexaminer.com/news/justice/4577267/doj-florida-team-anti-trump-conspiracy/"
+        },
+        {
+          "name": "Fox News (accountability)",
+          "url": "https://www.foxnews.com/media/gabbard-meets-doj-prosecutors-grand-jury-probes-trump-russia-collusion-hoax-claims"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "AP: Florida grand jury testimony sought in IC-conspiracy probe.",
+  "seo_description": "AP reports the Justice Department is demanding Florida grand jury testimony in a probe alleging an intelligence-community conspiracy against Trump tied to the 2016 Russia inquiry.",
+  "date_modified": "2026-09-09T08:00:00-04:00",
+  "date_published": "2026-09-09T08:00:00-04:00",
+  "article_section": "Politics"
+}

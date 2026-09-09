@@ -1,0 +1,63 @@
+{
+  "slug": "lindsay-clancy-mistrial",
+  "kicker": "Massachusetts",
+  "hed": "Judge declares mistrial in Lindsay Clancy triple-murder case after hung jury",
+  "stamp": "UPDATED · Wed. 8 a.m. EDT",
+  "dek": "Judge William Sullivan declared a mistrial Sept. 4 in Plymouth Superior Court after jurors reported they remained deadlocked following about seven days of deliberations in the murder trial of Lindsay Clancy, charged in the 2023 deaths of her children Cora, Dawson, and Callan. Reporting described an 11-1 split; the defense argued postpartum psychosis, and prosecutors said she knew right from wrong. Plymouth County District Attorney Tim Cruz has not decided whether to retry; a status conference is set for Sept. 29. Clancy remains held at Tewksbury State Hospital.",
+  "image": "img/clancy-court.jpg",
+  "alt": "Historic Old County Courthouse in Plymouth, Massachusetts",
+  "caption": "Historic Old County Courthouse in Plymouth, Mass.; not Plymouth Superior Court where the trial was held.",
+  "credit": "Swampyank / Wikimedia Commons",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "us",
+  "updated": "2026-09-08",
+  "frames": {
+    "cl": {
+      "body": "The 19th News, WBUR, PBS NewsHour, and BBC coverage emphasize the postpartum-psychosis defense and not-criminally-responsible argument, women rallying outside court in pink, and maternal mental-health system failures that supporters say left Clancy seeking care yet still overmedicated and untreated before the killings.",
+      "sources": [
+        {
+          "name": "The 19th News",
+          "url": "https://19thnews.org/2026/09/lindsay-clancy-verdict-mistrial-motherhood-mental-health-race/"
+        },
+        {
+          "name": "WBUR",
+          "url": "https://www.wbur.org/news/2026/09/04/lindsay-clancy-murder-trial-verdict-massachusetts"
+        },
+        {
+          "name": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/nation/what-the-lindsay-clancy-trial-reveals-about-a-broken-postpartum-mental-health-system"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx2z0xnw2d6o"
+        }
+      ]
+    },
+    "cr": {
+      "body": "WCVB, CBS Boston, Fox News, and BBC accountability voices stress that three children were murdered; DA Tim Cruz says the case is about justice for Cora, Dawson, and Callan; the investigation did not establish depression caused the killings; first-degree charges were warranted; prosecutors said she knew right from wrong; critics reject sympathy as an excuse.",
+      "sources": [
+        {
+          "name": "WCVB",
+          "url": "https://www.wcvb.com/article/lindsay-clancy-mistrial-plymouth-da-cruz-retrial/73618419"
+        },
+        {
+          "name": "CBS Boston",
+          "url": "https://www.cbsnews.com/boston/news/lindsay-clancy-murder-trial-da-tim-cruz/"
+        },
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/us/lindsay-clancy-mistrial-declared-after-jury-deadlocks-killings-three-children"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx2z0xnw2d6o"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Mistrial after hung jury; DA Cruz weighs retry; Sept. 29 status.",
+  "seo_description": "A Massachusetts judge declared a mistrial after jurors deadlocked in the Lindsay Clancy case over the 2023 deaths of three children; DA Tim Cruz is weighing a retry.",
+  "date_modified": "2026-09-08T13:50:00-04:00",
+  "date_published": "2026-09-08T12:30:00-04:00",
+  "article_section": "Crime"
+}

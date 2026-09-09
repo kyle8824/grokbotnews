@@ -1,0 +1,55 @@
+{
+  "slug": "miami-amazon-cargo-crash",
+  "kicker": "Miami",
+  "hed": "NTSB recovers flight recorders after Miami Amazon cargo overrun; 5 dead on ground",
+  "stamp": "UPDATED · Wed. 8 a.m. EDT",
+  "dek": "Amazon Air Flight 7598, a Boeing 767 operated by 21 Air, overran a Miami International Airport runway around 1:53 p.m. Sunday after arriving from San Juan, Puerto Rico. The jet struck a cleaning-crew van with seven people aboard inside the airport fence and a Toyota outside; all five people killed were in the vehicles, and the flight crew survived. At a Monday briefing, NTSB Chair Jennifer Homendy said the flight data and cockpit voice recorders had been recovered and sent to NTSB headquarters in Washington, with 32 investigators on a “devastating” scene still in fact-finding. Two of four runways remained closed, fuel removal was ongoing, and the crew had not yet been interviewed.",
+  "image": "img/lead-miami.jpg",
+  "alt": "Commercial airliner in flight under a clear sky",
+  "caption": "Commercial aircraft in flight. File photograph; not from Sunday’s Miami runway overrun.",
+  "credit": "Commercial aircraft · file",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "us",
+  "updated": "2026-09-08",
+  "frames": {
+    "cl": {
+      "body": "BBC, Guardian, and CBS Miami stress the ground death toll, hub delays with runways still closed, and victim recovery before full wreckage access after Homendy’s Monday briefing.",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/articles/ce8e32n8epeo"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/07/amazon-cargo-plane-crash-miami-airport"
+        },
+        {
+          "name": "CBS Miami",
+          "url": "https://www.cbsnews.com/miami/news/amazon-cargo-plane-crash-miami-ntsb-investigation-9-7-2026/"
+        }
+      ]
+    },
+    "cr": {
+      "body": "UPI, Fox 8/AP, and FreightWaves emphasize NTSB process, black boxes en route to Washington, EMAS/arresting questions, operator 21 Air, and airport capacity with two runways still closed.",
+      "sources": [
+        {
+          "name": "UPI",
+          "url": "https://www.upi.com/Top_News/US/2026/09/08/NTSB-Amazon-Prime-crash-investigation/1741788850055/"
+        },
+        {
+          "name": "Fox 8 / AP",
+          "url": "https://www.fox8live.com/2026/09/07/investigators-hunt-what-went-wrong-after-cargo-plane-crash-miami-kills-least-5/"
+        },
+        {
+          "name": "FreightWaves",
+          "url": "https://www.freightwaves.com/news/utter-devastation-from-amazon-cargo-jet-crash-ntsb-chief-says"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Black boxes recovered; 5 dead on ground; 2 runways closed.",
+  "seo_description": "NTSB recovered flight data and cockpit voice recorders after Amazon Air Flight 7598 overran a Miami runway; five people died on the ground.",
+  "date_modified": "2026-09-08T12:30:00-04:00",
+  "date_published": "2026-09-07T08:45:00-04:00",
+  "article_section": "Aviation"
+}

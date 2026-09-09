@@ -1,0 +1,55 @@
+{
+  "slug": "houthi-saudi-energy-attacks",
+  "kicker": "Saudi Arabia",
+  "hed": "Houthi missiles and drones hit Saudi energy sites; 73 wounded as oil moves through $100",
+  "stamp": "UPDATED · Wed. 8 a.m. EDT",
+  "dek": "Iran-backed Houthis claimed ballistic missiles and drones against Aramco and energy sites in Abha, Najran, and Jazan, plus King Khalid Air Base in Khamis Mushait. Saudi coalition spokesman Maj. Gen. Turki al-Malki said attacks hit Abha, Jazan, Najran, and Khamis Mushait and wounded 73 people, including women and children. The Saudi Energy Ministry reported fires at oil facilities and utilities and temporary suspensions of operations; Jazan hosts a roughly 400,000-barrel-per-day refinery. Overnight U.S.–Iran tanker strikes and Jordan-base claims pushed Brent through about $100.07 Wednesday, with WTI near $94.73, compounding Tuesday’s Saudi-site oil surge.",
+  "image": "img/houthi-saudi.jpg",
+  "alt": "Oil refinery industrial complex with distillation columns and flare stacks at dusk",
+  "caption": "Oil-refinery infrastructure at dusk. File photograph; not from Tuesday’s Saudi sites.",
+  "credit": "Unsplash · oil refinery file",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "world",
+  "updated": "2026-09-09",
+  "frames": {
+    "cl": {
+      "body": "NPR/AP, Al Jazeera, and Reuters emphasize civilian wounds including women and children, Energy Ministry fires and suspensions, and regional escalation that adds oil-supply risk beyond Hormuz as crude cleared $100.",
+      "sources": [
+        {
+          "name": "NPR / Associated Press",
+          "url": "https://www.npr.org/2026/09/08/g-s1-142296/houthi-attacks-saudi-arabia"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/8/saudi-houthi-fighting-in-yemen-escalates-what-happened-and-whats-next"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/middle-east/saudi-led-coalition-yemen-says-73-injured-houthi-attacks-kingdom-2026-09-08/"
+        }
+      ]
+    },
+    "cr": {
+      "body": "WSJ, Nikkei Asia, and AGBI stress Iran-backed Houthi strikes on Aramco-linked infrastructure, export-route resilience questions, and crude moving through $100 amid wider Gulf fighting.",
+      "sources": [
+        {
+          "name": "Wall Street Journal",
+          "url": "https://www.wsj.com/world/middle-east/yemens-houthi-militants-attack-saudi-energy-infrastructure-067fa4f7"
+        },
+        {
+          "name": "Nikkei Asia",
+          "url": "https://asia.nikkei.com/politics/middle-east-crisis/houthis-hit-saudi-energy-sites-as-oil-prices-surge"
+        },
+        {
+          "name": "AGBI",
+          "url": "https://www.agbi.com/analysis/oil-and-gas/2026/09/houthi-attacks-threaten-saudi-arabias-oil-export-resilience/"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "73 wounded; Energy Ministry fires; oil through $100 on wider escalation.",
+  "seo_description": "Iran-backed Houthis struck Aramco and energy sites in southern Saudi Arabia; coalition said 73 wounded as wider Gulf escalation pushed oil through $100.",
+  "date_modified": "2026-09-09T08:00:00-04:00",
+  "date_published": "2026-09-08T16:00:00-04:00",
+  "article_section": "Energy"
+}

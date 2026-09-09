@@ -1,0 +1,55 @@
+{
+  "slug": "canada-us-retaliatory-tariffs",
+  "kicker": "Trade",
+  "hed": "Trump moves to ban Canadian alcohol, dairy, and motorcycles as Ottawa’s counter-tariffs take effect",
+  "stamp": "UPDATED · Wed. 8 a.m. EDT",
+  "dek": "Canada’s counter-tariffs on roughly $20–28 billion of U.S. goods took effect at 12:01 a.m. ET Tuesday. Tuesday night President Trump signed proclamations to ban certain Canadian alcoholic beverages, dairy products, and motorcycles and mopeds from importation effective Sept. 29; additional Canadian goods face up to 50% tariffs, and GSA/USTR were directed to remove Canadian products from federal procurement schedules. Prime Minister Mark Carney said a pivot “will come at a cost.” USTR Ambassador Jamieson Greer framed the bans as a response to Canada’s retaliation after talks stalled.",
+  "image": "img/canada-trade.jpg",
+  "alt": "Ambassador Bridge spanning the Detroit River between the United States and Canada",
+  "caption": "",
+  "credit": "Chris Woodrich / Wikimedia Commons",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "world",
+  "updated": "2026-09-09",
+  "frames": {
+    "cl": {
+      "body": "BBC, ABC News, and NBC News frame Trump’s import bans on Canadian alcohol, dairy, and motorcycles as an escalation after Ottawa’s counter-tariffs took effect, with Carney warning of economic cost.",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/articles/c99dm1000p7o"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/Politics/trump-ratchets-trade-war-moves-ban-canadian-goods/story?id=136289929"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/business/economy/trump-escalates-trade-war-canada-moving-ban-import-autos-dairy-alcohol-rcna596666"
+        }
+      ]
+    },
+    "cr": {
+      "body": "CBS News, the Washington Examiner, and USTR’s Greer statement stress Section 338 proclamations, Sept. 29 effective dates, procurement removals, and reciprocity after Canada’s retaliation.",
+      "sources": [
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/trump-administration-ban-canada-motorcycles-dairy-alcohol-trade-war/"
+        },
+        {
+          "name": "Washington Examiner",
+          "url": "https://www.washingtonexaminer.com/news/4718020/us-bans-importation-of-canadian-products-retaliatory-move/"
+        },
+        {
+          "name": "USTR (Greer)",
+          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/september/ambassador-greer-issues-statement-president-trumps-response-canadas-continued-retaliation-against"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Import bans effective Sept. 29; Canada counter-tariffs began Tuesday.",
+  "seo_description": "Canada’s counter-tariffs began Tuesday; Trump proclamations ban certain Canadian alcohol, dairy, and motorcycles effective Sept. 29 and raise other tariffs.",
+  "date_modified": "2026-09-09T08:00:00-04:00",
+  "date_published": "2026-09-08T12:00:00-04:00",
+  "article_section": "Trade"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "usps-mail-ballot-whistleblower",
+  "kicker": "Postal Service",
+  "hed": "Challenger responses due 4 p.m. EDT Wednesday on USPS mail-ballot stay (26A305)",
+  "stamp": "UPDATED · Wed. 8 a.m. EDT",
+  "dek": "Justice Ketanji Brown Jackson directed challengers to respond by 4 p.m. EDT Wednesday, Sept. 9, to the Justice Department’s emergency stay application 26A305 seeking to lift U.S. District Judge Indira Talwani’s Sept. 4 preliminary injunction blocking mandatory parts of the Postal Service’s Aug. 26 Ballot Mail for Federal Elections rule for the Nov. 3 midterms. DOJ withdrew earlier application 26A297 aimed at Talwani’s TRO and refiled against the PI, with Solicitor General D. John Sauer citing states already mailing ballots.",
+  "image": "img/ballots.jpg",
+  "alt": "Election worker in blue gloves holding a vote-by-mail envelope",
+  "caption": "",
+  "credit": "Mail-ballot processing · file",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "politics",
+  "updated": "2026-09-09",
+  "frames": {
+    "cl": {
+      "body": "SCOTUSblog, NBC News, and the Supreme Court docket frame Wednesday’s 4 p.m. EDT response deadline on 26A305 after Talwani’s PI blocked mandatory USPS election-mail rules.",
+      "sources": [
+        {
+          "name": "Supreme Court docket (26A305)",
+          "url": "https://www.supremecourt.gov/docket/docketfiles/html/public/26a305.html"
+        },
+        {
+          "name": "SCOTUSblog",
+          "url": "https://www.scotusblog.com/2026/09/trump-administration-again-appeals-mail-in-ballot-dispute-to-the-supreme-court/"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/politics/trump-administration/justice-department-usps-supreme-court-action-mail-ballots-elections-rcna595924"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Washington Examiner, Fox News, and the DOJ stay application stress a push to enforce mail-ballot envelope and barcode rules before more states mail, with replies due Wednesday afternoon.",
+      "sources": [
+        {
+          "name": "Washington Examiner",
+          "url": "https://www.washingtonexaminer.com/news/supreme-court/4715478/trump-appeal-supreme-court-mail-in-ballot-restrictions/"
+        },
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/politics/trump-admin-mail-ballot-fight-lands-back-supreme-court"
+        },
+        {
+          "name": "DOJ PI stay application",
+          "url": "https://www.supremecourt.gov/DocketPDF/26/26A305/423226/20260906094442523_USPS%20v.%20State%20of%20California%20PI%20No.%2026A%20-%20Stay%20App.pdf"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Jackson set 4 p.m. EDT Sept. 9 replies on DOJ stay app.",
+  "seo_description": "Justice Jackson ordered challenger responses by 4 p.m. EDT Sept. 9 to the USPS/DOJ stay application 26A305 after Judge Talwani’s preliminary injunction.",
+  "date_modified": "2026-09-09T08:00:00-04:00",
+  "date_published": "2026-09-08T12:00:00-04:00",
+  "article_section": "Politics"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "missouri-redistricting-referendum",
+  "kicker": "Midterms",
+  "hed": "Kavanaugh denies Missouri map stay as federal judge orders 2025 lines for November",
+  "stamp": "UPDATED · Wed. 8 a.m. EDT",
+  "dek": "Justice Brett Kavanaugh denied Secretary of State Denny Hoskins’s emergency stay application seeking to reinstate Missouri’s 2025 congressional map after the Missouri Supreme Court ordered the 2022 lines and a November referendum on HB 1. The same day, U.S. District Judge Stephen R. Clark of the Eastern District of Missouri issued a temporary restraining order directing officials to use the 2025 map for the Nov. 3 general election — creating conflicting state and federal orders as ballot and UOCAVA deadlines loom.",
+  "image": "img/missouri-capitol.jpg",
+  "alt": "Missouri State Capitol dome in Jefferson City",
+  "caption": "",
+  "credit": "Antony-22 / Wikimedia Commons",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "politics",
+  "updated": "2026-09-09",
+  "frames": {
+    "cl": {
+      "body": "Reuters, STLPR, and KOMU emphasize Kavanaugh’s denial, the Missouri Supreme Court’s 2022-map/referendum path, and same-day federal TRO chaos over which lines apply in November.",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/us-supreme-court-wont-reinstate-republican-drawn-congressional-map-missouri-2026-09-08/"
+        },
+        {
+          "name": "STLPR",
+          "url": "https://www.stlpr.org/government-politics-issues/2026-09-08/us-supreme-court-denies-missouri-gerrymandered-congressional-maps"
+        },
+        {
+          "name": "KOMU",
+          "url": "https://www.komu.com/news/state/missouri-redistricting-court-decisions-land-as-2026-ballot-deadline-passes/article_f506b6ad-093f-47aa-b10b-42c1b8a9cabe.html"
+        }
+      ]
+    },
+    "cr": {
+      "body": "SCOTUSblog, NOTUS, and Fox News frame Hoskins’s denied emergency ask, Judge Clark’s order to keep the 2025 map for November, and GOP warnings of election-administration conflict.",
+      "sources": [
+        {
+          "name": "SCOTUSblog",
+          "url": "https://www.scotusblog.com/2026/09/justice-kavanaugh-turns-down-request-from-missouri-to-use-congressional-map-expected-to-aid-repu/"
+        },
+        {
+          "name": "NOTUS",
+          "url": "https://www.notus.org/2026-election/supreme-court-missouri-redistricting-map-decision"
+        },
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/politics/missouri-high-court-blocks-gop-backed-congressional-maps-ahead-midterms-trump-blasts-ridiculous-ruling"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Conflicting SCOTUS and E.D. Mo. orders on which map applies Nov. 3.",
+  "seo_description": "Justice Kavanaugh denied Hoskins’s stay of the Missouri Supreme Court map ruling; the same day Judge Stephen Clark ordered use of the 2025 map for Nov. 3.",
+  "date_modified": "2026-09-09T08:00:00-04:00",
+  "date_published": "2026-09-08T16:00:00-04:00",
+  "article_section": "Politics"
+}
