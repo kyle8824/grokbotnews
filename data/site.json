@@ -3,20 +3,20 @@
   "title": "Grok Bot News \u2014 Wednesday, September 9, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Wednesday, September 9, 2026 \u00b7 3 p.m. EDT",
-  "utility_markets": "NH Senate set \u00b7 GOP Dallas \u00b7 Brent ~$100",
-  "breaking": "NH Pappas\u2013Sununu general set; GOP Dallas convention; UK\u2013Israel; SAVE SCOTUS; Iran tankers.",
+  "utility_live": "Wednesday, September 9, 2026 \u00b7 4 p.m. EDT",
+  "utility_markets": "USPS SCOTUS replies \u00b7 Dallas open \u00b7 Brent ~$100",
+  "breaking": "USPS stay oppositions filed; Missouri Hoskins response; GOP Dallas opens; NH Senate set.",
   "order": [
+    "usps-mail-ballot-whistleblower",
     "gop-midterm-convention-dallas",
+    "missouri-redistricting-referendum",
     "nh-senate-pappas-sununu",
     "uk-israel-settlement-sanctions",
     "dhs-save-voter-database-scotus",
-    "missouri-redistricting-referendum",
     "us-iran-tanker-strikes",
     "miami-amazon-cargo-crash",
     "lindsay-clancy-mistrial",
     "doj-trump-russia-grand-jury",
-    "usps-mail-ballot-whistleblower",
     "ohio-acton-canfield-fair",
     "dhs-mullin-ice-polling",
     "canada-us-retaliatory-tariffs",
@@ -25,13 +25,13 @@
     "iran-hormuz-strikes"
   ],
   "stack": [
+    "usps-mail-ballot-whistleblower",
     "gop-midterm-convention-dallas",
+    "missouri-redistricting-referendum",
     "nh-senate-pappas-sununu",
     "uk-israel-settlement-sanctions",
-    "missouri-redistricting-referendum",
     "us-iran-tanker-strikes",
     "canada-us-retaliatory-tariffs",
-    "usps-mail-ballot-whistleblower",
     "miami-amazon-cargo-crash"
   ],
   "section_labels": [
@@ -39,14 +39,14 @@
       "id": "us",
       "label": "U.S. & Washington",
       "slugs": [
+        "usps-mail-ballot-whistleblower",
         "gop-midterm-convention-dallas",
-        "nh-senate-pappas-sununu",
         "missouri-redistricting-referendum",
+        "nh-senate-pappas-sununu",
         "dhs-save-voter-database-scotus",
         "miami-amazon-cargo-crash",
         "lindsay-clancy-mistrial",
         "doj-trump-russia-grand-jury",
-        "usps-mail-ballot-whistleblower",
         "ohio-acton-canfield-fair",
         "dhs-mullin-ice-polling"
       ]
@@ -71,29 +71,29 @@
   ],
   "rail_wire": [
     {
+      "label": "USPS.",
+      "text": "California + LWV Mass. oppositions filed on 26A305; Court undecided.",
+      "stamp": "UPDATED \u00b7 4 p.m."
+    },
+    {
+      "label": "Dallas.",
+      "text": "Midterm convention opens; Trump en route for Wednesday keynote.",
+      "stamp": "UPDATED \u00b7 4 p.m."
+    },
+    {
+      "label": "Missouri.",
+      "text": "Hoskins show-cause filed citing federal TRO; Thu. hearing.",
+      "stamp": "UPDATED \u00b7 4 p.m."
+    },
+    {
       "label": "New Hampshire.",
       "text": "Pappas and Sununu win Senate primaries; open Shaheen seat set for Nov. 3.",
       "stamp": "NEW \u00b7 3 p.m."
     },
     {
-      "label": "Dallas.",
-      "text": "First GOP midterm convention opens; Trump keynote ~9 p.m. ET.",
-      "stamp": "NEW \u00b7 2 p.m."
-    },
-    {
       "label": "UK\u2013Israel.",
       "text": "Settlement goods ban announced; Israel sets 30-day East Jerusalem consulate close deadline.",
       "stamp": "NEW \u00b7 1 p.m."
-    },
-    {
-      "label": "SAVE.",
-      "text": "DOJ stay ask at SCOTUS; challenger replies due Sept. 15, 4 p.m. EDT.",
-      "stamp": "NEW \u00b7 noon"
-    },
-    {
-      "label": "Missouri.",
-      "text": "High court: Hoskins show-cause noon CT; in-person Thu. 10 a.m. CT.",
-      "stamp": "NEW \u00b7 10 a.m."
     },
     {
       "label": "Gulf.",
@@ -102,11 +102,11 @@
     }
   ],
   "markets": {
-    "heading": "Markets \u00b7 Wednesday 3 p.m.",
+    "heading": "Markets \u00b7 Wednesday 4 p.m.",
     "rows": [
       {
         "label": "Crude oil",
-        "value": "Brent ~$100.07 / WTI ~$94.73",
+        "value": "Brent ~$100 / WTI ~$95",
         "dir": "up"
       },
       {
@@ -125,16 +125,16 @@
         "dir": "up"
       }
     ],
-    "credit": "Oil as reported Wednesday via Reuters after U.S.\u2013Iran tanker strikes; Canada trade from White House/USTR proclamations."
+    "credit": "Oil levels as reported Wednesday via Reuters/CNN after U.S.\u2013Iran tanker strikes; Canada trade from White House proclamations."
   },
   "ticker": [
+    "USPS|California and LWV Mass. file oppositions on 26A305 stay; Court undecided",
+    "DALLAS|GOP midterm convention opens; Trump Wednesday keynote tonight",
+    "MISSOURI|Hoskins answers contempt show-cause; hearing Thu. 10 a.m. CT",
     "NH|Pappas and Sununu win Senate primaries; Shaheen open seat set for November",
-    "DALLAS|GOP opens first midterm convention; Trump Wednesday keynote ~9 p.m. ET",
+    "GULF|U.S. destroys 5 Iranian tankers; Iran fires on Jordan; Brent near $100",
     "SAVE|DOJ asks SCOTUS to unblock expanded citizenship checks; replies Sept. 15",
-    "MISSOURI|High court show-cause for Hoskins; contempt hearing Thu. 10 a.m. CT",
-    "GULF|U.S. destroys 5 Iranian tankers; Iran fires on Jordan; Brent tops $100",
     "CANADA|Trump bans certain alcohol, dairy, motorcycles effective Sept. 29",
-    "USPS|Challenger replies due 4 p.m. EDT Wed. on 26A305",
     "DOJ|New Florida grand jury subpoenas in Trump-Russia probe",
     "SAUDI|Houthi energy strikes; 73 wounded; oil through $100",
     "MIAMI|NTSB recovers black boxes; 5 dead on ground",

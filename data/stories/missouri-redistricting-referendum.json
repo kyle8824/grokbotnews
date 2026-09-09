@@ -1,9 +1,9 @@
 {
   "slug": "missouri-redistricting-referendum",
   "kicker": "Midterms",
-  "hed": "Missouri Supreme Court orders Hoskins to answer contempt claim as map rulings clash",
-  "stamp": "UPDATED \u00b7 Wed. 10 a.m. EDT",
-  "dek": "After Justice Brett Kavanaugh denied an emergency stay of the Missouri Supreme Court\u2019s order keeping the 2022 congressional lines and a November referendum on HB 1, U.S. District Judge Stephen R. Clark issued a same-day temporary restraining order directing use of the 2025 map for Nov. 3. Secretary of State Denny Hoskins emailed local election officials to follow the federal order; People Not Politicians sought contempt. The state high court ordered Hoskins to show cause by noon CT Wednesday and appear in person Thursday at 10 a.m. CT. Hoskins has not been held in contempt and said he will abide by Clark\u2019s TRO.",
+  "hed": "Hoskins answers Missouri contempt show-cause, citing federal TRO clash; hearing set Thursday",
+  "stamp": "UPDATED \u00b7 Wed. 4 p.m. EDT",
+  "dek": "Secretary of State Denny Hoskins filed his Wednesday response to the Missouri Supreme Court\u2019s show-cause order after he emailed local election officials to use the 2025 HB 1 congressional map under U.S. District Judge Stephen R. Clark\u2019s temporary restraining order. Democracy Docket reported Hoskins also asked the federal district court to shield him from state contempt exposure. In the state filing he argued that unless Clark\u2019s order or a higher court stays it, disregarding the federal TRO would expose him to federal contempt. People Not Politicians\u2019 reply is due 4 p.m. CT Wednesday; Hoskins must appear in person Thursday at 10 a.m. CT. He has not been held in contempt. Justice Brett Kavanaugh\u2019s denial of an emergency stay of the state high court\u2019s 2022-lines/referendum order still stands.",
   "image": "img/missouri-supreme-court.jpg",
   "alt": "Supreme Court of Missouri building in Jefferson City",
   "caption": "The Supreme Court of Missouri building in Jefferson City. File photograph; not from this week\u2019s hearing.",
@@ -13,11 +13,11 @@
   "updated": "2026-09-09",
   "frames": {
     "cl": {
-      "body": "Democracy Docket, Law Dork, and KCTV stress the Missouri Supreme Court\u2019s still-binding injunction, the contempt show-cause after Hoskins\u2019s email to use HB 1, and challengers\u2019 claim that a single federal judge cannot overrule the state high court on state law.",
+      "body": "Democracy Docket, Law Dork, and KCTV emphasize the still-binding Missouri Supreme Court injunction, challengers\u2019 claim that a single federal judge cannot overrule the state high court on state law, and Hoskins\u2019s dual track of following Clark\u2019s TRO while seeking federal protection from state contempt.",
       "sources": [
         {
           "name": "Democracy Docket",
-          "url": "https://www.democracydocket.com/news-alerts/missouri-redistricting-fight-erupts-again-referendum-backers/"
+          "url": "https://www.democracydocket.com/news-alerts/missouri-election-chief-asks-federal-judge-to-shield-him-from-contempt-charges-after-defying-state-supreme-court/"
         },
         {
           "name": "Law Dork",
@@ -30,7 +30,7 @@
       ]
     },
     "cr": {
-      "body": "Associated Press reporting via ABC News, NOTUS, and Fox News highlight Hoskins\u2019s claim that Clark\u2019s TRO \u201chalts a full-on constitutional crisis,\u201d Judge Clark\u2019s warning that switching maps after the primary would sow voter confusion, and GOP efforts to keep the 2025 lines for November.",
+      "body": "Associated Press reporting via ABC News, NOTUS, and Fox News highlight Hoskins\u2019s argument that Clark\u2019s TRO \u201chalts a full-on constitutional crisis,\u201d the risk of federal contempt if he ignores that order, and GOP efforts to keep the 2025 lines for November amid ballot-print deadlines.",
       "sources": [
         {
           "name": "Associated Press / ABC News",
@@ -47,9 +47,9 @@
       ]
     }
   },
-  "stack_blurb": "Show-cause noon CT Wed.; Hoskins in person Thu. 10 a.m. CT.",
-  "seo_description": "Missouri Supreme Court ordered Denny Hoskins to answer a contempt claim by noon CT Wednesday and appear Thursday after conflicting state and federal map orders.",
-  "date_modified": "2026-09-09T10:00:00-04:00",
+  "stack_blurb": "Hoskins show-cause filed; federal shield ask; Thu. 10 a.m. CT hearing.",
+  "seo_description": "Denny Hoskins answered a Missouri Supreme Court contempt show-cause by citing Judge Clark\u2019s federal TRO and sought federal protection; hearing is Thursday.",
+  "date_modified": "2026-09-09T16:00:00-04:00",
   "date_published": "2026-09-08T16:00:00-04:00",
   "article_section": "Politics"
 }

@@ -1,27 +1,27 @@
 {
   "slug": "usps-mail-ballot-whistleblower",
   "kicker": "Postal Service",
-  "hed": "Challenger responses due 4 p.m. EDT Wednesday on USPS mail-ballot stay (26A305)",
-  "stamp": "UPDATED · Wed. 8 a.m. EDT",
-  "dek": "Justice Ketanji Brown Jackson directed challengers to respond by 4 p.m. EDT Wednesday, Sept. 9, to the Justice Department’s emergency stay application 26A305 seeking to lift U.S. District Judge Indira Talwani’s Sept. 4 preliminary injunction blocking mandatory parts of the Postal Service’s Aug. 26 Ballot Mail for Federal Elections rule for the Nov. 3 midterms. DOJ withdrew earlier application 26A297 aimed at Talwani’s TRO and refiled against the PI, with Solicitor General D. John Sauer citing states already mailing ballots.",
+  "hed": "Challengers file Supreme Court oppositions to USPS mail-ballot stay as 4 p.m. deadline hits",
+  "stamp": "UPDATED \u00b7 Wed. 4 p.m. EDT",
+  "dek": "On the Supreme Court emergency docket in United States Postal Service v. California, No. 26A305, respondents California et al. and the League of Women Voters of Massachusetts et al. filed oppositions Wednesday to the Justice Department\u2019s request to stay U.S. District Judge Indira Talwani\u2019s Sept. 4 preliminary injunction blocking mandatory parts of the Postal Service\u2019s Aug. 26 Ballot Mail for Federal Elections rule for the Nov. 3 midterms. Justice Ketanji Brown Jackson had set a 4 p.m. EDT Sept. 9 response deadline after DOJ withdrew earlier application 26A297 and refiled against the PI. Additional Wednesday filings on the docket include amicus briefs from Harris County, Texas; bipartisan former governors; election officials; and party committees. The Court has not ruled; Talwani\u2019s injunction remains in force unless stayed.",
   "image": "img/ballots.jpg",
   "alt": "Election worker in blue gloves holding a vote-by-mail envelope",
   "caption": "",
-  "credit": "Mail-ballot processing · file",
+  "credit": "Mail-ballot processing \u00b7 file",
   "byline": "Event summary from public reporting and named outlets",
-  "section": "politics",
+  "section": "lead",
   "updated": "2026-09-09",
   "frames": {
     "cl": {
-      "body": "SCOTUSblog, NBC News, and the Supreme Court docket frame Wednesday’s 4 p.m. EDT response deadline on 26A305 after Talwani’s PI blocked mandatory USPS election-mail rules.",
+      "body": "SCOTUSblog coverage of the emergency posture, the Supreme Court docket entries for California\u2019s and LWV Massachusetts\u2019 oppositions, and NBC News reporting on the stay fight frame Wednesday\u2019s filings as states and voting groups urging the Court to leave Talwani\u2019s injunction in place while ballots already mail.",
       "sources": [
         {
           "name": "Supreme Court docket (26A305)",
           "url": "https://www.supremecourt.gov/docket/docketfiles/html/public/26a305.html"
         },
         {
-          "name": "SCOTUSblog",
-          "url": "https://www.scotusblog.com/2026/09/trump-administration-again-appeals-mail-in-ballot-dispute-to-the-supreme-court/"
+          "name": "California opposition PDF",
+          "url": "https://www.supremecourt.gov/DocketPDF/26/26A305/423593/20260909142150069_26A305%20-%20Opposition%20to%20Application%20-%20FINAL.pdf"
         },
         {
           "name": "NBC News",
@@ -30,8 +30,12 @@
       ]
     },
     "cr": {
-      "body": "Washington Examiner, Fox News, and the DOJ stay application stress a push to enforce mail-ballot envelope and barcode rules before more states mail, with replies due Wednesday afternoon.",
+      "body": "The DOJ stay application, Washington Examiner, and Fox News stress Solicitor General D. John Sauer\u2019s push to enforce mail-ballot envelope and barcode rules before more states mail, arguing irreparable harm if Talwani\u2019s PI stands through Alabama\u2019s Sept. 9 mailing and later waves.",
       "sources": [
+        {
+          "name": "DOJ PI stay application",
+          "url": "https://www.supremecourt.gov/DocketPDF/26/26A305/423226/20260906094442523_USPS%20v.%20State%20of%20California%20PI%20No.%2026A%20-%20Stay%20App.pdf"
+        },
         {
           "name": "Washington Examiner",
           "url": "https://www.washingtonexaminer.com/news/supreme-court/4715478/trump-appeal-supreme-court-mail-in-ballot-restrictions/"
@@ -39,17 +43,13 @@
         {
           "name": "Fox News",
           "url": "https://www.foxnews.com/politics/trump-admin-mail-ballot-fight-lands-back-supreme-court"
-        },
-        {
-          "name": "DOJ PI stay application",
-          "url": "https://www.supremecourt.gov/DocketPDF/26/26A305/423226/20260906094442523_USPS%20v.%20State%20of%20California%20PI%20No.%2026A%20-%20Stay%20App.pdf"
         }
       ]
     }
   },
-  "stack_blurb": "Jackson set 4 p.m. EDT Sept. 9 replies on DOJ stay app.",
-  "seo_description": "Justice Jackson ordered challenger responses by 4 p.m. EDT Sept. 9 to the USPS/DOJ stay application 26A305 after Judge Talwani’s preliminary injunction.",
-  "date_modified": "2026-09-09T08:00:00-04:00",
+  "stack_blurb": "California + LWV Mass. oppositions filed on 26A305; Court undecided.",
+  "seo_description": "Challengers filed Supreme Court oppositions Wednesday to DOJ\u2019s USPS mail-ballot stay application 26A305 as Justice Jackson\u2019s 4 p.m. EDT deadline arrived.",
+  "date_modified": "2026-09-09T16:00:00-04:00",
   "date_published": "2026-09-08T12:00:00-04:00",
   "article_section": "Politics"
 }
