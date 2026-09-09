@@ -3,10 +3,11 @@
   "title": "Grok Bot News \u2014 Wednesday, September 9, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Wednesday, September 9, 2026 \u00b7 10:00 a.m. EDT",
-  "utility_markets": "Brent tops ~$100 \u00b7 WTI ~$94\u201395 \u00b7 Missouri map contempt fight",
-  "breaking": "Missouri high court show-cause for Hoskins on map contempt; U.S.\u2013Iran tanker fight; Brent tops $100; Canada import bans.",
+  "utility_live": "Wednesday, September 9, 2026 \u00b7 noon EDT",
+  "utility_markets": "Brent ~$100 \u00b7 SAVE SCOTUS stay ask \u00b7 Missouri map contempt",
+  "breaking": "DOJ asks SCOTUS to unblock expanded SAVE voter checks; Missouri Hoskins show-cause noon CT; U.S.\u2013Iran tanker fight; Brent ~$100.",
   "order": [
+    "dhs-save-voter-database-scotus",
     "missouri-redistricting-referendum",
     "us-iran-tanker-strikes",
     "miami-amazon-cargo-crash",
@@ -21,13 +22,13 @@
     "iran-hormuz-strikes"
   ],
   "stack": [
+    "missouri-redistricting-referendum",
     "us-iran-tanker-strikes",
     "canada-us-retaliatory-tariffs",
     "usps-mail-ballot-whistleblower",
     "miami-amazon-cargo-crash",
     "doj-trump-russia-grand-jury",
-    "houthi-saudi-energy-attacks",
-    "lindsay-clancy-mistrial"
+    "houthi-saudi-energy-attacks"
   ],
   "section_labels": [
     {
@@ -35,6 +36,7 @@
       "label": "U.S. & Washington",
       "slugs": [
         "missouri-redistricting-referendum",
+        "dhs-save-voter-database-scotus",
         "miami-amazon-cargo-crash",
         "lindsay-clancy-mistrial",
         "doj-trump-russia-grand-jury",
@@ -61,6 +63,11 @@
     }
   ],
   "rail_wire": [
+    {
+      "label": "SAVE.",
+      "text": "DOJ stay ask at SCOTUS; challenger replies due Sept. 15, 4 p.m. EDT.",
+      "stamp": "NEW \u00b7 noon"
+    },
     {
       "label": "Missouri.",
       "text": "High court: Hoskins show-cause noon CT; in-person Thu. 10 a.m. CT.",
@@ -115,15 +122,10 @@
       "label": "DHS.",
       "text": "Mullin: ICE not patrolling polls; warrants/threats only.",
       "stamp": "UPDATED"
-    },
-    {
-      "label": "Oil.",
-      "text": "Brent ~$100 / WTI ~$94\u201395 (wires Wed.).",
-      "stamp": "Wed. 10 a.m."
     }
   ],
   "markets": {
-    "heading": "Markets \u00b7 Wednesday 10 a.m.",
+    "heading": "Markets \u00b7 Wednesday noon",
     "rows": [
       {
         "label": "Crude oil",
@@ -149,6 +151,7 @@
     "credit": "Oil as reported Wednesday via Reuters after U.S.\u2013Iran tanker strikes; Canada trade from White House/USTR proclamations."
   },
   "ticker": [
+    "SAVE|DOJ asks SCOTUS to unblock expanded citizenship checks; replies Sept. 15",
     "MISSOURI|High court show-cause for Hoskins; contempt hearing Thu. 10 a.m. CT",
     "GULF|U.S. destroys 5 Iranian tankers; Iran fires on Jordan; Brent tops $100",
     "CANADA|Trump bans certain alcohol, dairy, motorcycles effective Sept. 29",

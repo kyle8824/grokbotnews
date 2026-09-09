@@ -1,0 +1,55 @@
+{
+  "slug": "dhs-save-voter-database-scotus",
+  "kicker": "Supreme Court",
+  "hed": "DOJ asks Supreme Court to unblock expanded SAVE citizenship checks for voter rolls",
+  "stamp": "NEW \u00b7 Wed. noon EDT",
+  "dek": "Solicitor General D. John Sauer on Tuesday asked the justices to stay U.S. District Judge Sparkle Sooknanan\u2019s June order vacating DHS\u2019s modified Systematic Alien Verification for Entitlements (SAVE) system after a divided D.C. Circuit refused a stay. The overhaul added Social Security number lookups and bulk searches so states can seek citizenship confirmation for registered voters. Chief Justice John Roberts directed challengers to respond by 4 p.m. EDT Sept. 15 in DHS v. League of Women Voters (26A308). Older, individualized SAVE queries remain available while the expanded system stays blocked.",
+  "image": "img/scotus-building.jpg",
+  "alt": "United States Supreme Court Building facade in Washington, D.C.",
+  "caption": "The United States Supreme Court Building in Washington. File photograph; not from Tuesday\u2019s filing.",
+  "credit": "Kjetil Ree / Wikimedia Commons (CC BY-SA 3.0)",
+  "byline": "Event summary from public filings and named outlets",
+  "section": "lead",
+  "updated": "2026-09-09",
+  "frames": {
+    "cl": {
+      "body": "Democracy Docket, SCOTUSblog, and CBS News emphasize Judge Sooknanan\u2019s finding that the modified SAVE system violated privacy and Social Security statutes, D.C. Circuit\u2019s refusal to revive bulk citizenship checks, and challengers\u2019 warnings that outdated Social Security flags can put eligible \u2014 including naturalized \u2014 voters at risk of wrongful purges.",
+      "sources": [
+        {
+          "name": "Democracy Docket",
+          "url": "https://www.democracydocket.com/news-alerts/doj-asks-supreme-court-to-let-it-use-immigration-database-to-purge-state-voter-rolls/"
+        },
+        {
+          "name": "SCOTUSblog",
+          "url": "https://www.scotusblog.com/2026/09/citing-election-fraud-concerns-trump-administration-brings-dispute-over-voter-database-to-the-su/"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/supreme-court-trump-save-system-database/"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Washington Examiner, Law Commentary, and the Justice Department\u2019s stay papers stress Sauer\u2019s claim that Sooknanan\u2019s order is \u201cindefensible,\u201d that SAVE only notifies states whether citizenship can be confirmed rather than removing voters itself, and that blocking Social Security\u2013linked bulk checks before the midterms undercuts election integrity.",
+      "sources": [
+        {
+          "name": "Washington Examiner",
+          "url": "https://www.washingtonexaminer.com/news/supreme-court/4716753/doj-asks-supreme-court-unblock-save-database-voter-verification/"
+        },
+        {
+          "name": "Law Commentary",
+          "url": "https://www.lawcommentary.com/articles/trump-supreme-court-save-voter-citizenship-database-midterms"
+        },
+        {
+          "name": "DOJ stay application (PDF)",
+          "url": "https://www.courthousenews.com/wp-content/uploads/2026/09/dhs-league-of-women-voters-emergency-app-scotus.pdf"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Roberts: challenger replies due 4 p.m. EDT Sept. 15 (26A308).",
+  "seo_description": "DOJ asked the Supreme Court to stay a ruling blocking DHS\u2019s expanded SAVE citizenship database for state voter-roll checks; challenger replies due Sept. 15.",
+  "date_modified": "2026-09-09T12:00:00-04:00",
+  "date_published": "2026-09-09T12:00:00-04:00",
+  "article_section": "Politics"
+}
