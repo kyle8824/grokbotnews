@@ -1,13 +1,14 @@
 {
   "site_url": "https://www.grokbotnews.com",
-  "title": "Grok Bot News — Wednesday, September 9, 2026",
+  "title": "Grok Bot News \u2014 Wednesday, September 9, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Wednesday, September 9, 2026 · 2 p.m. EDT",
-  "utility_markets": "GOP Dallas convention · UK–Israel · Brent ~$100",
-  "breaking": "GOP midterm convention opens in Dallas; Trump Wed. keynote; UK settlement ban; SAVE SCOTUS; Iran tankers.",
+  "utility_live": "Wednesday, September 9, 2026 \u00b7 3 p.m. EDT",
+  "utility_markets": "NH Senate set \u00b7 GOP Dallas \u00b7 Brent ~$100",
+  "breaking": "NH Pappas\u2013Sununu general set; GOP Dallas convention; UK\u2013Israel; SAVE SCOTUS; Iran tankers.",
   "order": [
     "gop-midterm-convention-dallas",
+    "nh-senate-pappas-sununu",
     "uk-israel-settlement-sanctions",
     "dhs-save-voter-database-scotus",
     "missouri-redistricting-referendum",
@@ -25,6 +26,7 @@
   ],
   "stack": [
     "gop-midterm-convention-dallas",
+    "nh-senate-pappas-sununu",
     "uk-israel-settlement-sanctions",
     "missouri-redistricting-referendum",
     "us-iran-tanker-strikes",
@@ -38,6 +40,7 @@
       "label": "U.S. & Washington",
       "slugs": [
         "gop-midterm-convention-dallas",
+        "nh-senate-pappas-sununu",
         "missouri-redistricting-referendum",
         "dhs-save-voter-database-scotus",
         "miami-amazon-cargo-crash",
@@ -68,38 +71,38 @@
   ],
   "rail_wire": [
     {
-      "label": "Dallas.",
-      "text": "First GOP midterm convention opens; Trump keynote ~9 p.m. ET.",
-      "stamp": "NEW · 2 p.m."
+      "label": "New Hampshire.",
+      "text": "Pappas and Sununu win Senate primaries; open Shaheen seat set for Nov. 3.",
+      "stamp": "NEW \u00b7 3 p.m."
     },
     {
-      "label": "UK–Israel.",
+      "label": "Dallas.",
+      "text": "First GOP midterm convention opens; Trump keynote ~9 p.m. ET.",
+      "stamp": "NEW \u00b7 2 p.m."
+    },
+    {
+      "label": "UK\u2013Israel.",
       "text": "Settlement goods ban announced; Israel sets 30-day East Jerusalem consulate close deadline.",
-      "stamp": "NEW · 1 p.m."
+      "stamp": "NEW \u00b7 1 p.m."
     },
     {
       "label": "SAVE.",
       "text": "DOJ stay ask at SCOTUS; challenger replies due Sept. 15, 4 p.m. EDT.",
-      "stamp": "NEW · noon"
+      "stamp": "NEW \u00b7 noon"
     },
     {
       "label": "Missouri.",
       "text": "High court: Hoskins show-cause noon CT; in-person Thu. 10 a.m. CT.",
-      "stamp": "NEW · 10 a.m."
+      "stamp": "NEW \u00b7 10 a.m."
     },
     {
       "label": "Gulf.",
       "text": "U.S. destroys 5 Iranian tankers; Iran fires on Jordan base; Brent ~$100.",
-      "stamp": "UPDATED · 8 a.m."
-    },
-    {
-      "label": "Canada.",
-      "text": "Trump bans certain alcohol/dairy/motorcycles effective Sept. 29.",
-      "stamp": "UPDATED · 8 a.m."
+      "stamp": "UPDATED \u00b7 8 a.m."
     }
   ],
   "markets": {
-    "heading": "Markets · Wednesday 2 p.m.",
+    "heading": "Markets \u00b7 Wednesday 3 p.m.",
     "rows": [
       {
         "label": "Crude oil",
@@ -122,9 +125,10 @@
         "dir": "up"
       }
     ],
-    "credit": "Oil as reported Wednesday via Reuters after U.S.–Iran tanker strikes; Canada trade from White House/USTR proclamations."
+    "credit": "Oil as reported Wednesday via Reuters after U.S.\u2013Iran tanker strikes; Canada trade from White House/USTR proclamations."
   },
   "ticker": [
+    "NH|Pappas and Sununu win Senate primaries; Shaheen open seat set for November",
     "DALLAS|GOP opens first midterm convention; Trump Wednesday keynote ~9 p.m. ET",
     "SAVE|DOJ asks SCOTUS to unblock expanded citizenship checks; replies Sept. 15",
     "MISSOURI|High court show-cause for Hoskins; contempt hearing Thu. 10 a.m. CT",
@@ -169,8 +173,8 @@
       "updated": "2026-09-04"
     }
   ],
-  "footer_method": "Humans didn’t write today’s copy; both frames are generated from public sources. Headlines and kickers state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, in the same type, with named outlets or officials and outbound links. The site does not declare a winner in the headline. Summaries are original and short. Full articles are not reproduced.",
+  "footer_method": "Humans didn\u2019t write today\u2019s copy; both frames are generated from public sources. Headlines and kickers state the event only. Each story then carries two viewpoint blocks \u2014 typical center-left and typical center-right \u2014 at the same size, in the same type, with named outlets or officials and outbound links. The site does not declare a winner in the headline. Summaries are original and short. Full articles are not reproduced.",
   "footer_legal": "Independent staging page for grokbotnews.com. Original wordmark. Not affiliated with any broadcast or cable news company. No accounts, no comments, no donations. Photographs are news-file images used for layout; they are not claimed as original field work by this site.",
-  "story_footer_method": "Headlines state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, with named outlets and outbound links. Summaries are original and short. Full articles are not reproduced.",
+  "story_footer_method": "Headlines state the event only. Each story then carries two viewpoint blocks \u2014 typical center-left and typical center-right \u2014 at the same size, with named outlets and outbound links. Summaries are original and short. Full articles are not reproduced.",
   "story_footer_legal": "Independent staging page for grokbotnews.com. Original wordmark. Not affiliated with any broadcast or cable news company. No accounts, no comments, no donations."
 }
