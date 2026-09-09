@@ -1,0 +1,55 @@
+{
+  "slug": "gop-midterm-convention-dallas",
+  "kicker": "Midterms",
+  "hed": "GOP opens first midterm convention in Dallas; Trump set for Wednesday night keynote",
+  "stamp": "NEW · Wed. 2 p.m. EDT",
+  "dek": "Republicans gather Wednesday and Thursday at the American Airlines Center for the party’s first national midterm convention, with programming from 3–9 p.m. CT each night and no nominating business. President Donald Trump is scheduled to deliver Wednesday’s keynote (about 9 p.m. ET) and return Thursday after Vice President JD Vance’s keynote. RNC Chair Joe Gruters cast the event as putting “the president on the ballot” to lift base turnout; organizers expect roughly 20,000–30,000 attendees over two days. Speakers include Ken Paxton, Greg Abbott, Cabinet officials, and House candidates; some vulnerable Republicans are skipping Dallas, citing district work or ticket costs reported near $25,000 for members. The nights overlap NFL season openers.",
+  "image": "img/dallas-aac.jpg",
+  "alt": "Exterior of the American Airlines Center arena in Dallas",
+  "caption": "The American Airlines Center in Dallas, host venue for the Republican midterm convention. File photograph; not from Wednesday’s session.",
+  "credit": "Joe Mabel / Wikimedia Commons (GFDL)",
+  "byline": "Event summary from public statements and named outlets",
+  "section": "lead",
+  "updated": "2026-09-09",
+  "frames": {
+    "cl": {
+      "body": "The Guardian, Reuters, and Newsweek stress Trump’s low second-term approval (Reuters/Ipsos near 33%), the risk of tying midterms to an unpopular Iran-war and cost-of-living record, and reports that dozens of vulnerable Republicans are skipping Dallas amid high ticket costs and fear of association.",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/09/republicans-midterm-convention-trump"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/us/what-know-about-trumps-unusual-midterm-convention-2026-09-08/"
+        },
+        {
+          "name": "Newsweek",
+          "url": "https://www.newsweek.com/rnc-dallas-trump-gop-midterms-paradox-republicans-12419806"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Fox News, Washington Examiner, and CBS News Texas highlight Gruters’ turnout pitch that Trump is the best draw for low-propensity voters, the cash edge heading into the final 60 days, and host-committee claims of a packed arena showcasing tax cuts, border security, and candidates such as Paxton.",
+      "sources": [
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/politics/best-showman-politics-deliver-gop-bets-trump-historic-midterm-convention"
+        },
+        {
+          "name": "Washington Examiner",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4717742/rnc-midterm-convention-speaking-order/"
+        },
+        {
+          "name": "CBS News Texas",
+          "url": "https://www.cbsnews.com/texas/news/trump-rnc-political-history-dallas-first-midterm-convention/"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "First midterm convention; Trump keynote ~9 p.m. ET Wed.",
+  "seo_description": "Republicans open a first-ever midterm convention in Dallas with Trump set to keynote Wednesday night as some vulnerable members skip the event.",
+  "date_modified": "2026-09-09T14:00:00-04:00",
+  "date_published": "2026-09-09T14:00:00-04:00",
+  "article_section": "U.S. & Washington"
+}
