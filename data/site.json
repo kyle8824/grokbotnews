@@ -1,17 +1,17 @@
 {
   "site_url": "https://www.grokbotnews.com",
-  "title": "Grok Bot News — Wednesday, September 9, 2026",
+  "title": "Grok Bot News \u2014 Wednesday, September 9, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Wednesday, September 9, 2026 · 8:00 a.m. EDT",
-  "utility_markets": "Brent tops ~$100 (~$100.07) · WTI ~$94.73 · Canada trade war escalates",
-  "breaking": "U.S. destroys 5 Iranian tankers; Iran fires on Jordan base; Brent tops $100; Trump bans some Canadian imports; Missouri map orders clash.",
+  "utility_live": "Wednesday, September 9, 2026 \u00b7 10:00 a.m. EDT",
+  "utility_markets": "Brent tops ~$100 \u00b7 WTI ~$94\u201395 \u00b7 Missouri map contempt fight",
+  "breaking": "Missouri high court show-cause for Hoskins on map contempt; U.S.\u2013Iran tanker fight; Brent tops $100; Canada import bans.",
   "order": [
+    "missouri-redistricting-referendum",
     "us-iran-tanker-strikes",
     "miami-amazon-cargo-crash",
     "lindsay-clancy-mistrial",
     "doj-trump-russia-grand-jury",
-    "missouri-redistricting-referendum",
     "usps-mail-ballot-whistleblower",
     "ohio-acton-canfield-fair",
     "dhs-mullin-ice-polling",
@@ -21,8 +21,8 @@
     "iran-hormuz-strikes"
   ],
   "stack": [
+    "us-iran-tanker-strikes",
     "canada-us-retaliatory-tariffs",
-    "missouri-redistricting-referendum",
     "usps-mail-ballot-whistleblower",
     "miami-amazon-cargo-crash",
     "doj-trump-russia-grand-jury",
@@ -34,10 +34,10 @@
       "id": "us",
       "label": "U.S. & Washington",
       "slugs": [
+        "missouri-redistricting-referendum",
         "miami-amazon-cargo-crash",
         "lindsay-clancy-mistrial",
         "doj-trump-russia-grand-jury",
-        "missouri-redistricting-referendum",
         "usps-mail-ballot-whistleblower",
         "ohio-acton-canfield-fair",
         "dhs-mullin-ice-polling"
@@ -62,49 +62,49 @@
   ],
   "rail_wire": [
     {
+      "label": "Missouri.",
+      "text": "High court: Hoskins show-cause noon CT; in-person Thu. 10 a.m. CT.",
+      "stamp": "NEW \u00b7 10 a.m."
+    },
+    {
       "label": "Gulf.",
-      "text": "U.S. destroys 5 Iranian tankers; Iran fires on Jordan base; Brent ~$100.07.",
-      "stamp": "NEW · 8 a.m."
+      "text": "U.S. destroys 5 Iranian tankers; Iran fires on Jordan base; Brent ~$100.",
+      "stamp": "UPDATED \u00b7 8 a.m."
     },
     {
       "label": "Canada.",
       "text": "Trump bans certain alcohol/dairy/motorcycles effective Sept. 29.",
-      "stamp": "UPDATED · 8 a.m."
-    },
-    {
-      "label": "Missouri.",
-      "text": "Kavanaugh denies stay; Judge Clark orders 2025 map for Nov. 3.",
-      "stamp": "UPDATED · 8 a.m."
+      "stamp": "UPDATED \u00b7 8 a.m."
     },
     {
       "label": "USPS.",
       "text": "Challenger replies due 4 p.m. EDT Wed. on 26A305.",
-      "stamp": "UPDATED · 8 a.m."
+      "stamp": "UPDATED \u00b7 8 a.m."
     },
     {
       "label": "DOJ.",
       "text": "New Florida grand jury subpoenas in Trump-Russia probe inquiry.",
-      "stamp": "NEW · 8 a.m."
+      "stamp": "NEW \u00b7 8 a.m."
     },
     {
       "label": "Saudi.",
       "text": "Houthi energy strikes; 73 wounded; oil through $100 on wider fight.",
-      "stamp": "UPDATED · 8 a.m."
+      "stamp": "UPDATED \u00b7 8 a.m."
     },
     {
       "label": "Miami.",
       "text": "NTSB black boxes recovered; 5 dead on ground; 2 runways closed.",
-      "stamp": "UPDATED · 8 a.m."
+      "stamp": "UPDATED \u00b7 8 a.m."
     },
     {
       "label": "Clancy.",
       "text": "Mistrial after hung jury; DA Cruz weighs retry; Sept. 29 status.",
-      "stamp": "UPDATED · 8 a.m."
+      "stamp": "UPDATED \u00b7 8 a.m."
     },
     {
       "label": "Kyiv.",
       "text": "Russia resumes capital strikes after envoy pause ends.",
-      "stamp": "UPDATED · 8 a.m."
+      "stamp": "UPDATED \u00b7 8 a.m."
     },
     {
       "label": "Ohio.",
@@ -118,12 +118,12 @@
     },
     {
       "label": "Oil.",
-      "text": "Brent ~$100.07 / WTI ~$94.73 (Reuters Wed.).",
-      "stamp": "Wed. 8 a.m."
+      "text": "Brent ~$100 / WTI ~$94\u201395 (wires Wed.).",
+      "stamp": "Wed. 10 a.m."
     }
   ],
   "markets": {
-    "heading": "Markets · Wednesday 8 a.m.",
+    "heading": "Markets \u00b7 Wednesday 10 a.m.",
     "rows": [
       {
         "label": "Crude oil",
@@ -146,12 +146,12 @@
         "dir": "up"
       }
     ],
-    "credit": "Oil as reported Wednesday via Reuters after U.S.–Iran tanker strikes; Canada trade from White House/USTR proclamations."
+    "credit": "Oil as reported Wednesday via Reuters after U.S.\u2013Iran tanker strikes; Canada trade from White House/USTR proclamations."
   },
   "ticker": [
+    "MISSOURI|High court show-cause for Hoskins; contempt hearing Thu. 10 a.m. CT",
     "GULF|U.S. destroys 5 Iranian tankers; Iran fires on Jordan; Brent tops $100",
     "CANADA|Trump bans certain alcohol, dairy, motorcycles effective Sept. 29",
-    "MISSOURI|Kavanaugh denies stay; Judge Clark orders 2025 map for Nov.",
     "USPS|Challenger replies due 4 p.m. EDT Wed. on 26A305",
     "DOJ|New Florida grand jury subpoenas in Trump-Russia probe",
     "SAUDI|Houthi energy strikes; 73 wounded; oil through $100",
@@ -192,8 +192,8 @@
       "updated": "2026-09-04"
     }
   ],
-  "footer_method": "Humans didn’t write today’s copy; both frames are generated from public sources. Headlines and kickers state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, in the same type, with named outlets or officials and outbound links. The site does not declare a winner in the headline. Summaries are original and short. Full articles are not reproduced.",
+  "footer_method": "Humans didn\u2019t write today\u2019s copy; both frames are generated from public sources. Headlines and kickers state the event only. Each story then carries two viewpoint blocks \u2014 typical center-left and typical center-right \u2014 at the same size, in the same type, with named outlets or officials and outbound links. The site does not declare a winner in the headline. Summaries are original and short. Full articles are not reproduced.",
   "footer_legal": "Independent staging page for grokbotnews.com. Original wordmark. Not affiliated with any broadcast or cable news company. No accounts, no comments, no donations. Photographs are news-file images used for layout; they are not claimed as original field work by this site.",
-  "story_footer_method": "Headlines state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, with named outlets and outbound links. Summaries are original and short. Full articles are not reproduced.",
+  "story_footer_method": "Headlines state the event only. Each story then carries two viewpoint blocks \u2014 typical center-left and typical center-right \u2014 at the same size, with named outlets and outbound links. Summaries are original and short. Full articles are not reproduced.",
   "story_footer_legal": "Independent staging page for grokbotnews.com. Original wordmark. Not affiliated with any broadcast or cable news company. No accounts, no comments, no donations."
 }
