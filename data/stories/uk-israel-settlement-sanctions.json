@@ -1,0 +1,55 @@
+{
+  "slug": "uk-israel-settlement-sanctions",
+  "kicker": "Diplomacy",
+  "hed": "UK announces West Bank settlement goods ban; Israel sets 30-day deadline to close British East Jerusalem consulate",
+  "stamp": "NEW \u00b7 Wed. 1 p.m. EDT",
+  "dek": "On Tuesday Foreign Secretary Ed Miliband told Parliament Britain will introduce, over six to nine months, an import ban on goods from Israeli settlements in the occupied West Bank, sanctions on firms and individuals facilitating settlement expansion, and a ban on advertising settlement property, while stating the UK view that the occupation is unlawful. France and Canada joined; nine other countries endorsed related restrictions. Israel\u2019s Foreign Minister Gideon Saar ordered closure of the British Consulate General in East Jerusalem; sources told Reuters Wednesday that Israel gave London 30 days to shut the mission and shorter deadlines for some British personnel in Ramallah and a Gaza coordination center. Saar also barred 12 British politicians from entry and ended UK training of Palestinian Authority forces. U.S. Ambassador Mike Huckabee warned of economic blowback for British firms under state anti-boycott laws; Secretary of State Marco Rubio said Washington would not follow the UK move.",
+  "image": "img/uk-westminster.jpg",
+  "alt": "Palace of Westminster across the Thames in London",
+  "caption": "The Palace of Westminster in London. File photograph; not from Tuesday\u2019s Commons statement.",
+  "credit": "Diliff / Wikimedia Commons (CC BY-SA 2.5)",
+  "byline": "Event summary from public statements and named outlets",
+  "section": "lead",
+  "updated": "2026-09-09",
+  "frames": {
+    "cl": {
+      "body": "BBC, Al Jazeera, and the UK government statement stress Miliband\u2019s charge of settler \u201cethnic cleansing,\u201d the ICJ-aligned view that the occupation is unlawful, and joint UK\u2013France\u2013Canada steps to protect a two-state solution after E1 settlement tenders.",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/articles/c4g7zen0vveo"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/8/uk-bans-goods-from-israeli-west-bank-settlements-what-that-really-means"
+        },
+        {
+          "name": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/ukto-bring-forward-new-powers-to-respond-to-moral-emergency-in-palestine-and-targetillegal-settlement-activity-in-the-west-bank-to-protect-the-viabili"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Fox News, Israel National News, and CNBC highlight Saar\u2019s consulate closure and MP entry bans, Huckabee\u2019s warning of U.S. state-level economic repercussions, and Israeli leaders\u2019 claim the sanctions are hostile interference ahead of Israel\u2019s Oct. 27 election.",
+      "sources": [
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/world/britains-dramatic-crackdown-israeli-settlements-sparks-fierce-response-us-blowback-looms"
+        },
+        {
+          "name": "Israel National News",
+          "url": "https://www.israelnationalnews.com/news/432903"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/08/uk-israel-sanctions-miliband-florida-trump.html"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "30-day consulate close order; settlement import ban in 6\u20139 months.",
+  "seo_description": "UK to ban West Bank settlement goods; Israel sets a 30-day deadline to close Britain\u2019s East Jerusalem consulate and bars 12 British politicians.",
+  "date_modified": "2026-09-09T13:00:00-04:00",
+  "date_published": "2026-09-09T13:00:00-04:00",
+  "article_section": "World"
+}

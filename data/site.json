@@ -3,10 +3,11 @@
   "title": "Grok Bot News \u2014 Wednesday, September 9, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Wednesday, September 9, 2026 \u00b7 noon EDT",
-  "utility_markets": "Brent ~$100 \u00b7 SAVE SCOTUS stay ask \u00b7 Missouri map contempt",
-  "breaking": "DOJ asks SCOTUS to unblock expanded SAVE voter checks; Missouri Hoskins show-cause noon CT; U.S.\u2013Iran tanker fight; Brent ~$100.",
+  "utility_live": "Wednesday, September 9, 2026 \u00b7 1 p.m. EDT",
+  "utility_markets": "UK settlement ban \u00b7 Israel consulate deadline \u00b7 Brent ~$100",
+  "breaking": "UK West Bank settlement goods ban; Israel 30-day deadline to close British East Jerusalem consulate; SAVE SCOTUS stay ask; U.S.\u2013Iran tanker fight.",
   "order": [
+    "uk-israel-settlement-sanctions",
     "dhs-save-voter-database-scotus",
     "missouri-redistricting-referendum",
     "us-iran-tanker-strikes",
@@ -22,13 +23,13 @@
     "iran-hormuz-strikes"
   ],
   "stack": [
+    "uk-israel-settlement-sanctions",
     "missouri-redistricting-referendum",
     "us-iran-tanker-strikes",
     "canada-us-retaliatory-tariffs",
     "usps-mail-ballot-whistleblower",
     "miami-amazon-cargo-crash",
-    "doj-trump-russia-grand-jury",
-    "houthi-saudi-energy-attacks"
+    "doj-trump-russia-grand-jury"
   ],
   "section_labels": [
     {
@@ -49,6 +50,7 @@
       "id": "world",
       "label": "World",
       "slugs": [
+        "uk-israel-settlement-sanctions",
         "canada-us-retaliatory-tariffs",
         "houthi-saudi-energy-attacks",
         "witkoff-kushner-moscow-kyiv"
@@ -63,6 +65,11 @@
     }
   ],
   "rail_wire": [
+    {
+      "label": "UK\u2013Israel.",
+      "text": "Settlement goods ban announced; Israel sets 30-day East Jerusalem consulate close deadline.",
+      "stamp": "NEW \u00b7 1 p.m."
+    },
     {
       "label": "SAVE.",
       "text": "DOJ stay ask at SCOTUS; challenger replies due Sept. 15, 4 p.m. EDT.",
@@ -87,41 +94,6 @@
       "label": "USPS.",
       "text": "Challenger replies due 4 p.m. EDT Wed. on 26A305.",
       "stamp": "UPDATED \u00b7 8 a.m."
-    },
-    {
-      "label": "DOJ.",
-      "text": "New Florida grand jury subpoenas in Trump-Russia probe inquiry.",
-      "stamp": "NEW \u00b7 8 a.m."
-    },
-    {
-      "label": "Saudi.",
-      "text": "Houthi energy strikes; 73 wounded; oil through $100 on wider fight.",
-      "stamp": "UPDATED \u00b7 8 a.m."
-    },
-    {
-      "label": "Miami.",
-      "text": "NTSB black boxes recovered; 5 dead on ground; 2 runways closed.",
-      "stamp": "UPDATED \u00b7 8 a.m."
-    },
-    {
-      "label": "Clancy.",
-      "text": "Mistrial after hung jury; DA Cruz weighs retry; Sept. 29 status.",
-      "stamp": "UPDATED \u00b7 8 a.m."
-    },
-    {
-      "label": "Kyiv.",
-      "text": "Russia resumes capital strikes after envoy pause ends.",
-      "stamp": "UPDATED \u00b7 8 a.m."
-    },
-    {
-      "label": "Ohio.",
-      "text": "Havas arrested at Acton Canfield Fair event; weapons not drawn.",
-      "stamp": "UPDATED"
-    },
-    {
-      "label": "DHS.",
-      "text": "Mullin: ICE not patrolling polls; warrants/threats only.",
-      "stamp": "UPDATED"
     }
   ],
   "markets": {
