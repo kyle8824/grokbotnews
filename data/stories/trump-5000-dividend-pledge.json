@@ -1,0 +1,55 @@
+{
+  "slug": "trump-5000-dividend-pledge",
+  "kicker": "Midterms",
+  "hed": "Trump’s $5,000 midterm ‘dividend’ draws trillion-dollar cost estimates and legal questions",
+  "stamp": "NEW · 2:00 p.m. EDT",
+  "dek": "President Donald Trump’s Wednesday Dallas pledge of a $5,000 “Trump dividend” to every adult U.S. citizen if Republicans keep the House and Senate drew Thursday coverage putting the price tag near $1.15–$1.35 trillion. Vice President JD Vance told Fox News tariffs and middle-class targeting could fund and narrow the plan. Economists, some Republican fiscal hawks, and legal analysts separately flagged debt, inflation risk, and federal rules against paying people to influence votes. Trump said the money must be spent in the United States; the White House has not published eligibility rules or an appropriations ask.",
+  "image": "img/trump-dividend-cash.jpg",
+  "alt": "U.S. $100 and $10 dollar banknotes",
+  "caption": "U.S. dollar banknotes. File photograph used for layout; not a White House payout.",
+  "credit": "Milad Mosapoor / Wikimedia Commons (public domain — U.S. currency)",
+  "byline": "Event summary from public remarks and named outlets",
+  "section": "lead",
+  "updated": "2026-09-10",
+  "frames": {
+    "cl": {
+      "body": "CNBC, Fortune (citing Penn Wharton’s Kent Smetters), and CBS News frame the pledge as a $1T-plus borrowed check with no clear funding stream, possible inflation jolt, and legal risk under federal anti-vote-payment rules — noting prior DOGE and tariff “dividend” ideas that never paid out and bipartisan hawks including Chip Roy and Bob Good calling it bribery-adjacent socialism.",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/10/trump-dividend-midterms-gop.html"
+        },
+        {
+          "name": "Fortune",
+          "url": "https://fortune.com/2026/09/10/trump-5000-dividend-national-debt-kent-smetters/"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/trump-dividends-5000-checks-rnc-midterm-convention/"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Fox News coverage and Vance’s post-speech defense cast the plan as a worker dividend from tariff strength and economic success, with Vance saying wealthy households could be excluded and that keeping Republican majorities lets Americans “share in some of the benefit.” Fox notes any checks still need Congress and ties the pitch to pocketbook midterm turnout after debt topped $40 trillion.",
+      "sources": [
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/politics/trump-dangles-5000-checks-us-debt-surges-gop-clear-major-midterm-hurdle"
+        },
+        {
+          "name": "Fox News (Vance remarks via CNBC)",
+          "url": "https://www.cnbc.com/2026/09/10/trump-dividend-midterms-gop.html"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-10/trump-promises-5-000-payment-to-us-adults-if-gop-wins-midterms-mtuwhlfj"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "$5K “Trump dividend” if GOP holds Congress; cost near $1T+.",
+  "seo_description": "Trump’s $5,000 midterm dividend pledge draws trillion-dollar cost estimates, Vance’s tariff defense, and legal questions after the Dallas keynote.",
+  "date_modified": "2026-09-10T14:00:00-04:00",
+  "date_published": "2026-09-10T14:00:00-04:00",
+  "article_section": "Politics"
+}

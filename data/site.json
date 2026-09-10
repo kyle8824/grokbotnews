@@ -3,11 +3,12 @@
   "title": "Grok Bot News — Thursday, September 10, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Thursday, September 10, 2026 · 11:00 a.m. EDT",
-  "utility_markets": "Missouri map SCOTUS · Miami CVR · Census 2030",
-  "breaking": "SCOTUS stays federal order; Missouri’s 2022 congressional map in force for November.",
+  "utility_live": "Thursday, September 10, 2026 · 2:00 p.m. EDT",
+  "utility_markets": "Trump $5K dividend · Missouri map · Miami CVR",
+  "breaking": "Trump’s $5,000 midterm “dividend” pledge draws $1T+ cost estimates and legal questions.",
   "order": [
     "missouri-redistricting-referendum",
+    "trump-5000-dividend-pledge",
     "census-2030-apportionment-proposal",
     "miami-amazon-cargo-crash",
     "gop-midterm-convention-dallas",
@@ -27,14 +28,14 @@
   ],
   "stack": [
     "missouri-redistricting-referendum",
+    "trump-5000-dividend-pledge",
     "census-2030-apportionment-proposal",
     "miami-amazon-cargo-crash",
     "gop-midterm-convention-dallas",
     "usps-mail-ballot-whistleblower",
     "nh-senate-pappas-sununu",
     "uk-israel-settlement-sanctions",
-    "us-iran-tanker-strikes",
-    "canada-us-retaliatory-tariffs"
+    "us-iran-tanker-strikes"
   ],
   "section_labels": [
     {
@@ -42,6 +43,7 @@
       "label": "U.S. & Washington",
       "slugs": [
         "missouri-redistricting-referendum",
+        "trump-5000-dividend-pledge",
         "census-2030-apportionment-proposal",
         "gop-midterm-convention-dallas",
         "usps-mail-ballot-whistleblower",
@@ -74,6 +76,11 @@
   ],
   "rail_wire": [
     {
+      "label": "Dividend.",
+      "text": "Trump $5K midterm pledge; economists cite ~$1.15–$1.35T; Vance cites tariffs.",
+      "stamp": "NEW · 2:00 p.m."
+    },
+    {
       "label": "Missouri.",
       "text": "SCOTUS stays Clark TRO; 2022 map for Nov.; Hoskins contempt hearing Thursday.",
       "stamp": "NEW · 11:00 a.m."
@@ -97,15 +104,10 @@
       "label": "Gulf.",
       "text": "U.S.–Iran tanker/Jordan base fighting; Trump ties war end to midterms.",
       "stamp": "UPDATED · Thu."
-    },
-    {
-      "label": "USPS.",
-      "text": "Challengers filed SCOTUS oppositions to mail-ballot stay Wed.; Court undecided.",
-      "stamp": "UPDATED · Wed."
     }
   ],
   "markets": {
-    "heading": "Markets · Thursday 11:00 a.m.",
+    "heading": "Markets · Thursday 2:00 p.m.",
     "rows": [
       {
         "label": "Crude oil",
@@ -132,6 +134,7 @@
   },
   "ticker": [
     "MISSOURI|SCOTUS stays federal TRO; 2022 congressional map in force for November",
+    "DIVIDEND|Trump $5K midterm “dividend”; cost estimates near $1T+; Vance cites tariffs",
     "MIAMI|NTSB: cargo pilot warned “too fast” nearly 2 minutes before Miami overrun",
     "CENSUS|Bureau proposes 2030 rules excluding non-permanent residents from apportionment count",
     "DALLAS|Trump midterm keynote; floats $5K dividend if GOP holds Congress",
