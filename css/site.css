@@ -654,18 +654,22 @@ a { color: inherit; text-decoration: none; }
 
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
 .social a.x-link {
-  width: 32px; height: 32px;
-  border: 1px solid rgba(255,255,255,.45);
-  border-radius: 50%;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  width: auto;
+  height: auto;
+  padding: 6px;
+  border: none;
+  border-radius: 0;
+  background: transparent;
   color: #fff;
   text-decoration: none;
+  opacity: .92;
 }
 .social a.x-link svg { display: block; }
-.social a.x-link:hover { border-color: #fff; background: rgba(255,255,255,.1); color: #fff; }
-.social .ghost { display: none; }
+.social a.x-link:hover { opacity: 1; color: #fff; background: transparent; border: none; }
+.social .ghost { display: none !important; }
 
 .story-page { max-width: 860px; margin: 0 auto; padding: 24px 16px 48px; }
 .story-page .kicker { color: var(--red); font-size: 12px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; margin: 0 0 8px; }
