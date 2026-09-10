@@ -556,6 +556,18 @@ a { color: inherit; text-decoration: none; }
   gap: 18px;
   border-bottom: 1px solid rgba(255,255,255,.08);
 }
+/* Footer: don't let header tagline margin-left:auto fight the X icon */
+.foot-top .tagline {
+  margin-left: 0;
+  margin-right: 0;
+  align-self: center;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.foot-top .social {
+  margin-left: 0;
+  flex-shrink: 0;
+}
 .social { margin-left: auto; display: flex; align-items: center; gap: 8px; }
 .social .ghost {
   width: 28px; height: 28px;
@@ -682,6 +694,28 @@ a { color: inherit; text-decoration: none; }
     min-width: 0;
   }
   .tagline span { margin: 0 2px; }
+  /* Footer: brand + X on row 1, tagline full-width below — no overlap */
+  .foot-top {
+    flex-wrap: wrap;
+    row-gap: 10px;
+    padding: 16px 14px 12px;
+    gap: 10px;
+  }
+  .foot-top .brand { flex: 1 1 auto; min-width: 0; }
+  .foot-top .social {
+    margin-left: auto;
+    order: 2;
+  }
+  .foot-top .tagline {
+    order: 3;
+    flex: 1 1 100%;
+    margin: 0;
+    padding: 0;
+    border-left: none;
+    align-self: auto;
+    font-size: 8px;
+    letter-spacing: .08em;
+  }
 }
 
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
