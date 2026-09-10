@@ -241,99 +241,130 @@ def favicons() -> str:
 
 
 def render_masthead(*, home: bool) -> str:
-    brand_href = "/" if not home else "#hero"
-    home_href = "#hero" if home else "/"
-    top = "#top-stories" if home else "/#top-stories"
-    us = "#latest" if home else "/#latest"
-    world = "#featured" if home else "/#featured"
-    politics = "#hero" if home else "/"
-    business = "#latest" if home else "/#latest"
-    energy = "#featured" if home else "/#featured"
-    # Chrome-only destinations for categories we do not currently section
+    brand_href = "/" if not home else "#politics"
+    home_href = "#politics" if home else "/"
+    top = "#top" if home else "/#top"
+    us = "#top" if home else "/#top"
+    world = "#top" if home else "/#top"
+    politics = "#politics" if home else "/"
+    business = "#top" if home else "/#top"
+    energy = "#analysis" if home else "/#analysis"
     tech = top
     entertainment = top
     sports = top
-    opinion = "#featured" if home else "/#featured"
+    opinion = "#opinion" if home else "/#opinion"
 
-    return f"""  <header class="masthead">
-    <div class="masthead-inner">
+    return f"""  <header class="topbar">
+    <div class="topbar-grid" aria-hidden="true"></div>
+    <span class="slash slash-l1" aria-hidden="true"></span>
+    <span class="slash slash-l2" aria-hidden="true"></span>
+    <span class="slash slash-r1" aria-hidden="true"></span>
+    <span class="slash slash-r2" aria-hidden="true"></span>
+    <div class="topbar-inner">
       <a class="brand" href="{brand_href}">
-        <img class="brand-mark" src="/img/brand-mark.png" width="52" height="52" alt="">
-        <span class="brand-text">
-          <span class="brand-name">GROK BOT</span>
-          <span class="brand-news">NEWS</span>
+        <span class="mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" fill="none" aria-hidden="true">
+            <circle cx="32" cy="32" r="29" stroke="#fff" stroke-width="3"/>
+            <circle cx="32" cy="32" r="24" stroke="#d3122a" stroke-width="2.2"/>
+            <path d="M14 46 L50 18" stroke="#d3122a" stroke-width="3.5"/>
+            <text x="32" y="40" text-anchor="middle" fill="#fff" font-size="20" font-family="Arial Black, Helvetica, sans-serif" font-weight="800">GB</text>
+          </svg>
+        </span>
+        <span class="word">
+          <span class="row1">GROK BOT</span>
+          <span class="row2"><span class="news-word">NEWS</span></span>
         </span>
       </a>
-      <p class="tagline">REAL NEWS <span class="slash">/</span> REAL VIEWS <span class="slash">/</span> SAME WEIGHT</p>
+      <p class="tagline">Real News <span>/</span> Real Views <span>/</span> Same Weight</p>
     </div>
   </header>
-  <nav class="nav-bar" aria-label="Sections">
-    <div class="nav">
-      <a class="nav-home" href="{home_href}" aria-label="Home">{HOME_ICON}</a>
-      <a class="nav-link" href="{top}">Top Stories</a>
-      <a class="nav-link" href="{us}">U.S.</a>
-      <a class="nav-link" href="{world}">World</a>
-      <a class="nav-link" href="{politics}">Politics</a>
-      <a class="nav-link" href="{business}">Business</a>
-      <a class="nav-link" href="{energy}">Energy</a>
-      <a class="nav-link" href="{tech}">Tech</a>
-      <a class="nav-link" href="{entertainment}">Entertainment</a>
-      <a class="nav-link" href="{sports}">Sports</a>
-      <a class="nav-link" href="{opinion}">Opinion</a>
-      <div class="nav-utils">
-        <button type="button" class="nav-util" aria-label="Search" disabled title="Search coming soon">{SEARCH_ICON}</button>
-        <button type="button" class="nav-util" aria-label="Menu" disabled title="Menu">{MENU_ICON}</button>
+  <nav class="nav" aria-label="Sections">
+    <div class="nav-inner">
+      <a class="home" href="{home_href}" aria-label="Home">{HOME_ICON}</a>
+      <a class="active" href="{top}">Top Stories</a>
+      <a href="{us}">U.S.</a>
+      <a href="{world}">World</a>
+      <a href="{politics}">Politics</a>
+      <a href="{business}">Business</a>
+      <a href="{energy}">Energy</a>
+      <a href="{tech}">Tech</a>
+      <a href="{entertainment}">Entertainment</a>
+      <a href="{sports}">Sports</a>
+      <a href="{opinion}">Opinion</a>
+      <div class="nav-tools">
+        <a class="icon" href="#search" aria-label="Search">{SEARCH_ICON}</a>
+        <a class="icon" href="#menu" aria-label="Menu">{MENU_ICON}</a>
       </div>
     </div>
-  </nav>"""
+  </nav>
+"""
 
 
 def render_footer(site: dict, *, story: bool = False) -> str:
     method_key = "story_footer_method" if story else "footer_method"
-    legal_key = "story_footer_legal" if story else "footer_legal"
     method = site.get(method_key) or site.get("footer_method", "")
-    legal = site.get(legal_key) or site.get("footer_legal", "")
-    return f"""  <footer class="site-footer" id="method">
-    <div class="foot-inner">
-      <div class="foot-top">
-        <a class="foot-brand" href="/">
-          <img class="brand-mark" src="/img/brand-mark.png" width="44" height="44" alt="">
-          <span>
-            <span class="brand-name" style="font-size:20px">GROK BOT</span>
-            <span class="brand-news" style="display:flex">NEWS</span>
-            <p class="foot-tagline">REAL NEWS <span class="slash">/</span> REAL VIEWS <span class="slash">/</span> SAME WEIGHT</p>
-          </span>
+    return f"""  <footer class="foot">
+    <div class="topbar-grid" aria-hidden="true"></div>
+    <span class="slash slash-l1" aria-hidden="true"></span>
+    <span class="slash slash-l2" aria-hidden="true"></span>
+    <span class="slash slash-r1" aria-hidden="true"></span>
+    <span class="slash slash-r2" aria-hidden="true"></span>
+    <div class="foot-top">
+      <a class="brand" href="/">
+        <span class="mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" fill="none" aria-hidden="true">
+            <circle cx="32" cy="32" r="29" stroke="#fff" stroke-width="3"/>
+            <circle cx="32" cy="32" r="24" stroke="#d3122a" stroke-width="2.2"/>
+            <path d="M14 46 L50 18" stroke="#d3122a" stroke-width="3.5"/>
+            <text x="32" y="40" text-anchor="middle" fill="#fff" font-size="20" font-family="Arial Black, Helvetica, sans-serif" font-weight="800">GB</text>
+          </svg>
+        </span>
+        <span class="word">
+          <span class="row1">GROK BOT</span>
+          <span class="row2"><span class="news-word">NEWS</span></span>
+        </span>
+      </a>
+      <p class="tagline">Real News <span>/</span> Real Views <span>/</span> Same Weight</p>
+      <div class="social">
+        <a class="x-link" href="https://x.com/grokbotnews" rel="noopener" target="_blank">
+          {X_ICON}
+          <span class="sr">Grok Bot News on X</span>
         </a>
-        <div class="foot-social">
-          <a href="https://x.com/grokbotnews" rel="noopener" aria-label="Grok Bot News on X">{X_ICON} <span>X</span></a>
-        </div>
-      </div>
-      <p class="method">{esc(method)}</p>
-      <p class="legal">{esc(legal)}</p>
-      <div class="foot-bottom">
-        <div class="foot-links">
-          <a href="/#method">About</a>
-          <a href="https://x.com/grokbotnews" rel="noopener">Contact</a>
-        </div>
-        <div>© 2026 Grok Bot News. All rights reserved.</div>
+        <span class="ghost" aria-hidden="true"></span>
+        <span class="ghost" aria-hidden="true"></span>
       </div>
     </div>
-  </footer>"""
+    <div class="foot-bot">
+      <nav>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#privacy">Privacy Policy</a>
+        <a href="#terms">Terms of Service</a>
+      </nav>
+      <div class="foot-copy">© 2026 Grok Bot News. All rights reserved.</div>
+    </div>
+    <p class="method">{esc(method)}</p>
+  </footer>
+"""
 
 
 def render_hero(story: dict) -> str:
     slug = story["slug"]
-    label, css = nav_category(story)
-    return f"""      <article class="hero-story">
-        <img class="hero-bg" src="{esc(img_src(story["image"]))}" alt="{esc(story.get("alt", ""))}">
+    label, _css = nav_category(story)
+    # Prefer mock capitol hero when present for lead chrome parity
+    img = "img/hero-capitol.jpg" if (ROOT / "img" / "hero-capitol.jpg").exists() else img_src(story["image"])
+    return f"""      <article class="hero" id="politics">
+        <img src="/{esc(img)}" alt="{esc(story.get("alt", ""))}">
+        <div class="hero-scrim"></div>
         <div class="hero-copy">
-          <span class="cat-kicker cat-{css}">{esc(label)}</span>
-          <h1 class="hero-hed"><a href="/stories/{esc(slug)}">{esc(story["hed"])}</a></h1>
-          <p class="hero-dek">{esc(short_dek(story))}</p>
-          <p class="hero-meta">{esc(story["stamp"])}</p>
-          <a class="btn-read" href="/stories/{esc(slug)}">Read full story →</a>
+          <span class="pill">{esc(label)}</span>
+          <h1>{esc(story["hed"])}</h1>
+          <p>{esc(short_dek(story))}</p>
+          <div class="updated">{esc(story["stamp"])}</div>
+          <a class="btn" href="/stories/{esc(slug)}">Read Full Story →</a>
         </div>
-      </article>"""
+      </article>
+"""
 
 
 def render_trending(slugs: list[str], stories: dict[str, dict]) -> str:
@@ -342,45 +373,46 @@ def render_trending(slugs: list[str], stories: dict[str, dict]) -> str:
         s = stories[slug]
         label, _ = nav_category(s)
         items.append(
-            f"""        <li>
-          <span class="trend-num">{i}</span>
-          <div class="trend-body">
-            <a href="/stories/{esc(slug)}">{esc(s["hed"])}</a>
-            <div class="trend-meta"><span class="cat">{esc(label)}</span>{esc(s["stamp"])}</div>
-          </div>
-        </li>"""
+            f"""          <li>
+            <span class="num">{i}</span>
+            <div>
+              <h3><a href="/stories/{esc(slug)}">{esc(s["hed"])}</a></h3>
+              <div class="meta">{esc(label)} · {esc(s["stamp"])}</div>
+            </div>
+          </li>"""
         )
-    return f"""      <aside class="trending" aria-label="Trending now">
-        <div class="section-head"><span class="bar" aria-hidden="true"></span><h2>Trending Now</h2></div>
-        <ol class="trend-list">
+    return f"""      <aside class="trend" aria-label="Trending now">
+        <h2>Trending Now</h2>
+        <ol>
 {chr(10).join(items)}
         </ol>
-      </aside>"""
+      </aside>
+"""
 
 
 def render_top_cards(slugs: list[str], stories: dict[str, dict]) -> str:
     cards = []
     for slug in slugs:
         s = stories[slug]
-        label, css = nav_category(s)
-        mins = read_mins(s)
+        label, _ = nav_category(s)
         cards.append(
-            f"""        <a class="story-card" href="/stories/{esc(slug)}">
-          <img src="{esc(img_src(s["image"]))}" alt="{esc(s.get("alt", ""))}">
-          <div class="story-card-body">
-            <span class="cat-kicker cat-{css}">{esc(label)}</span>
-            <h3>{esc(s["hed"])}</h3>
-            <p>{esc(stack_blurb(s))}</p>
-            <div class="card-meta">{esc(s["stamp"])}<span class="sep">·</span>{mins} MIN READ</div>
-          </div>
-        </a>"""
+            f"""      <article class="card">
+        <div class="card-photo">
+          <a href="/stories/{esc(slug)}"><img src="/{esc(img_src(s["image"]))}" alt="{esc(s.get("alt", ""))}"></a>
+          <span class="pill">{esc(label)}</span>
+        </div>
+        <div class="body">
+          <h3><a href="/stories/{esc(slug)}">{esc(s["hed"])}</a></h3>
+          <p>{esc(stack_blurb(s))}</p>
+          <div class="stamp">{esc(s["stamp"])}</div>
+        </div>
+      </article>"""
         )
     return (
-        '      <section id="top-stories">\n'
-        '        <div class="band-head"><span class="bar" aria-hidden="true"></span><h2>Top Stories</h2></div>\n'
-        '        <div class="top-cards">\n'
+        '    <h2 class="section-head" id="top">Top Stories</h2>\n'
+        '    <div class="grid-3">\n'
         + "\n".join(cards)
-        + "\n        </div>\n      </section>"
+        + "\n    </div>\n"
     )
 
 
@@ -390,20 +422,20 @@ def render_latest(slugs: list[str], stories: dict[str, dict]) -> str:
         s = stories[slug]
         label, _ = nav_category(s)
         items.append(
-            f"""        <li>
-          <a href="/stories/{esc(slug)}"><img src="{esc(img_src(s["image"]))}" alt="{esc(s.get("alt", ""))}"></a>
+            f"""        <article class="latest-item">
+          <a href="/stories/{esc(slug)}"><img src="/{esc(img_src(s["image"]))}" alt="{esc(s.get("alt", ""))}"></a>
           <div>
-            <div class="latest-meta"><span class="cat">{esc(label)}</span>{esc(s["stamp"])}</div>
-            <a class="hed" href="/stories/{esc(slug)}">{esc(s["hed"])}</a>
+            <div class="meta">{esc(label)}</div>
+            <h4><a href="/stories/{esc(slug)}">{esc(s["hed"])}</a></h4>
+            <div class="stamp">{esc(s["stamp"])}</div>
           </div>
-        </li>"""
+        </article>"""
         )
     return (
-        '      <aside class="latest-rail" id="latest" aria-label="Latest">\n'
-        '        <div class="band-head"><span class="bar" aria-hidden="true"></span><h2>Latest</h2></div>\n'
-        '        <ul class="latest-list">\n'
+        '      <aside class="latest" aria-label="Latest">\n'
+        '        <h2 class="section-head">Latest</h2>\n'
         + "\n".join(items)
-        + "\n        </ul>\n      </aside>"
+        + "\n      </aside>\n"
     )
 
 
@@ -411,41 +443,41 @@ def render_featured(slugs: list[str], stories: dict[str, dict]) -> str:
     if not slugs:
         return ""
     main = stories[slugs[0]]
-    main_label, main_css = nav_category(main)
-    side_html = []
+    main_label, _ = nav_category(main)
+    minis = []
     for slug in slugs[1:]:
         s = stories[slug]
-        label, css = nav_category(s)
-        side_html.append(
-            f"""        <a href="/stories/{esc(slug)}">
-          <img src="{esc(img_src(s["image"]))}" alt="{esc(s.get("alt", ""))}">
-          <div>
-            <span class="cat-kicker cat-{css}">{esc(label)}</span>
-            <h3>{esc(s["hed"])}</h3>
-          </div>
-        </a>"""
+        label, _ = nav_category(s)
+        minis.append(
+            f"""            <article class="mini">
+              <a href="/stories/{esc(slug)}"><img src="/{esc(img_src(s["image"]))}" alt="{esc(s.get("alt", ""))}"></a>
+              <div>
+                <span class="pill">{esc(label)}</span>
+                <h4><a href="/stories/{esc(slug)}">{esc(s["hed"])}</a></h4>
+                <div class="stamp">{esc(s["stamp"])}</div>
+              </div>
+            </article>"""
         )
-    side_block = ""
-    if side_html:
-        side_block = (
-            '      <div class="featured-side">\n'
-            + "\n".join(side_html)
-            + "\n      </div>"
-        )
-    return f"""    <section class="featured" id="featured">
-      <div class="band-head"><span class="bar" aria-hidden="true"></span><h2>Featured Analysis</h2></div>
-      <div class="featured-grid">
-        <a class="featured-main" href="/stories/{esc(main["slug"])}">
-          <img src="{esc(img_src(main["image"]))}" alt="{esc(main.get("alt", ""))}">
-          <div>
-            <span class="cat-kicker cat-{main_css}">{esc(main_label)}</span>
-            <h3>{esc(main["hed"])}</h3>
-            <p>{esc(stack_blurb(main))}</p>
+    return f"""      <section aria-label="Featured analysis">
+        <h2 class="section-head" id="opinion">Featured Analysis</h2>
+        <div class="feat-grid" id="analysis">
+          <div class="feat-lead">
+            <div class="feat-photo">
+              <a href="/stories/{esc(main["slug"])}"><img src="/{esc(img_src(main["image"]))}" alt="{esc(main.get("alt", ""))}"></a>
+              <span class="pill">{esc(main_label)}</span>
+            </div>
+            <div class="feat-copy">
+              <h3><a href="/stories/{esc(main["slug"])}">{esc(main["hed"])}</a></h3>
+              <p>{esc(stack_blurb(main))}</p>
+              <div class="stamp">{esc(main["stamp"])}</div>
+            </div>
           </div>
-        </a>
-{side_block}
-      </div>
-    </section>"""
+          <div class="feat-minis">
+{chr(10).join(minis)}
+          </div>
+        </div>
+      </section>
+"""
 
 
 def render_views_layer() -> str:
@@ -540,22 +572,20 @@ def build_index(site: dict, stories: dict[str, dict]) -> str:
 
 {render_masthead(home=True)}
 
-  <section class="hero-band" id="hero">
-    <div class="hero-grid">
+  <main id="main" class="wrap">
+    <section class="hero-row">
 {render_hero(lead)}
 
 {render_trending(buckets["trending"], stories)}
-    </div>
-  </section>
+    </section>
 
-  <main id="main" class="wrap">
-    <div class="home-main">
 {render_top_cards(buckets["top"], stories)}
+
+    <div class="lower">
+{featured_html}
 
 {render_latest(buckets["latest"], stories)}
     </div>
-
-{featured_html}
   </main>
 
 {render_footer(site, story=False)}

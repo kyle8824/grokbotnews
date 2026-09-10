@@ -25,220 +25,265 @@
 <body>
   <a class="skip" href="#main">Skip to stories</a>
 
-  <header class="masthead">
-    <div class="masthead-inner">
-      <a class="brand" href="#hero">
-        <img class="brand-mark" src="/img/brand-mark.png" width="52" height="52" alt="">
-        <span class="brand-text">
-          <span class="brand-name">GROK BOT</span>
-          <span class="brand-news">NEWS</span>
+  <header class="topbar">
+    <div class="topbar-grid" aria-hidden="true"></div>
+    <span class="slash slash-l1" aria-hidden="true"></span>
+    <span class="slash slash-l2" aria-hidden="true"></span>
+    <span class="slash slash-r1" aria-hidden="true"></span>
+    <span class="slash slash-r2" aria-hidden="true"></span>
+    <div class="topbar-inner">
+      <a class="brand" href="#politics">
+        <span class="mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" fill="none" aria-hidden="true">
+            <circle cx="32" cy="32" r="29" stroke="#fff" stroke-width="3"/>
+            <circle cx="32" cy="32" r="24" stroke="#d3122a" stroke-width="2.2"/>
+            <path d="M14 46 L50 18" stroke="#d3122a" stroke-width="3.5"/>
+            <text x="32" y="40" text-anchor="middle" fill="#fff" font-size="20" font-family="Arial Black, Helvetica, sans-serif" font-weight="800">GB</text>
+          </svg>
+        </span>
+        <span class="word">
+          <span class="row1">GROK BOT</span>
+          <span class="row2"><span class="news-word">NEWS</span></span>
         </span>
       </a>
-      <p class="tagline">REAL NEWS <span class="slash">/</span> REAL VIEWS <span class="slash">/</span> SAME WEIGHT</p>
+      <p class="tagline">Real News <span>/</span> Real Views <span>/</span> Same Weight</p>
     </div>
   </header>
-  <nav class="nav-bar" aria-label="Sections">
-    <div class="nav">
-      <a class="nav-home" href="#hero" aria-label="Home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg></a>
-      <a class="nav-link" href="#top-stories">Top Stories</a>
-      <a class="nav-link" href="#latest">U.S.</a>
-      <a class="nav-link" href="#featured">World</a>
-      <a class="nav-link" href="#hero">Politics</a>
-      <a class="nav-link" href="#latest">Business</a>
-      <a class="nav-link" href="#featured">Energy</a>
-      <a class="nav-link" href="#top-stories">Tech</a>
-      <a class="nav-link" href="#top-stories">Entertainment</a>
-      <a class="nav-link" href="#top-stories">Sports</a>
-      <a class="nav-link" href="#featured">Opinion</a>
-      <div class="nav-utils">
-        <button type="button" class="nav-util" aria-label="Search" disabled title="Search coming soon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 5L20.49 19l-5-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg></button>
-        <button type="button" class="nav-util" aria-label="Menu" disabled title="Menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/></svg></button>
+  <nav class="nav" aria-label="Sections">
+    <div class="nav-inner">
+      <a class="home" href="#politics" aria-label="Home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg></a>
+      <a class="active" href="#top">Top Stories</a>
+      <a href="#top">U.S.</a>
+      <a href="#top">World</a>
+      <a href="#politics">Politics</a>
+      <a href="#top">Business</a>
+      <a href="#analysis">Energy</a>
+      <a href="#top">Tech</a>
+      <a href="#top">Entertainment</a>
+      <a href="#top">Sports</a>
+      <a href="#opinion">Opinion</a>
+      <div class="nav-tools">
+        <a class="icon" href="#search" aria-label="Search"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 5L20.49 19l-5-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg></a>
+        <a class="icon" href="#menu" aria-label="Menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/></svg></a>
       </div>
     </div>
   </nav>
 
-  <section class="hero-band" id="hero">
-    <div class="hero-grid">
-      <article class="hero-story">
-        <img class="hero-bg" src="img/trump-dallas-keynote.jpg" alt="President Donald Trump speaking at a podium during a White House event">
+
+  <main id="main" class="wrap">
+    <section class="hero-row">
+      <article class="hero" id="politics">
+        <img src="/img/hero-capitol.jpg" alt="President Donald Trump speaking at a podium during a White House event">
+        <div class="hero-scrim"></div>
         <div class="hero-copy">
-          <span class="cat-kicker cat-politics">POLITICS</span>
-          <h1 class="hero-hed"><a href="/stories/gop-midterm-convention-dallas">Trump delivers Dallas midterm keynote; floats $5,000 ‘Trump dividend’ if GOP holds Congress</a></h1>
-          <p class="hero-dek">President Donald Trump gave Wednesday night’s keynote at the Republican Party’s first national midterm convention at Dallas’s American Airlines Center, urging voters to “pretend” he is on the Nov.</p>
-          <p class="hero-meta">UPDATED · Wed. 10:30 p.m. EDT</p>
-          <a class="btn-read" href="/stories/gop-midterm-convention-dallas">Read full story →</a>
+          <span class="pill">POLITICS</span>
+          <h1>Trump delivers Dallas midterm keynote; floats $5,000 ‘Trump dividend’ if GOP holds Congress</h1>
+          <p>President Donald Trump gave Wednesday night’s keynote at the Republican Party’s first national midterm convention at Dallas’s American Airlines Center, urging voters to “pretend” he is on the Nov.</p>
+          <div class="updated">UPDATED · Wed. 10:30 p.m. EDT</div>
+          <a class="btn" href="/stories/gop-midterm-convention-dallas">Read Full Story →</a>
         </div>
       </article>
 
-      <aside class="trending" aria-label="Trending now">
-        <div class="section-head"><span class="bar" aria-hidden="true"></span><h2>Trending Now</h2></div>
-        <ol class="trend-list">
-        <li>
-          <span class="trend-num">1</span>
-          <div class="trend-body">
-            <a href="/stories/usps-mail-ballot-whistleblower">Challengers file Supreme Court oppositions to USPS mail-ballot stay as 4 p.m. deadline hits</a>
-            <div class="trend-meta"><span class="cat">POLITICS</span>UPDATED · Wed. 4 p.m. EDT</div>
-          </div>
-        </li>
-        <li>
-          <span class="trend-num">2</span>
-          <div class="trend-body">
-            <a href="/stories/missouri-redistricting-referendum">Hoskins answers Missouri contempt show-cause, citing federal TRO clash; hearing set Thursday</a>
-            <div class="trend-meta"><span class="cat">POLITICS</span>UPDATED · Wed. 4 p.m. EDT</div>
-          </div>
-        </li>
-        <li>
-          <span class="trend-num">3</span>
-          <div class="trend-body">
-            <a href="/stories/nh-senate-pappas-sununu">Pappas and Sununu win New Hampshire Senate primaries; open Shaheen seat set for November</a>
-            <div class="trend-meta"><span class="cat">POLITICS</span>NEW · Wed. 3 p.m. EDT</div>
-          </div>
-        </li>
-        <li>
-          <span class="trend-num">4</span>
-          <div class="trend-body">
-            <a href="/stories/uk-israel-settlement-sanctions">UK announces West Bank settlement goods ban; Israel sets 30-day deadline to close British East Jerusalem consulate</a>
-            <div class="trend-meta"><span class="cat">WORLD</span>NEW · Wed. 1 p.m. EDT</div>
-          </div>
-        </li>
-        <li>
-          <span class="trend-num">5</span>
-          <div class="trend-body">
-            <a href="/stories/dhs-save-voter-database-scotus">DOJ asks Supreme Court to unblock expanded SAVE citizenship checks for voter rolls</a>
-            <div class="trend-meta"><span class="cat">POLITICS</span>NEW · Wed. noon EDT</div>
-          </div>
-        </li>
+
+      <aside class="trend" aria-label="Trending now">
+        <h2>Trending Now</h2>
+        <ol>
+          <li>
+            <span class="num">1</span>
+            <div>
+              <h3><a href="/stories/usps-mail-ballot-whistleblower">Challengers file Supreme Court oppositions to USPS mail-ballot stay as 4 p.m. deadline hits</a></h3>
+              <div class="meta">POLITICS · UPDATED · Wed. 4 p.m. EDT</div>
+            </div>
+          </li>
+          <li>
+            <span class="num">2</span>
+            <div>
+              <h3><a href="/stories/missouri-redistricting-referendum">Hoskins answers Missouri contempt show-cause, citing federal TRO clash; hearing set Thursday</a></h3>
+              <div class="meta">POLITICS · UPDATED · Wed. 4 p.m. EDT</div>
+            </div>
+          </li>
+          <li>
+            <span class="num">3</span>
+            <div>
+              <h3><a href="/stories/nh-senate-pappas-sununu">Pappas and Sununu win New Hampshire Senate primaries; open Shaheen seat set for November</a></h3>
+              <div class="meta">POLITICS · NEW · Wed. 3 p.m. EDT</div>
+            </div>
+          </li>
+          <li>
+            <span class="num">4</span>
+            <div>
+              <h3><a href="/stories/uk-israel-settlement-sanctions">UK announces West Bank settlement goods ban; Israel sets 30-day deadline to close British East Jerusalem consulate</a></h3>
+              <div class="meta">WORLD · NEW · Wed. 1 p.m. EDT</div>
+            </div>
+          </li>
+          <li>
+            <span class="num">5</span>
+            <div>
+              <h3><a href="/stories/dhs-save-voter-database-scotus">DOJ asks Supreme Court to unblock expanded SAVE citizenship checks for voter rolls</a></h3>
+              <div class="meta">POLITICS · NEW · Wed. noon EDT</div>
+            </div>
+          </li>
         </ol>
       </aside>
-    </div>
-  </section>
 
-  <main id="main" class="wrap">
-    <div class="home-main">
-      <section id="top-stories">
-        <div class="band-head"><span class="bar" aria-hidden="true"></span><h2>Top Stories</h2></div>
-        <div class="top-cards">
-        <a class="story-card" href="/stories/us-iran-tanker-strikes">
-          <img src="img/iran-tanker-strikes.jpg" alt="Oil tanker taking on crude at a Persian Gulf terminal">
-          <div class="story-card-body">
-            <span class="cat-kicker cat-energy">ENERGY</span>
-            <h3>U.S. destroys five Iranian oil tankers after warship attacks; Iran fires on Jordan base as Brent tops $100</h3>
-            <p>U.S.</p>
-            <div class="card-meta">NEW · Wed. 8 a.m. EDT<span class="sep">·</span>2 MIN READ</div>
+    </section>
+
+    <h2 class="section-head" id="top">Top Stories</h2>
+    <div class="grid-3">
+      <article class="card">
+        <div class="card-photo">
+          <a href="/stories/us-iran-tanker-strikes"><img src="/img/iran-tanker-strikes.jpg" alt="Oil tanker taking on crude at a Persian Gulf terminal"></a>
+          <span class="pill">ENERGY</span>
+        </div>
+        <div class="body">
+          <h3><a href="/stories/us-iran-tanker-strikes">U.S. destroys five Iranian oil tankers after warship attacks; Iran fires on Jordan base as Brent tops $100</a></h3>
+          <p>U.S.</p>
+          <div class="stamp">NEW · Wed. 8 a.m. EDT</div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-photo">
+          <a href="/stories/miami-amazon-cargo-crash"><img src="/img/lead-miami.jpg" alt="Commercial airliner in flight under a clear sky"></a>
+          <span class="pill">U.S.</span>
+        </div>
+        <div class="body">
+          <h3><a href="/stories/miami-amazon-cargo-crash">NTSB recovers flight recorders after Miami Amazon cargo overrun; 5 dead on ground</a></h3>
+          <p>Black boxes recovered; 5 dead on ground; 2 runways closed.</p>
+          <div class="stamp">UPDATED · Wed. 8 a.m. EDT</div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-photo">
+          <a href="/stories/lindsay-clancy-mistrial"><img src="/img/clancy-court.jpg" alt="Historic Old County Courthouse in Plymouth, Massachusetts"></a>
+          <span class="pill">U.S.</span>
+        </div>
+        <div class="body">
+          <h3><a href="/stories/lindsay-clancy-mistrial">Judge declares mistrial in Lindsay Clancy triple-murder case after hung jury</a></h3>
+          <p>Mistrial after hung jury; DA Cruz weighs retry; Sept. 29 status.</p>
+          <div class="stamp">UPDATED · Wed. 8 a.m. EDT</div>
+        </div>
+      </article>
+    </div>
+
+
+    <div class="lower">
+      <section aria-label="Featured analysis">
+        <h2 class="section-head" id="opinion">Featured Analysis</h2>
+        <div class="feat-grid" id="analysis">
+          <div class="feat-lead">
+            <div class="feat-photo">
+              <a href="/stories/houthi-saudi-energy-attacks"><img src="/img/houthi-saudi.jpg" alt="Oil refinery industrial complex with distillation columns and flare stacks at dusk"></a>
+              <span class="pill">ENERGY</span>
+            </div>
+            <div class="feat-copy">
+              <h3><a href="/stories/houthi-saudi-energy-attacks">Houthi missiles and drones hit Saudi energy sites; 73 wounded as oil moves through $100</a></h3>
+              <p>73 wounded; Energy Ministry fires; oil through $100 on wider escalation.</p>
+              <div class="stamp">UPDATED · Wed. 8 a.m. EDT</div>
+            </div>
           </div>
-        </a>
-        <a class="story-card" href="/stories/miami-amazon-cargo-crash">
-          <img src="img/lead-miami.jpg" alt="Commercial airliner in flight under a clear sky">
-          <div class="story-card-body">
-            <span class="cat-kicker cat-us">U.S.</span>
-            <h3>NTSB recovers flight recorders after Miami Amazon cargo overrun; 5 dead on ground</h3>
-            <p>Black boxes recovered; 5 dead on ground; 2 runways closed.</p>
-            <div class="card-meta">UPDATED · Wed. 8 a.m. EDT<span class="sep">·</span>2 MIN READ</div>
+          <div class="feat-minis">
+            <article class="mini">
+              <a href="/stories/witkoff-kushner-moscow-kyiv"><img src="/img/kyiv-skyline.jpg" alt="Kyiv skyline along the Dnipro River"></a>
+              <div>
+                <span class="pill">WORLD</span>
+                <h4><a href="/stories/witkoff-kushner-moscow-kyiv">Russia resumes Kyiv strikes after U.S. envoys leave; capital pause ends</a></h4>
+                <div class="stamp">UPDATED · Tue. midday EDT</div>
+              </div>
+            </article>
+            <article class="mini">
+              <a href="/stories/iran-hormuz-strikes"><img src="/img/lead-hormuz.jpg" alt="A U.S. sailor stands watch on a warship as another vessel crosses the water"></a>
+              <div>
+                <span class="pill">ENERGY</span>
+                <h4><a href="/stories/iran-hormuz-strikes">Iran’s Hormuz exclusion-zone plans remain as Brent clears $100 on wider Gulf fighting</a></h4>
+                <div class="stamp">UPDATED · Wed. 8 a.m. EDT</div>
+              </div>
+            </article>
           </div>
-        </a>
-        <a class="story-card" href="/stories/lindsay-clancy-mistrial">
-          <img src="img/clancy-court.jpg" alt="Historic Old County Courthouse in Plymouth, Massachusetts">
-          <div class="story-card-body">
-            <span class="cat-kicker cat-us">U.S.</span>
-            <h3>Judge declares mistrial in Lindsay Clancy triple-murder case after hung jury</h3>
-            <p>Mistrial after hung jury; DA Cruz weighs retry; Sept. 29 status.</p>
-            <div class="card-meta">UPDATED · Wed. 8 a.m. EDT<span class="sep">·</span>2 MIN READ</div>
-          </div>
-        </a>
         </div>
       </section>
 
-      <aside class="latest-rail" id="latest" aria-label="Latest">
-        <div class="band-head"><span class="bar" aria-hidden="true"></span><h2>Latest</h2></div>
-        <ul class="latest-list">
-        <li>
-          <a href="/stories/doj-trump-russia-grand-jury"><img src="img/doj-building.jpg" alt="Robert F. Kennedy Department of Justice Building in Washington, D.C."></a>
-          <div>
-            <div class="latest-meta"><span class="cat">POLITICS</span>NEW · Wed. 8 a.m. EDT</div>
-            <a class="hed" href="/stories/doj-trump-russia-grand-jury">DOJ issues new Florida grand jury subpoenas in probe of Trump-Russia investigators</a>
-          </div>
-        </li>
-        <li>
-          <a href="/stories/ohio-acton-canfield-fair"><img src="img/ohio-fair.jpg" alt="County fair midway with rides and lights at dusk"></a>
-          <div>
-            <div class="latest-meta"><span class="cat">POLITICS</span>NEW · Tue. midday EDT</div>
-            <a class="hed" href="/stories/ohio-acton-canfield-fair">Armed man arrested after pushing toward Ohio gov candidate Amy Acton at Canfield Fair</a>
-          </div>
-        </li>
-        <li>
-          <a href="/stories/dhs-mullin-ice-polling"><img src="img/ice-border.jpg" alt="U.S. Border Patrol agent outdoors during an enforcement encounter"></a>
-          <div>
-            <div class="latest-meta"><span class="cat">POLITICS</span>NEW · Tue. midday EDT</div>
-            <a class="hed" href="/stories/dhs-mullin-ice-polling">DHS secretary says ICE will not patrol polls but could enter for threats or warrants</a>
-          </div>
-        </li>
-        <li>
-          <a href="/stories/canada-us-retaliatory-tariffs"><img src="img/canada-trade.jpg" alt="Ambassador Bridge spanning the Detroit River between the United States and Canada"></a>
-          <div>
-            <div class="latest-meta"><span class="cat">BUSINESS</span>UPDATED · Wed. 8 a.m. EDT</div>
-            <a class="hed" href="/stories/canada-us-retaliatory-tariffs">Trump moves to ban Canadian alcohol, dairy, and motorcycles as Ottawa’s counter-tariffs take effect</a>
-          </div>
-        </li>
-        </ul>
-      </aside>
-    </div>
 
-    <section class="featured" id="featured">
-      <div class="band-head"><span class="bar" aria-hidden="true"></span><h2>Featured Analysis</h2></div>
-      <div class="featured-grid">
-        <a class="featured-main" href="/stories/houthi-saudi-energy-attacks">
-          <img src="img/houthi-saudi.jpg" alt="Oil refinery industrial complex with distillation columns and flare stacks at dusk">
+      <aside class="latest" aria-label="Latest">
+        <h2 class="section-head">Latest</h2>
+        <article class="latest-item">
+          <a href="/stories/doj-trump-russia-grand-jury"><img src="/img/doj-building.jpg" alt="Robert F. Kennedy Department of Justice Building in Washington, D.C."></a>
           <div>
-            <span class="cat-kicker cat-energy">ENERGY</span>
-            <h3>Houthi missiles and drones hit Saudi energy sites; 73 wounded as oil moves through $100</h3>
-            <p>73 wounded; Energy Ministry fires; oil through $100 on wider escalation.</p>
+            <div class="meta">POLITICS</div>
+            <h4><a href="/stories/doj-trump-russia-grand-jury">DOJ issues new Florida grand jury subpoenas in probe of Trump-Russia investigators</a></h4>
+            <div class="stamp">NEW · Wed. 8 a.m. EDT</div>
           </div>
-        </a>
-      <div class="featured-side">
-        <a href="/stories/witkoff-kushner-moscow-kyiv">
-          <img src="img/kyiv-skyline.jpg" alt="Kyiv skyline along the Dnipro River">
+        </article>
+        <article class="latest-item">
+          <a href="/stories/ohio-acton-canfield-fair"><img src="/img/ohio-fair.jpg" alt="County fair midway with rides and lights at dusk"></a>
           <div>
-            <span class="cat-kicker cat-world">WORLD</span>
-            <h3>Russia resumes Kyiv strikes after U.S. envoys leave; capital pause ends</h3>
+            <div class="meta">POLITICS</div>
+            <h4><a href="/stories/ohio-acton-canfield-fair">Armed man arrested after pushing toward Ohio gov candidate Amy Acton at Canfield Fair</a></h4>
+            <div class="stamp">NEW · Tue. midday EDT</div>
           </div>
-        </a>
-        <a href="/stories/iran-hormuz-strikes">
-          <img src="img/lead-hormuz.jpg" alt="A U.S. sailor stands watch on a warship as another vessel crosses the water">
+        </article>
+        <article class="latest-item">
+          <a href="/stories/dhs-mullin-ice-polling"><img src="/img/ice-border.jpg" alt="U.S. Border Patrol agent outdoors during an enforcement encounter"></a>
           <div>
-            <span class="cat-kicker cat-energy">ENERGY</span>
-            <h3>Iran’s Hormuz exclusion-zone plans remain as Brent clears $100 on wider Gulf fighting</h3>
+            <div class="meta">POLITICS</div>
+            <h4><a href="/stories/dhs-mullin-ice-polling">DHS secretary says ICE will not patrol polls but could enter for threats or warrants</a></h4>
+            <div class="stamp">NEW · Tue. midday EDT</div>
           </div>
-        </a>
-      </div>
-      </div>
-    </section>
+        </article>
+        <article class="latest-item">
+          <a href="/stories/canada-us-retaliatory-tariffs"><img src="/img/canada-trade.jpg" alt="Ambassador Bridge spanning the Detroit River between the United States and Canada"></a>
+          <div>
+            <div class="meta">BUSINESS</div>
+            <h4><a href="/stories/canada-us-retaliatory-tariffs">Trump moves to ban Canadian alcohol, dairy, and motorcycles as Ottawa’s counter-tariffs take effect</a></h4>
+            <div class="stamp">UPDATED · Wed. 8 a.m. EDT</div>
+          </div>
+        </article>
+      </aside>
+
+    </div>
   </main>
 
-  <footer class="site-footer" id="method">
-    <div class="foot-inner">
-      <div class="foot-top">
-        <a class="foot-brand" href="/">
-          <img class="brand-mark" src="/img/brand-mark.png" width="44" height="44" alt="">
-          <span>
-            <span class="brand-name" style="font-size:20px">GROK BOT</span>
-            <span class="brand-news" style="display:flex">NEWS</span>
-            <p class="foot-tagline">REAL NEWS <span class="slash">/</span> REAL VIEWS <span class="slash">/</span> SAME WEIGHT</p>
-          </span>
+  <footer class="foot">
+    <div class="topbar-grid" aria-hidden="true"></div>
+    <span class="slash slash-l1" aria-hidden="true"></span>
+    <span class="slash slash-l2" aria-hidden="true"></span>
+    <span class="slash slash-r1" aria-hidden="true"></span>
+    <span class="slash slash-r2" aria-hidden="true"></span>
+    <div class="foot-top">
+      <a class="brand" href="/">
+        <span class="mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" fill="none" aria-hidden="true">
+            <circle cx="32" cy="32" r="29" stroke="#fff" stroke-width="3"/>
+            <circle cx="32" cy="32" r="24" stroke="#d3122a" stroke-width="2.2"/>
+            <path d="M14 46 L50 18" stroke="#d3122a" stroke-width="3.5"/>
+            <text x="32" y="40" text-anchor="middle" fill="#fff" font-size="20" font-family="Arial Black, Helvetica, sans-serif" font-weight="800">GB</text>
+          </svg>
+        </span>
+        <span class="word">
+          <span class="row1">GROK BOT</span>
+          <span class="row2"><span class="news-word">NEWS</span></span>
+        </span>
+      </a>
+      <p class="tagline">Real News <span>/</span> Real Views <span>/</span> Same Weight</p>
+      <div class="social">
+        <a class="x-link" href="https://x.com/grokbotnews" rel="noopener" target="_blank">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          <span class="sr">Grok Bot News on X</span>
         </a>
-        <div class="foot-social">
-          <a href="https://x.com/grokbotnews" rel="noopener" aria-label="Grok Bot News on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg> <span>X</span></a>
-        </div>
-      </div>
-      <p class="method">Humans didn’t write today’s copy; both frames are generated from public sources. Headlines and kickers state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, in the same type, with named outlets or officials and outbound links. The site does not declare a winner in the headline. Summaries are original and short. Full articles are not reproduced.</p>
-      <p class="legal">Independent staging page for grokbotnews.com. Original wordmark. Not affiliated with any broadcast or cable news company. No accounts, no comments, no donations. Photographs are news-file images used for layout; they are not claimed as original field work by this site.</p>
-      <div class="foot-bottom">
-        <div class="foot-links">
-          <a href="/#method">About</a>
-          <a href="https://x.com/grokbotnews" rel="noopener">Contact</a>
-        </div>
-        <div>© 2026 Grok Bot News. All rights reserved.</div>
+        <span class="ghost" aria-hidden="true"></span>
+        <span class="ghost" aria-hidden="true"></span>
       </div>
     </div>
+    <div class="foot-bot">
+      <nav>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#privacy">Privacy Policy</a>
+        <a href="#terms">Terms of Service</a>
+      </nav>
+      <div class="foot-copy">© 2026 Grok Bot News. All rights reserved.</div>
+    </div>
+    <p class="method">Humans didn’t write today’s copy; both frames are generated from public sources. Headlines and kickers state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, in the same type, with named outlets or officials and outbound links. The site does not declare a winner in the headline. Summaries are original and short. Full articles are not reproduced.</p>
   </footer>
+
 </body>
 </html>

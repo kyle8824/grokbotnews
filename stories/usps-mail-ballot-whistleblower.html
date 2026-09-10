@@ -27,37 +27,50 @@
 </head>
 <body>
   <a class="skip" href="#main">Skip to stories</a>
-  <header class="masthead">
-    <div class="masthead-inner">
+  <header class="topbar">
+    <div class="topbar-grid" aria-hidden="true"></div>
+    <span class="slash slash-l1" aria-hidden="true"></span>
+    <span class="slash slash-l2" aria-hidden="true"></span>
+    <span class="slash slash-r1" aria-hidden="true"></span>
+    <span class="slash slash-r2" aria-hidden="true"></span>
+    <div class="topbar-inner">
       <a class="brand" href="/">
-        <img class="brand-mark" src="/img/brand-mark.png" width="52" height="52" alt="">
-        <span class="brand-text">
-          <span class="brand-name">GROK BOT</span>
-          <span class="brand-news">NEWS</span>
+        <span class="mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" fill="none" aria-hidden="true">
+            <circle cx="32" cy="32" r="29" stroke="#fff" stroke-width="3"/>
+            <circle cx="32" cy="32" r="24" stroke="#d3122a" stroke-width="2.2"/>
+            <path d="M14 46 L50 18" stroke="#d3122a" stroke-width="3.5"/>
+            <text x="32" y="40" text-anchor="middle" fill="#fff" font-size="20" font-family="Arial Black, Helvetica, sans-serif" font-weight="800">GB</text>
+          </svg>
+        </span>
+        <span class="word">
+          <span class="row1">GROK BOT</span>
+          <span class="row2"><span class="news-word">NEWS</span></span>
         </span>
       </a>
-      <p class="tagline">REAL NEWS <span class="slash">/</span> REAL VIEWS <span class="slash">/</span> SAME WEIGHT</p>
+      <p class="tagline">Real News <span>/</span> Real Views <span>/</span> Same Weight</p>
     </div>
   </header>
-  <nav class="nav-bar" aria-label="Sections">
-    <div class="nav">
-      <a class="nav-home" href="/" aria-label="Home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg></a>
-      <a class="nav-link" href="/#top-stories">Top Stories</a>
-      <a class="nav-link" href="/#latest">U.S.</a>
-      <a class="nav-link" href="/#featured">World</a>
-      <a class="nav-link" href="/">Politics</a>
-      <a class="nav-link" href="/#latest">Business</a>
-      <a class="nav-link" href="/#featured">Energy</a>
-      <a class="nav-link" href="/#top-stories">Tech</a>
-      <a class="nav-link" href="/#top-stories">Entertainment</a>
-      <a class="nav-link" href="/#top-stories">Sports</a>
-      <a class="nav-link" href="/#featured">Opinion</a>
-      <div class="nav-utils">
-        <button type="button" class="nav-util" aria-label="Search" disabled title="Search coming soon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 5L20.49 19l-5-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg></button>
-        <button type="button" class="nav-util" aria-label="Menu" disabled title="Menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/></svg></button>
+  <nav class="nav" aria-label="Sections">
+    <div class="nav-inner">
+      <a class="home" href="/" aria-label="Home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg></a>
+      <a class="active" href="/#top">Top Stories</a>
+      <a href="/#top">U.S.</a>
+      <a href="/#top">World</a>
+      <a href="/">Politics</a>
+      <a href="/#top">Business</a>
+      <a href="/#analysis">Energy</a>
+      <a href="/#top">Tech</a>
+      <a href="/#top">Entertainment</a>
+      <a href="/#top">Sports</a>
+      <a href="/#opinion">Opinion</a>
+      <div class="nav-tools">
+        <a class="icon" href="#search" aria-label="Search"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 5L20.49 19l-5-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg></a>
+        <a class="icon" href="#menu" aria-label="Menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/></svg></a>
       </div>
     </div>
   </nav>
+
   <main id="main" class="wrap story-page">
     <p><a class="back-home" href="/">← All stories</a></p>
     <article>
@@ -93,31 +106,48 @@
       </div>
     </article>
   </main>
-  <footer class="site-footer" id="method">
-    <div class="foot-inner">
-      <div class="foot-top">
-        <a class="foot-brand" href="/">
-          <img class="brand-mark" src="/img/brand-mark.png" width="44" height="44" alt="">
-          <span>
-            <span class="brand-name" style="font-size:20px">GROK BOT</span>
-            <span class="brand-news" style="display:flex">NEWS</span>
-            <p class="foot-tagline">REAL NEWS <span class="slash">/</span> REAL VIEWS <span class="slash">/</span> SAME WEIGHT</p>
-          </span>
+  <footer class="foot">
+    <div class="topbar-grid" aria-hidden="true"></div>
+    <span class="slash slash-l1" aria-hidden="true"></span>
+    <span class="slash slash-l2" aria-hidden="true"></span>
+    <span class="slash slash-r1" aria-hidden="true"></span>
+    <span class="slash slash-r2" aria-hidden="true"></span>
+    <div class="foot-top">
+      <a class="brand" href="/">
+        <span class="mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" fill="none" aria-hidden="true">
+            <circle cx="32" cy="32" r="29" stroke="#fff" stroke-width="3"/>
+            <circle cx="32" cy="32" r="24" stroke="#d3122a" stroke-width="2.2"/>
+            <path d="M14 46 L50 18" stroke="#d3122a" stroke-width="3.5"/>
+            <text x="32" y="40" text-anchor="middle" fill="#fff" font-size="20" font-family="Arial Black, Helvetica, sans-serif" font-weight="800">GB</text>
+          </svg>
+        </span>
+        <span class="word">
+          <span class="row1">GROK BOT</span>
+          <span class="row2"><span class="news-word">NEWS</span></span>
+        </span>
+      </a>
+      <p class="tagline">Real News <span>/</span> Real Views <span>/</span> Same Weight</p>
+      <div class="social">
+        <a class="x-link" href="https://x.com/grokbotnews" rel="noopener" target="_blank">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          <span class="sr">Grok Bot News on X</span>
         </a>
-        <div class="foot-social">
-          <a href="https://x.com/grokbotnews" rel="noopener" aria-label="Grok Bot News on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg> <span>X</span></a>
-        </div>
-      </div>
-      <p class="method">Headlines state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, with named outlets and outbound links. Summaries are original and short. Full articles are not reproduced.</p>
-      <p class="legal">Independent staging page for grokbotnews.com. Original wordmark. Not affiliated with any broadcast or cable news company. No accounts, no comments, no donations.</p>
-      <div class="foot-bottom">
-        <div class="foot-links">
-          <a href="/#method">About</a>
-          <a href="https://x.com/grokbotnews" rel="noopener">Contact</a>
-        </div>
-        <div>© 2026 Grok Bot News. All rights reserved.</div>
+        <span class="ghost" aria-hidden="true"></span>
+        <span class="ghost" aria-hidden="true"></span>
       </div>
     </div>
+    <div class="foot-bot">
+      <nav>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#privacy">Privacy Policy</a>
+        <a href="#terms">Terms of Service</a>
+      </nav>
+      <div class="foot-copy">© 2026 Grok Bot News. All rights reserved.</div>
+    </div>
+    <p class="method">Headlines state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, with named outlets and outbound links. Summaries are original and short. Full articles are not reproduced.</p>
   </footer>
+
 </body>
 </html>
