@@ -1,12 +1,13 @@
 {
   "site_url": "https://www.grokbotnews.com",
-  "title": "Grok Bot News — Thursday, September 10, 2026",
+  "title": "Grok Bot News \u2014 Thursday, September 10, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Thursday, September 10, 2026 · 4:00 p.m. EDT",
-  "utility_markets": "USPS 1st Cir · Missouri contempt · Oil ~$102",
-  "breaking": "First Circuit leaves USPS mail-ballot block in place; SCOTUS still weighing DOJ stay.",
+  "utility_live": "Thursday, September 10, 2026 \u00b7 4:15 p.m. EDT",
+  "utility_markets": "ACA $500 rebate \u00b7 USPS 1st Cir \u00b7 Oil ~$102",
+  "breaking": "White House: ~1M HealthCare.gov enrollees to get $500 ACA rebate checks starting in October.",
   "order": [
+    "trump-aca-500-rebate",
     "usps-mail-ballot-whistleblower",
     "missouri-redistricting-referendum",
     "houthi-mocha-bab-el-mandeb",
@@ -28,6 +29,7 @@
     "iran-hormuz-strikes"
   ],
   "stack": [
+    "trump-aca-500-rebate",
     "usps-mail-ballot-whistleblower",
     "missouri-redistricting-referendum",
     "houthi-mocha-bab-el-mandeb",
@@ -43,6 +45,7 @@
       "id": "us",
       "label": "U.S. & Washington",
       "slugs": [
+        "trump-aca-500-rebate",
         "usps-mail-ballot-whistleblower",
         "missouri-redistricting-referendum",
         "trump-5000-dividend-pledge",
@@ -78,47 +81,52 @@
   ],
   "rail_wire": [
     {
+      "label": "ACA.",
+      "text": "White House: ~1M unsubsidized federal-exchange enrollees get $500 rebates; Oct. mailings; Dems call gimmick.",
+      "stamp": "NEW \u00b7 4:15 p.m."
+    },
+    {
       "label": "USPS.",
       "text": "1st Circuit leaves Talwani PI blocking Aug. 26 Ballot Mail rule; SCOTUS 26A305 still pending.",
-      "stamp": "UPDATED · 4:00 p.m."
+      "stamp": "UPDATED \u00b7 4:00 p.m."
     },
     {
       "label": "Missouri.",
       "text": "State high court finds Hoskins in contempt, says he purged it by directing 2022 map after SCOTUS stay.",
-      "stamp": "UPDATED · 4:00 p.m."
+      "stamp": "UPDATED \u00b7 4:00 p.m."
     },
     {
       "label": "Mocha.",
       "text": "Houthis take Red Sea port; NRF retreats toward Dhubab near Bab al-Mandeb.",
-      "stamp": "NEW · 3:00 p.m."
+      "stamp": "NEW \u00b7 3:00 p.m."
     },
     {
       "label": "Dividend.",
-      "text": "Trump $5K midterm pledge; economists cite ~$1.15–$1.35T; Vance cites tariffs.",
-      "stamp": "NEW · 2:00 p.m."
+      "text": "Trump $5K midterm pledge; economists cite ~$1.15\u2013$1.35T; Vance cites tariffs.",
+      "stamp": "NEW \u00b7 2:00 p.m."
     },
     {
       "label": "Miami.",
-      "text": "NTSB CVR: one pilot warned “too fast” ~2 min; FDR shows no speed brakes/reversers.",
-      "stamp": "UPDATED · 10:10 a.m."
+      "text": "NTSB CVR: one pilot warned \u201ctoo fast\u201d ~2 min; FDR shows no speed brakes/reversers.",
+      "stamp": "UPDATED \u00b7 10:10 a.m."
     },
     {
       "label": "Census.",
       "text": "Proposed 2030 rule would exclude non-permanent residents from apportionment base; 30-day comment.",
-      "stamp": "NEW · 9:30 a.m."
-    },
-    {
-      "label": "Gulf.",
-      "text": "U.S.–Iran tanker/Jordan base fighting; Trump ties war end to midterms.",
-      "stamp": "UPDATED · Thu."
+      "stamp": "NEW \u00b7 9:30 a.m."
     }
   ],
   "markets": {
-    "heading": "Markets · Thursday 4:00 p.m.",
+    "heading": "Markets \u00b7 Thursday 4:15 p.m.",
     "rows": [
       {
         "label": "Crude oil",
         "value": "Brent ~$102 / WTI ~$97",
+        "dir": "up"
+      },
+      {
+        "label": "ACA rebates",
+        "value": "$500 checks \u00b7 ~1M enrollees",
         "dir": "up"
       },
       {
@@ -127,24 +135,19 @@
         "dir": "up"
       },
       {
-        "label": "House map fight",
-        "value": "MO: Hoskins purged contempt",
-        "dir": "up"
-      },
-      {
         "label": "Gulf risk",
         "value": "Tankers + Hormuz + Mocha port",
         "dir": "up"
       }
     ],
-    "credit": "Oil ~ranges from Thursday Reuters/EnergyNow reporting (Brent holding above $100; WTI high $90s). USPS and Missouri stamps from afternoon court reporting."
+    "credit": "Oil ~ranges from Thursday Reuters reporting. ACA rebate stamp from White House/Axios/Hill coverage."
   },
   "ticker": [
     "USPS|1st Circuit declines stay of Talwani PI on USPS mail-ballot rule; SCOTUS 26A305 pending",
     "MISSOURI|State high court finds Hoskins in contempt; says he purged it by directing 2022 map",
     "MOCHA|Houthis seize Mocha near Bab al-Mandeb; NRF pulls toward Dhubab",
-    "DIVIDEND|Trump $5K midterm “dividend”; cost estimates near $1T+; Vance cites tariffs",
-    "MIAMI|NTSB: cargo pilot warned “too fast” nearly 2 minutes before Miami overrun",
+    "DIVIDEND|Trump $5K midterm \u201cdividend\u201d; cost estimates near $1T+; Vance cites tariffs",
+    "MIAMI|NTSB: cargo pilot warned \u201ctoo fast\u201d nearly 2 minutes before Miami overrun",
     "CENSUS|Bureau proposes 2030 rules excluding non-permanent residents from apportionment count",
     "DALLAS|Trump midterm keynote; floats $5K dividend if GOP holds Congress",
     "GULF|Trump says Iran war ends after midterms; Pickaxe Mountain warning",
@@ -185,8 +188,8 @@
       "updated": "2026-09-04"
     }
   ],
-  "footer_method": "Humans didn’t write today’s copy; both frames are generated from public sources. Headlines and kickers state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, in the same type, with named outlets or officials and outbound links. The site does not declare a winner in the headline. Summaries are original and short. Full articles are not reproduced.",
+  "footer_method": "Humans didn\u2019t write today\u2019s copy; both frames are generated from public sources. Headlines and kickers state the event only. Each story then carries two viewpoint blocks \u2014 typical center-left and typical center-right \u2014 at the same size, in the same type, with named outlets or officials and outbound links. The site does not declare a winner in the headline. Summaries are original and short. Full articles are not reproduced.",
   "footer_legal": "Independent staging page for grokbotnews.com. Original wordmark. Not affiliated with any broadcast or cable news company. No accounts, no comments, no donations. Photographs are news-file images used for layout; they are not claimed as original field work by this site.",
-  "story_footer_method": "Headlines state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, with named outlets and outbound links. Summaries are original and short. Full articles are not reproduced.",
+  "story_footer_method": "Headlines state the event only. Each story then carries two viewpoint blocks \u2014 typical center-left and typical center-right \u2014 at the same size, with named outlets and outbound links. Summaries are original and short. Full articles are not reproduced.",
   "story_footer_legal": "Independent staging page for grokbotnews.com. Original wordmark. Not affiliated with any broadcast or cable news company. No accounts, no comments, no donations."
 }

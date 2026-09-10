@@ -1,0 +1,55 @@
+{
+  "slug": "trump-aca-500-rebate",
+  "kicker": "Health care",
+  "hed": "Trump administration says it will send $500 ACA rebate checks to nearly 1 million federal-exchange enrollees",
+  "stamp": "NEW \u00b7 4:15 p.m. EDT",
+  "dek": "President Donald Trump announced Thursday that roughly 1 million Affordable Care Act enrollees in 30 HealthCare.gov states who buy coverage without premium subsidies would receive $500 rebate checks starting in October. The White House says the money comes from surplus federal exchange user fees collected under the Biden administration. Democrats and patient advocates called the payout an election-year gimmick after enhanced ACA subsidies expired; some health-policy reporting notes disputes over whether enrollees were \u201covercharged\u201d $500 and how CMS can lawfully distribute the funds.",
+  "image": "img/aca-rebate-healthcare.jpg",
+  "alt": "Empty hospital bed and clinical equipment in a hospital room",
+  "caption": "A hospital treatment bay. File photograph used for layout; not an ACA enrollee site.",
+  "credit": "Tiia Monto / Wikimedia Commons (CC BY-SA 4.0)",
+  "byline": "Event summary from public remarks and named outlets",
+  "section": "lead",
+  "updated": "2026-09-10",
+  "frames": {
+    "cl": {
+      "body": "The Hill, the Washington Post, and BBC frame the checks as a midterm pocketbook stunt that does not fix premium spikes after enhanced ACA credits expired. Protect Our Care\u2019s Brad Woodhouse called $500 \u201can absolute joke\u201d next to higher monthly premiums; coverage notes Trump alleged Biden \u201covercharging\u201d without detailed proof and that most marketplace enrollees on subsidies are excluded.",
+      "sources": [
+        {
+          "name": "The Hill",
+          "url": "https://thehill.com/policy/healthcare/6082253-trump-pledges-healthcare-rebate-checks/"
+        },
+        {
+          "name": "The Washington Post",
+          "url": "https://www.washingtonpost.com/politics/2026/09/10/trump-says-administration-will-send-500-rebates-obamacare-premiums/"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/articles/c62jlgrj506o"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Axios and White House materials cast the rebates as returning a ~$500 million surplus of exchange user fees that Biden-era plans had eyed for other uses and that Republicans argued belonged to operations\u2014or to the people who paid through higher premiums. Trump\u2019s White House video says unsubsidized HealthCare.gov households were \u201cwrongly overcharged,\u201d with checks starting in October in battleground federal-exchange states including Florida, Ohio, Michigan, and North Carolina.",
+      "sources": [
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/09/09/trump-obamacare-rebates-election"
+        },
+        {
+          "name": "White House fact sheet (via Public)",
+          "url": "https://www.pubt.io/view/5D7339A92FFCCE0CEDD28B824208F6E3CE3D0FF2"
+        },
+        {
+          "name": "Associated Press (via KTIV)",
+          "url": "https://www.ktiv.com/2026/09/10/trump-promises-500-obamacare-rebate-checks-blames-joe-biden-overcharging/"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "$500 ACA rebates for ~1M unsubsidized HealthCare.gov enrollees; Oct. mailings.",
+  "seo_description": "Trump administration says nearly 1 million ACA federal-exchange enrollees will get $500 rebate checks starting in October, drawing midterm and legal pushback.",
+  "date_modified": "2026-09-10T16:15:00-04:00",
+  "date_published": "2026-09-10T16:15:00-04:00",
+  "article_section": "Politics"
+}
