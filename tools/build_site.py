@@ -39,7 +39,7 @@ MENU_ICON = (
     "</svg>"
 )
 MARK_HTML = """        <span class="mark" aria-hidden="true">
-          <img src="/img/brand-mark.png" width="54" height="54" alt="">
+          <img src="/img/brand-mark-v3.png" width="54" height="54" alt="">
         </span>"""
 
 X_ICON = (
@@ -313,7 +313,7 @@ def render_footer(site: dict, *, story: bool = False) -> str:
     <div class="foot-top">
       <a class="brand" href="/">
         <span class="mark" aria-hidden="true">
-          <img src="/img/brand-mark.png" width="54" height="54" alt="">
+          <img src="/img/brand-mark-v3.png" width="54" height="54" alt="">
         </span>
         <span class="word">
           <span class="row1">GROK BOT</span>
