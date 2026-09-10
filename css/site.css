@@ -104,8 +104,16 @@ a { color: inherit; text-decoration: none; }
   border-radius: 50%;
   display: grid;
   place-items: center;
-  background: radial-gradient(circle at 32% 28%, #2a3d54, #050b12);
+  overflow: hidden;
   flex-shrink: 0;
+  background: #050b12;
+}
+.mark img {
+  width: 54px;
+  height: 54px;
+  object-fit: cover;
+  display: block;
+  border-radius: 50%;
 }
 .mark svg { width: 54px; height: 54px; display: block; }
 .word {
@@ -573,7 +581,7 @@ a { color: inherit; text-decoration: none; }
 
 @media (max-width: 1100px) {
   .topbar-inner { padding: 10px 16px 9px; }
-  .mark, .mark svg { width: 44px; height: 44px; }
+  .mark, .mark svg, .mark img { width: 44px; height: 44px; }
   .word { min-width: 140px; }
   .word .row1 { font-size: 22px; }
   .word .row2 { margin-top: 4px; }
@@ -646,14 +654,18 @@ a { color: inherit; text-decoration: none; }
 
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
 .social a.x-link {
-  width: 28px; height: 28px;
-  border: 1px solid rgba(255,255,255,.4);
+  width: 32px; height: 32px;
+  border: 1px solid rgba(255,255,255,.45);
   border-radius: 50%;
-  display: grid;
-  place-items: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   color: #fff;
+  text-decoration: none;
 }
-.social a.x-link:hover { border-color: #fff; background: rgba(255,255,255,.08); }
+.social a.x-link svg { display: block; }
+.social a.x-link:hover { border-color: #fff; background: rgba(255,255,255,.1); color: #fff; }
+.social .ghost { display: none; }
 
 .story-page { max-width: 860px; margin: 0 auto; padding: 24px 16px 48px; }
 .story-page .kicker { color: var(--red); font-size: 12px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; margin: 0 0 8px; }
@@ -693,3 +705,8 @@ a { color: inherit; text-decoration: none; }
 .sources a { color: #16385c; text-decoration: underline; text-underline-offset: 2px; }
 .back { display: inline-block; margin: 18px 0 0; font-size: 13px; font-weight: 700; color: var(--red); }
 @media (max-width: 720px) { .frames { grid-template-columns: 1fr; } }
+
+/* Nav jump targets clear sticky topbar */
+#top, #us, #world, #politics, #business, #energy, #tech, #opinion, #latest, #analysis {
+  scroll-margin-top: 72px;
+}

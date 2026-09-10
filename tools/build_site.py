@@ -38,10 +38,14 @@ MENU_ICON = (
     '<path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/>'
     "</svg>"
 )
+MARK_HTML = """        <span class="mark" aria-hidden="true">
+          <img src="/img/brand-mark.png" width="54" height="54" alt="">
+        </span>"""
+
 X_ICON = (
-    '<svg viewBox="0 0 24 24" aria-hidden="true">'
-    '<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 '
-    "21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 "
+    '<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true">'
+    '<path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817'
+    "L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 "
     '17.52h1.833L7.084 4.126H5.117z"/>'
     "</svg>"
 )
@@ -240,19 +244,23 @@ def favicons() -> str:
   <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">"""
 
 
-def render_masthead(*, home: bool) -> str:
-    brand_href = "/" if not home else "#politics"
-    home_href = "#politics" if home else "/"
-    top = "#top" if home else "/#top"
-    us = "#top" if home else "/#top"
-    world = "#top" if home else "/#top"
-    politics = "#politics" if home else "/"
-    business = "#top" if home else "/#top"
-    energy = "#analysis" if home else "/#analysis"
-    tech = top
-    entertainment = top
-    sports = top
-    opinion = "#opinion" if home else "/#opinion"
+def render_masthead(*, home: bool, nav: dict[str, str] | None = None) -> str:
+    nav = nav or {}
+    def n(key: str, fallback: str) -> str:
+        return nav.get(key) or fallback
+
+    brand_href = "/" if not home else n("home", "#politics")
+    home_href = n("home", "#politics") if home else "/"
+    top = n("top", "#top") if home else "/#top"
+    us = n("us", "#us") if home else "/#us"
+    world = n("world", "#world") if home else "/#world"
+    politics = n("politics", "#politics") if home else "/#politics"
+    business = n("business", "#business") if home else "/#business"
+    energy = n("energy", "#energy") if home else "/#energy"
+    tech = n("tech", "#tech") if home else "/#tech"
+    entertainment = n("entertainment", top) if home else "/#top"
+    sports = n("sports", top) if home else "/#top"
+    opinion = n("opinion", "#opinion") if home else "/#opinion"
 
     return f"""  <header class="topbar">
     <div class="topbar-grid" aria-hidden="true"></div>
@@ -262,14 +270,7 @@ def render_masthead(*, home: bool) -> str:
     <span class="slash slash-r2" aria-hidden="true"></span>
     <div class="topbar-inner">
       <a class="brand" href="{brand_href}">
-        <span class="mark" aria-hidden="true">
-          <svg viewBox="0 0 64 64" fill="none" aria-hidden="true">
-            <circle cx="32" cy="32" r="29" stroke="#fff" stroke-width="3"/>
-            <circle cx="32" cy="32" r="24" stroke="#d3122a" stroke-width="2.2"/>
-            <path d="M14 46 L50 18" stroke="#d3122a" stroke-width="3.5"/>
-            <text x="32" y="40" text-anchor="middle" fill="#fff" font-size="20" font-family="Arial Black, Helvetica, sans-serif" font-weight="800">GB</text>
-          </svg>
-        </span>
+{MARK_HTML}
         <span class="word">
           <span class="row1">GROK BOT</span>
           <span class="row2"><span class="news-word">NEWS</span></span>
@@ -312,12 +313,7 @@ def render_footer(site: dict, *, story: bool = False) -> str:
     <div class="foot-top">
       <a class="brand" href="/">
         <span class="mark" aria-hidden="true">
-          <svg viewBox="0 0 64 64" fill="none" aria-hidden="true">
-            <circle cx="32" cy="32" r="29" stroke="#fff" stroke-width="3"/>
-            <circle cx="32" cy="32" r="24" stroke="#d3122a" stroke-width="2.2"/>
-            <path d="M14 46 L50 18" stroke="#d3122a" stroke-width="3.5"/>
-            <text x="32" y="40" text-anchor="middle" fill="#fff" font-size="20" font-family="Arial Black, Helvetica, sans-serif" font-weight="800">GB</text>
-          </svg>
+          <img src="/img/brand-mark.png" width="54" height="54" alt="">
         </span>
         <span class="word">
           <span class="row1">GROK BOT</span>
@@ -326,12 +322,9 @@ def render_footer(site: dict, *, story: bool = False) -> str:
       </a>
       <p class="tagline">Real News <span>/</span> Real Views <span>/</span> Same Weight</p>
       <div class="social">
-        <a class="x-link" href="https://x.com/grokbotnews" rel="noopener" target="_blank">
+        <a class="x-link" href="https://x.com/grokbotnews" rel="noopener" target="_blank" aria-label="Grok Bot News on X">
           {X_ICON}
-          <span class="sr">Grok Bot News on X</span>
         </a>
-        <span class="ghost" aria-hidden="true"></span>
-        <span class="ghost" aria-hidden="true"></span>
       </div>
     </div>
     <div class="foot-bot">
@@ -390,13 +383,15 @@ def render_trending(slugs: list[str], stories: dict[str, dict]) -> str:
 """
 
 
-def render_top_cards(slugs: list[str], stories: dict[str, dict]) -> str:
+def render_top_cards(slugs: list[str], stories: dict[str, dict], claimed: set[str] | None = None) -> str:
+    claimed = claimed if claimed is not None else set()
     cards = []
     for slug in slugs:
         s = stories[slug]
         label, _ = nav_category(s)
+        sid = section_id_for_story(slug, stories, claimed)
         cards.append(
-            f"""      <article class="card">
+            f"""      <article class="card"{sid}>
         <div class="card-photo">
           <a href="/stories/{esc(slug)}"><img src="/{esc(img_src(s["image"]))}" alt="{esc(s.get("alt", ""))}"></a>
           <span class="pill">{esc(label)}</span>
@@ -416,13 +411,15 @@ def render_top_cards(slugs: list[str], stories: dict[str, dict]) -> str:
     )
 
 
-def render_latest(slugs: list[str], stories: dict[str, dict]) -> str:
+def render_latest(slugs: list[str], stories: dict[str, dict], claimed: set[str] | None = None) -> str:
+    claimed = claimed if claimed is not None else set()
     items = []
     for slug in slugs:
         s = stories[slug]
         label, _ = nav_category(s)
+        sid = section_id_for_story(slug, stories, claimed)
         items.append(
-            f"""        <article class="latest-item">
+            f"""        <article class="latest-item"{sid}>
           <a href="/stories/{esc(slug)}"><img src="/{esc(img_src(s["image"]))}" alt="{esc(s.get("alt", ""))}"></a>
           <div>
             <div class="meta">{esc(label)}</div>
@@ -432,24 +429,27 @@ def render_latest(slugs: list[str], stories: dict[str, dict]) -> str:
         </article>"""
         )
     return (
-        '      <aside class="latest" aria-label="Latest">\n'
+        '      <aside class="latest" id="latest" aria-label="Latest">\n'
         '        <h2 class="section-head">Latest</h2>\n'
         + "\n".join(items)
         + "\n      </aside>\n"
     )
 
 
-def render_featured(slugs: list[str], stories: dict[str, dict]) -> str:
+def render_featured(slugs: list[str], stories: dict[str, dict], claimed: set[str] | None = None) -> str:
     if not slugs:
         return ""
+    claimed = claimed if claimed is not None else set()
     main = stories[slugs[0]]
     main_label, _ = nav_category(main)
+    main_sid = section_id_for_story(main["slug"], stories, claimed)
     minis = []
     for slug in slugs[1:]:
         s = stories[slug]
         label, _ = nav_category(s)
+        sid = section_id_for_story(slug, stories, claimed)
         minis.append(
-            f"""            <article class="mini">
+            f"""            <article class="mini"{sid}>
               <a href="/stories/{esc(slug)}"><img src="/{esc(img_src(s["image"]))}" alt="{esc(s.get("alt", ""))}"></a>
               <div>
                 <span class="pill">{esc(label)}</span>
@@ -461,7 +461,7 @@ def render_featured(slugs: list[str], stories: dict[str, dict]) -> str:
     return f"""      <section aria-label="Featured analysis">
         <h2 class="section-head" id="opinion">Featured Analysis</h2>
         <div class="feat-grid" id="analysis">
-          <div class="feat-lead">
+          <div class="feat-lead"{main_sid}>
             <div class="feat-photo">
               <a href="/stories/{esc(main["slug"])}"><img src="/{esc(img_src(main["image"]))}" alt="{esc(main.get("alt", ""))}"></a>
               <span class="pill">{esc(main_label)}</span>
@@ -496,6 +496,63 @@ def render_views_layer() -> str:
     </div>
   </div>
   <script src="js/views.js" defer></script>"""
+
+
+
+def homepage_nav_targets(order: list[str], stories: dict[str, dict]) -> dict[str, str]:
+    """First on-page anchor for each nav label; defaults to #top when absent."""
+    targets = {
+        "home": "#politics",
+        "top": "#top",
+        "politics": "#politics",
+        "opinion": "#opinion",
+        "us": "#top",
+        "world": "#top",
+        "business": "#top",
+        "energy": "#top",
+        "tech": "#top",
+        "entertainment": "#top",
+        "sports": "#top",
+    }
+    seen: set[str] = set()
+    for slug in order:
+        s = stories[slug]
+        label, css = nav_category(s)
+        key = css  # business|energy|world|us|politics...
+        # map css to nav keys
+        nav_key = {
+            "business": "business",
+            "energy": "energy",
+            "world": "world",
+            "us": "us",
+            "politics": "politics",
+            "tech": "tech",
+        }.get(css)
+        if not nav_key or nav_key in seen:
+            continue
+        # politics lead already #politics
+        if nav_key == "politics":
+            seen.add(nav_key)
+            continue
+        targets[nav_key] = f"#{nav_key}"
+        seen.add(nav_key)
+    return targets
+
+
+def section_id_for_story(slug: str, stories: dict[str, dict], claimed: set[str]) -> str:
+    """Return id=\"us\" etc. the first time that category appears (skip politics/lead)."""
+    label, css = nav_category(stories[slug])
+    nav_key = {
+        "business": "business",
+        "energy": "energy",
+        "world": "world",
+        "us": "us",
+        "tech": "tech",
+    }.get(css)
+    if not nav_key or nav_key in claimed:
+        return ""
+    claimed.add(nav_key)
+    return f' id="{nav_key}"'
 
 
 def split_home_buckets(order: list[str]) -> dict[str, list[str]]:
@@ -546,7 +603,9 @@ def build_index(site: dict, stories: dict[str, dict]) -> str:
         separators=(",", ": "),
     )
 
-    featured_html = render_featured(buckets["featured"], stories)
+    claimed: set[str] = set()
+    nav = homepage_nav_targets(order, stories)
+    featured_html = render_featured(buckets["featured"], stories, claimed)
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -570,7 +629,7 @@ def build_index(site: dict, stories: dict[str, dict]) -> str:
 <body>
   <a class="skip" href="#main">Skip to stories</a>
 
-{render_masthead(home=True)}
+{render_masthead(home=True, nav=nav)}
 
   <main id="main" class="wrap">
     <section class="hero-row">
@@ -579,12 +638,12 @@ def build_index(site: dict, stories: dict[str, dict]) -> str:
 {render_trending(buckets["trending"], stories)}
     </section>
 
-{render_top_cards(buckets["top"], stories)}
+{render_top_cards(buckets["top"], stories, claimed)}
 
     <div class="lower">
 {featured_html}
 
-{render_latest(buckets["latest"], stories)}
+{render_latest(buckets["latest"], stories, claimed)}
     </div>
   </main>
 

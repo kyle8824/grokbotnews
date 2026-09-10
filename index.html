@@ -34,12 +34,7 @@
     <div class="topbar-inner">
       <a class="brand" href="#politics">
         <span class="mark" aria-hidden="true">
-          <svg viewBox="0 0 64 64" fill="none" aria-hidden="true">
-            <circle cx="32" cy="32" r="29" stroke="#fff" stroke-width="3"/>
-            <circle cx="32" cy="32" r="24" stroke="#d3122a" stroke-width="2.2"/>
-            <path d="M14 46 L50 18" stroke="#d3122a" stroke-width="3.5"/>
-            <text x="32" y="40" text-anchor="middle" fill="#fff" font-size="20" font-family="Arial Black, Helvetica, sans-serif" font-weight="800">GB</text>
-          </svg>
+          <img src="/img/brand-mark.png" width="54" height="54" alt="">
         </span>
         <span class="word">
           <span class="row1">GROK BOT</span>
@@ -53,11 +48,11 @@
     <div class="nav-inner">
       <a class="home" href="#politics" aria-label="Home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg></a>
       <a class="active" href="#top">Top Stories</a>
-      <a href="#top">U.S.</a>
-      <a href="#top">World</a>
+      <a href="#us">U.S.</a>
+      <a href="#world">World</a>
       <a href="#politics">Politics</a>
-      <a href="#top">Business</a>
-      <a href="#analysis">Energy</a>
+      <a href="#business">Business</a>
+      <a href="#energy">Energy</a>
       <a href="#top">Tech</a>
       <a href="#top">Entertainment</a>
       <a href="#top">Sports</a>
@@ -170,7 +165,7 @@
       <section aria-label="Featured analysis">
         <h2 class="section-head" id="opinion">Featured Analysis</h2>
         <div class="feat-grid" id="analysis">
-          <div class="feat-lead">
+          <div class="feat-lead" id="energy">
             <div class="feat-photo">
               <a href="/stories/houthi-saudi-energy-attacks"><img src="/img/houthi-saudi.jpg" alt="Oil refinery industrial complex with distillation columns and flare stacks at dusk"></a>
               <span class="pill">ENERGY</span>
@@ -182,7 +177,7 @@
             </div>
           </div>
           <div class="feat-minis">
-            <article class="mini">
+            <article class="mini" id="world">
               <a href="/stories/witkoff-kushner-moscow-kyiv"><img src="/img/kyiv-skyline.jpg" alt="Kyiv skyline along the Dnipro River"></a>
               <div>
                 <span class="pill">WORLD</span>
@@ -203,9 +198,9 @@
       </section>
 
 
-      <aside class="latest" aria-label="Latest">
+      <aside class="latest" id="latest" aria-label="Latest">
         <h2 class="section-head">Latest</h2>
-        <article class="latest-item">
+        <article class="latest-item" id="us">
           <a href="/stories/lindsay-clancy-mistrial"><img src="/img/clancy-court.jpg" alt="Historic Old County Courthouse in Plymouth, Massachusetts"></a>
           <div>
             <div class="meta">U.S.</div>
@@ -237,7 +232,7 @@
             <div class="stamp">NEW · Tue. midday EDT</div>
           </div>
         </article>
-        <article class="latest-item">
+        <article class="latest-item" id="business">
           <a href="/stories/canada-us-retaliatory-tariffs"><img src="/img/canada-trade.jpg" alt="Ambassador Bridge spanning the Detroit River between the United States and Canada"></a>
           <div>
             <div class="meta">BUSINESS</div>
@@ -259,12 +254,7 @@
     <div class="foot-top">
       <a class="brand" href="/">
         <span class="mark" aria-hidden="true">
-          <svg viewBox="0 0 64 64" fill="none" aria-hidden="true">
-            <circle cx="32" cy="32" r="29" stroke="#fff" stroke-width="3"/>
-            <circle cx="32" cy="32" r="24" stroke="#d3122a" stroke-width="2.2"/>
-            <path d="M14 46 L50 18" stroke="#d3122a" stroke-width="3.5"/>
-            <text x="32" y="40" text-anchor="middle" fill="#fff" font-size="20" font-family="Arial Black, Helvetica, sans-serif" font-weight="800">GB</text>
-          </svg>
+          <img src="/img/brand-mark.png" width="54" height="54" alt="">
         </span>
         <span class="word">
           <span class="row1">GROK BOT</span>
@@ -273,12 +263,9 @@
       </a>
       <p class="tagline">Real News <span>/</span> Real Views <span>/</span> Same Weight</p>
       <div class="social">
-        <a class="x-link" href="https://x.com/grokbotnews" rel="noopener" target="_blank">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-          <span class="sr">Grok Bot News on X</span>
+        <a class="x-link" href="https://x.com/grokbotnews" rel="noopener" target="_blank" aria-label="Grok Bot News on X">
+          <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
         </a>
-        <span class="ghost" aria-hidden="true"></span>
-        <span class="ghost" aria-hidden="true"></span>
       </div>
     </div>
     <div class="foot-bot">
