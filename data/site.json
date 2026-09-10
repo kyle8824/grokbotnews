@@ -1,13 +1,14 @@
 {
   "site_url": "https://www.grokbotnews.com",
-  "title": "Grok Bot News — Thursday, September 10, 2026",
+  "title": "Grok Bot News \u2014 Thursday, September 10, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Thursday, September 10, 2026 · 9:30 a.m. EDT",
-  "utility_markets": "Census 2030 proposal · Brent ~$100 · Dallas $5K pledge",
-  "breaking": "Census Bureau proposes 2030 rules limiting apportionment count to citizens and green-card holders.",
+  "utility_live": "Thursday, September 10, 2026 \u00b7 10:10 a.m. EDT",
+  "utility_markets": "Miami CVR update \u00b7 Census 2030 \u00b7 Brent ~$100",
+  "breaking": "NTSB: Miami Amazon cargo pilot warned \u201ctoo fast\u201d for nearly two minutes before overrun that killed five.",
   "order": [
     "census-2030-apportionment-proposal",
+    "miami-amazon-cargo-crash",
     "gop-midterm-convention-dallas",
     "usps-mail-ballot-whistleblower",
     "missouri-redistricting-referendum",
@@ -15,7 +16,6 @@
     "uk-israel-settlement-sanctions",
     "dhs-save-voter-database-scotus",
     "us-iran-tanker-strikes",
-    "miami-amazon-cargo-crash",
     "lindsay-clancy-mistrial",
     "doj-trump-russia-grand-jury",
     "ohio-acton-canfield-fair",
@@ -27,14 +27,14 @@
   ],
   "stack": [
     "census-2030-apportionment-proposal",
+    "miami-amazon-cargo-crash",
     "gop-midterm-convention-dallas",
     "usps-mail-ballot-whistleblower",
     "missouri-redistricting-referendum",
     "nh-senate-pappas-sununu",
     "uk-israel-settlement-sanctions",
     "us-iran-tanker-strikes",
-    "canada-us-retaliatory-tariffs",
-    "miami-amazon-cargo-crash"
+    "canada-us-retaliatory-tariffs"
   ],
   "section_labels": [
     {
@@ -74,38 +74,38 @@
   ],
   "rail_wire": [
     {
+      "label": "Miami.",
+      "text": "NTSB CVR: one pilot warned \u201ctoo fast\u201d ~2 min; FDR shows no speed brakes/reversers.",
+      "stamp": "UPDATED \u00b7 10:10 a.m."
+    },
+    {
       "label": "Census.",
       "text": "Proposed 2030 rule would exclude non-permanent residents from apportionment base; 30-day comment.",
-      "stamp": "NEW · 9:30 a.m."
+      "stamp": "NEW \u00b7 9:30 a.m."
     },
     {
       "label": "Dallas.",
       "text": "Trump keynotes; floats $5K dividend if GOP keeps House and Senate.",
-      "stamp": "UPDATED · Wed."
+      "stamp": "UPDATED \u00b7 Wed."
     },
     {
       "label": "Gulf.",
-      "text": "U.S.–Iran tanker/Jordan base fighting; Trump ties war end to midterms.",
-      "stamp": "UPDATED · Thu."
+      "text": "U.S.\u2013Iran tanker/Jordan base fighting; Trump ties war end to midterms.",
+      "stamp": "UPDATED \u00b7 Thu."
     },
     {
       "label": "USPS.",
       "text": "Challengers filed SCOTUS oppositions to mail-ballot stay Wed.; Court undecided.",
-      "stamp": "UPDATED · Wed."
+      "stamp": "UPDATED \u00b7 Wed."
     },
     {
       "label": "Missouri.",
       "text": "Hoskins show-cause; federal shield ask; map fight continues.",
-      "stamp": "UPDATED · Wed."
-    },
-    {
-      "label": "NATO.",
-      "text": "Allies say they foiled Russian Arctic subsea-cable sabotage training.",
-      "stamp": "NEW · Thu."
+      "stamp": "UPDATED \u00b7 Wed."
     }
   ],
   "markets": {
-    "heading": "Markets · Thursday 9:30 a.m.",
+    "heading": "Markets \u00b7 Thursday 10:10 a.m.",
     "rows": [
       {
         "label": "Crude oil",
@@ -128,9 +128,10 @@
         "dir": "up"
       }
     ],
-    "credit": "Oil levels as reported around U.S.–Iran shipping clashes; census proposal from Federal Register / wire coverage Thursday morning."
+    "credit": "Oil levels as reported around U.S.\u2013Iran shipping clashes; census proposal from Federal Register / wire coverage Thursday morning."
   },
   "ticker": [
+    "MIAMI|NTSB: cargo pilot warned \u201ctoo fast\u201d nearly 2 minutes before Miami overrun",
     "CENSUS|Bureau proposes 2030 rules excluding non-permanent residents from apportionment count",
     "DALLAS|Trump midterm keynote; floats $5K dividend if GOP holds Congress",
     "GULF|Trump says Iran war ends after midterms; Pickaxe Mountain warning",
@@ -141,8 +142,7 @@
     "NATO|Allies foil Russian Arctic subsea-cable sabotage training, Reuters reports",
     "CANADA|Trump bans certain alcohol, dairy, motorcycles effective Sept. 29",
     "UKRAINE|Kyiv claims deepest Arctic gas-plant strike; Russia kills 7 in Ukraine",
-    "SAUDI|Houthi energy strikes; oil pressure near $100",
-    "MIAMI|NTSB recovers black boxes; 5 dead on ground"
+    "SAUDI|Houthi energy strikes; oil pressure near $100"
   ],
   "archive": [
     {
@@ -174,8 +174,8 @@
       "updated": "2026-09-04"
     }
   ],
-  "footer_method": "Humans didn’t write today’s copy; both frames are generated from public sources. Headlines and kickers state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, in the same type, with named outlets or officials and outbound links. The site does not declare a winner in the headline. Summaries are original and short. Full articles are not reproduced.",
+  "footer_method": "Humans didn\u2019t write today\u2019s copy; both frames are generated from public sources. Headlines and kickers state the event only. Each story then carries two viewpoint blocks \u2014 typical center-left and typical center-right \u2014 at the same size, in the same type, with named outlets or officials and outbound links. The site does not declare a winner in the headline. Summaries are original and short. Full articles are not reproduced.",
   "footer_legal": "Independent staging page for grokbotnews.com. Original wordmark. Not affiliated with any broadcast or cable news company. No accounts, no comments, no donations. Photographs are news-file images used for layout; they are not claimed as original field work by this site.",
-  "story_footer_method": "Headlines state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, with named outlets and outbound links. Summaries are original and short. Full articles are not reproduced.",
+  "story_footer_method": "Headlines state the event only. Each story then carries two viewpoint blocks \u2014 typical center-left and typical center-right \u2014 at the same size, with named outlets and outbound links. Summaries are original and short. Full articles are not reproduced.",
   "story_footer_legal": "Independent staging page for grokbotnews.com. Original wordmark. Not affiliated with any broadcast or cable news company. No accounts, no comments, no donations."
 }

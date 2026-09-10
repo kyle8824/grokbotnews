@@ -1,55 +1,55 @@
 {
   "slug": "miami-amazon-cargo-crash",
   "kicker": "Miami",
-  "hed": "NTSB recovers flight recorders after Miami Amazon cargo overrun; 5 dead on ground",
-  "stamp": "UPDATED · Wed. 8 a.m. EDT",
-  "dek": "Amazon Air Flight 7598, a Boeing 767 operated by 21 Air, overran a Miami International Airport runway around 1:53 p.m. Sunday after arriving from San Juan, Puerto Rico. The jet struck a cleaning-crew van with seven people aboard inside the airport fence and a Toyota outside; all five people killed were in the vehicles, and the flight crew survived. At a Monday briefing, NTSB Chair Jennifer Homendy said the flight data and cockpit voice recorders had been recovered and sent to NTSB headquarters in Washington, with 32 investigators on a “devastating” scene still in fact-finding. Two of four runways remained closed, fuel removal was ongoing, and the crew had not yet been interviewed.",
+  "hed": "NTSB: Miami Amazon cargo pilot warned \u2018too fast\u2019 for nearly two minutes before overrun",
+  "stamp": "UPDATED \u00b7 Thu. 10:10 a.m. EDT",
+  "dek": "A National Transportation Safety Board investigative update on the Sunday Miami International Airport runway overrun says one pilot of Amazon Air Flight 7598, a Boeing 767 operated by 21 Air, repeatedly warned the other that the aircraft was \u201ctoo fast\u201d for nearly two minutes on approach and after touchdown, with no consistent verbal response recorded. Automated \u201csink rate\u201d and \u201ctoo low terrain\u201d alerts sounded; flight data show an unstable approach in strong winds, a late touchdown well down Runway 30, a brief go-around thrust attempt then idle, and no indication that speed brakes or thrust reversers deployed. The jet overran about 1,300 feet and struck a cleaning-crew van; five people in the van died. Capt. Joseph Carroll, 55, and First Officer Jaime Felipe Silva Molina, 37, survived and were interviewed Wednesday; the full CVR transcript is not yet public.",
   "image": "img/lead-miami.jpg",
   "alt": "Commercial airliner in flight under a clear sky",
-  "caption": "Commercial aircraft in flight. File photograph; not from Sunday’s Miami runway overrun.",
-  "credit": "Commercial aircraft · file",
-  "byline": "Event summary from public reporting and named outlets",
+  "caption": "Commercial aircraft in flight. File photograph; not from Sunday\u2019s Miami runway overrun.",
+  "credit": "Commercial aircraft \u00b7 file",
+  "byline": "Event summary from NTSB update and named outlets",
   "section": "us",
-  "updated": "2026-09-08",
+  "updated": "2026-09-10",
   "frames": {
     "cl": {
-      "body": "BBC, Guardian, and CBS Miami stress the ground death toll, hub delays with runways still closed, and victim recovery before full wreckage access after Homendy’s Monday briefing.",
+      "body": "NPR/AP, Reuters, and safety experts quoted there stress crew resource management: repeated speed callouts without a clear reply, automated descent warnings, and questions why the crew continued an unstable approach instead of going around while still airborne. Former FAA and airline voices say the first \u201ctoo fast\u201d call left time to slow or abandon the landing; Mary Schiavo and others flag possible junior/senior challenge dynamics once names and roles are clearer.",
       "sources": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.com/news/articles/ce8e32n8epeo"
+          "name": "NPR / AP",
+          "url": "https://www.npr.org/2026/09/10/g-s1-142664/cargo-plane-miami-crash"
         },
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/sep/07/amazon-cargo-plane-crash-miami-airport"
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/aerospace-defense/one-pilot-flagged-excessive-speed-before-miami-cargo-crash-ntsb-says-2026-09-09/"
         },
         {
-          "name": "CBS Miami",
-          "url": "https://www.cbsnews.com/miami/news/amazon-cargo-plane-crash-miami-ntsb-investigation-9-7-2026/"
+          "name": "NTSB update",
+          "url": "https://www.ntsb.gov/news/press-releases/Pages/NR20260909.aspx"
         }
       ]
     },
     "cr": {
-      "body": "UPI, Fox 8/AP, and FreightWaves emphasize NTSB process, black boxes en route to Washington, EMAS/arresting questions, operator 21 Air, and airport capacity with two runways still closed.",
+      "body": "Fox News, Aviation Week, and Simple Flying center the FDR timeline: nose/right gear at 158 knots, staggered left-gear touchdown, brief go-around thrust then idle, and no recorded speed-brake or thrust-reverser deployment\u2014systems that on a 767 generally need firm main-gear compression. Coverage also notes Flightradar24\u2019s estimate of touchdown nearly halfway down the 9,360-foot runway, strong winds, and that investigators are still reviewing weather, maintenance, and 21 Air operations.",
       "sources": [
         {
-          "name": "UPI",
-          "url": "https://www.upi.com/Top_News/US/2026/09/08/NTSB-Amazon-Prime-crash-investigation/1741788850055/"
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/us/amazon-cargo-pilot-repeatedly-warned-aircraft-too-fast-deadly-miami-crash-ntsb"
         },
         {
-          "name": "Fox 8 / AP",
-          "url": "https://www.fox8live.com/2026/09/07/investigators-hunt-what-went-wrong-after-cargo-plane-crash-miami-kills-least-5/"
+          "name": "Aviation Week",
+          "url": "https://aviationweek.com/air-transport/safety-ops-regulation/21-air-crew-attempted-go-around-overrun-ntsb-details-show"
         },
         {
-          "name": "FreightWaves",
-          "url": "https://www.freightwaves.com/news/utter-devastation-from-amazon-cargo-jet-crash-ntsb-chief-says"
+          "name": "Simple Flying",
+          "url": "https://simpleflying.com/ntsb-amazon-boeing-767-miami-crash-aborted-go-around/"
         }
       ]
     }
   },
-  "stack_blurb": "Black boxes recovered; 5 dead on ground; 2 runways closed.",
-  "seo_description": "NTSB recovered flight data and cockpit voice recorders after Amazon Air Flight 7598 overran a Miami runway; five people died on the ground.",
-  "date_modified": "2026-09-08T12:30:00-04:00",
+  "stack_blurb": "NTSB: \u2018too fast\u2019 warnings ~2 min; no reversers/speed brakes on FDR.",
+  "seo_description": "NTSB says one Miami Amazon cargo pilot warned the aircraft was too fast for nearly two minutes before the runway overrun that killed five on the ground.",
+  "date_modified": "2026-09-10T10:10:00-04:00",
   "date_published": "2026-09-07T08:45:00-04:00",
   "article_section": "Aviation"
 }
