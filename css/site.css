@@ -168,12 +168,12 @@ a { color: inherit; text-decoration: none; }
   letter-spacing: .18em;
   text-transform: uppercase;
   color: #dce3ea;
-  line-height: 1;
+  line-height: 1.2;
   white-space: nowrap;
   flex-shrink: 1;
   display: flex;
-  align-items: center;
-  align-self: center;
+  align-items: center; /* text centered on the full-height divider */
+  align-self: stretch; /* divider matches brand/mark height — not tiny */
 }
 .tagline span {
   color: var(--red);
@@ -662,24 +662,22 @@ a { color: inherit; text-decoration: none; }
   .topbar-inner {
     padding: 10px 12px 9px;
     gap: 10px;
-    align-items: center; /* brand + tagline share one vertical center */
+    align-items: center;
   }
-  .brand { gap: 8px; min-width: 0; }
-  .word .row1 { font-size: 20px; letter-spacing: .04em; }
-  .word .row2 { margin-top: 3px; font-size: 9px; gap: 6px; }
+  .brand { min-width: 0; }
   .tagline {
     display: flex;
-    align-items: center; /* text centered on the left divider line */
-    align-self: center;
+    align-items: center;
+    align-self: stretch; /* full-height left divider, same as desktop */
     margin: 0 0 0 auto;
     padding: 0 0 0 10px;
     border-left: 1px solid rgba(255,255,255,.32);
-    font-size: clamp(6.5px, 2vw, 8.5px);
-    letter-spacing: .07em;
+    font-size: clamp(6.5px, 1.9vw, 8.5px);
+    letter-spacing: .06em;
     white-space: nowrap;
     max-width: none;
     text-align: left;
-    line-height: 1;
+    line-height: 1.2;
     flex-shrink: 1;
     min-width: 0;
   }

@@ -231,7 +231,7 @@ def nav_category(story: dict) -> tuple[str, str]:
 
 
 def fonts_and_css(*, root_absolute: bool = False) -> str:
-    css = "/css/site.css?v=tagline4" if root_absolute else "css/site.css?v=tagline4"
+    css = "/css/site.css?v=tagline5" if root_absolute else "css/site.css?v=tagline5"
     return f"""  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@400;600;700;800&display=swap" rel="stylesheet">
