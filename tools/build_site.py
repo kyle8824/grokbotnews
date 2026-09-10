@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -18,6 +19,32 @@ VIEWS_BTN = """        <p class="views-row">
             <span class="views-btn-sub">Center-left and center-right. Same size. Named sources. You decide.</span>
           </button>
         </p>"""
+
+HOME_ICON = (
+    '<svg viewBox="0 0 24 24" aria-hidden="true">'
+    '<path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>'
+    "</svg>"
+)
+SEARCH_ICON = (
+    '<svg viewBox="0 0 24 24" aria-hidden="true">'
+    '<path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5 '
+    "6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 "
+    '5L20.49 19l-5-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 '
+    '14 7.01 14 9.5 11.99 14 9.5 14z"/>'
+    "</svg>"
+)
+MENU_ICON = (
+    '<svg viewBox="0 0 24 24" aria-hidden="true">'
+    '<path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/>'
+    "</svg>"
+)
+X_ICON = (
+    '<svg viewBox="0 0 24 24" aria-hidden="true">'
+    '<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 '
+    "21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 "
+    '17.52h1.833L7.084 4.126H5.117z"/>'
+    "</svg>"
+)
 
 
 def die(msg: str) -> None:
@@ -116,7 +143,6 @@ def stack_blurb(story: dict) -> str:
     if story.get("stack_blurb"):
         return story["stack_blurb"]
     dek = story.get("dek") or ""
-    # short fallback: first sentence-ish
     cut = dek.split(". ")[0]
     if len(cut) > 110:
         cut = cut[:107].rstrip() + "…"
@@ -125,154 +151,301 @@ def stack_blurb(story: dict) -> str:
     return cut
 
 
-def render_utility(site: dict) -> str:
-    return f"""  <div class="utility">
-    <div class="utility-inner">
-      <div class="utility-live"><span class="live-dot" aria-hidden="true"></span> Live <span class="sep">·</span> {esc(site["utility_live"])}</div>
-      <div class="utility-mkts">{esc(site["utility_markets"])}</div>
-    </div>
-  </div>"""
+def short_dek(story: dict, limit: int = 220) -> str:
+    dek = (story.get("dek") or "").strip()
+    if not dek:
+        return stack_blurb(story)
+    # Prefer first 1–2 sentences
+    parts = re.split(r"(?<=\.)\s+", dek)
+    out = parts[0]
+    if len(parts) > 1 and len(out) + 1 + len(parts[1]) <= limit:
+        out = out + " " + parts[1]
+    if len(out) > limit:
+        out = out[: limit - 1].rstrip() + "…"
+    return out
+
+
+def read_mins(story: dict) -> int:
+    text = " ".join(
+        [
+            story.get("dek") or "",
+            (story.get("frames") or {}).get("cl", {}).get("body") or "",
+            (story.get("frames") or {}).get("cr", {}).get("body") or "",
+        ]
+    )
+    words = max(1, len(text.split()))
+    return max(2, min(8, round(words / 180)))
+
+
+def nav_category(story: dict) -> tuple[str, str]:
+    """Return (LABEL, css-slug) for mock-style category kickers."""
+    kicker = (story.get("kicker") or "").lower()
+    section = (story.get("section") or "").lower()
+    article = (story.get("article_section") or "").lower()
+    blob = f"{kicker} {section} {article} {story.get('slug', '')}"
+
+    if any(x in blob for x in ("trade", "tariff", "business", "markets")):
+        return "BUSINESS", "business"
+    if any(
+        x in blob
+        for x in ("energy", "hormuz", "houthi", "saudi", "oil", "gas", "weather")
+    ):
+        return "ENERGY", "energy"
+    if section == "world" or any(
+        x in blob for x in ("diplomacy", "ukraine", "world", "iran", "persian")
+    ):
+        # tanker / hormuz already caught as energy; remaining gulf/world
+        if any(x in blob for x in ("hormuz", "houthi", "saudi energy")):
+            return "ENERGY", "energy"
+        return "WORLD", "world"
+    if any(
+        x in blob
+        for x in (
+            "midterm",
+            "politics",
+            "supreme",
+            "justice",
+            "homeland",
+            "senate",
+            "congress",
+            "ballot",
+            "voter",
+            "redistrict",
+            "ice",
+            "doj",
+        )
+    ):
+        return "POLITICS", "politics"
+    if any(x in blob for x in ("tech", "ai", "amazon")):
+        # miami amazon crash is accident/us, not tech product news
+        if "miami" in blob or "cargo" in blob:
+            return "U.S.", "us"
+        return "TECH", "tech"
+    if section in ("us", "lead") or "u.s" in article:
+        return "U.S.", "us"
+    return "U.S.", "us"
+
+
+def fonts_and_css(*, root_absolute: bool = False) -> str:
+    css = "/css/site.css" if root_absolute else "css/site.css"
+    return f"""  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{css}">"""
+
+
+def favicons() -> str:
+    return """  <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/img/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">"""
 
 
 def render_masthead(*, home: bool) -> str:
-    brand_href = "#lead" if home else "/"
-    top = "#lead" if home else "/"
-    us = "#us" if home else "/#us"
-    world = "#world" if home else "/#world"
-    politics = "#politics" if home else "/#politics"
-    energy = "#energy" if home else "/#energy"
-    method = "#method" if home else "/#method"
+    brand_href = "/" if not home else "#hero"
+    home_href = "#hero" if home else "/"
+    top = "#top-stories" if home else "/#top-stories"
+    us = "#latest" if home else "/#latest"
+    world = "#featured" if home else "/#featured"
+    politics = "#hero" if home else "/"
+    business = "#latest" if home else "/#latest"
+    energy = "#featured" if home else "/#featured"
+    # Chrome-only destinations for categories we do not currently section
+    tech = top
+    entertainment = top
+    sports = top
+    opinion = "#featured" if home else "/#featured"
+
     return f"""  <header class="masthead">
     <div class="masthead-inner">
       <a class="brand" href="{brand_href}">
-        <img class="brand-mark" src="/img/brand-mark.png" width="56" height="56" alt="">
-        <span class="wordmark">GROK BOT NEWS</span>
+        <img class="brand-mark" src="/img/brand-mark.png" width="52" height="52" alt="">
+        <span class="brand-text">
+          <span class="brand-name">GROK BOT</span>
+          <span class="brand-news">NEWS</span>
+        </span>
       </a>
-      <p class="tagline">Event first. Two views. Same weight.</p>
+      <p class="tagline">REAL NEWS <span class="slash">/</span> REAL VIEWS <span class="slash">/</span> SAME WEIGHT</p>
     </div>
-    <nav class="nav" aria-label="Sections">
-      <a href="{top}">Top</a>
-      <a href="{us}">U.S.</a>
-      <a href="{world}">World</a>
-      <a href="{politics}">Politics</a>
-      <a href="{energy}">Energy</a>
-      <a href="{method}">Method</a>
-    </nav>
-  </header>"""
+  </header>
+  <nav class="nav-bar" aria-label="Sections">
+    <div class="nav">
+      <a class="nav-home" href="{home_href}" aria-label="Home">{HOME_ICON}</a>
+      <a class="nav-link" href="{top}">Top Stories</a>
+      <a class="nav-link" href="{us}">U.S.</a>
+      <a class="nav-link" href="{world}">World</a>
+      <a class="nav-link" href="{politics}">Politics</a>
+      <a class="nav-link" href="{business}">Business</a>
+      <a class="nav-link" href="{energy}">Energy</a>
+      <a class="nav-link" href="{tech}">Tech</a>
+      <a class="nav-link" href="{entertainment}">Entertainment</a>
+      <a class="nav-link" href="{sports}">Sports</a>
+      <a class="nav-link" href="{opinion}">Opinion</a>
+      <div class="nav-utils">
+        <button type="button" class="nav-util" aria-label="Search" disabled title="Search coming soon">{SEARCH_ICON}</button>
+        <button type="button" class="nav-util" aria-label="Menu" disabled title="Menu">{MENU_ICON}</button>
+      </div>
+    </div>
+  </nav>"""
 
 
-def render_lead(story: dict) -> str:
-    slug = story["slug"]
-    return f"""      <article>
-        <p class="kicker">{esc(story["kicker"])}</p>
-        <h1 class="lead-hed"><a href="/stories/{esc(slug)}">{esc(story["hed"])}</a></h1>
-        <p class="stamp">{esc(story["stamp"])}</p>
-        <p class="dek">{esc(story["dek"])}</p>
-        <div class="photo-wrap">
-          <img src="{esc(img_src(story["image"]))}" alt="{esc(story.get("alt", ""))}">
+def render_footer(site: dict, *, story: bool = False) -> str:
+    method_key = "story_footer_method" if story else "footer_method"
+    legal_key = "story_footer_legal" if story else "footer_legal"
+    method = site.get(method_key) or site.get("footer_method", "")
+    legal = site.get(legal_key) or site.get("footer_legal", "")
+    return f"""  <footer class="site-footer" id="method">
+    <div class="foot-inner">
+      <div class="foot-top">
+        <a class="foot-brand" href="/">
+          <img class="brand-mark" src="/img/brand-mark.png" width="44" height="44" alt="">
+          <span>
+            <span class="brand-name" style="font-size:20px">GROK BOT</span>
+            <span class="brand-news" style="display:flex">NEWS</span>
+            <p class="foot-tagline">REAL NEWS <span class="slash">/</span> REAL VIEWS <span class="slash">/</span> SAME WEIGHT</p>
+          </span>
+        </a>
+        <div class="foot-social">
+          <a href="https://x.com/grokbotnews" rel="noopener" aria-label="Grok Bot News on X">{X_ICON} <span>X</span></a>
         </div>
-        <p class="caption">{esc(story.get("caption", ""))}</p>
-        <p class="credit">{esc(story.get("credit", ""))}</p>
-        <p class="byline">{esc(story.get("byline", "Event summary from public reporting and named outlets"))}</p>
+      </div>
+      <p class="method">{esc(method)}</p>
+      <p class="legal">{esc(legal)}</p>
+      <div class="foot-bottom">
+        <div class="foot-links">
+          <a href="/#method">About</a>
+          <a href="https://x.com/grokbotnews" rel="noopener">Contact</a>
+        </div>
+        <div>© 2026 Grok Bot News. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>"""
 
-{VIEWS_BTN}
-{frames_html(story, indent="        ")}
+
+def render_hero(story: dict) -> str:
+    slug = story["slug"]
+    label, css = nav_category(story)
+    return f"""      <article class="hero-story">
+        <img class="hero-bg" src="{esc(img_src(story["image"]))}" alt="{esc(story.get("alt", ""))}">
+        <div class="hero-copy">
+          <span class="cat-kicker cat-{css}">{esc(label)}</span>
+          <h1 class="hero-hed"><a href="/stories/{esc(slug)}">{esc(story["hed"])}</a></h1>
+          <p class="hero-dek">{esc(short_dek(story))}</p>
+          <p class="hero-meta">{esc(story["stamp"])}</p>
+          <a class="btn-read" href="/stories/{esc(slug)}">Read full story →</a>
+        </div>
       </article>"""
 
 
-def render_stack(stack_slugs: list[str], stories: dict[str, dict]) -> str:
+def render_trending(slugs: list[str], stories: dict[str, dict]) -> str:
     items = []
-    for slug in stack_slugs:
+    for i, slug in enumerate(slugs, start=1):
         s = stories[slug]
+        label, _ = nav_category(s)
         items.append(
-            f"""        <div class="stack-item">
-          <p class="kicker">{esc(s["kicker"])}</p>
-          <h2><a href="/stories/{esc(slug)}">{esc(s["hed"])}</a></h2>
-          <p class="stamp">{esc(s["stamp"])}</p>
-          <p>{esc(stack_blurb(s))}</p>
-        </div>"""
+            f"""        <li>
+          <span class="trend-num">{i}</span>
+          <div class="trend-body">
+            <a href="/stories/{esc(slug)}">{esc(s["hed"])}</a>
+            <div class="trend-meta"><span class="cat">{esc(label)}</span>{esc(s["stamp"])}</div>
+          </div>
+        </li>"""
+        )
+    return f"""      <aside class="trending" aria-label="Trending now">
+        <div class="section-head"><span class="bar" aria-hidden="true"></span><h2>Trending Now</h2></div>
+        <ol class="trend-list">
+{chr(10).join(items)}
+        </ol>
+      </aside>"""
+
+
+def render_top_cards(slugs: list[str], stories: dict[str, dict]) -> str:
+    cards = []
+    for slug in slugs:
+        s = stories[slug]
+        label, css = nav_category(s)
+        mins = read_mins(s)
+        cards.append(
+            f"""        <a class="story-card" href="/stories/{esc(slug)}">
+          <img src="{esc(img_src(s["image"]))}" alt="{esc(s.get("alt", ""))}">
+          <div class="story-card-body">
+            <span class="cat-kicker cat-{css}">{esc(label)}</span>
+            <h3>{esc(s["hed"])}</h3>
+            <p>{esc(stack_blurb(s))}</p>
+            <div class="card-meta">{esc(s["stamp"])}<span class="sep">·</span>{mins} MIN READ</div>
+          </div>
+        </a>"""
         )
     return (
-        '      <aside class="stack" aria-label="Headline stack">\n'
+        '      <section id="top-stories">\n'
+        '        <div class="band-head"><span class="bar" aria-hidden="true"></span><h2>Top Stories</h2></div>\n'
+        '        <div class="top-cards">\n'
+        + "\n".join(cards)
+        + "\n        </div>\n      </section>"
+    )
+
+
+def render_latest(slugs: list[str], stories: dict[str, dict]) -> str:
+    items = []
+    for slug in slugs:
+        s = stories[slug]
+        label, _ = nav_category(s)
+        items.append(
+            f"""        <li>
+          <a href="/stories/{esc(slug)}"><img src="{esc(img_src(s["image"]))}" alt="{esc(s.get("alt", ""))}"></a>
+          <div>
+            <div class="latest-meta"><span class="cat">{esc(label)}</span>{esc(s["stamp"])}</div>
+            <a class="hed" href="/stories/{esc(slug)}">{esc(s["hed"])}</a>
+          </div>
+        </li>"""
+        )
+    return (
+        '      <aside class="latest-rail" id="latest" aria-label="Latest">\n'
+        '        <div class="band-head"><span class="bar" aria-hidden="true"></span><h2>Latest</h2></div>\n'
+        '        <ul class="latest-list">\n'
         + "\n".join(items)
-        + "\n      </aside>"
+        + "\n        </ul>\n      </aside>"
     )
 
 
-def render_body_story(story: dict, *, article_id: str | None = None) -> str:
-    slug = story["slug"]
-    id_attr = f' id="{esc(article_id)}"' if article_id else ""
-    return f"""    <article class="story"{id_attr}>
-      <div>
-        <img src="{esc(img_src(story["image"]))}" alt="{esc(story.get("alt", ""))}">
-        <p class="credit">{esc(story.get("credit", ""))}</p>
-      </div>
-      <div>
-        <p class="kicker">{esc(story["kicker"])}</p>
-        <h2 class="story-hed"><a href="/stories/{esc(slug)}">{esc(story["hed"])}</a></h2>
-        <p class="dek">{esc(story["dek"])}</p>
-{VIEWS_BTN}
-{frames_html(story, indent="        ")}
-      </div>
-    </article>"""
-
-
-def render_rail(site: dict) -> str:
-    wire_parts = []
-    for i, item in enumerate(site.get("rail_wire", [])):
-        label = esc(item["label"])
-        text = esc(item["text"])
-        stamp = esc(item.get("stamp", ""))
-        if i == 0:
-            wire_parts.append(
-                f"""        <p class="stack-item" style="border:0;padding-top:0">
-          <strong>{label}</strong> {text}
-          <span class="stamp">{stamp}</span>
-        </p>"""
-            )
-        else:
-            wire_parts.append(
-                f"""        <p>
-          <strong>{label}</strong> {text}
-          <span class="stamp">{stamp}</span>
-        </p>"""
-            )
-    markets = site.get("markets", {})
-    rows = []
-    for row in markets.get("rows", []):
-        rows.append(
-            f'        <div class="quote-row"><span>{esc(row["label"])}</span>'
-            f'<span class="{esc(row.get("dir", "up"))}">{esc(row["value"])}</span></div>'
+def render_featured(slugs: list[str], stories: dict[str, dict]) -> str:
+    if not slugs:
+        return ""
+    main = stories[slugs[0]]
+    main_label, main_css = nav_category(main)
+    side_html = []
+    for slug in slugs[1:]:
+        s = stories[slug]
+        label, css = nav_category(s)
+        side_html.append(
+            f"""        <a href="/stories/{esc(slug)}">
+          <img src="{esc(img_src(s["image"]))}" alt="{esc(s.get("alt", ""))}">
+          <div>
+            <span class="cat-kicker cat-{css}">{esc(label)}</span>
+            <h3>{esc(s["hed"])}</h3>
+          </div>
+        </a>"""
         )
-    return f"""    <div class="rail">
-      <div class="box">
-        <h2>Also on the wire</h2>
-{chr(10).join(wire_parts)}
+    side_block = ""
+    if side_html:
+        side_block = (
+            '      <div class="featured-side">\n'
+            + "\n".join(side_html)
+            + "\n      </div>"
+        )
+    return f"""    <section class="featured" id="featured">
+      <div class="band-head"><span class="bar" aria-hidden="true"></span><h2>Featured Analysis</h2></div>
+      <div class="featured-grid">
+        <a class="featured-main" href="/stories/{esc(main["slug"])}">
+          <img src="{esc(img_src(main["image"]))}" alt="{esc(main.get("alt", ""))}">
+          <div>
+            <span class="cat-kicker cat-{main_css}">{esc(main_label)}</span>
+            <h3>{esc(main["hed"])}</h3>
+            <p>{esc(stack_blurb(main))}</p>
+          </div>
+        </a>
+{side_block}
       </div>
-      <div class="box">
-        <h2>{esc(markets.get("heading", "Markets"))}</h2>
-{chr(10).join(rows)}
-        <p class="credit" style="margin-top:10px">{esc(markets.get("credit", ""))}</p>
-      </div>
-    </div>"""
-
-
-def render_ticker(site: dict) -> str:
-    items = site.get("ticker", [])
-    # duplicate for marquee loop as in original
-    spans = []
-    for entry in items + items:
-        if "|" in entry:
-            k, v = entry.split("|", 1)
-        else:
-            k, v = "", entry
-        spans.append(f"      <span><b>{esc(k)}</b> {esc(v)}</span>")
-    return (
-        '  <div class="ticker" aria-label="Bottom ticker">\n'
-        '    <div class="ticker-inner">\n'
-        + "\n".join(spans)
-        + "\n    </div>\n  </div>"
-    )
+    </section>"""
 
 
 def render_views_layer() -> str:
@@ -293,29 +466,41 @@ def render_views_layer() -> str:
   <script src="js/views.js" defer></script>"""
 
 
+def split_home_buckets(order: list[str]) -> dict[str, list[str]]:
+    """Partition ordered stories into mock homepage regions without inventing content."""
+    if not order:
+        die("empty order")
+    rest = order[1:]
+    trending = rest[:5]
+    top = rest[5:8]
+    leftover = rest[8:]
+    # Prefer 3 for featured (main + 2 side); rest go to Latest
+    if len(leftover) >= 5:
+        featured = leftover[-3:]
+        latest = leftover[:-3]
+    elif len(leftover) >= 3:
+        featured = leftover[-3:]
+        latest = leftover[:-3]
+    else:
+        featured = leftover
+        latest = []
+    return {
+        "lead": [order[0]],
+        "trending": trending,
+        "top": top,
+        "latest": latest,
+        "featured": featured,
+    }
+
+
 def build_index(site: dict, stories: dict[str, dict]) -> str:
     order = site["order"]
-    lead_slug = order[0]
-    lead = stories[lead_slug]
-    stack_slugs = site.get("stack") or order[1:8]
-
-    for slug in stack_slugs:
+    for slug in order:
         if slug not in stories:
-            die(f"stack slug missing: {slug}")
+            die(f"order slug missing: {slug}")
 
-    sections_html = []
-    for sec in site.get("section_labels", []):
-        label = sec["label"]
-        sid = sec["id"]
-        sections_html.append(
-            f'    <h2 class="section-label" id="{esc(sid)}">{esc(label)}</h2>\n'
-        )
-        for i, slug in enumerate(sec.get("slugs", [])):
-            if slug not in stories:
-                die(f"section {sid} missing story {slug}")
-            article_id = "politics" if slug == "missouri-redistricting-referendum" else None
-            sections_html.append(render_body_story(stories[slug], article_id=article_id))
-            sections_html.append("\n\n")
+    buckets = split_home_buckets(order)
+    lead = stories[buckets["lead"][0]]
 
     ld = json.dumps(
         {
@@ -329,15 +514,15 @@ def build_index(site: dict, stories: dict[str, dict]) -> str:
         separators=(",", ": "),
     )
 
+    featured_html = render_featured(buckets["featured"], stories)
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{esc(site["title"])}</title>
-  <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
-  <link rel="icon" href="/img/favicon.ico" sizes="any">
-  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+{favicons()}
   <link rel="canonical" href="https://www.grokbotnews.com/">
   <meta property="og:site_name" content="GROK BOT NEWS">
   <meta property="og:type" content="website">
@@ -347,48 +532,33 @@ def build_index(site: dict, stories: dict[str, dict]) -> str:
   <meta property="og:image" content="https://www.grokbotnews.com/img/og-default.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="description" content="{esc(site.get("meta_description", ""))}">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/site.css">
+{fonts_and_css()}
 <script type="application/ld+json">{ld}</script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to stories</a>
 
-{render_utility(site)}
-
 {render_masthead(home=True)}
 
-  <div class="breaking">
-    <div class="breaking-inner">
-      <span class="breaking-kicker">Breaking</span>
-      <p>{esc(site.get("breaking", ""))}</p>
+  <section class="hero-band" id="hero">
+    <div class="hero-grid">
+{render_hero(lead)}
+
+{render_trending(buckets["trending"], stories)}
     </div>
-  </div>
+  </section>
 
   <main id="main" class="wrap">
-    <section class="lead-grid" id="lead">
-{render_lead(lead)}
+    <div class="home-main">
+{render_top_cards(buckets["top"], stories)}
 
-{render_stack(stack_slugs, stories)}
-    </section>
+{render_latest(buckets["latest"], stories)}
+    </div>
 
-{"".join(sections_html)}
-{render_rail(site)}
+{featured_html}
   </main>
 
-{render_ticker(site)}
-
-  <footer id="method">
-    <div class="foot-inner">
-      <p class="foot-mark">GROK BOT NEWS</p>
-      <p class="method">{esc(site.get("footer_method", ""))}</p>
-      <p class="legal">{esc(site.get("footer_legal", ""))}</p>
-    </div>
-  </footer>
-
-{render_views_layer()}
+{render_footer(site, story=False)}
 </body>
 </html>
 """
@@ -413,15 +583,8 @@ def iso_datetime(story: dict, field: str) -> str:
 def article_section_label(story: dict) -> str:
     if story.get("article_section"):
         return story["article_section"]
-    mapping = {
-        "lead": "Top",
-        "us": "U.S.",
-        "world": "World",
-        "politics": "Politics",
-        "weather": "Energy",
-        "stack": "Top",
-    }
-    return mapping.get(story.get("section", ""), "News")
+    label, _ = nav_category(story)
+    return label.title() if label != "U.S." else "U.S."
 
 
 def build_story_page(site: dict, story: dict) -> str:
@@ -434,6 +597,7 @@ def build_story_page(site: dict, story: dict) -> str:
     canon = f"https://www.grokbotnews.com/stories/{slug}"
     published = iso_datetime(story, "date_published")
     modified = iso_datetime(story, "date_modified")
+    label, css = nav_category(story)
     ld = {
         "@context": "https://schema.org",
         "@type": "NewsArticle",
@@ -464,9 +628,7 @@ def build_story_page(site: dict, story: dict) -> str:
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{esc(title)}</title>
   <meta name="description" content="{esc(desc)}">
-  <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
-  <link rel="icon" href="/img/favicon.ico" sizes="any">
-  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+{favicons()}
   <link rel="canonical" href="{esc(canon)}">
   <meta property="og:site_name" content="GROK BOT NEWS">
   <meta property="og:type" content="article">
@@ -478,20 +640,16 @@ def build_story_page(site: dict, story: dict) -> str:
   <meta name="twitter:title" content="{esc(title)}">
   <meta name="twitter:description" content="{esc(desc)}">
   <meta name="twitter:image" content="{esc(img_abs)}">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/site.css">
+{fonts_and_css(root_absolute=True)}
   <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False, separators=(",", ": "))}</script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to stories</a>
-{render_utility(site)}
 {render_masthead(home=False)}
   <main id="main" class="wrap story-page">
     <p><a class="back-home" href="/">← All stories</a></p>
     <article>
-      <p class="kicker">{esc(story["kicker"])}</p>
+      <span class="cat-kicker cat-{css}">{esc(label)}</span>
       <h1 class="lead-hed">{esc(hed)}</h1>
       <p class="stamp">{esc(story["stamp"])}</p>
       <p class="dek">{esc(story["dek"])}</p>
@@ -499,13 +657,7 @@ def build_story_page(site: dict, story: dict) -> str:
 {frames_html(story, indent="      ")}
     </article>
   </main>
-  <footer id="method">
-    <div class="foot-inner">
-      <p class="foot-mark">GROK BOT NEWS</p>
-      <p class="method">{esc(site.get("story_footer_method", site.get("footer_method", "")))}</p>
-      <p class="legal">{esc(site.get("story_footer_legal", site.get("footer_legal", "")))}</p>
-    </div>
-  </footer>
+{render_footer(site, story=True)}
 </body>
 </html>
 """
@@ -516,12 +668,10 @@ def build_sitemap(site: dict, stories: dict[str, dict]) -> str:
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
     ]
-    # homepage lastmod = newest ordered story
     newest = max((stories[s].get("updated") or "2026-09-09") for s in site["order"])
     lines.append(
         f"  <url><loc>https://www.grokbotnews.com/</loc><lastmod>{newest}</lastmod></url>"
     )
-    # live ordered stories first (homepage order), then any other data stories, then archive
     seen = set()
     for slug in site["order"]:
         st = stories[slug]
