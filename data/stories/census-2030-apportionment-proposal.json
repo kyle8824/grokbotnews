@@ -1,0 +1,55 @@
+{
+  "slug": "census-2030-apportionment-proposal",
+  "kicker": "Census",
+  "hed": "Census Bureau proposes 2030 rules excluding non-permanent residents from apportionment count",
+  "stamp": "NEW · Thu. 9:30 a.m. EDT",
+  "dek": "The U.S. Census Bureau published proposed Federal Register rule 2026-18481 on Sept. 10 defining “usual residence” for the 2030 decennial census so the apportionment base would include U.S. citizens and lawful permanent residents while excluding undocumented immigrants and aliens whose legal status is less durable than permanent residency. The proposal also seeks to keep race, ethnicity, and sexual-orientation questions off short-form enumeration questionnaires, arguing the count for House seats should be colorblind. A 30-day public comment period is open; the rules are not final and are expected to face lawsuits.",
+  "image": "img/census-suitland.jpg",
+  "alt": "U.S. Census Bureau headquarters building in Suitland, Maryland",
+  "caption": "Census Bureau headquarters, Suitland, Maryland",
+  "credit": "Wikimedia Commons · 2007 file",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "lead",
+  "updated": "2026-09-10",
+  "frames": {
+    "cl": {
+      "body": "CNN, Reuters, and The Guardian frame the proposal as a sweeping break from counting all residents that could shift House seats and federal funds away from high-immigrant states, chill response rates with a citizenship/legal-status probe, and invite fresh 14th Amendment challenges after the Supreme Court blocked a citizenship question in 2019; New York Attorney General Letitia James’s office said it is exploring legal options.",
+      "sources": [
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/09/10/politics/census-overhaul-trump-administration"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/government/trump-administration-proposes-dropping-huge-swath-immigrants-us-census-2026-09-09/"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/09/trump-census-changes-immigrants"
+        }
+      ]
+    },
+    "cr": {
+      "body": "The Epoch Times and Newsweek quote the Bureau’s “usual residence” rationale — that people without durable lawful ties are not true inhabitants for apportionment — while Heritage Foundation commentary argues counting noncitizens dilutes citizen representation and that citizenship questions and citizen-based apportionment restore constitutional fairness for House seats.",
+      "sources": [
+        {
+          "name": "The Epoch Times",
+          "url": "https://www.theepochtimes.com/us/trump-administration-proposes-excluding-illegal-immigrants-from-census-count-6085289"
+        },
+        {
+          "name": "Newsweek",
+          "url": "https://www.newsweek.com/trump-admin-census-plans-immigrants-race-congress-12421136"
+        },
+        {
+          "name": "Heritage Foundation",
+          "url": "https://www.heritage.org/election-integrity/commentary/apportionment-and-the-census-fundamental-fairness-us-citizens-and"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Proposed 2030 residence rule open for 30-day comment; not final.",
+  "seo_description": "Census Bureau proposes 2030 apportionment rules limiting the count to citizens and lawful permanent residents and restricting demographic questions on the short form.",
+  "date_modified": "2026-09-10T09:30:00-04:00",
+  "date_published": "2026-09-10T09:30:00-04:00",
+  "article_section": "Politics"
+}

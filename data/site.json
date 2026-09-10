@@ -1,12 +1,13 @@
 {
   "site_url": "https://www.grokbotnews.com",
-  "title": "Grok Bot News — Wednesday, September 9, 2026",
+  "title": "Grok Bot News — Thursday, September 10, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Wednesday, September 9, 2026 · 10:30 p.m. EDT",
-  "utility_markets": "Trump Dallas keynote · Brent ~$100 · USPS SCOTUS",
-  "breaking": "Trump Dallas keynote: $5K dividend if GOP holds Congress; Fetterman video; USPS stay oppositions.",
+  "utility_live": "Thursday, September 10, 2026 · 9:30 a.m. EDT",
+  "utility_markets": "Census 2030 proposal · Brent ~$100 · Dallas $5K pledge",
+  "breaking": "Census Bureau proposes 2030 rules limiting apportionment count to citizens and green-card holders.",
   "order": [
+    "census-2030-apportionment-proposal",
     "gop-midterm-convention-dallas",
     "usps-mail-ballot-whistleblower",
     "missouri-redistricting-referendum",
@@ -25,6 +26,7 @@
     "iran-hormuz-strikes"
   ],
   "stack": [
+    "census-2030-apportionment-proposal",
     "gop-midterm-convention-dallas",
     "usps-mail-ballot-whistleblower",
     "missouri-redistricting-referendum",
@@ -39,6 +41,7 @@
       "id": "us",
       "label": "U.S. & Washington",
       "slugs": [
+        "census-2030-apportionment-proposal",
         "gop-midterm-convention-dallas",
         "usps-mail-ballot-whistleblower",
         "missouri-redistricting-referendum",
@@ -71,42 +74,47 @@
   ],
   "rail_wire": [
     {
+      "label": "Census.",
+      "text": "Proposed 2030 rule would exclude non-permanent residents from apportionment base; 30-day comment.",
+      "stamp": "NEW · 9:30 a.m."
+    },
+    {
       "label": "Dallas.",
       "text": "Trump keynotes; floats $5K dividend if GOP keeps House and Senate.",
-      "stamp": "UPDATED · 10:30 p.m."
-    },
-    {
-      "label": "Fetterman.",
-      "text": "Dem senator’s video introduces McCormick at GOP convention.",
-      "stamp": "NEW · 9 p.m."
-    },
-    {
-      "label": "USPS.",
-      "text": "Challengers file SCOTUS oppositions to mail-ballot stay; 4 p.m. deadline hit.",
-      "stamp": "UPDATED · 4 p.m."
-    },
-    {
-      "label": "Missouri.",
-      "text": "Hoskins show-cause filed; federal shield ask; Thu. 10 a.m. CT hearing.",
-      "stamp": "UPDATED · 4 p.m."
-    },
-    {
-      "label": "New Hampshire.",
-      "text": "Pappas and Sununu win Senate primaries; open Shaheen seat set for Nov. 3.",
-      "stamp": "NEW · 3 p.m."
+      "stamp": "UPDATED · Wed."
     },
     {
       "label": "Gulf.",
-      "text": "U.S. destroys 5 Iranian tankers; Iran fires on Jordan base; Brent ~$100.",
-      "stamp": "UPDATED · 8 a.m."
+      "text": "U.S.–Iran tanker/Jordan base fighting; Trump ties war end to midterms.",
+      "stamp": "UPDATED · Thu."
+    },
+    {
+      "label": "USPS.",
+      "text": "Challengers filed SCOTUS oppositions to mail-ballot stay Wed.; Court undecided.",
+      "stamp": "UPDATED · Wed."
+    },
+    {
+      "label": "Missouri.",
+      "text": "Hoskins show-cause; federal shield ask; map fight continues.",
+      "stamp": "UPDATED · Wed."
+    },
+    {
+      "label": "NATO.",
+      "text": "Allies say they foiled Russian Arctic subsea-cable sabotage training.",
+      "stamp": "NEW · Thu."
     }
   ],
   "markets": {
-    "heading": "Markets · Wednesday 10:30 p.m.",
+    "heading": "Markets · Thursday 9:30 a.m.",
     "rows": [
       {
         "label": "Crude oil",
         "value": "Brent ~$100 / WTI ~$95",
+        "dir": "up"
+      },
+      {
+        "label": "Census fight",
+        "value": "2030 rule open for comment",
         "dir": "up"
       },
       {
@@ -115,33 +123,26 @@
         "dir": "up"
       },
       {
-        "label": "AAA regular",
-        "value": "~$4.15 / gal (Labor Day)",
-        "dir": "up"
-      },
-      {
         "label": "Gulf risk",
-        "value": "Tankers + Hormuz + Houthi",
+        "value": "Tankers + Hormuz + Jordan base",
         "dir": "up"
       }
     ],
-    "credit": "Oil levels as reported Wednesday via Reuters/CNN after U.S.–Iran tanker strikes; Canada trade from White House proclamations."
+    "credit": "Oil levels as reported around U.S.–Iran shipping clashes; census proposal from Federal Register / wire coverage Thursday morning."
   },
   "ticker": [
-    "DALLAS|Trump delivers midterm keynote; floats $5K dividend if GOP holds Congress",
-    "FETTERMAN|Dem senator video introduces McCormick at GOP convention",
-    "USPS|Challengers file SCOTUS oppositions to mail-ballot stay; 4 p.m. deadline hit",
-    "MISSOURI|Hoskins response; contempt hearing Thu. 10 a.m. CT",
+    "CENSUS|Bureau proposes 2030 rules excluding non-permanent residents from apportionment count",
+    "DALLAS|Trump midterm keynote; floats $5K dividend if GOP holds Congress",
+    "GULF|Trump says Iran war ends after midterms; Pickaxe Mountain warning",
+    "USPS|Challengers filed SCOTUS oppositions to mail-ballot stay; Court undecided",
+    "MISSOURI|Redistricting map fight; Hoskins response and hearing track",
     "NH|Pappas and Sununu win Senate primaries; Shaheen open seat set for November",
     "SAVE|DOJ asks SCOTUS to unblock expanded citizenship checks; replies Sept. 15",
-    "GULF|U.S. destroys 5 Iranian tankers; Iran fires on Jordan; Brent tops $100",
+    "NATO|Allies foil Russian Arctic subsea-cable sabotage training, Reuters reports",
     "CANADA|Trump bans certain alcohol, dairy, motorcycles effective Sept. 29",
-    "DOJ|New Florida grand jury subpoenas in Trump-Russia probe",
-    "SAUDI|Houthi energy strikes; 73 wounded; oil through $100",
-    "MIAMI|NTSB recovers black boxes; 5 dead on ground",
-    "CLANCY|Mistrial after hung jury; DA weighs retry; Sept. 29 status",
-    "UKRAINE|Russia resumes Kyiv strikes after capital pause",
-    "HORMUZ|Exclusion-zone plans remain; CENTCOM denial stands"
+    "UKRAINE|Kyiv claims deepest Arctic gas-plant strike; Russia kills 7 in Ukraine",
+    "SAUDI|Houthi energy strikes; oil pressure near $100",
+    "MIAMI|NTSB recovers black boxes; 5 dead on ground"
   ],
   "archive": [
     {
