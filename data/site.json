@@ -1,14 +1,14 @@
 {
   "site_url": "https://www.grokbotnews.com",
-  "title": "Grok Bot News \u2014 Wednesday, September 9, 2026",
+  "title": "Grok Bot News — Wednesday, September 9, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Wednesday, September 9, 2026 \u00b7 4 p.m. EDT",
-  "utility_markets": "USPS SCOTUS replies \u00b7 Dallas open \u00b7 Brent ~$100",
-  "breaking": "USPS stay oppositions filed; Missouri Hoskins response; GOP Dallas opens; NH Senate set.",
+  "utility_live": "Wednesday, September 9, 2026 · 10:30 p.m. EDT",
+  "utility_markets": "Trump Dallas keynote · Brent ~$100 · USPS SCOTUS",
+  "breaking": "Trump Dallas keynote: $5K dividend if GOP holds Congress; Fetterman video; USPS stay oppositions.",
   "order": [
-    "usps-mail-ballot-whistleblower",
     "gop-midterm-convention-dallas",
+    "usps-mail-ballot-whistleblower",
     "missouri-redistricting-referendum",
     "nh-senate-pappas-sununu",
     "uk-israel-settlement-sanctions",
@@ -25,8 +25,8 @@
     "iran-hormuz-strikes"
   ],
   "stack": [
-    "usps-mail-ballot-whistleblower",
     "gop-midterm-convention-dallas",
+    "usps-mail-ballot-whistleblower",
     "missouri-redistricting-referendum",
     "nh-senate-pappas-sununu",
     "uk-israel-settlement-sanctions",
@@ -39,8 +39,8 @@
       "id": "us",
       "label": "U.S. & Washington",
       "slugs": [
-        "usps-mail-ballot-whistleblower",
         "gop-midterm-convention-dallas",
+        "usps-mail-ballot-whistleblower",
         "missouri-redistricting-referendum",
         "nh-senate-pappas-sununu",
         "dhs-save-voter-database-scotus",
@@ -71,38 +71,38 @@
   ],
   "rail_wire": [
     {
-      "label": "USPS.",
-      "text": "California + LWV Mass. oppositions filed on 26A305; Court undecided.",
-      "stamp": "UPDATED \u00b7 4 p.m."
+      "label": "Dallas.",
+      "text": "Trump keynotes; floats $5K dividend if GOP keeps House and Senate.",
+      "stamp": "UPDATED · 10:30 p.m."
     },
     {
-      "label": "Dallas.",
-      "text": "Midterm convention opens; Trump en route for Wednesday keynote.",
-      "stamp": "UPDATED \u00b7 4 p.m."
+      "label": "Fetterman.",
+      "text": "Dem senator’s video introduces McCormick at GOP convention.",
+      "stamp": "NEW · 9 p.m."
+    },
+    {
+      "label": "USPS.",
+      "text": "Challengers file SCOTUS oppositions to mail-ballot stay; 4 p.m. deadline hit.",
+      "stamp": "UPDATED · 4 p.m."
     },
     {
       "label": "Missouri.",
-      "text": "Hoskins show-cause filed citing federal TRO; Thu. hearing.",
-      "stamp": "UPDATED \u00b7 4 p.m."
+      "text": "Hoskins show-cause filed; federal shield ask; Thu. 10 a.m. CT hearing.",
+      "stamp": "UPDATED · 4 p.m."
     },
     {
       "label": "New Hampshire.",
       "text": "Pappas and Sununu win Senate primaries; open Shaheen seat set for Nov. 3.",
-      "stamp": "NEW \u00b7 3 p.m."
-    },
-    {
-      "label": "UK\u2013Israel.",
-      "text": "Settlement goods ban announced; Israel sets 30-day East Jerusalem consulate close deadline.",
-      "stamp": "NEW \u00b7 1 p.m."
+      "stamp": "NEW · 3 p.m."
     },
     {
       "label": "Gulf.",
       "text": "U.S. destroys 5 Iranian tankers; Iran fires on Jordan base; Brent ~$100.",
-      "stamp": "UPDATED \u00b7 8 a.m."
+      "stamp": "UPDATED · 8 a.m."
     }
   ],
   "markets": {
-    "heading": "Markets \u00b7 Wednesday 4 p.m.",
+    "heading": "Markets · Wednesday 10:30 p.m.",
     "rows": [
       {
         "label": "Crude oil",
@@ -125,23 +125,23 @@
         "dir": "up"
       }
     ],
-    "credit": "Oil levels as reported Wednesday via Reuters/CNN after U.S.\u2013Iran tanker strikes; Canada trade from White House proclamations."
+    "credit": "Oil levels as reported Wednesday via Reuters/CNN after U.S.–Iran tanker strikes; Canada trade from White House proclamations."
   },
   "ticker": [
-    "USPS|California and LWV Mass. file oppositions on 26A305 stay; Court undecided",
-    "DALLAS|GOP midterm convention opens; Trump Wednesday keynote tonight",
-    "MISSOURI|Hoskins answers contempt show-cause; hearing Thu. 10 a.m. CT",
+    "DALLAS|Trump delivers midterm keynote; floats $5K dividend if GOP holds Congress",
+    "FETTERMAN|Dem senator video introduces McCormick at GOP convention",
+    "USPS|Challengers file SCOTUS oppositions to mail-ballot stay; 4 p.m. deadline hit",
+    "MISSOURI|Hoskins response; contempt hearing Thu. 10 a.m. CT",
     "NH|Pappas and Sununu win Senate primaries; Shaheen open seat set for November",
-    "GULF|U.S. destroys 5 Iranian tankers; Iran fires on Jordan; Brent near $100",
     "SAVE|DOJ asks SCOTUS to unblock expanded citizenship checks; replies Sept. 15",
+    "GULF|U.S. destroys 5 Iranian tankers; Iran fires on Jordan; Brent tops $100",
     "CANADA|Trump bans certain alcohol, dairy, motorcycles effective Sept. 29",
     "DOJ|New Florida grand jury subpoenas in Trump-Russia probe",
     "SAUDI|Houthi energy strikes; 73 wounded; oil through $100",
     "MIAMI|NTSB recovers black boxes; 5 dead on ground",
     "CLANCY|Mistrial after hung jury; DA weighs retry; Sept. 29 status",
     "UKRAINE|Russia resumes Kyiv strikes after capital pause",
-    "HORMUZ|Exclusion-zone plans remain; CENTCOM denial stands",
-    "OHIO|Armed man arrested at Acton Canfield Fair stop"
+    "HORMUZ|Exclusion-zone plans remain; CENTCOM denial stands"
   ],
   "archive": [
     {
@@ -173,8 +173,8 @@
       "updated": "2026-09-04"
     }
   ],
-  "footer_method": "Humans didn\u2019t write today\u2019s copy; both frames are generated from public sources. Headlines and kickers state the event only. Each story then carries two viewpoint blocks \u2014 typical center-left and typical center-right \u2014 at the same size, in the same type, with named outlets or officials and outbound links. The site does not declare a winner in the headline. Summaries are original and short. Full articles are not reproduced.",
+  "footer_method": "Humans didn’t write today’s copy; both frames are generated from public sources. Headlines and kickers state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, in the same type, with named outlets or officials and outbound links. The site does not declare a winner in the headline. Summaries are original and short. Full articles are not reproduced.",
   "footer_legal": "Independent staging page for grokbotnews.com. Original wordmark. Not affiliated with any broadcast or cable news company. No accounts, no comments, no donations. Photographs are news-file images used for layout; they are not claimed as original field work by this site.",
-  "story_footer_method": "Headlines state the event only. Each story then carries two viewpoint blocks \u2014 typical center-left and typical center-right \u2014 at the same size, with named outlets and outbound links. Summaries are original and short. Full articles are not reproduced.",
+  "story_footer_method": "Headlines state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, with named outlets and outbound links. Summaries are original and short. Full articles are not reproduced.",
   "story_footer_legal": "Independent staging page for grokbotnews.com. Original wordmark. Not affiliated with any broadcast or cable news company. No accounts, no comments, no donations."
 }
