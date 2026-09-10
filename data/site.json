@@ -1,12 +1,13 @@
 {
   "site_url": "https://www.grokbotnews.com",
-  "title": "Grok Bot News — Thursday, September 10, 2026",
+  "title": "Grok Bot News \u2014 Thursday, September 10, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Thursday, September 10, 2026 · 2:00 p.m. EDT",
-  "utility_markets": "Trump $5K dividend · Missouri map · Miami CVR",
-  "breaking": "Trump’s $5,000 midterm “dividend” pledge draws $1T+ cost estimates and legal questions.",
+  "utility_live": "Thursday, September 10, 2026 \u00b7 3:00 p.m. EDT",
+  "utility_markets": "Mocha falls \u00b7 Trump $5K \u00b7 Missouri map",
+  "breaking": "Houthis seize Yemen\u2019s Mocha port near the Bab al-Mandeb shipping chokepoint.",
   "order": [
+    "houthi-mocha-bab-el-mandeb",
     "missouri-redistricting-referendum",
     "trump-5000-dividend-pledge",
     "census-2030-apportionment-proposal",
@@ -27,6 +28,7 @@
     "iran-hormuz-strikes"
   ],
   "stack": [
+    "houthi-mocha-bab-el-mandeb",
     "missouri-redistricting-referendum",
     "trump-5000-dividend-pledge",
     "census-2030-apportionment-proposal",
@@ -34,8 +36,7 @@
     "gop-midterm-convention-dallas",
     "usps-mail-ballot-whistleblower",
     "nh-senate-pappas-sununu",
-    "uk-israel-settlement-sanctions",
-    "us-iran-tanker-strikes"
+    "uk-israel-settlement-sanctions"
   ],
   "section_labels": [
     {
@@ -60,6 +61,7 @@
       "id": "world",
       "label": "World",
       "slugs": [
+        "houthi-mocha-bab-el-mandeb",
         "uk-israel-settlement-sanctions",
         "canada-us-retaliatory-tariffs",
         "houthi-saudi-energy-attacks",
@@ -76,38 +78,43 @@
   ],
   "rail_wire": [
     {
+      "label": "Mocha.",
+      "text": "Houthis take Red Sea port; NRF retreats toward Dhubab near Bab al-Mandeb.",
+      "stamp": "NEW \u00b7 3:00 p.m."
+    },
+    {
       "label": "Dividend.",
-      "text": "Trump $5K midterm pledge; economists cite ~$1.15–$1.35T; Vance cites tariffs.",
-      "stamp": "NEW · 2:00 p.m."
+      "text": "Trump $5K midterm pledge; economists cite ~$1.15\u2013$1.35T; Vance cites tariffs.",
+      "stamp": "NEW \u00b7 2:00 p.m."
     },
     {
       "label": "Missouri.",
       "text": "SCOTUS stays Clark TRO; 2022 map for Nov.; Hoskins contempt hearing Thursday.",
-      "stamp": "NEW · 11:00 a.m."
+      "stamp": "NEW \u00b7 11:00 a.m."
     },
     {
       "label": "Miami.",
-      "text": "NTSB CVR: one pilot warned “too fast” ~2 min; FDR shows no speed brakes/reversers.",
-      "stamp": "UPDATED · 10:10 a.m."
+      "text": "NTSB CVR: one pilot warned \u201ctoo fast\u201d ~2 min; FDR shows no speed brakes/reversers.",
+      "stamp": "UPDATED \u00b7 10:10 a.m."
     },
     {
       "label": "Census.",
       "text": "Proposed 2030 rule would exclude non-permanent residents from apportionment base; 30-day comment.",
-      "stamp": "NEW · 9:30 a.m."
+      "stamp": "NEW \u00b7 9:30 a.m."
     },
     {
       "label": "Dallas.",
       "text": "Trump keynotes; floats $5K dividend if GOP keeps House and Senate.",
-      "stamp": "UPDATED · Wed."
+      "stamp": "UPDATED \u00b7 Wed."
     },
     {
       "label": "Gulf.",
-      "text": "U.S.–Iran tanker/Jordan base fighting; Trump ties war end to midterms.",
-      "stamp": "UPDATED · Thu."
+      "text": "U.S.\u2013Iran tanker/Jordan base fighting; Trump ties war end to midterms.",
+      "stamp": "UPDATED \u00b7 Thu."
     }
   ],
   "markets": {
-    "heading": "Markets · Thursday 2:00 p.m.",
+    "heading": "Markets \u00b7 Thursday 3:00 p.m.",
     "rows": [
       {
         "label": "Crude oil",
@@ -130,12 +137,12 @@
         "dir": "up"
       }
     ],
-    "credit": "Oil levels as reported around U.S.–Iran shipping clashes; Missouri map status from Supreme Court emergency order Thursday morning."
+    "credit": "Oil levels as reported around U.S.\u2013Iran shipping clashes; Missouri map status from Supreme Court emergency order Thursday morning."
   },
   "ticker": [
     "MISSOURI|SCOTUS stays federal TRO; 2022 congressional map in force for November",
-    "DIVIDEND|Trump $5K midterm “dividend”; cost estimates near $1T+; Vance cites tariffs",
-    "MIAMI|NTSB: cargo pilot warned “too fast” nearly 2 minutes before Miami overrun",
+    "DIVIDEND|Trump $5K midterm \u201cdividend\u201d; cost estimates near $1T+; Vance cites tariffs",
+    "MIAMI|NTSB: cargo pilot warned \u201ctoo fast\u201d nearly 2 minutes before Miami overrun",
     "CENSUS|Bureau proposes 2030 rules excluding non-permanent residents from apportionment count",
     "DALLAS|Trump midterm keynote; floats $5K dividend if GOP holds Congress",
     "GULF|Trump says Iran war ends after midterms; Pickaxe Mountain warning",
@@ -177,8 +184,8 @@
       "updated": "2026-09-04"
     }
   ],
-  "footer_method": "Humans didn’t write today’s copy; both frames are generated from public sources. Headlines and kickers state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, in the same type, with named outlets or officials and outbound links. The site does not declare a winner in the headline. Summaries are original and short. Full articles are not reproduced.",
+  "footer_method": "Humans didn\u2019t write today\u2019s copy; both frames are generated from public sources. Headlines and kickers state the event only. Each story then carries two viewpoint blocks \u2014 typical center-left and typical center-right \u2014 at the same size, in the same type, with named outlets or officials and outbound links. The site does not declare a winner in the headline. Summaries are original and short. Full articles are not reproduced.",
   "footer_legal": "Independent staging page for grokbotnews.com. Original wordmark. Not affiliated with any broadcast or cable news company. No accounts, no comments, no donations. Photographs are news-file images used for layout; they are not claimed as original field work by this site.",
-  "story_footer_method": "Headlines state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, with named outlets and outbound links. Summaries are original and short. Full articles are not reproduced.",
+  "story_footer_method": "Headlines state the event only. Each story then carries two viewpoint blocks \u2014 typical center-left and typical center-right \u2014 at the same size, with named outlets and outbound links. Summaries are original and short. Full articles are not reproduced.",
   "story_footer_legal": "Independent staging page for grokbotnews.com. Original wordmark. Not affiliated with any broadcast or cable news company. No accounts, no comments, no donations."
 }

@@ -1,0 +1,55 @@
+{
+  "slug": "houthi-mocha-bab-el-mandeb",
+  "kicker": "Red Sea",
+  "hed": "Houthis seize Yemen\u2019s Mocha port, closing in on Bab al-Mandeb shipping chokepoint",
+  "stamp": "NEW \u00b7 Thu. 3:00 p.m. EDT",
+  "dek": "Iran-backed Houthi forces took the Red Sea port city of Mocha on Thursday after Saudi-aligned National Resistance Forces withdrew south toward Dhubab, Yemeni government sources told Reuters, CNN, and Al Jazeera. Mocha sits roughly 50 miles north of Perim Island near the Bab al-Mandeb Strait, a corridor that carries a significant share of Asia\u2013Europe trade and Gulf energy flows via the Suez Canal. AFP reported fighters also seized Zuqar Island; Maj. Gen. Tareq Saleh said he moved his command to a safer location to regroup. The advance comes as the wider U.S.\u2013Iran war and recent Houthi strikes on Saudi energy sites have already pushed Brent crude above $100.",
+  "image": "img/houthi-mocha-bab-el-mandeb.jpg",
+  "alt": "U.S. Navy ships transit the Bab el-Mandeb Strait between the Red Sea and Gulf of Aden",
+  "caption": "U.S. Navy ships transit the Bab el-Mandeb Strait. File photograph; not from Thursday\u2019s Mocha fighting.",
+  "credit": "U.S. Navy / Mass Communication Specialist 3rd Class Jeffry A. Willadsen (public domain via Wikimedia Commons)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "world",
+  "updated": "2026-09-10",
+  "frames": {
+    "cl": {
+      "body": "CNN, Al Jazeera, and AFP emphasize the government withdrawal from Mocha, displacement toward Aden, and analyst warnings that losing the last fully government-held Red Sea harbour and the Taiz road is a major blow to Yemen\u2019s internationally recognized authorities amid a return to large-scale fighting.",
+      "sources": [
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/09/10/middleeast/houthis-capture-mocha-red-sea-strait-intl"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/10/yemens-houthis-seize-strategic-red-sea-city-of-mocha"
+        },
+        {
+          "name": "AFP / France 24",
+          "url": "https://www.france24.com/en/live-news/20260910-yemen-s-houthis-seize-key-city-on-red-sea-military-source"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Reuters factbox coverage, The National, and Ynet stress Iran-backed Houthi leverage over Bab al-Mandeb energy and commodity routes, the push for full Red Sea coastal control, and the risk that coastal guns and missiles could coerce shipping already strained by the U.S.\u2013Iran war and Saudi-site attacks.",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/middle-east/who-is-fighting-yemen-2026-09-10/"
+        },
+        {
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/news/mena/2026/09/10/houthis-yemen-mokha-port-red-sea/"
+        },
+        {
+          "name": "Ynet",
+          "url": "https://www.ynetnews.com/article/s1ujjjlyml"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Mocha falls; NRF retreats to Dhubab; Bab al-Mandeb risk rises.",
+  "seo_description": "Houthi forces seized Yemen\u2019s Mocha Red Sea port on Sept. 10 after government-aligned forces withdrew, closing in on the Bab al-Mandeb shipping chokepoint.",
+  "date_modified": "2026-09-10T15:00:00-04:00",
+  "date_published": "2026-09-10T15:00:00-04:00",
+  "article_section": "World"
+}
