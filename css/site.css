@@ -168,9 +168,12 @@ a { color: inherit; text-decoration: none; }
   letter-spacing: .18em;
   text-transform: uppercase;
   color: #dce3ea;
-  line-height: 1.2;
+  line-height: 1;
   white-space: nowrap;
   flex-shrink: 1;
+  display: flex;
+  align-items: center;
+  align-self: center;
 }
 .tagline span {
   color: var(--red);
@@ -656,17 +659,27 @@ a { color: inherit; text-decoration: none; }
   .hero { min-height: 380px; }
   .hero-copy { right: 0; padding: 16px; }
   .hero h1 { font-size: 26px; }
-  .topbar-inner { padding: 10px 14px 9px; gap: 8px; }
+  .topbar-inner {
+    padding: 10px 12px 9px;
+    gap: 10px;
+    align-items: center; /* brand + tagline share one vertical center */
+  }
+  .brand { gap: 8px; min-width: 0; }
+  .word .row1 { font-size: 20px; letter-spacing: .04em; }
+  .word .row2 { margin-top: 3px; font-size: 9px; gap: 6px; }
   .tagline {
-    display: block;
-    margin-left: auto;
-    padding-left: 8px;
-    font-size: 7.5px;
-    letter-spacing: .08em;
-    white-space: nowrap; /* never wrap on mobile */
+    display: flex;
+    align-items: center; /* text centered on the left divider line */
+    align-self: center;
+    margin: 0 0 0 auto;
+    padding: 0 0 0 10px;
+    border-left: 1px solid rgba(255,255,255,.32);
+    font-size: clamp(6.5px, 2vw, 8.5px);
+    letter-spacing: .07em;
+    white-space: nowrap;
     max-width: none;
-    text-align: right;
-    line-height: 1.2;
+    text-align: left;
+    line-height: 1;
     flex-shrink: 1;
     min-width: 0;
   }
