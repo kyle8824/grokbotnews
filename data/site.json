@@ -3,10 +3,11 @@
   "title": "Grok Bot News \u2014 Thursday, September 10, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Thursday, September 10, 2026 \u00b7 4:15 p.m. EDT",
-  "utility_markets": "ACA $500 rebate \u00b7 USPS 1st Cir \u00b7 Oil ~$102",
-  "breaking": "White House: ~1M HealthCare.gov enrollees to get $500 ACA rebate checks starting in October.",
+  "utility_live": "Thursday, September 10, 2026 \u00b7 7:15 p.m. EDT",
+  "utility_markets": "Brent >$105 \u00b7 WTI ~$100 \u00b7 Mocha + Hormuz",
+  "breaking": "Brent tops $105 as Houthis seize Mocha near Bab el-Mandeb and Hormuz tanker war deepens.",
   "order": [
+    "brent-105-dual-chokepoint",
     "trump-aca-500-rebate",
     "usps-mail-ballot-whistleblower",
     "missouri-redistricting-referendum",
@@ -29,6 +30,7 @@
     "iran-hormuz-strikes"
   ],
   "stack": [
+    "brent-105-dual-chokepoint",
     "trump-aca-500-rebate",
     "usps-mail-ballot-whistleblower",
     "missouri-redistricting-referendum",
@@ -37,8 +39,7 @@
     "census-2030-apportionment-proposal",
     "miami-amazon-cargo-crash",
     "gop-midterm-convention-dallas",
-    "nh-senate-pappas-sununu",
-    "uk-israel-settlement-sanctions"
+    "nh-senate-pappas-sununu"
   ],
   "section_labels": [
     {
@@ -75,11 +76,17 @@
       "id": "energy",
       "label": "Energy & markets",
       "slugs": [
+        "brent-105-dual-chokepoint",
         "iran-hormuz-strikes"
       ]
     }
   ],
   "rail_wire": [
+    {
+      "label": "Oil.",
+      "text": "Brent tops $105; WTI briefly $100 as Mocha + Hormuz squeeze shipping.",
+      "stamp": "NEW \u00b7 7:15 p.m."
+    },
     {
       "label": "ACA.",
       "text": "White House: ~1M unsubsidized federal-exchange enrollees get $500 rebates; Oct. mailings; Dems call gimmick.",
@@ -97,18 +104,13 @@
     },
     {
       "label": "Mocha.",
-      "text": "Houthis take Red Sea port; NRF retreats toward Dhubab near Bab al-Mandeb.",
-      "stamp": "NEW \u00b7 3:00 p.m."
+      "text": "Houthis take Red Sea port; reach Hanish Islands; NRF retreats toward Dhubab.",
+      "stamp": "UPDATED \u00b7 7:15 p.m."
     },
     {
       "label": "Dividend.",
       "text": "Trump $5K midterm pledge; economists cite ~$1.15\u2013$1.35T; Vance cites tariffs.",
       "stamp": "NEW \u00b7 2:00 p.m."
-    },
-    {
-      "label": "Miami.",
-      "text": "NTSB CVR: one pilot warned \u201ctoo fast\u201d ~2 min; FDR shows no speed brakes/reversers.",
-      "stamp": "UPDATED \u00b7 10:10 a.m."
     },
     {
       "label": "Census.",
@@ -117,11 +119,16 @@
     }
   ],
   "markets": {
-    "heading": "Markets \u00b7 Thursday 4:15 p.m.",
+    "heading": "Markets \u00b7 Thursday 7:15 p.m.",
     "rows": [
       {
         "label": "Crude oil",
-        "value": "Brent ~$102 / WTI ~$97",
+        "value": "Brent >$105 / WTI ~$100",
+        "dir": "up"
+      },
+      {
+        "label": "Chokepoints",
+        "value": "Hormuz + Bab el-Mandeb / Mocha",
         "dir": "up"
       },
       {
@@ -133,30 +140,23 @@
         "label": "Mail ballots",
         "value": "1st Cir keeps USPS block",
         "dir": "up"
-      },
-      {
-        "label": "Gulf risk",
-        "value": "Tankers + Hormuz + Mocha port",
-        "dir": "up"
       }
     ],
-    "credit": "Oil ~ranges from Thursday Reuters reporting. ACA rebate stamp from White House/Axios/Hill coverage."
+    "credit": "Oil prints from Thursday CNN/NBC/Reuters/Fox/The National reporting. ACA rebate stamp from White House/Axios/Hill coverage."
   },
   "ticker": [
+    "OIL|Brent tops $105; WTI briefly $100 as Mocha + Hormuz squeeze shipping",
+    "MOCHA|Houthis seize Mocha; reach Hanish Islands near Bab el-Mandeb",
     "USPS|1st Circuit declines stay of Talwani PI on USPS mail-ballot rule; SCOTUS 26A305 pending",
     "MISSOURI|State high court finds Hoskins in contempt; says he purged it by directing 2022 map",
-    "MOCHA|Houthis seize Mocha near Bab al-Mandeb; NRF pulls toward Dhubab",
+    "ACA|White House: ~1M HealthCare.gov enrollees to get $500 rebates starting October",
     "DIVIDEND|Trump $5K midterm \u201cdividend\u201d; cost estimates near $1T+; Vance cites tariffs",
     "MIAMI|NTSB: cargo pilot warned \u201ctoo fast\u201d nearly 2 minutes before Miami overrun",
     "CENSUS|Bureau proposes 2030 rules excluding non-permanent residents from apportionment count",
-    "DALLAS|Trump midterm keynote; floats $5K dividend if GOP holds Congress",
     "GULF|Trump says Iran war ends after midterms; Pickaxe Mountain warning",
     "NH|Pappas and Sununu win Senate primaries; Shaheen open seat set for November",
     "SAVE|DOJ asks SCOTUS to unblock expanded citizenship checks; replies Sept. 15",
-    "NATO|Allies foil Russian Arctic subsea-cable sabotage training, Reuters reports",
-    "CANADA|Trump bans certain alcohol, dairy, motorcycles effective Sept. 29",
-    "UKRAINE|Kyiv claims deepest Arctic gas-plant strike; Russia kills 7 in Ukraine",
-    "SAUDI|Houthi energy strikes; oil pressure near $100+"
+    "UKRAINE|Kyiv claims deepest Arctic gas-plant strike; Russia kills 11 in Ukraine"
   ],
   "archive": [
     {

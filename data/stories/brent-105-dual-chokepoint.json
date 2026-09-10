@@ -1,0 +1,55 @@
+{
+  "slug": "brent-105-dual-chokepoint",
+  "kicker": "Energy markets",
+  "hed": "Brent crude tops $105 as Houthis seize Mocha and Hormuz tanker war squeezes shipping",
+  "stamp": "NEW \u00b7 7:15 p.m. EDT",
+  "dek": "Brent crude traded above $105 a barrel Thursday and U.S. crude briefly cleared $100, CNN Business, NBC News, and Reuters reported, as markets priced a dual chokepoint squeeze: Iran-aligned Houthis seized Yemen\u2019s Mocha port and reached the Hanish Islands near Bab el-Mandeb while the U.S.\u2013Iran tanker war kept Hormuz flows far below pre-war levels. Fox News and The National cited government sources saying Saudi-aligned forces pulled toward Dhubab opposite Perim Island; EIA figures cited in that coverage show Bab el-Mandeb volumes rising as Hormuz volumes plunged. Analysts flagged inflation and Fed-rate risks as oil extended gains first set when Brent closed above $100 earlier in the week.",
+  "image": "img/brent-105-oil-markets.jpg",
+  "alt": "Oil refinery towers and industrial piping against a clear blue sky",
+  "caption": "Refinery towers and process piping. File photograph used for layout; not from Thursday\u2019s Mocha advance or Hormuz tanker strikes.",
+  "credit": "Pexels (free license; attribution not required)",
+  "byline": "Event summary from public market desks and named outlets",
+  "section": "lead",
+  "updated": "2026-09-10",
+  "frames": {
+    "cl": {
+      "body": "CNN Business, NBC News, and the New York Times frame Thursday\u2019s $105 Brent print and WTI\u2019s brush with $100 as war-risk supply fears spilling into bonds and stocks \u2014 diesel and inflation pressure, a more likely Fed hike, and warnings from commodities desks that a prolonged U.S.\u2013Iran stalemate could push Brent toward $120 or higher.",
+      "sources": [
+        {
+          "name": "CNN Business",
+          "url": "https://www.cnn.com/2026/09/10/investing/oil-iran-war-diesel"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/business/energy/us-crude-oil-iran-trump-hormuz-rcna596997"
+        },
+        {
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/2026/09/10/business/oil-middle-east-iran-war.html"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Fox News, Reuters energy desks, and The National stress Iran-backed Houthi seizure of Mocha and the push to Hanish/Bab el-Mandeb as a second chokepoint threat while Hormuz tanker attacks keep Gulf exports constrained \u2014 with Brent reported as high as about $106.60 intraday and Saudi Red Sea export routes already under pressure.",
+      "sources": [
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/world/iran-backed-terror-groups-latest-territorial-grab-threatens-second-global-shipping-chokepoint"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/energy/brent-holds-above-100-tanker-attacks-deepen-supply-fear-2026-09-10/"
+        },
+        {
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/business/energy/2026/09/10/oil-prices-hit-105-per-barrel-as-houthis-seize-key-red-sea-port/"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Brent >$105 / WTI ~$100; Mocha + Hormuz dual chokepoint.",
+  "seo_description": "Brent crude topped $105 Thursday as Houthis seized Mocha near Bab el-Mandeb and the U.S.\u2013Iran Hormuz tanker war kept oil shipping under pressure.",
+  "date_modified": "2026-09-10T19:15:00-04:00",
+  "date_published": "2026-09-10T19:15:00-04:00",
+  "article_section": "Energy"
+}
