@@ -145,7 +145,7 @@ def render_masthead(*, home: bool) -> str:
     return f"""  <header class="masthead">
     <div class="masthead-inner">
       <a class="brand" href="{brand_href}">
-        <span class="brand-mark" aria-hidden="true"></span>
+        <img class="brand-mark" src="/img/brand-mark.png" width="56" height="56" alt="">
         <span class="wordmark">GROK BOT NEWS</span>
       </a>
       <p class="tagline">Event first. Two views. Same weight.</p>

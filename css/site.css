@@ -82,11 +82,12 @@ a:hover { color: var(--red-dark); }
   color: inherit;
 }
 .brand-mark {
-  width: 12px;
-  height: 42px;
-  background: var(--red);
-  box-shadow: 3px 0 0 var(--navy);
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
   flex: 0 0 auto;
+  box-shadow: 0 0 0 2px var(--red);
 }
 .wordmark {
   font-family: "Playfair Display", "Libre Baskerville", Georgia, "Times New Roman", serif;
@@ -414,7 +415,7 @@ footer {
   .utility { font-size: 10px; }
   .utility-inner { padding: 7px 12px; gap: 4px; }
   .masthead-inner { padding: 10px 12px 6px; }
-  .brand-mark { height: 40px; width: 11px; }
+  .brand-mark { height: 44px; width: 44px; }
   .masthead-inner { padding: 14px 12px 10px; }
   .nav { justify-content: space-between; padding: 0 8px; }
   .nav a { padding: 8px 4px 7px; font-size: 10.5px; letter-spacing: .06em; }
