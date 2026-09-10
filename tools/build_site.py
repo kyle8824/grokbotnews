@@ -39,7 +39,7 @@ MENU_ICON = (
     "</svg>"
 )
 MARK_HTML = """        <span class="mark" aria-hidden="true">
-          <img src="/img/brand-mark-v3.png" width="54" height="54" alt="">
+          <img src="/img/brand-mark-v4.png" width="54" height="54" alt="">
         </span>"""
 
 X_ICON = (
@@ -231,7 +231,7 @@ def nav_category(story: dict) -> tuple[str, str]:
 
 
 def fonts_and_css(*, root_absolute: bool = False) -> str:
-    css = "/css/site.css?v=footx2" if root_absolute else "css/site.css?v=footx2"
+    css = "/css/site.css?v=lessred1" if root_absolute else "css/site.css?v=lessred1"
     return f"""  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -313,7 +313,7 @@ def render_footer(site: dict, *, story: bool = False) -> str:
     <div class="foot-top">
       <a class="brand" href="/">
         <span class="mark" aria-hidden="true">
-          <img src="/img/brand-mark-v3.png" width="54" height="54" alt="">
+          <img src="/img/brand-mark-v4.png" width="54" height="54" alt="">
         </span>
         <span class="word">
           <span class="row1">GROK BOT</span>
