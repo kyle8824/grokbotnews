@@ -1,55 +1,55 @@
 {
   "slug": "missouri-redistricting-referendum",
   "kicker": "Midterms",
-  "hed": "U.S. Supreme Court blocks use of Missouri’s 2025 GOP congressional map for November",
-  "stamp": "UPDATED · 11:00 a.m. EDT",
-  "dek": "The U.S. Supreme Court on Thursday granted an emergency request from People Not Politicians and stayed U.S. District Judge Stephen Clark’s temporary restraining order that had required Missouri to use the 2025 HB 1 congressional map in November. NBC News reported the brief order noted no dissents. The stay leaves in force the Missouri Supreme Court’s ruling that the 2022 lines govern the general election and that a referendum on the 2025 map remains on the Nov. 3 ballot. Secretary of State Denny Hoskins and the Trump administration had urged the justices to leave Clark’s order in place, citing primary voters who cast ballots under the new lines and federal ballot deadlines. Hoskins was separately set to appear in person Thursday before the Missouri Supreme Court on a contempt show-cause tied to his earlier emails directing use of the 2025 map.",
+  "hed": "Missouri Supreme Court finds Hoskins in contempt, says he purged it by directing 2022 map",
+  "stamp": "UPDATED · Thu. 4:00 p.m. EDT",
+  "dek": "The Missouri Supreme Court on Thursday found Secretary of State Denny Hoskins in contempt for earlier directing local election authorities to use the 2025 HB 1 congressional map, then said he purged the contempt by reversing course and ordering the 2022 map after the U.S. Supreme Court stayed U.S. District Judge Stephen Clark’s temporary restraining order, ABC 17 News, KRCG, and St. Louis Public Radio reported. Chief Justice W. Brent Powell said Hoskins corrected his contemptuous conduct once the federal stay left the state high court’s 2022-map order as the governing directive. Hoskins and Attorney General Catherine Hanaway both said local election authorities are being told to use the 2022 lines for November; a referendum on the 2025 map remains on the Nov. 3 ballot under the state court’s earlier ruling. CNN reported the U.S. Supreme Court’s morning stay of Clark’s TRO issued without noted dissent.",
   "image": "img/missouri-capitol.jpg",
   "alt": "Missouri State Capitol dome in Jefferson City",
   "caption": "The Missouri State Capitol in Jefferson City. File photograph; not from Thursday’s court proceedings.",
   "credit": "Antony-22 / Wikimedia Commons (CC BY-SA 4.0)",
   "byline": "Event summary from public reporting and named outlets",
-  "section": "lead",
+  "section": "us",
   "updated": "2026-09-10",
   "frames": {
     "cl": {
-      "body": "NBC News, Ballotpedia News, and Democracy Docket frame Thursday’s stay as restoring the Missouri Supreme Court’s 2022-map/referendum order over a single federal TRO, noting no noted SCOTUS dissents and activists’ claim that state constitutional referendum rules blocked the 2025 lines from ever taking effect for November.",
+      "body": "ABC 17 News, St. Louis Public Radio, and CNN frame Thursday’s sequence as the Missouri Supreme Court first documenting Hoskins’s defiance of its 2022-map order, then accepting his purge after the U.S. Supreme Court stayed Clark’s federal TRO — leaving the referendum pathway and 2022 lines in force for November.",
       "sources": [
         {
-          "name": "NBC News",
-          "url": "https://www.nbcnews.com/politics/supreme-court/supreme-court-blocks-missouris-attempt-use-newly-drawn-republican-cong-rcna596857"
+          "name": "ABC 17 News",
+          "url": "https://abc17news.com/news/missouri/2026/09/10/missouri-supreme-court-finds-hoskins-was-in-contempt-by-ordering-use-of-new-congressional-map/"
         },
         {
-          "name": "Ballotpedia News",
-          "url": "https://news.ballotpedia.org/2026/09/10/missouris-congressional-map-remains-unsettled-after-courts-issue-conflicting-orders/"
+          "name": "St. Louis Public Radio",
+          "url": "https://www.stlpr.org/government-politics-issues/2026-09-10/missouri-supreme-court-contempt-hearing-hoskins-map"
         },
         {
-          "name": "Democracy Docket",
-          "url": "https://www.democracydocket.com/news-alerts/missouri-election-chief-asks-federal-judge-to-shield-him-from-contempt-charges-after-defying-state-supreme-court/"
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/09/10/politics/supreme-court-missouri-congressional-map-republicans"
         }
       ]
     },
     "cr": {
-      "body": "Fox News and Associated Press coverage, plus Hoskins’s Supreme Court filing summarized by NBC, stress Judge Clark’s concern that switching maps after the primary would disenfranchise voters who already nominated candidates under 2025 lines, federal ballot-mail deadlines, and the Trump Justice Department brief arguing that blocking Clark’s TRO would jeopardize a timely lawful federal election.",
+      "body": "KRCG, Fox News’s earlier Hoskins coverage, and Hoskins’s own Thursday statement emphasize the conflicting federal and state orders that left him between a rock and a hard place after Judge Clark’s TRO, then note that once the U.S. Supreme Court stayed that TRO he directed clerks to the 2022 map and Attorney General Hanaway affirmed that guidance.",
       "sources": [
+        {
+          "name": "KRCG",
+          "url": "https://krcgtv.com/news/local/mo-supreme-court-finds-sec-of-state-denny-hoskins-in-contempt-of-court"
+        },
         {
           "name": "Fox News",
           "url": "https://www.foxnews.com/politics/missouri-supreme-court-threatens-secretary-state-contempt-intensifying-redistricting-battle"
         },
         {
-          "name": "Associated Press via Newser",
-          "url": "https://www.newser.com/article/ecc7931d276eec7567a93736dcb8d3d0/missouris-congressional-map-is-back-before-the-us-supreme-court-sowing-still-more-confusion.html"
-        },
-        {
-          "name": "NBC News (Hoskins / DOJ briefs)",
-          "url": "https://www.nbcnews.com/politics/supreme-court/supreme-court-blocks-missouris-attempt-use-newly-drawn-republican-cong-rcna596857"
+          "name": "ABC 17 News (Hoskins / Hanaway statements)",
+          "url": "https://abc17news.com/news/missouri/2026/09/10/missouri-supreme-court-finds-hoskins-was-in-contempt-by-ordering-use-of-new-congressional-map/"
         }
       ]
     }
   },
-  "stack_blurb": "SCOTUS stays federal TRO; 2022 Missouri map for November.",
-  "seo_description": "The U.S. Supreme Court stayed a federal order requiring Missouri’s 2025 GOP congressional map, leaving the 2022 lines in place for November.",
-  "date_modified": "2026-09-10T11:00:00-04:00",
+  "stack_blurb": "MO high court: Hoskins in contempt, purged by directing 2022 map.",
+  "seo_description": "Missouri’s Supreme Court found Secretary of State Denny Hoskins in contempt for ordering the 2025 map, then said he purged it by directing the 2022 lines after a U.S. Supreme Court stay.",
+  "date_modified": "2026-09-10T16:00:00-04:00",
   "date_published": "2026-09-08T16:00:00-04:00",
   "article_section": "Politics"
 }

@@ -1,36 +1,36 @@
 {
   "slug": "usps-mail-ballot-whistleblower",
   "kicker": "Postal Service",
-  "hed": "Challengers file Supreme Court oppositions to USPS mail-ballot stay as 4 p.m. deadline hits",
-  "stamp": "UPDATED \u00b7 Wed. 4 p.m. EDT",
-  "dek": "On the Supreme Court emergency docket in United States Postal Service v. California, No. 26A305, respondents California et al. and the League of Women Voters of Massachusetts et al. filed oppositions Wednesday to the Justice Department\u2019s request to stay U.S. District Judge Indira Talwani\u2019s Sept. 4 preliminary injunction blocking mandatory parts of the Postal Service\u2019s Aug. 26 Ballot Mail for Federal Elections rule for the Nov. 3 midterms. Justice Ketanji Brown Jackson had set a 4 p.m. EDT Sept. 9 response deadline after DOJ withdrew earlier application 26A297 and refiled against the PI. Additional Wednesday filings on the docket include amicus briefs from Harris County, Texas; bipartisan former governors; election officials; and party committees. The Court has not ruled; Talwani\u2019s injunction remains in force unless stayed.",
+  "hed": "First Circuit declines to stay block on USPS mail-ballot rule as SCOTUS still weighs DOJ bid",
+  "stamp": "UPDATED · Thu. 4:00 p.m. EDT",
+  "dek": "A three-judge panel of the Boston-based 1st U.S. Circuit Court of Appeals on Thursday declined to stay U.S. District Judge Indira Talwani’s preliminary injunction blocking mandatory parts of the Postal Service’s Aug. 26 Ballot Mail for Federal Elections rule for the Nov. 3 midterms, Reuters reported. The Biden-appointed panel said states and Congress regulate elections under the Constitution, not the executive branch, and saw no error in Talwani’s finding that letting the rule take effect would likely disenfranchise millions of voters. California Attorney General Rob Bonta hailed the ruling; USPS and the White House had no immediate comment. The Justice Department’s Supreme Court stay application in United States Postal Service v. California, No. 26A305 — filed before the 1st Circuit ruled — remains pending.",
   "image": "img/ballots.jpg",
   "alt": "Election worker in blue gloves holding a vote-by-mail envelope",
   "caption": "",
-  "credit": "Mail-ballot processing \u00b7 file",
+  "credit": "Mail-ballot processing · file",
   "byline": "Event summary from public reporting and named outlets",
   "section": "lead",
-  "updated": "2026-09-09",
+  "updated": "2026-09-10",
   "frames": {
     "cl": {
-      "body": "SCOTUSblog coverage of the emergency posture, the Supreme Court docket entries for California\u2019s and LWV Massachusetts\u2019 oppositions, and NBC News reporting on the stay fight frame Wednesday\u2019s filings as states and voting groups urging the Court to leave Talwani\u2019s injunction in place while ballots already mail.",
+      "body": "Reuters, the ACLU’s joint challenger statement, and SCOTUSblog’s emergency-docket coverage frame Thursday’s 1st Circuit order as leaving Talwani’s injunction in place through the midterms, citing the panel’s warning of chaos and widespread disenfranchisement and Bonta’s claim that the appeals court rejected another attempt to disrupt mail voting.",
       "sources": [
         {
-          "name": "Supreme Court docket (26A305)",
-          "url": "https://www.supremecourt.gov/docket/docketfiles/html/public/26a305.html"
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/us-appeals-court-rejects-trump-bid-implement-mail-in-voting-restrictions-2026-09-10/"
         },
         {
-          "name": "California opposition PDF",
-          "url": "https://www.supremecourt.gov/DocketPDF/26/26A305/423593/20260909142150069_26A305%20-%20Opposition%20to%20Application%20-%20FINAL.pdf"
+          "name": "ACLU",
+          "url": "https://www.aclu.org/press-releases/appeals-court-maintains-preliminary-injunction-blocking-u-s-postal-service-from-enforcing-key-parts-of-new-rule-to-restrict-mail-ballots"
         },
         {
-          "name": "NBC News",
-          "url": "https://www.nbcnews.com/politics/trump-administration/justice-department-usps-supreme-court-action-mail-ballots-elections-rcna595924"
+          "name": "SCOTUSblog",
+          "url": "https://www.scotusblog.com/2026/09/trump-administration-again-appeals-mail-in-ballot-dispute-to-the-supreme-court/"
         }
       ]
     },
     "cr": {
-      "body": "The DOJ stay application, Washington Examiner, and Fox News stress Solicitor General D. John Sauer\u2019s push to enforce mail-ballot envelope and barcode rules before more states mail, arguing irreparable harm if Talwani\u2019s PI stands through Alabama\u2019s Sept. 9 mailing and later waves.",
+      "body": "After the 1st Circuit left Talwani’s PI in place, the administration’s live path remains the pending Supreme Court stay application. The DOJ filing, Washington Examiner, and Fox News stress Solicitor General D. John Sauer’s argument that the Postal Service’s barcode and recipient-list rules are a modest anti-fraud mail regulation and that irreparable harm follows if the injunction stands while more states mail ballots.",
       "sources": [
         {
           "name": "DOJ PI stay application",
@@ -47,9 +47,9 @@
       ]
     }
   },
-  "stack_blurb": "California + LWV Mass. oppositions filed on 26A305; Court undecided.",
-  "seo_description": "Challengers filed Supreme Court oppositions Wednesday to DOJ\u2019s USPS mail-ballot stay application 26A305 as Justice Jackson\u2019s 4 p.m. EDT deadline arrived.",
-  "date_modified": "2026-09-09T16:00:00-04:00",
+  "stack_blurb": "1st Circuit leaves Talwani PI in place; SCOTUS 26A305 still pending.",
+  "seo_description": "The 1st Circuit on Thursday declined to stay Judge Talwani’s injunction blocking the USPS Aug. 26 mail-ballot rule while the Supreme Court still weighs DOJ application 26A305.",
+  "date_modified": "2026-09-10T16:00:00-04:00",
   "date_published": "2026-09-08T12:00:00-04:00",
   "article_section": "Politics"
 }
