@@ -1,0 +1,55 @@
+{
+  "slug": "kyiv-ukrnafta-petrol-drones",
+  "kicker": "Ukraine",
+  "hed": "Russian jet drones hit Kyiv Ukrnafta petrol stations; two dead, a dozen hurt",
+  "stamp": "NEW \u00b7 Fri. 11:15 a.m. EDT",
+  "dek": "Russian jet-powered drones struck two state-owned Ukrnafta petrol stations in Kyiv's Dniprovskyi and Obolonskyi districts on Friday morning, killing two people and injuring about a dozen others, including a child and a rescuer, Mayor Vitali Klitschko and city officials said. One Obolon site was hit twice in what authorities called a double-tap. The attacks followed Thursday's first jet-drone hit on a Kyiv petrol station, bringing damaged capital stations to three \u2014 all Ukrnafta \u2014 after a Telegram list of expected targets circulated midweek. Naftogaz and Ukrnafta executives called the strikes terror against civilians; Moscow denies deliberately targeting civilian sites as both sides escalate energy-infrastructure attacks.",
+  "image": "img/kyiv-ukrnafta-petrol.jpg",
+  "alt": "Ukrnafta fuel tanker truck on a Ukrainian road",
+  "caption": "An Ukrnafta fuel tanker. File photograph; not from Friday's Kyiv strikes.",
+  "credit": "Alex Blokha / Wikimedia Commons (CC BY-SA 4.0)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "world",
+  "updated": "2026-09-11",
+  "frames": {
+    "cl": {
+      "body": "The Guardian, the Kyiv Independent, and Interfax-Ukraine emphasize the first capital petrol-station campaign, a circulating Telegram hit list of 18 Kyiv stations, Friday's rush-hour double-tap that injured a rescuer, and Naftogaz/Ukrnafta statements that civilian fuel sites have no military purpose \u2014 framing the wave as terror as Zelensky urges denser air defenses against jet Shaheds.",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/11/russia-kyiv-petrol-stations-jet-powered-drones-ukraine"
+        },
+        {
+          "name": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russia-strikes-2-gas-stations-injures-at-least-2-in-kyiv-during-morning-rush-hour/"
+        },
+        {
+          "name": "Interfax-Ukraine",
+          "url": "https://en.interfax.com.ua/news/general/1202560.html"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Reuters, Fox News, and Bloomberg/IEA coverage place the Kyiv fuel hits inside a widening mutual energy war: Moscow stepping up logistics and economic targeting after U.S. envoys Witkoff and Kushner left, while Ukrainian drones have degraded Russian refining (Ryazan halt; IEA cumulative damage) and hit Russian regions in the same 24-hour window \u2014 a tit-for-tat that complicates Trump's stalled peace track.",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.thestar.com.my/news/world/2026/09/11/drone-strikes-kill-two-in-russia-eight-injured-in-kyiv"
+        },
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/world/russian-strikes-continue-following-visit-witkoff-kushner-kyiv"
+        },
+        {
+          "name": "Bloomberg / IEA",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-11/ukraine-strikes-degrade-russian-oil-refining-industry-iea-says"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Jet drones hit Kyiv Ukrnafta stations; 2 dead after double-tap.",
+  "seo_description": "Russian jet drones struck two Ukrnafta petrol stations in Kyiv on Sept. 11, killing two and injuring about a dozen after Thursday's first capital petrol hit.",
+  "date_modified": "2026-09-11T11:15:00-04:00",
+  "date_published": "2026-09-11T11:15:00-04:00",
+  "article_section": "World"
+}
