@@ -2,35 +2,35 @@
   "slug": "brent-105-dual-chokepoint",
   "kicker": "Energy markets",
   "hed": "Oil slips Friday but week holds above $100; U.S. diesel hits record as Mocha + Hormuz squeeze persists",
-  "stamp": "UPDATED · Fri. 8:00 a.m. EDT",
-  "dek": "Brent crude traded near $105–$106 a barrel early Friday and WTI near $100–$101 after slipping from Thursday’s highs, Reuters and The National reported, with both benchmarks still on track to finish the week above $100 for the first time since mid-May. Markets continued to price the dual chokepoint squeeze: Iran-aligned Houthis’ seizure of Yemen’s Mocha port near Bab el-Mandeb and the U.S.–Iran tanker war constraining Hormuz flows. U.S. diesel prices hit a record national average above $6 a gallon, adding to inflation and shipping-cost fears even as crude pared some overnight gains.",
+  "stamp": "UPDATED \u00b7 Fri. 4:00 p.m. EDT",
+  "dek": "Brent crude traded near $104\u2013$106 a barrel and WTI near $99\u2013$101 on Friday after slipping from Thursday\u2019s highs, with Reuters and CNBC reporting both benchmarks still on track to finish the week above $100 for the first time since mid-May. Markets continued to price the dual chokepoint squeeze: Iran-aligned Houthis\u2019 advances near Bab el-Mandeb and the U.S.\u2013Iran tanker war constraining Hormuz flows. U.S. diesel prices hit a record national average above $6 a gallon, adding to inflation and shipping-cost fears even as crude pared some midweek gains.",
   "image": "img/brent-105-oil-markets.jpg",
   "alt": "Oil refinery towers and industrial piping against a clear blue sky",
-  "caption": "Refinery towers and process piping. File photograph used for layout; not from Friday’s oil prints or Mocha advance.",
+  "caption": "Refinery towers and process piping. File photograph used for layout; not from Friday\u2019s oil prints or Mocha advance.",
   "credit": "Pexels (free license; attribution not required)",
   "byline": "Event summary from public market desks and named outlets",
   "section": "energy",
   "updated": "2026-09-11",
   "frames": {
     "cl": {
-      "body": "Reuters and Bloomberg frame Friday’s pullback — Brent near $106 early, later softer — against record U.S. diesel above $6 a gallon and warnings that refined products may keep rising even if crude chops, as Hormuz transit stays depressed and Middle East supply gaps feed inflation and rate-hike talk.",
+      "body": "Reuters, CNBC, and Bloomberg frame Friday\u2019s pullback \u2014 Brent near $104\u2013$106, WTI near $99\u2013$101 in early/midday prints \u2014 against record U.S. diesel above $6 a gallon and warnings that refined products may keep rising even if crude chops, as Hormuz transit stays depressed and Middle East supply gaps feed inflation talk.",
       "sources": [
         {
           "name": "Reuters",
           "url": "https://www.reuters.com/business/energy/oil-prices-set-end-week-over-100-first-time-nearly-4-months-2026-09-11/"
         },
         {
-          "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-11/us-diesel-prices-rise-past-6-a-gallon-for-first-time-ever"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/11/oil-price-today-iran-brent-wti-trump.html"
         },
         {
-          "name": "CNN Business",
-          "url": "https://www.cnn.com/2026/09/10/investing/oil-iran-war-diesel"
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-11/us-diesel-prices-rise-past-6-a-gallon-for-first-time-ever"
         }
       ]
     },
     "cr": {
-      "body": "The National and Reuters energy desks stress that despite Friday’s slip from Thursday’s surge, Brent and WTI remain on pace for a weekly finish above $100 as Houthi control near Mocha/Bab el-Mandeb and Hormuz tanker attacks keep dual-chokepoint risk elevated for Gulf and Red Sea export routes.",
+      "body": "The National and Reuters energy desks stress that despite Friday\u2019s slip from Thursday\u2019s surge, Brent and WTI remain on pace for a weekly finish above $100 as Houthi control near Mocha/Bab el-Mandeb and Hormuz tanker attacks keep dual-chokepoint risk elevated for Gulf and Red Sea export routes.",
       "sources": [
         {
           "name": "The National",
@@ -47,9 +47,9 @@
       ]
     }
   },
-  "stack_blurb": "Brent ~$106 / WTI ~$101 early Fri; week >$100; U.S. diesel record.",
-  "seo_description": "Oil slipped Friday from Thursday highs but Brent near $106 and WTI near $101 early still pointed to a weekly finish above $100 as Mocha and Hormuz risks persisted and U.S. diesel hit a record.",
-  "date_modified": "2026-09-11T08:00:00-04:00",
+  "stack_blurb": "Brent ~$104\u2013106 / WTI ~$99\u2013101 Fri; week >$100; U.S. diesel record.",
+  "seo_description": "Oil slipped Friday but Brent near $104\u2013106 and WTI near $99\u2013101 still pointed to a weekly finish above $100 as Mocha/Hormuz risks persisted and U.S. diesel hit a record.",
+  "date_modified": "2026-09-11T16:00:00-04:00",
   "date_published": "2026-09-10T19:15:00-04:00",
   "article_section": "Energy"
 }

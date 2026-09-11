@@ -1,55 +1,67 @@
 {
   "slug": "sept-11-25th-anniversary",
   "kicker": "National",
-  "hed": "U.S. marks 25 years since Sept. 11 attacks; Trump speaks at Pentagon",
-  "stamp": "NEW · Fri. 8:00 a.m. EDT",
-  "dek": "The United States observes the 25th anniversary of the Sept. 11, 2001, attacks that killed about 2,977 people at the World Trade Center, the Pentagon, and in Shanksville, Pa. President Donald Trump is scheduled to speak at the Pentagon ceremony (~9 a.m. EDT); Vice President JD Vance attends the Ground Zero / National September 11 Memorial ceremony in New York; other administration officials are at the Flight 93 National Memorial. New York’s ceremony adds a seventh moment of silence for people who died later from toxic-dust illnesses — federal monitoring programs have cited 9,400-plus illness-linked deaths in some reporting. Friday is also Patriot Day and a National Day of Service and Remembrance; politicians have generally been barred from speaking at the NYC Ground Zero ceremony since about 2012.",
+  "hed": "U.S. marks 25 years since Sept. 11; Trump speaks at Pentagon",
+  "stamp": "UPDATED \u00b7 Fri. 4:00 p.m. EDT",
+  "dek": "The United States observed the 25th anniversary of the Sept. 11, 2001, attacks that killed about 2,977 people at the World Trade Center, the Pentagon, and in Shanksville, Pa. President Donald Trump and Defense Secretary Pete Hegseth spoke Friday at the Pentagon ceremony; Vice President JD Vance attended the Ground Zero / National September 11 Memorial ceremony in New York with former presidents; other administration officials were at the Flight 93 National Memorial. New York\u2019s ceremony added a seventh moment of silence for people who died later from toxic-dust illnesses. The same day, the CIA released 71 declassified President\u2019s Daily Brief products (Feb. 1998\u2013Sept. 12, 2001) on bin Laden and al-Qaeda threats briefed to Presidents Clinton and Bush \u2014 Director John Ratcliffe called it the agency\u2019s largest 9/11 analysis release. Friday is also Patriot Day and a National Day of Service and Remembrance.",
   "image": "img/sept-11-25th-anniversary.jpg",
   "alt": "Aerial view of the Pentagon, headquarters of the U.S. Department of Defense",
-  "caption": "The Pentagon in Arlington, Va., photographed from the air in January 2008. File photograph used for layout; not from Friday’s 25th-anniversary ceremony.",
+  "caption": "The Pentagon in Arlington, Va., photographed from the air in January 2008. File photograph used for layout; not from Friday\u2019s 25th-anniversary ceremony.",
   "credit": "David B. Gleason / Wikimedia Commons (CC BY-SA 2.0)",
   "byline": "Event summary from public reporting and named outlets",
   "section": "lead",
   "updated": "2026-09-11",
   "frames": {
     "cl": {
-      "body": "AP, CNN, and PBS NewsHour frame Friday’s observances around remembrance and the new Ground Zero silence for toxic-dust illness deaths, noting Trump speaks at the Pentagon in part because the National September 11 Memorial and Museum has barred political speeches at the NYC ceremony since about 2012 while Vance represents the administration in Manhattan.",
+      "body": "AP, CNN, PBS NewsHour, and NBC coverage center Friday\u2019s observances on remembrance at all three attack sites, Vance and former presidents at Ground Zero\u2019s new toxic-dust silence, and Trump\u2019s completed Pentagon remarks \u2014 while also noting that Trump and Hegseth used parts of the ceremony to discuss the ongoing Iran war alongside memorial language.",
       "sources": [
         {
-          "name": "Associated Press / ABC News",
-          "url": "https://abcnews.com/US/wireStory/trump-observe-25th-anniversary-911-pentagon-136045176"
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/trump-911-pentagon-new-york-vance-6ef73234bb4a39e892a3ed145c0fa580"
         },
         {
           "name": "CNN",
-          "url": "https://www.cnn.com/2026/09/10/us/seventh-moment-of-silence-9-11"
+          "url": "https://www.cnn.com/2026/09/11/us/video/iran-trump-pentagon-ceremony"
         },
         {
           "name": "PBS NewsHour",
           "url": "https://www.pbs.org/newshour/nation/how-to-watch-9-11-memorial-events-as-u-s-marks-25th-anniversary"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/video/watch-president-trump-s-full-remarks-at-pentagon-s-9-11-ceremony-on-25th-anniversary-269718085778"
         }
       ]
     },
     "cr": {
-      "body": "Fox News, WTOP, and the White House Patriot Day proclamation emphasize Trump honoring victims and first responders at the Pentagon, Vance at Ground Zero, and other officials in Shanksville so the administration is present at all three attack sites — with half-staff flags and a Never Forget / national-defense framing for the 25th anniversary.",
+      "body": "NY Post, The Hill, Fox News, and Florida\u2019s Voice / CIA statements emphasize Trump\u2019s \u201cThat\u2019s why we fight today\u201d framing and Hegseth\u2019s vigilance / Iran-as-sponsor-of-terror language at the Pentagon, plus the same-day declassification of 71 PDBs as exceptional transparency on pre-9/11 bin Laden warnings to Clinton and Bush.",
       "sources": [
         {
+          "name": "New York Post",
+          "url": "https://nypost.com/2026/09/11/us-news/trump-links-iran-war-to-9-11-in-25th-anniversary-speech-at-pentagon/"
+        },
+        {
+          "name": "The Hill",
+          "url": "https://thehill.com/policy/defense/6084687-trump-hegseth-iran-war-september-11/"
+        },
+        {
           "name": "Fox News",
-          "url": "https://www.foxnews.com/politics/trump-set-honor-9-11-victims-first-responders-pentagon-25th-anniversary"
+          "url": "https://www.foxnews.com/politics/25-years-later-9-11-memories-endure-nation-gathers-honor-nearly-3000-lives-lost"
         },
         {
-          "name": "WTOP",
-          "url": "https://wtop.com/us-politics/2026/09/trump-to-commemorate-25th-anniversary-of-9-11-attacks-at-the-pentagon/"
+          "name": "New York Post (PDB release)",
+          "url": "https://nypost.com/2026/09/11/us-news/trump-admin-declassifies-9-11-documents-on-info-presidents-knew-in-lead-up-to-terrorist-attacks/"
         },
         {
-          "name": "The White House",
-          "url": "https://www.whitehouse.gov/presidential-actions/2026/09/patriot-day-2026-the-25th-anniversary-of-the-september-11-terrorist-attacks/"
+          "name": "Florida\u2019s Voice",
+          "url": "https://flvoicenews.com/cia-declassifies-71-presidential-intelligence-briefs-tied-to-9-11/"
         }
       ]
     }
   },
-  "stack_blurb": "25th anniversary of 9/11; Trump at Pentagon, Vance at Ground Zero.",
-  "seo_description": "The U.S. marks 25 years since the Sept. 11 attacks; Trump speaks at the Pentagon while Vance attends Ground Zero and officials gather in Shanksville.",
-  "date_modified": "2026-09-11T08:00:00-04:00",
+  "stack_blurb": "25th anniversary: Trump/Hegseth speak at Pentagon; Vance at Ground Zero; CIA releases 71 PDBs.",
+  "seo_description": "The U.S. marks 25 years since Sept. 11; Trump and Hegseth speak at the Pentagon, Vance attends Ground Zero, and the CIA releases 71 declassified PDBs on pre-9/11 bin Laden threats.",
+  "date_modified": "2026-09-11T16:00:00-04:00",
   "date_published": "2026-09-11T08:00:00-04:00",
   "article_section": "National"
 }
