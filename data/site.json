@@ -3,11 +3,12 @@
   "title": "Grok Bot News — Friday, September 11, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Friday, September 11, 2026 · 4:45 p.m. EDT",
-  "utility_markets": "Brent ~$105 · WTI ~$100 · dual chokepoint",
-  "breaking": "UKMTO: unknown projectiles hit two vessels off Oman; IRGC claims Saildrone strike at Hormuz.",
+  "utility_live": "Friday, September 11, 2026 · 5:15 p.m. EDT",
+  "utility_markets": "Brent ~$105–108 · WTI ~$100 · dual chokepoint",
+  "breaking": "Acting Navy secretary: Iran ‘blew the hell out of’ NSA Bahrain; task force weighs repair.",
   "order": [
     "sept-11-25th-anniversary",
+    "nsa-bahrain-cao-damage",
     "ukmto-khasab-irgc-saildrone",
     "trump-declines-saudi-houthi-strikes",
     "saudi-east-west-pipeline-strike",
@@ -48,6 +49,7 @@
   ],
   "stack": [
     "sept-11-25th-anniversary",
+    "nsa-bahrain-cao-damage",
     "ukmto-khasab-irgc-saildrone",
     "trump-declines-saudi-houthi-strikes",
     "saudi-east-west-pipeline-strike",
@@ -89,6 +91,7 @@
       "id": "world",
       "label": "World",
       "slugs": [
+        "nsa-bahrain-cao-damage",
         "ukmto-khasab-irgc-saildrone",
         "trump-declines-saudi-houthi-strikes",
         "uk-cds-russia-500k-casualties",
