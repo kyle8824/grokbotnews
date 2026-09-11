@@ -1,31 +1,32 @@
 {
   "site_url": "https://www.grokbotnews.com",
-  "title": "Grok Bot News — Thursday, September 10, 2026",
+  "title": "Grok Bot News — Friday, September 11, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Thursday, September 10, 2026 · 8:35 p.m. EDT",
-  "utility_markets": "Brent >$105 · WTI ~$100 · Mocha + Hormuz",
-  "breaking": "Joe diGenova resigns as DOJ counsel overseeing Florida probe of Trump investigators.",
+  "utility_live": "Friday, September 11, 2026 · 8:00 a.m. EDT",
+  "utility_markets": "Brent ~$106 · WTI ~$101 · 9/11 observances",
+  "breaking": "U.S. marks 25 years since Sept. 11; Trump speaks at Pentagon, Vance at Ground Zero.",
   "order": [
+    "sept-11-25th-anniversary",
     "doj-trump-russia-grand-jury",
-    "netflix-rams-49ers-melbourne-stream",
     "brent-105-dual-chokepoint",
-    "trump-aca-500-rebate",
+    "houthi-mocha-bab-el-mandeb",
     "usps-mail-ballot-whistleblower",
     "missouri-redistricting-referendum",
-    "houthi-mocha-bab-el-mandeb",
-    "seahawks-patriots-week1-darnold",
+    "trump-aca-500-rebate",
+    "census-2030-apportionment-proposal",
+    "miami-amazon-cargo-crash",
+    "gop-midterm-convention-dallas",
+    "nh-senate-pappas-sununu",
     "apple-siri-ai-ios27-rollout",
+    "seahawks-patriots-week1-darnold",
+    "netflix-rams-49ers-melbourne-stream",
     "venice-naza-ovation",
     "emmys-2026-hargitay-host",
     "google-dreambeans-us-rollout",
     "ohtani-il-dodgers-de-paula",
     "us-open-womens-semis",
     "trump-5000-dividend-pledge",
-    "census-2030-apportionment-proposal",
-    "miami-amazon-cargo-crash",
-    "gop-midterm-convention-dallas",
-    "nh-senate-pappas-sununu",
     "uk-israel-settlement-sanctions",
     "dhs-save-voter-database-scotus",
     "us-iran-tanker-strikes",
@@ -38,23 +39,25 @@
     "iran-hormuz-strikes"
   ],
   "stack": [
+    "sept-11-25th-anniversary",
     "doj-trump-russia-grand-jury",
-    "netflix-rams-49ers-melbourne-stream",
     "brent-105-dual-chokepoint",
-    "seahawks-patriots-week1-darnold",
-    "apple-siri-ai-ios27-rollout",
-    "venice-naza-ovation",
-    "trump-aca-500-rebate",
+    "houthi-mocha-bab-el-mandeb",
     "usps-mail-ballot-whistleblower",
     "missouri-redistricting-referendum",
-    "houthi-mocha-bab-el-mandeb",
-    "google-dreambeans-us-rollout"
+    "trump-aca-500-rebate",
+    "census-2030-apportionment-proposal",
+    "miami-amazon-cargo-crash",
+    "gop-midterm-convention-dallas",
+    "nh-senate-pappas-sununu",
+    "apple-siri-ai-ios27-rollout"
   ],
   "section_labels": [
     {
       "id": "us",
       "label": "U.S. & Washington",
       "slugs": [
+        "sept-11-25th-anniversary",
         "doj-trump-russia-grand-jury",
         "trump-aca-500-rebate",
         "usps-mail-ballot-whistleblower",
@@ -147,62 +150,62 @@
   ],
   "rail_wire": [
     {
-      "label": "Netflix NFL.",
-      "text": "Viewer posts: buffering, pixelation, audio cuts on Rams–49ers Melbourne stream; no official outage note.",
-      "stamp": "NEW · 8:35 p.m."
+      "label": "9/11.",
+      "text": "25th anniversary: Trump speaks at Pentagon; Vance at Ground Zero; officials in Shanksville; NYC adds toxic-dust silence.",
+      "stamp": "NEW · 8:00 a.m."
     },
     {
-      "label": "NFL.",
-      "text": "Seahawks 13-10 over Patriots after Darnold hip exit; Lock + late INT.",
-      "stamp": "NEW · 11:30 a.m."
-    },
-    {
-      "label": "Siri.",
-      "text": "Apple starts Siri AI rollout with iPhone 18 and iOS 27; English first.",
-      "stamp": "NEW · 6:30 a.m."
-    },
-    {
-      "label": "Venice.",
-      "text": "NAZA documentary gets record ~25-minute standing ovation.",
-      "stamp": "NEW · 10:16 a.m."
+      "label": "DOJ.",
+      "text": "Joe diGenova resigns as Florida DOJ counsel overseeing probe of Trump investigators; Toensing leaving Friday.",
+      "stamp": "UPDATED · 8:00 a.m."
     },
     {
       "label": "Oil.",
-      "text": "Brent tops $105; WTI briefly $100 as Mocha + Hormuz squeeze shipping.",
-      "stamp": "NEW · 7:15 p.m."
-    },
-    {
-      "label": "ACA.",
-      "text": "White House: ~1M unsubsidized federal-exchange enrollees get $500 rebates; Oct. mailings; Dems call gimmick.",
-      "stamp": "NEW · 4:15 p.m."
-    },
-    {
-      "label": "USPS.",
-      "text": "1st Circuit leaves Talwani PI blocking Aug. 26 Ballot Mail rule; SCOTUS 26A305 still pending.",
-      "stamp": "UPDATED · 4:00 p.m."
-    },
-    {
-      "label": "Missouri.",
-      "text": "State high court finds Hoskins in contempt, says he purged it by directing 2022 map after SCOTUS stay.",
-      "stamp": "UPDATED · 4:00 p.m."
+      "text": "Brent ~$106 / WTI ~$101 early Fri after slip from Thu highs; week still >$100; U.S. diesel record.",
+      "stamp": "UPDATED · 8:00 a.m."
     },
     {
       "label": "Mocha.",
       "text": "Houthis take Red Sea port; reach Hanish Islands; NRF retreats toward Dhubab.",
-      "stamp": "UPDATED · 7:15 p.m."
+      "stamp": "UPDATED · Thu. 7:15 p.m."
     },
     {
-      "label": "Dividend.",
-      "text": "Trump $5K midterm pledge; economists cite ~$1.15–$1.35T; Vance cites tariffs.",
-      "stamp": "NEW · 2:00 p.m."
+      "label": "USPS.",
+      "text": "1st Circuit leaves Talwani PI blocking Aug. 26 Ballot Mail rule; SCOTUS 26A305 still pending.",
+      "stamp": "UPDATED · Thu. 4:00 p.m."
+    },
+    {
+      "label": "Missouri.",
+      "text": "State high court finds Hoskins in contempt, says he purged it by directing 2022 map after SCOTUS stay.",
+      "stamp": "UPDATED · Thu. 4:00 p.m."
+    },
+    {
+      "label": "ACA.",
+      "text": "White House: ~1M unsubsidized federal-exchange enrollees get $500 rebates; Oct. mailings; Dems call gimmick.",
+      "stamp": "NEW · Thu. 4:15 p.m."
+    },
+    {
+      "label": "Census.",
+      "text": "Bureau proposes 2030 rules excluding non-permanent residents from apportionment count.",
+      "stamp": "NEW · Thu. 9:30 a.m."
+    },
+    {
+      "label": "Miami.",
+      "text": "NTSB: cargo pilot warned “too fast” nearly 2 minutes before Miami overrun.",
+      "stamp": "UPDATED · Thu. 10:10 a.m."
     }
   ],
   "markets": {
-    "heading": "Markets · Thursday 7:15 p.m.",
+    "heading": "Markets · Friday 8:00 a.m.",
     "rows": [
       {
         "label": "Crude oil",
-        "value": "Brent >$105 / WTI ~$100",
+        "value": "Brent ~$106 / WTI ~$101",
+        "dir": "up"
+      },
+      {
+        "label": "U.S. diesel",
+        "value": "Record national avg >$6/gal",
         "dir": "up"
       },
       {
@@ -211,37 +214,29 @@
         "dir": "up"
       },
       {
-        "label": "ACA rebates",
-        "value": "$500 checks · ~1M enrollees",
-        "dir": "up"
-      },
-      {
-        "label": "Mail ballots",
-        "value": "1st Cir keeps USPS block",
-        "dir": "up"
+        "label": "Observances",
+        "value": "Patriot Day · 9/11 25th",
+        "dir": "flat"
       }
     ],
-    "credit": "Oil prints from Thursday CNN/NBC/Reuters/Fox/The National reporting. ACA rebate stamp from White House/Axios/Hill coverage."
+    "credit": "Early Friday oil prints from Reuters/The National reporting (slipped from Thursday highs; week still above $100). Diesel record from AAA/GasBuddy coverage cited in market desks. 9/11 schedule from AP/CNN/Fox/White House."
   },
   "ticker": [
-    "NETFLIX|Rams–49ers Melbourne stream: viewer buffering/pixel/audio posts; LA/SF still on NBC",
-    "NFL|Seahawks 13-10 Patriots; Darnold hip; Lock finishes opener",
-    "TECH|Apple begins Siri AI rollout with iPhone 18 / iOS 27",
-    "FILM|NAZA draws record ~25-minute ovation at Venice",
-    "EMMYS|Hargitay hosts Monday; The Pitt leads with 25 nominations",
-    "MLB|Dodgers place Ohtani on 15-day IL; call up De Paula",
-    "OIL|Brent tops $105; WTI briefly $100 as Mocha + Hormuz squeeze shipping",
+    "9/11|25th anniversary: Trump at Pentagon; Vance at Ground Zero; officials in Shanksville; NYC adds toxic-dust silence",
+    "DOJ|diGenova resigns as Florida DOJ counsel overseeing Trump-investigators probe; Toensing leaving Friday",
+    "OIL|Brent ~$106 / WTI ~$101 early Fri; week still >$100; U.S. diesel hits record",
     "MOCHA|Houthis seize Mocha; reach Hanish Islands near Bab el-Mandeb",
     "USPS|1st Circuit declines stay of Talwani PI on USPS mail-ballot rule; SCOTUS 26A305 pending",
     "MISSOURI|State high court finds Hoskins in contempt; says he purged it by directing 2022 map",
     "ACA|White House: ~1M HealthCare.gov enrollees to get $500 rebates starting October",
-    "DIVIDEND|Trump $5K midterm “dividend”; cost estimates near $1T+; Vance cites tariffs",
-    "MIAMI|NTSB: cargo pilot warned “too fast” nearly 2 minutes before Miami overrun",
     "CENSUS|Bureau proposes 2030 rules excluding non-permanent residents from apportionment count",
-    "GULF|Trump says Iran war ends after midterms; Pickaxe Mountain warning",
+    "MIAMI|NTSB: cargo pilot warned “too fast” nearly 2 minutes before Miami overrun",
+    "DALLAS|Trump midterm keynote floats $5,000 “Trump dividend” if GOP holds Congress",
     "NH|Pappas and Sununu win Senate primaries; Shaheen open seat set for November",
-    "SAVE|DOJ asks SCOTUS to unblock expanded citizenship checks; replies Sept. 15",
-    "UKRAINE|Kyiv claims deepest Arctic gas-plant strike; Russia kills 11 in Ukraine"
+    "TECH|Apple begins Siri AI rollout with iPhone 18 / iOS 27",
+    "NFL|Seahawks 13-10 Patriots; Darnold hip; Lock finishes opener",
+    "NETFLIX|Rams–49ers Melbourne stream: viewer buffering/pixel/audio posts",
+    "SAVE|DOJ asks SCOTUS to unblock expanded citizenship checks; replies Sept. 15"
   ],
   "archive": [
     {
