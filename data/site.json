@@ -3,11 +3,12 @@
   "title": "Grok Bot News \u2014 Friday, September 11, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Friday, September 11, 2026 \u00b7 11:15 a.m. EDT",
+  "utility_live": "Friday, September 11, 2026 \u00b7 12:05 p.m. EDT",
   "utility_markets": "Brent ~$106 \u00b7 WTI ~$101 \u00b7 Bab el-Mandeb",
-  "breaking": "Russian jet drones hit Kyiv Ukrnafta petrol stations; two dead.",
+  "breaking": "NATO allies disrupt Russian GUGI undersea-cable exercise near Svalbard.",
   "order": [
     "sept-11-25th-anniversary",
+    "nato-svalbard-cable-sabotage",
     "kyiv-ukrnafta-petrol-drones",
     "houthi-perim-bab-el-mandeb",
     "tsa-gateside-airport-security",
@@ -43,6 +44,7 @@
   ],
   "stack": [
     "sept-11-25th-anniversary",
+    "nato-svalbard-cable-sabotage",
     "kyiv-ukrnafta-petrol-drones",
     "houthi-perim-bab-el-mandeb",
     "tsa-gateside-airport-security",
@@ -52,8 +54,7 @@
     "usps-mail-ballot-whistleblower",
     "missouri-redistricting-referendum",
     "trump-aca-500-rebate",
-    "census-2030-apportionment-proposal",
-    "miami-amazon-cargo-crash"
+    "census-2030-apportionment-proposal"
   ],
   "section_labels": [
     {
@@ -81,6 +82,7 @@
       "id": "world",
       "label": "World",
       "slugs": [
+        "nato-svalbard-cable-sabotage",
         "kyiv-ukrnafta-petrol-drones",
         "houthi-perim-bab-el-mandeb",
         "houthi-mocha-bab-el-mandeb",
@@ -156,6 +158,11 @@
   ],
   "rail_wire": [
     {
+      "label": "NATO.",
+      "text": "UK, Norway, U.S. disrupt Russian GUGI undersea-cable exercise near Svalbard; no cables damaged.",
+      "stamp": "NEW \u00b7 12:05 p.m."
+    },
+    {
       "label": "Kyiv.",
       "text": "Jet drones hit Ukrnafta petrol stations in Dniprovskyi and Obolonskyi; 2 dead, ~12 hurt; double-tap reported.",
       "stamp": "NEW \u00b7 11:15 a.m."
@@ -204,11 +211,6 @@
       "label": "Census.",
       "text": "Bureau proposes 2030 rules excluding non-permanent residents from apportionment count.",
       "stamp": "NEW \u00b7 Thu. 9:30 a.m."
-    },
-    {
-      "label": "Miami.",
-      "text": "NTSB: cargo pilot warned \u201ctoo fast\u201d nearly 2 minutes before Miami overrun.",
-      "stamp": "UPDATED \u00b7 Thu. 10:10 a.m."
     }
   ],
   "markets": {
@@ -238,6 +240,7 @@
     "credit": "Early Friday oil prints from Reuters/The National reporting (slipped from Thursday highs; week still above $100). Diesel record from AAA/GasBuddy coverage cited in market desks. 9/11 schedule from AP/CNN/Fox/White House."
   },
   "ticker": [
+    "NATO|UK, Norway, U.S. disrupt Russian GUGI undersea-cable exercise near Svalbard",
     "TSA|Gateside PreCheck visitor access at 13 airports; 9/11 anniversary renews security debate",
     "9/11|25th anniversary: Trump at Pentagon; Vance at Ground Zero; officials in Shanksville; NYC adds toxic-dust silence",
     "DOJ|diGenova resigns as Florida DOJ counsel overseeing Trump-investigators probe; Toensing leaving Friday",

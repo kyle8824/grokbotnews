@@ -1,0 +1,55 @@
+{
+  "slug": "nato-svalbard-cable-sabotage",
+  "kicker": "Arctic / NATO",
+  "hed": "NATO allies disrupt Russian GUGI undersea-cable exercise near Svalbard",
+  "stamp": "NEW \u00b7 Fri. 12:05 p.m. EDT",
+  "dek": "Britain, Norway and the United States tracked and confronted Russian GUGI deep-sea vessels near Svalbard this spring as Moscow rehearsed technology designed to disable undersea cables without leaving fingerprints, two Western officials told Reuters in an exclusive published Sept. 10. No cables were damaged; the vessels left after the joint operation. The Svalbard Undersea Cable System's twin ~1,400 km fiber links carry SvalSat satellite data for NASA's Near Space Network. Norway's Defence Minister Tore Sandvik said the allies \"sent a clear message\" and that any attempt to target critical infrastructure \"will be detected and met with consequences.\" Russia's Defence Ministry did not comment; the Kremlin denies sabotage plots against NATO states.",
+  "image": "img/nato-svalbard-cable-sabotage.jpg",
+  "alt": "Fiber-optic cable equipment linking Svalbard to mainland Norway",
+  "caption": "Telenor fiber cable infrastructure linking Svalbard to mainland Norway. File photograph; not from the spring 2026 naval confrontation.",
+  "credit": "Bjoertvedt / Wikimedia Commons (CC BY-SA 3.0)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "world",
+  "updated": "2026-09-11",
+  "frames": {
+    "cl": {
+      "body": "The Irish Times, ArcticToday (Reuters), and the Kyiv Independent emphasize U.S. analyst concern that Russia may probe NATO's Article 5, the fingerprint-free cable weapon, CIA Director Ratcliffe's August Moscow warning on European sabotage, and Brookings' Bruce Jones on Europe expanding seabed dependence while shrinking protection \u2014 framing the Svalbard exercise as hybrid-war rehearsal against civilian infrastructure.",
+      "sources": [
+        {
+          "name": "The Irish Times",
+          "url": "https://www.irishtimes.com/world/europe/2026/09/11/nato-allies-say-they-foiled-russian-subsea-cable-sabotage-plot/"
+        },
+        {
+          "name": "ArcticToday / Reuters",
+          "url": "https://www.arctictoday.com/nato-allies-foil-russian-subsea-cable-sabotage-plot/"
+        },
+        {
+          "name": "Kyiv Independent",
+          "url": "https://kyivindependent.com/nato-allies-foiled-russian-exercise-involving-secret-weapon-targeting-subsea-cables-reuters-reports/"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Fox News coverage of UK Defence Secretary John Healey's GUGI warnings, ArcticToday/Reuters quoting Norway's Sandvik on detection and consequences, and Japan Times reprints of the exclusive stress that NATO allies saw the Russian vessels, stopped the exercise, and left cables unharmed \u2014 casting the episode as successful High North deterrence against Putin's hybrid seabed threat.",
+      "sources": [
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/world/uk-defense-minister-warns-putin-serious-consequences-after-covert-underwater-military-operation"
+        },
+        {
+          "name": "ArcticToday / Reuters",
+          "url": "https://www.arctictoday.com/nato-allies-foil-russian-subsea-cable-sabotage-plot/"
+        },
+        {
+          "name": "The Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/09/10/world/nato-russia-subsea-cable-sabotage/"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "UK, Norway, U.S. disrupt Russian GUGI cable exercise near Svalbard.",
+  "seo_description": "Britain, Norway and the U.S. disrupted a Russian GUGI undersea-cable exercise near Svalbard; no cables damaged, Reuters exclusive says.",
+  "date_modified": "2026-09-11T12:05:00-04:00",
+  "date_published": "2026-09-11T12:05:00-04:00",
+  "article_section": "World"
+}
