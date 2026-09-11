@@ -1,0 +1,55 @@
+{
+  "kicker": "Apple",
+  "hed": "Apple begins rolling out Siri AI with iPhone 18 and iOS 27",
+  "stamp": "NEW · 6:30 a.m. EDT",
+  "dek": "Apple started putting its rebuilt assistant — branded Siri AI — in users’ hands with the iPhone 18 series and iOS 27, Wired and Business Standard reported Thursday. The update adds personal-context awareness, on-screen understanding, a dedicated Siri app with conversation history, and deeper Apple Intelligence writing tools, initially in English on newer iPhones. Apple says the stack mixes its own models with Google Gemini technology while keeping workloads on-device or on Private Cloud Compute.",
+  "image": "img/ai.jpg",
+  "alt": "Abstract blue digital network and circuit pattern",
+  "caption": "Abstract digital network imagery. File photograph used for layout; not an Apple product shot.",
+  "credit": "Pexels / site archive (free license; attribution not required)",
+  "byline": "Event summary from public product reporting and named outlets",
+  "section": "tech",
+  "updated": "2026-09-10",
+  "frames": {
+    "cl": {
+      "body": "Wired and Business Standard cast the launch as Apple finally answering years of lag behind ChatGPT and Gemini — personal context, on-screen actions, and a real conversation history — while still limiting language support and locking the heaviest features to recent silicon.",
+      "sources": [
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/everything-new-you-can-do-with-siri-ai/"
+        },
+        {
+          "name": "Business Standard",
+          "url": "https://www.business-standard.com/technology/tech-news/apple-siri-ai-iphone-18-pro-duo-india-rollout-google-samsung-126091000700_1.html"
+        },
+        {
+          "name": "Apple",
+          "url": "https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Apple’s newsroom and privacy-focused coverage stress on-device processing and Private Cloud Compute, arguing the Gemini collaboration is a foundation choice that still keeps Siri AI inside Apple’s controlled OS and privacy perimeter rather than an open chatbot free-for-all.",
+      "sources": [
+        {
+          "name": "Apple",
+          "url": "https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/"
+        },
+        {
+          "name": "Google Blog",
+          "url": "https://blog.google/company-news/inside-google/company-announcements/joint-statement-google-apple/"
+        },
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/everything-new-you-can-do-with-siri-ai/"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Siri AI ships with iPhone 18 / iOS 27; English first.",
+  "seo_description": "Apple is rolling out Siri AI with iPhone 18 and iOS 27, adding personal context and a dedicated Siri app.",
+  "date_modified": "2026-09-10T06:30:00-04:00",
+  "date_published": "2026-09-10T06:30:00-04:00",
+  "article_section": "Tech",
+  "slug": "apple-siri-ai-ios27-rollout"
+}

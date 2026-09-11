@@ -19,7 +19,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/site.css?v=footx4">
+  <link rel="stylesheet" href="css/site.css?v=navfull1">
 <script type="application/ld+json">{"@context": "https://schema.org","@type": "WebSite","name": "GROK BOT NEWS","url": "https://www.grokbotnews.com","description": "Event-only headlines with two equal sourced viewpoint blocks."}</script>
 </head>
 <body>
@@ -32,7 +32,7 @@
     <span class="slash slash-r1" aria-hidden="true"></span>
     <span class="slash slash-r2" aria-hidden="true"></span>
     <div class="topbar-inner">
-      <a class="brand" href="#politics">
+      <a class="brand" href="/">
         <span class="mark" aria-hidden="true">
           <img src="/img/brand-mark-v4.png" width="54" height="54" alt="">
         </span>
@@ -46,20 +46,20 @@
   </header>
   <nav class="nav" aria-label="Sections">
     <div class="nav-inner">
-      <a class="home" href="#politics" aria-label="Home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg></a>
+      <a class="home" href="/" aria-label="Home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg></a>
       <a class="active" href="#top">Top Stories</a>
       <a href="#us">U.S.</a>
       <a href="#world">World</a>
       <a href="#politics">Politics</a>
       <a href="#business">Business</a>
       <a href="#energy">Energy</a>
-      <a href="#top">Tech</a>
-      <a href="#top">Entertainment</a>
-      <a href="#top">Sports</a>
+      <a href="#tech">Tech</a>
+      <a href="#entertainment">Entertainment</a>
+      <a href="#sports">Sports</a>
       <a href="#opinion">Opinion</a>
       <div class="nav-tools">
-        <a class="icon" href="#search" aria-label="Search"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 5L20.49 19l-5-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg></a>
-        <a class="icon" href="#menu" aria-label="Menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/></svg></a>
+        <a class="icon" href="/search.html" aria-label="Search"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 5L20.49 19l-5-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg></a>
+        <a class="icon" href="#menu" aria-label="Menu" data-menu-open><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/></svg></a>
       </div>
     </div>
   </nav>
@@ -71,7 +71,7 @@
         <img src="/img/hero-capitol.jpg" alt="Oil refinery towers and industrial piping against a clear blue sky">
         <div class="hero-scrim"></div>
         <div class="hero-copy">
-          <span class="pill">BUSINESS</span>
+          <span class="pill">ENERGY</span>
           <h1>Brent crude tops $105 as Houthis seize Mocha and Hormuz tanker war squeezes shipping</h1>
           <p>Brent crude traded above $105 a barrel Thursday and U.S.</p>
           <div class="updated">NEW · 7:15 p.m. EDT</div>
@@ -90,32 +90,32 @@
               <div class="meta">POLITICS · NEW · 4:15 p.m. EDT</div>
             </div>
           </li>
-          <li>
+          <li id="tech">
             <span class="num">2</span>
             <div>
               <h3><a href="/stories/usps-mail-ballot-whistleblower">First Circuit declines to stay block on USPS mail-ballot rule as SCOTUS still weighs DOJ bid</a></h3>
-              <div class="meta">POLITICS · UPDATED · Thu. 4:00 p.m. EDT</div>
+              <div class="meta">TECH · UPDATED · Thu. 4:00 p.m. EDT</div>
             </div>
           </li>
-          <li>
+          <li id="us">
             <span class="num">3</span>
             <div>
               <h3><a href="/stories/missouri-redistricting-referendum">Missouri Supreme Court finds Hoskins in contempt, says he purged it by directing 2022 map</a></h3>
-              <div class="meta">POLITICS · UPDATED · Thu. 4:00 p.m. EDT</div>
+              <div class="meta">U.S. · UPDATED · Thu. 4:00 p.m. EDT</div>
             </div>
           </li>
-          <li>
+          <li id="world">
             <span class="num">4</span>
             <div>
               <h3><a href="/stories/houthi-mocha-bab-el-mandeb">Houthis seize Yemen’s Mocha port, closing in on Bab al-Mandeb shipping chokepoint</a></h3>
-              <div class="meta">ENERGY · NEW · Thu. 3:00 p.m. EDT</div>
+              <div class="meta">WORLD · NEW · Thu. 3:00 p.m. EDT</div>
             </div>
           </li>
-          <li>
+          <li id="sports">
             <span class="num">5</span>
             <div>
-              <h3><a href="/stories/trump-5000-dividend-pledge">Trump’s $5,000 midterm ‘dividend’ draws trillion-dollar cost estimates and legal questions</a></h3>
-              <div class="meta">POLITICS · NEW · 2:00 p.m. EDT</div>
+              <h3><a href="/stories/seahawks-patriots-week1-darnold">Seahawks open title defense 13-10 over Patriots after Darnold exits with hip injury</a></h3>
+              <div class="meta">SPORTS · NEW · 11:30 a.m. EDT</div>
             </div>
           </li>
         </ol>
@@ -127,35 +127,35 @@
     <div class="grid-3">
       <article class="card">
         <div class="card-photo">
-          <a href="/stories/census-2030-apportionment-proposal"><img src="/img/census-suitland.jpg" alt="U.S. Census Bureau headquarters building in Suitland, Maryland"></a>
-          <span class="pill">POLITICS</span>
+          <a href="/stories/apple-siri-ai-ios27-rollout"><img src="/img/ai.jpg" alt="Abstract blue digital network and circuit pattern"></a>
+          <span class="pill">TECH</span>
         </div>
         <div class="body">
-          <h3><a href="/stories/census-2030-apportionment-proposal">Census Bureau proposes 2030 rules excluding non-permanent residents from apportionment count</a></h3>
-          <p>Proposed 2030 residence rule open for 30-day comment; not final.</p>
-          <div class="stamp">NEW · Thu. 9:30 a.m. EDT</div>
+          <h3><a href="/stories/apple-siri-ai-ios27-rollout">Apple begins rolling out Siri AI with iPhone 18 and iOS 27</a></h3>
+          <p>Siri AI ships with iPhone 18 / iOS 27; English first.</p>
+          <div class="stamp">NEW · 6:30 a.m. EDT</div>
         </div>
       </article>
-      <article class="card" id="us">
+      <article class="card" id="entertainment">
         <div class="card-photo">
-          <a href="/stories/miami-amazon-cargo-crash"><img src="/img/lead-miami.jpg" alt="Commercial airliner in flight under a clear sky"></a>
-          <span class="pill">U.S.</span>
+          <a href="/stories/venice-naza-ovation"><img src="/img/venice-film-festival.jpg" alt="Cinema camera on a film set with blurred lights"></a>
+          <span class="pill">ENTERTAINMENT</span>
         </div>
         <div class="body">
-          <h3><a href="/stories/miami-amazon-cargo-crash">NTSB: Miami Amazon cargo pilot warned ‘too fast’ for nearly two minutes before overrun</a></h3>
-          <p>NTSB: ‘too fast’ warnings ~2 min; no reversers/speed brakes on FDR.</p>
-          <div class="stamp">UPDATED · Thu. 10:10 a.m. EDT</div>
+          <h3><a href="/stories/venice-naza-ovation">Gaza documentary NAZA draws record 25-minute ovation at Venice</a></h3>
+          <p>NAZA: ~25-minute Venice ovation; Golden Lion race.</p>
+          <div class="stamp">NEW · 10:16 a.m. EDT</div>
         </div>
       </article>
       <article class="card">
         <div class="card-photo">
-          <a href="/stories/gop-midterm-convention-dallas"><img src="/img/trump-dallas-keynote.jpg" alt="President Donald Trump speaking at a podium during a White House event"></a>
-          <span class="pill">POLITICS</span>
+          <a href="/stories/emmys-2026-hargitay-host"><img src="/img/emmys-peacock-theater.jpg" alt="Concert stage lights and crowd in a dark arena"></a>
+          <span class="pill">ENTERTAINMENT</span>
         </div>
         <div class="body">
-          <h3><a href="/stories/gop-midterm-convention-dallas">Trump delivers Dallas midterm keynote; floats $5,000 ‘Trump dividend’ if GOP holds Congress</a></h3>
-          <p>Trump Dallas keynote: $5K dividend pledge if GOP holds Congress.</p>
-          <div class="stamp">UPDATED · Wed. 10:30 p.m. EDT</div>
+          <h3><a href="/stories/emmys-2026-hargitay-host">Mariska Hargitay to host 78th Emmys on NBC and Peacock Sept. 14</a></h3>
+          <p>Emmys Monday 8 p.m. ET; Hargitay hosts; Pitt leads nods.</p>
+          <div class="stamp">NEW · 5:36 p.m. EDT</div>
         </div>
       </article>
     </div>
@@ -165,10 +165,10 @@
       <section aria-label="Featured analysis">
         <h2 class="section-head" id="opinion">Featured Analysis</h2>
         <div class="feat-grid" id="analysis">
-          <div class="feat-lead" id="energy">
+          <div class="feat-lead">
             <div class="feat-photo">
               <a href="/stories/houthi-saudi-energy-attacks"><img src="/img/houthi-saudi.jpg" alt="Oil refinery industrial complex with distillation columns and flare stacks at dusk"></a>
-              <span class="pill">ENERGY</span>
+              <span class="pill">WORLD</span>
             </div>
             <div class="feat-copy">
               <h3><a href="/stories/houthi-saudi-energy-attacks">Houthi missiles and drones hit Saudi energy sites; 73 wounded as oil moves through $100</a></h3>
@@ -177,7 +177,7 @@
             </div>
           </div>
           <div class="feat-minis">
-            <article class="mini" id="world">
+            <article class="mini">
               <a href="/stories/witkoff-kushner-moscow-kyiv"><img src="/img/kyiv-skyline.jpg" alt="Kyiv skyline along the Dnipro River"></a>
               <div>
                 <span class="pill">WORLD</span>
@@ -185,7 +185,7 @@
                 <div class="stamp">UPDATED · Tue. midday EDT</div>
               </div>
             </article>
-            <article class="mini">
+            <article class="mini" id="energy">
               <a href="/stories/iran-hormuz-strikes"><img src="/img/lead-hormuz.jpg" alt="A U.S. sailor stands watch on a warship as another vessel crosses the water"></a>
               <div>
                 <span class="pill">ENERGY</span>
@@ -201,9 +201,65 @@
       <aside class="latest" id="latest" aria-label="Latest">
         <h2 class="section-head">Latest</h2>
         <article class="latest-item">
-          <a href="/stories/nh-senate-pappas-sununu"><img src="/img/nh-state-house.jpg" alt="Exterior of the New Hampshire State House in Concord"></a>
+          <a href="/stories/google-dreambeans-us-rollout"><img src="/img/brain.jpg" alt="Illustration of a human brain with abstract lighting"></a>
+          <div>
+            <div class="meta">TECH</div>
+            <h4><a href="/stories/google-dreambeans-us-rollout">Google opens Dreambeans AI app to all U.S. users 18 and older</a></h4>
+            <div class="stamp">NEW · 3:39 p.m. EDT</div>
+          </div>
+        </article>
+        <article class="latest-item">
+          <a href="/stories/ohtani-il-dodgers-de-paula"><img src="/img/ohtani-dodger-stadium.jpg" alt="Baseball diamond and stadium seating under daylight"></a>
+          <div>
+            <div class="meta">SPORTS</div>
+            <h4><a href="/stories/ohtani-il-dodgers-de-paula">Dodgers place Shohei Ohtani on 15-day IL, call up prospect Josue De Paula</a></h4>
+            <div class="stamp">NEW · 2:15 a.m. EDT</div>
+          </div>
+        </article>
+        <article class="latest-item">
+          <a href="/stories/us-open-womens-semis"><img src="/img/us-open-tennis.jpg" alt="Tennis racket and yellow ball on a hard court"></a>
+          <div>
+            <div class="meta">SPORTS</div>
+            <h4><a href="/stories/us-open-womens-semis">US Open women’s singles semifinals set for Thursday at Flushing Meadows</a></h4>
+            <div class="stamp">NEW · 9:00 a.m. EDT</div>
+          </div>
+        </article>
+        <article class="latest-item" id="business">
+          <a href="/stories/trump-5000-dividend-pledge"><img src="/img/trump-dividend-cash.jpg" alt="U.S. $100 and $10 dollar banknotes"></a>
+          <div>
+            <div class="meta">BUSINESS</div>
+            <h4><a href="/stories/trump-5000-dividend-pledge">Trump’s $5,000 midterm ‘dividend’ draws trillion-dollar cost estimates and legal questions</a></h4>
+            <div class="stamp">NEW · 2:00 p.m. EDT</div>
+          </div>
+        </article>
+        <article class="latest-item">
+          <a href="/stories/census-2030-apportionment-proposal"><img src="/img/census-suitland.jpg" alt="U.S. Census Bureau headquarters building in Suitland, Maryland"></a>
           <div>
             <div class="meta">POLITICS</div>
+            <h4><a href="/stories/census-2030-apportionment-proposal">Census Bureau proposes 2030 rules excluding non-permanent residents from apportionment count</a></h4>
+            <div class="stamp">NEW · Thu. 9:30 a.m. EDT</div>
+          </div>
+        </article>
+        <article class="latest-item">
+          <a href="/stories/miami-amazon-cargo-crash"><img src="/img/lead-miami.jpg" alt="Commercial airliner in flight under a clear sky"></a>
+          <div>
+            <div class="meta">U.S.</div>
+            <h4><a href="/stories/miami-amazon-cargo-crash">NTSB: Miami Amazon cargo pilot warned ‘too fast’ for nearly two minutes before overrun</a></h4>
+            <div class="stamp">UPDATED · Thu. 10:10 a.m. EDT</div>
+          </div>
+        </article>
+        <article class="latest-item">
+          <a href="/stories/gop-midterm-convention-dallas"><img src="/img/trump-dallas-keynote.jpg" alt="President Donald Trump speaking at a podium during a White House event"></a>
+          <div>
+            <div class="meta">POLITICS</div>
+            <h4><a href="/stories/gop-midterm-convention-dallas">Trump delivers Dallas midterm keynote; floats $5,000 ‘Trump dividend’ if GOP holds Congress</a></h4>
+            <div class="stamp">UPDATED · Wed. 10:30 p.m. EDT</div>
+          </div>
+        </article>
+        <article class="latest-item">
+          <a href="/stories/nh-senate-pappas-sununu"><img src="/img/nh-state-house.jpg" alt="Exterior of the New Hampshire State House in Concord"></a>
+          <div>
+            <div class="meta">U.S.</div>
             <h4><a href="/stories/nh-senate-pappas-sununu">Pappas and Sununu win New Hampshire Senate primaries; open Shaheen seat set for November</a></h4>
             <div class="stamp">NEW · Wed. 3 p.m. EDT</div>
           </div>
@@ -243,7 +299,7 @@
         <article class="latest-item">
           <a href="/stories/doj-trump-russia-grand-jury"><img src="/img/doj-building.jpg" alt="Robert F. Kennedy Department of Justice Building in Washington, D.C."></a>
           <div>
-            <div class="meta">POLITICS</div>
+            <div class="meta">U.S.</div>
             <h4><a href="/stories/doj-trump-russia-grand-jury">DOJ issues new Florida grand jury subpoenas in probe of Trump-Russia investigators</a></h4>
             <div class="stamp">NEW · Wed. 8 a.m. EDT</div>
           </div>
@@ -251,7 +307,7 @@
         <article class="latest-item">
           <a href="/stories/ohio-acton-canfield-fair"><img src="/img/ohio-fair.jpg" alt="County fair midway with rides and lights at dusk"></a>
           <div>
-            <div class="meta">POLITICS</div>
+            <div class="meta">U.S.</div>
             <h4><a href="/stories/ohio-acton-canfield-fair">Armed man arrested after pushing toward Ohio gov candidate Amy Acton at Canfield Fair</a></h4>
             <div class="stamp">NEW · Tue. midday EDT</div>
           </div>
@@ -264,7 +320,7 @@
             <div class="stamp">NEW · Tue. midday EDT</div>
           </div>
         </article>
-        <article class="latest-item" id="business">
+        <article class="latest-item">
           <a href="/stories/canada-us-retaliatory-tariffs"><img src="/img/canada-trade.jpg" alt="Ambassador Bridge spanning the Detroit River between the United States and Canada"></a>
           <div>
             <div class="meta">BUSINESS</div>
@@ -302,15 +358,57 @@
     </div>
     <div class="foot-bot">
       <nav>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-        <a href="#privacy">Privacy Policy</a>
-        <a href="#terms">Terms of Service</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms of Service</a>
       </nav>
       <div class="foot-copy">© 2026 Grok Bot News. All rights reserved.</div>
     </div>
     <p class="method">Humans didn’t write today’s copy; both frames are generated from public sources. Headlines and kickers state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, in the same type, with named outlets or officials and outbound links. The site does not declare a winner in the headline. Summaries are original and short. Full articles are not reproduced.</p>
   </footer>
+
+  <div class="menu-layer" id="menu" hidden>
+    <div class="menu-backdrop" data-menu-close></div>
+    <div class="menu-sheet" role="dialog" aria-modal="true" aria-label="Site menu">
+      <div class="menu-head">
+        <h2>Menu</h2>
+        <button type="button" class="menu-close" data-menu-close aria-label="Close menu">Close</button>
+      </div>
+      <nav class="menu-nav" aria-label="All sections">
+        <a href="#top">Top Stories</a>
+        <a href="#us">U.S.</a>
+        <a href="#world">World</a>
+        <a href="#politics">Politics</a>
+        <a href="#business">Business</a>
+        <a href="#energy">Energy</a>
+        <a href="#tech">Tech</a>
+        <a href="#entertainment">Entertainment</a>
+        <a href="#sports">Sports</a>
+        <a href="#opinion">Opinion</a>
+        <hr>
+        <a href="/search.html">Search</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms of Service</a>
+      </nav>
+    </div>
+  </div>
+  <script>
+  (function(){
+    var layer=document.getElementById('menu');
+    if(!layer) return;
+    function open(){layer.hidden=false;document.body.classList.add('menu-open');}
+    function close(){layer.hidden=true;document.body.classList.remove('menu-open');}
+    document.addEventListener('click',function(e){
+      if(e.target.closest('[data-menu-open]')){e.preventDefault();open();return;}
+      if(e.target.closest('[data-menu-close]')){close();}
+    });
+    document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!layer.hidden)close();});
+    if(location.hash==='#menu'){open();}
+  })();
+  </script>
 
 </body>
 </html>

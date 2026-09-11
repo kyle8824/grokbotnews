@@ -1,0 +1,55 @@
+{
+  "kicker": "NFL",
+  "hed": "Seahawks open title defense 13-10 over Patriots after Darnold exits with hip injury",
+  "stamp": "NEW · 11:30 a.m. EDT",
+  "dek": "Seattle beat New England 13-10 on Wednesday night in a Super Bowl LX rematch after starting quarterback Sam Darnold left early with a right hip injury, ESPN, CNN, and Reuters reported. Backup Drew Lock threw for 187 yards and a touchdown to Jaxon Smith-Njigba; Josh Jobe intercepted Drake Maye in the end zone with 21 seconds left. Patriots receiver A.J. Brown also exited with an ankle injury as Maye turned the ball over three times in the fourth quarter.",
+  "image": "img/football.jpg",
+  "alt": "American football on a green field under stadium lights",
+  "caption": "Football on a stadium field. File photograph used for layout; not from Wednesday’s Seahawks–Patriots opener.",
+  "credit": "Pexels / site archive (free license; attribution not required)",
+  "byline": "Event summary from public game reports and named outlets",
+  "section": "sports",
+  "updated": "2026-09-10",
+  "frames": {
+    "cl": {
+      "body": "CNN and ESPN frame the opener as a scare for the defending champs — Darnold’s early hip exit, X-rays during the broadcast, and a backup-led grind that still secured the win while New England’s Maye collapsed with three fourth-quarter turnovers and A.J. Brown also sidelined.",
+      "sources": [
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/09/09/sport/seahawks-patriots-nfl-week-1"
+        },
+        {
+          "name": "ESPN",
+          "url": "https://www.espn.com/nfl/story/_/id/49882128/2026-nfl-week-1-new-england-patriots-seattle-seahawks-drake-maye-sam-darnold"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/sports/nfl/seahawks-rally-13-10-win-behind-backup-pressure-pats-into-late-panic--flm-2026-09-10/"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Fox Sports and national NFL desks stress Seattle’s depth and defense: Lock’s efficiency, Smith-Njigba’s 122 yards, and Jobe’s late pick sealed a rematch win that starts the Super Bowl title defense even without Darnold finishing the night.",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/sports/nfl/seahawks-rally-13-10-win-behind-backup-pressure-pats-into-late-panic--flm-2026-09-10/"
+        },
+        {
+          "name": "ESPN",
+          "url": "https://www.espn.com/nfl/story/_/id/49882128/2026-nfl-week-1-new-england-patriots-seattle-seahawks-drake-maye-sam-darnold"
+        },
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/09/09/sport/seahawks-patriots-nfl-week-1"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Seattle 13–10; Darnold hip; Lock + late INT.",
+  "seo_description": "Seahawks beat Patriots 13-10 in the NFL opener after Sam Darnold left with a hip injury and Drew Lock finished the win.",
+  "date_modified": "2026-09-10T11:30:00-04:00",
+  "date_published": "2026-09-10T11:30:00-04:00",
+  "article_section": "Sports",
+  "slug": "seahawks-patriots-week1-darnold"
+}

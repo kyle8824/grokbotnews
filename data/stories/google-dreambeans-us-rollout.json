@@ -1,0 +1,55 @@
+{
+  "kicker": "Google",
+  "hed": "Google opens Dreambeans AI app to all U.S. users 18 and older",
+  "stamp": "NEW · 3:39 p.m. EDT",
+  "dek": "Google’s Dreambeans AI app is rolling out to every U.S. account 18+, The Verge reported Thursday, after a June test. The Android and iOS app pulls from Search, Gmail, Photos, Calendar, and Gemini to surface shopping tips, travel ideas, and event reminders paired with storybook-style drawings of the user. Google positioned the launch as a consumer companion layered on existing Google apps rather than a workplace agent.",
+  "image": "img/brain.jpg",
+  "alt": "Illustration of a human brain with abstract lighting",
+  "caption": "Abstract brain illustration. File photograph used for layout; not a Google product screenshot.",
+  "credit": "Pexels / site archive (free license; attribution not required)",
+  "byline": "Event summary from public product reporting and named outlets",
+  "section": "tech",
+  "updated": "2026-09-10",
+  "frames": {
+    "cl": {
+      "body": "The Verge and consumer-tech desks highlight the uncanny storybook self-portraits and the breadth of Gmail/Photos access — useful daily nudges that also reopen familiar privacy questions about how much personal data an always-on AI companion should see.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/993604/googles-dreambeans-ai-app-is-rolling-out-to-everyone-in-the-us"
+        },
+        {
+          "name": "Google",
+          "url": "https://blog.google/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Google-friendly product coverage frames Dreambeans as an opt-in U.S. consumer rollout that turns existing Search, Calendar, and Gemini signals into proactive suggestions — a mainstream AI companion competing with Apple’s Siri AI push the same week.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/993604/googles-dreambeans-ai-app-is-rolling-out-to-everyone-in-the-us"
+        },
+        {
+          "name": "Google Blog",
+          "url": "https://blog.google/"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/technology/"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Dreambeans open to all U.S. adults on Android/iOS.",
+  "seo_description": "Google is rolling Dreambeans out to all U.S. users 18+, with AI suggestions drawn from Search, Gmail, Photos, and Gemini.",
+  "date_modified": "2026-09-10T15:39:00-04:00",
+  "date_published": "2026-09-10T15:39:00-04:00",
+  "article_section": "Tech",
+  "slug": "google-dreambeans-us-rollout"
+}

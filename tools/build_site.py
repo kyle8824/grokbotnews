@@ -188,50 +188,51 @@ def nav_category(story: dict) -> tuple[str, str]:
     article = (story.get("article_section") or "").lower()
     blob = f"{kicker} {section} {article} {story.get('slug', '')}"
 
-    if any(x in blob for x in ("trade", "tariff", "business", "markets")):
-        return "BUSINESS", "business"
-    if any(
-        x in blob
-        for x in ("energy", "hormuz", "houthi", "saudi", "oil", "gas", "weather")
-    ):
+    explicit = {
+        "sports": ("SPORTS", "sports"),
+        "tech": ("TECH", "tech"),
+        "entertainment": ("ENTERTAINMENT", "entertainment"),
+        "business": ("BUSINESS", "business"),
+        "energy": ("ENERGY", "energy"),
+        "world": ("WORLD", "world"),
+        "politics": ("POLITICS", "politics"),
+        "opinion": ("OPINION", "opinion"),
+        "us": ("U.S.", "us"),
+    }
+    if section in explicit:
+        return explicit[section]
+
+    if any(x in blob for x in ("sports", "nfl", "mlb", "nba", "tennis", "us-open", "seahawks", "ohtani")):
+        return "SPORTS", "sports"
+    if any(x in blob for x in ("entertainment", "hollywood", "emmy", "film", "venice", "television")):
+        return "ENTERTAINMENT", "entertainment"
+    if any(x in blob for x in ("tech", "siri", "ai", "google", "apple", "software", "dreambeans")):
+        if "miami" in blob or "cargo" in blob:
+            return "U.S.", "us"
+        return "TECH", "tech"
+    if any(x in blob for x in ("energy", "hormuz", "houthi", "saudi", "oil", "gas", "brent", "weather")):
         return "ENERGY", "energy"
-    if section == "world" or any(
-        x in blob for x in ("diplomacy", "ukraine", "world", "iran", "persian")
-    ):
-        # tanker / hormuz already caught as energy; remaining gulf/world
+    if any(x in blob for x in ("trade", "tariff", "business", "markets", "dividend")):
+        return "BUSINESS", "business"
+    if section == "world" or any(x in blob for x in ("diplomacy", "ukraine", "world", "iran", "persian")):
         if any(x in blob for x in ("hormuz", "houthi", "saudi energy")):
             return "ENERGY", "energy"
         return "WORLD", "world"
     if any(
         x in blob
         for x in (
-            "midterm",
-            "politics",
-            "supreme",
-            "justice",
-            "homeland",
-            "senate",
-            "congress",
-            "ballot",
-            "voter",
-            "redistrict",
-            "ice",
-            "doj",
+            "midterm", "politics", "supreme", "justice", "homeland", "senate",
+            "congress", "ballot", "voter", "redistrict", "ice", "doj", "census",
         )
     ):
         return "POLITICS", "politics"
-    if any(x in blob for x in ("tech", "ai", "amazon")):
-        # miami amazon crash is accident/us, not tech product news
-        if "miami" in blob or "cargo" in blob:
-            return "U.S.", "us"
-        return "TECH", "tech"
     if section in ("us", "lead") or "u.s" in article:
         return "U.S.", "us"
     return "U.S.", "us"
 
 
 def fonts_and_css(*, root_absolute: bool = False) -> str:
-    css = "/css/site.css?v=footx4" if root_absolute else "css/site.css?v=footx4"
+    css = "/css/site.css?v=navfull1" if root_absolute else "css/site.css?v=navfull1"
     return f"""  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -249,8 +250,8 @@ def render_masthead(*, home: bool, nav: dict[str, str] | None = None) -> str:
     def n(key: str, fallback: str) -> str:
         return nav.get(key) or fallback
 
-    brand_href = "/" if not home else n("home", "#politics")
-    home_href = n("home", "#politics") if home else "/"
+    brand_href = "/"
+    home_href = "/"
     top = n("top", "#top") if home else "/#top"
     us = n("us", "#us") if home else "/#us"
     world = n("world", "#world") if home else "/#world"
@@ -258,8 +259,8 @@ def render_masthead(*, home: bool, nav: dict[str, str] | None = None) -> str:
     business = n("business", "#business") if home else "/#business"
     energy = n("energy", "#energy") if home else "/#energy"
     tech = n("tech", "#tech") if home else "/#tech"
-    entertainment = n("entertainment", top) if home else "/#top"
-    sports = n("sports", top) if home else "/#top"
+    entertainment = n("entertainment", "#entertainment") if home else "/#entertainment"
+    sports = n("sports", "#sports") if home else "/#sports"
     opinion = n("opinion", "#opinion") if home else "/#opinion"
 
     return f"""  <header class="topbar">
@@ -293,8 +294,8 @@ def render_masthead(*, home: bool, nav: dict[str, str] | None = None) -> str:
       <a href="{sports}">Sports</a>
       <a href="{opinion}">Opinion</a>
       <div class="nav-tools">
-        <a class="icon" href="#search" aria-label="Search">{SEARCH_ICON}</a>
-        <a class="icon" href="#menu" aria-label="Menu">{MENU_ICON}</a>
+        <a class="icon" href="/search.html" aria-label="Search">{SEARCH_ICON}</a>
+        <a class="icon" href="#menu" aria-label="Menu" data-menu-open>{MENU_ICON}</a>
       </div>
     </div>
   </nav>
@@ -329,10 +330,10 @@ def render_footer(site: dict, *, story: bool = False) -> str:
     </div>
     <div class="foot-bot">
       <nav>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-        <a href="#privacy">Privacy Policy</a>
-        <a href="#terms">Terms of Service</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms of Service</a>
       </nav>
       <div class="foot-copy">© 2026 Grok Bot News. All rights reserved.</div>
     </div>
@@ -360,13 +361,15 @@ def render_hero(story: dict) -> str:
 """
 
 
-def render_trending(slugs: list[str], stories: dict[str, dict]) -> str:
+def render_trending(slugs: list[str], stories: dict[str, dict], claimed: set[str] | None = None) -> str:
+    claimed = claimed if claimed is not None else set()
     items = []
     for i, slug in enumerate(slugs, start=1):
         s = stories[slug]
         label, _ = nav_category(s)
+        sid = section_id_for_story(slug, stories, claimed)
         items.append(
-            f"""          <li>
+            f"""          <li{sid}>
             <span class="num">{i}</span>
             <div>
               <h3><a href="/stories/{esc(slug)}">{esc(s["hed"])}</a></h3>
@@ -480,8 +483,9 @@ def render_featured(slugs: list[str], stories: dict[str, dict], claimed: set[str
 """
 
 
-def render_views_layer() -> str:
-    return """  <div class="views-layer" id="views-layer" hidden>
+def render_views_layer(*, root_absolute: bool = False) -> str:
+    script = "/js/views.js" if root_absolute else "js/views.js"
+    return f"""  <div class="views-layer" id="views-layer" hidden>
     <div class="views-backdrop" data-views-close></div>
     <div class="views-sheet" role="dialog" aria-modal="true" aria-labelledby="views-title">
       <div class="views-head">
@@ -495,14 +499,23 @@ def render_views_layer() -> str:
       <div class="views-body" id="views-body"></div>
     </div>
   </div>
-  <script src="js/views.js" defer></script>"""
+  <script src="{script}" defer></script>"""
 
+
+def render_views_layer_abs() -> str:
+    return render_views_layer(root_absolute=True)
+
+
+
+NAV_CLAIM_KEYS = {
+    "business", "energy", "world", "us", "tech", "entertainment", "sports",
+}
 
 
 def homepage_nav_targets(order: list[str], stories: dict[str, dict]) -> dict[str, str]:
     """First on-page anchor for each nav label; defaults to #top when absent."""
     targets = {
-        "home": "#politics",
+        "home": "/",
         "top": "#top",
         "politics": "#politics",
         "opinion": "#opinion",
@@ -516,43 +529,24 @@ def homepage_nav_targets(order: list[str], stories: dict[str, dict]) -> dict[str
     }
     seen: set[str] = set()
     for slug in order:
-        s = stories[slug]
-        label, css = nav_category(s)
-        key = css  # business|energy|world|us|politics...
-        # map css to nav keys
-        nav_key = {
-            "business": "business",
-            "energy": "energy",
-            "world": "world",
-            "us": "us",
-            "politics": "politics",
-            "tech": "tech",
-        }.get(css)
-        if not nav_key or nav_key in seen:
+        _label, css = nav_category(stories[slug])
+        if css == "politics":
+            seen.add("politics")
             continue
-        # politics lead already #politics
-        if nav_key == "politics":
-            seen.add(nav_key)
+        if css not in NAV_CLAIM_KEYS or css in seen:
             continue
-        targets[nav_key] = f"#{nav_key}"
-        seen.add(nav_key)
+        targets[css] = f"#{css}"
+        seen.add(css)
     return targets
 
 
 def section_id_for_story(slug: str, stories: dict[str, dict], claimed: set[str]) -> str:
-    """Return id=\"us\" etc. the first time that category appears (skip politics/lead)."""
-    label, css = nav_category(stories[slug])
-    nav_key = {
-        "business": "business",
-        "energy": "energy",
-        "world": "world",
-        "us": "us",
-        "tech": "tech",
-    }.get(css)
-    if not nav_key or nav_key in claimed:
+    """Return id="us" etc. the first time that category appears (skip politics/lead)."""
+    _label, css = nav_category(stories[slug])
+    if css not in NAV_CLAIM_KEYS or css in claimed:
         return ""
-    claimed.add(nav_key)
-    return f' id="{nav_key}"'
+    claimed.add(css)
+    return f' id="{css}"'
 
 
 def split_home_buckets(order: list[str]) -> dict[str, list[str]]:
@@ -605,7 +599,10 @@ def build_index(site: dict, stories: dict[str, dict]) -> str:
 
     claimed: set[str] = set()
     nav = homepage_nav_targets(order, stories)
+    trending_html = render_trending(buckets["trending"], stories, claimed)
+    top_html = render_top_cards(buckets["top"], stories, claimed)
     featured_html = render_featured(buckets["featured"], stories, claimed)
+    latest_html = render_latest(buckets["latest"], stories, claimed)
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -635,19 +632,20 @@ def build_index(site: dict, stories: dict[str, dict]) -> str:
     <section class="hero-row">
 {render_hero(lead)}
 
-{render_trending(buckets["trending"], stories)}
+{trending_html}
     </section>
 
-{render_top_cards(buckets["top"], stories, claimed)}
+{top_html}
 
     <div class="lower">
 {featured_html}
 
-{render_latest(buckets["latest"], stories, claimed)}
+{latest_html}
     </div>
   </main>
 
 {render_footer(site, story=False)}
+{render_menu_panel(home=True)}
 </body>
 </html>
 """
@@ -743,13 +741,205 @@ def build_story_page(site: dict, story: dict) -> str:
       <p class="stamp">{esc(story["stamp"])}</p>
       <p class="dek">{esc(story["dek"])}</p>
       <div class="photo-wrap"><img src="{esc(img_page)}" alt="{esc(story.get("alt", ""))}"></div>{caption_html}{credit_html}
+{VIEWS_BTN}
 {frames_html(story, indent="      ")}
     </article>
   </main>
 {render_footer(site, story=True)}
+{render_views_layer_abs()}
+{render_menu_panel(home=False)}
 </body>
 </html>
 """
+
+
+
+def render_menu_panel(*, home: bool = True) -> str:
+    prefix = "" if home else "/"
+    return f"""  <div class="menu-layer" id="menu" hidden>
+    <div class="menu-backdrop" data-menu-close></div>
+    <div class="menu-sheet" role="dialog" aria-modal="true" aria-label="Site menu">
+      <div class="menu-head">
+        <h2>Menu</h2>
+        <button type="button" class="menu-close" data-menu-close aria-label="Close menu">Close</button>
+      </div>
+      <nav class="menu-nav" aria-label="All sections">
+        <a href="{prefix}#top">Top Stories</a>
+        <a href="{prefix}#us">U.S.</a>
+        <a href="{prefix}#world">World</a>
+        <a href="{prefix}#politics">Politics</a>
+        <a href="{prefix}#business">Business</a>
+        <a href="{prefix}#energy">Energy</a>
+        <a href="{prefix}#tech">Tech</a>
+        <a href="{prefix}#entertainment">Entertainment</a>
+        <a href="{prefix}#sports">Sports</a>
+        <a href="{prefix}#opinion">Opinion</a>
+        <hr>
+        <a href="/search.html">Search</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms of Service</a>
+      </nav>
+    </div>
+  </div>
+  <script>
+  (function(){{
+    var layer=document.getElementById('menu');
+    if(!layer) return;
+    function open(){{layer.hidden=false;document.body.classList.add('menu-open');}}
+    function close(){{layer.hidden=true;document.body.classList.remove('menu-open');}}
+    document.addEventListener('click',function(e){{
+      if(e.target.closest('[data-menu-open]')){{e.preventDefault();open();return;}}
+      if(e.target.closest('[data-menu-close]')){{close();}}
+    }});
+    document.addEventListener('keydown',function(e){{if(e.key==='Escape'&&!layer.hidden)close();}});
+    if(location.hash==='#menu'){{open();}}
+  }})();
+  </script>
+"""
+
+
+def build_utility_page(site: dict, *, slug: str, title: str, heading: str, body_html: str) -> str:
+    canon = f"https://www.grokbotnews.com/{slug}.html"
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{esc(title)} — GROK BOT NEWS</title>
+  <meta name="description" content="{esc(heading)}">
+{favicons()}
+  <link rel="canonical" href="{esc(canon)}">
+  <meta property="og:site_name" content="GROK BOT NEWS">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{esc(title)} — GROK BOT NEWS">
+  <meta property="og:url" content="{esc(canon)}">
+{fonts_and_css(root_absolute=True)}
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+{render_masthead(home=False)}
+  <main id="main" class="wrap utility-page">
+    <p><a class="back-home" href="/">← Home</a></p>
+    <article>
+      <h1>{esc(heading)}</h1>
+{body_html}
+    </article>
+  </main>
+{render_footer(site, story=False)}
+{render_menu_panel(home=False)}
+</body>
+</html>
+"""
+
+
+def build_search_page(site: dict, stories: dict[str, dict]) -> str:
+    order = site.get("order") or []
+    items = []
+    for slug in order:
+        s = stories[slug]
+        label, _ = nav_category(s)
+        items.append(
+            {
+                "slug": slug,
+                "hed": s.get("hed") or "",
+                "label": label,
+                "stamp": s.get("stamp") or "",
+                "dek": s.get("stack_blurb") or stack_blurb(s),
+            }
+        )
+    payload = json.dumps(items, ensure_ascii=False)
+    body = f"""      <p class="dek">Search today’s framed headlines. Type a word from a hed, section, or blurb.</p>
+      <form class="search-form" id="search-form" action="/search.html" method="get" role="search">
+        <label class="sr-only" for="q">Search stories</label>
+        <input id="q" name="q" type="search" placeholder="Search headlines…" autocomplete="off">
+        <button type="submit">Search</button>
+      </form>
+      <p class="search-meta" id="search-meta"></p>
+      <ul class="search-results" id="search-results"></ul>
+      <script type="application/json" id="search-index">{payload}</script>
+      <script>
+      (function(){{
+        var data=[];
+        try {{ data=JSON.parse(document.getElementById('search-index').textContent||'[]'); }} catch(e) {{ data=[]; }}
+        var input=document.getElementById('q');
+        var list=document.getElementById('search-results');
+        var meta=document.getElementById('search-meta');
+        function escHtml(s){{return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}}
+        function render(q){{
+          q=(q||'').trim().toLowerCase();
+          var rows=!q?data:data.filter(function(it){{
+            return (it.hed+' '+it.label+' '+it.dek).toLowerCase().indexOf(q)!==-1;
+          }});
+          meta.textContent=rows.length+' stor'+(rows.length===1?'y':'ies')+(q?' matching “'+q+'”':'');
+          list.innerHTML=rows.map(function(it){{
+            return '<li><a href="/stories/'+escHtml(it.slug)+'"><span class="pill">'+escHtml(it.label)+'</span><strong>'+escHtml(it.hed)+'</strong><span class="stamp">'+escHtml(it.stamp)+'</span></a></li>';
+          }}).join('');
+        }}
+        var params=new URLSearchParams(location.search);
+        if(params.get('q')) input.value=params.get('q');
+        render(input.value);
+        input.addEventListener('input', function(){{ render(input.value); }});
+        document.getElementById('search-form').addEventListener('submit', function(e){{
+          e.preventDefault();
+          var url=new URL(location.href); url.searchParams.set('q', input.value); history.replaceState(null,'',url);
+          render(input.value);
+        }});
+      }})();
+      </script>
+"""
+    return build_utility_page(
+        site,
+        slug="search",
+        title="Search",
+        heading="Search",
+        body_html=body,
+    )
+
+
+def utility_bodies(site: dict) -> dict[str, tuple[str, str, str]]:
+    method = esc(site.get("footer_method") or "")
+    legal = esc(site.get("footer_legal") or "")
+    return {
+        "about": (
+            "About",
+            "About Grok Bot News",
+            f"""      <p>Grok Bot News publishes event-only headlines with two equal-weight viewpoint blocks — typical center-left and typical center-right — at the same size, with named outlets and outbound links. The site does not declare a winner in the headline.</p>
+      <p>{method}</p>
+      <p>{legal}</p>
+      <p>Follow updates on <a href="https://x.com/grokbotnews" rel="noopener" target="_blank">X @grokbotnews</a>.</p>""",
+        ),
+        "contact": (
+            "Contact",
+            "Contact",
+            """      <p>Editorial and corrections: <a href="mailto:news@grokbotnews.com">news@grokbotnews.com</a></p>
+      <p>Press and partnership notes: <a href="mailto:hello@grokbotnews.com">hello@grokbotnews.com</a></p>
+      <p>We do not host public comments or user accounts. For source corrections on a framed story, include the story URL and the outlet link you believe is missing or wrong.</p>""",
+        ),
+        "privacy": (
+            "Privacy Policy",
+            "Privacy Policy",
+            """      <p>Grok Bot News is a static news site. We do not require accounts, and we do not run a comment system.</p>
+      <p><strong>What we may collect.</strong> Standard web server and CDN logs (IP address, user agent, referrer, pages requested) may be processed by our host (currently Vercel) to operate and secure the site. Aggregated analytics, if enabled by the host, may include page views.</p>
+      <p><strong>Cookies.</strong> We do not set first-party advertising cookies. The host or embedded fonts provider may set strictly technical cookies or local cache entries required to deliver the page.</p>
+      <p><strong>Outbound links.</strong> Viewpoint blocks link to third-party news sites. Their privacy practices are their own.</p>
+      <p><strong>Contact.</strong> Privacy questions: <a href="mailto:hello@grokbotnews.com">hello@grokbotnews.com</a>.</p>
+      <p>Last updated: September 10, 2026.</p>""",
+        ),
+        "terms": (
+            "Terms of Service",
+            "Terms of Service",
+            """      <p>By using grokbotnews.com you agree to these terms.</p>
+      <p><strong>Nature of the service.</strong> Stories summarize publicly reported events and present two sourced viewpoint frames. Summaries are original and short. Full third-party articles are not reproduced. Headlines state the event only.</p>
+      <p><strong>No affiliation.</strong> Grok Bot News is an independent staging page. It is not affiliated with any broadcast or cable news company, and the wordmark is original.</p>
+      <p><strong>Photographs.</strong> News-file and stock photographs are used for layout and are not claimed as original field work by this site. Image credits appear on story pages when available.</p>
+      <p><strong>Disclaimer.</strong> Content is provided for informational purposes without warranties. Links to external sources do not imply endorsement.</p>
+      <p><strong>Changes.</strong> We may update these terms by posting a new version on this page.</p>
+      <p>Last updated: September 10, 2026.</p>""",
+        ),
+    }
+
 
 
 def build_sitemap(site: dict, stories: dict[str, dict]) -> str:
@@ -787,6 +977,11 @@ def build_sitemap(site: dict, stories: dict[str, dict]) -> str:
             f"<lastmod>{arch.get('updated', newest)}</lastmod></url>"
         )
         seen.add(slug)
+    for util in ("about", "contact", "privacy", "terms", "search"):
+        lines.append(
+            f"  <url><loc>https://www.grokbotnews.com/{util}.html</loc>"
+            f"<lastmod>{newest}</lastmod></url>"
+        )
     lines.append("</urlset>")
     return "\n".join(lines) + "\n"
 
@@ -813,6 +1008,14 @@ def main() -> None:
     sitemap = build_sitemap(site, stories)
     (ROOT / "sitemap.xml").write_text(sitemap, encoding="utf-8")
     print("wrote sitemap.xml")
+
+    for slug, (title, heading, body) in utility_bodies(site).items():
+        page = build_utility_page(site, slug=slug, title=title, heading=heading, body_html=body)
+        (ROOT / f"{slug}.html").write_text(page, encoding="utf-8")
+    print("wrote about/contact/privacy/terms")
+
+    (ROOT / "search.html").write_text(build_search_page(site, stories), encoding="utf-8")
+    print("wrote search.html")
     print("OK")
 
 

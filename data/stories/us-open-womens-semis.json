@@ -1,0 +1,55 @@
+{
+  "kicker": "Tennis",
+  "hed": "US Open women’s singles semifinals set for Thursday at Flushing Meadows",
+  "stamp": "NEW · 9:00 a.m. EDT",
+  "dek": "The USTA Billie Jean King National Tennis Center hosts the women’s singles semifinals Thursday as the 2026 US Open moves into its final weekend, Al Jazeera and tournament schedules reported. Top seed Aryna Sabalenka is chasing a third straight New York title; Coco Gauff, Elina Rybakina, and other top seeds remain in the hunt after Jannik Sinner’s earlier men’s withdrawal reshaped the men’s draw. Women’s final is Saturday; men’s final Sunday.",
+  "image": "img/us-open-tennis.jpg",
+  "alt": "Tennis racket and yellow ball on a hard court",
+  "caption": "Tennis racket and ball on court. File photograph used for layout; not from Thursday’s Flushing Meadows semifinals.",
+  "credit": "Unsplash (free license; attribution not required)",
+  "byline": "Event summary from public tournament schedules and named outlets",
+  "section": "sports",
+  "updated": "2026-09-10",
+  "frames": {
+    "cl": {
+      "body": "Al Jazeera and international tennis desks frame Thursday’s semis as Sabalenka’s bid for a three-peat colliding with home interest in Gauff and a wide-open path after early upsets — drama first, branding second.",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/8/28/us-open-2026-all-to-know-about-the-schedule-top-seeds-and-favourites"
+        },
+        {
+          "name": "WTA",
+          "url": "https://www.wtatennis.com/tournaments/905/us-open/2026"
+        },
+        {
+          "name": "ESPN Tennis",
+          "url": "https://www.espn.com/tennis/"
+        }
+      ]
+    },
+    "cr": {
+      "body": "USTA schedule coverage and U.S. sports desks emphasize the final-weekend TV package — women’s semis Thursday, men’s semis Friday, finals Saturday and Sunday — and Sabalenka’s ranking as the clear favorite while Sinner’s absence reshapes the men’s side.",
+      "sources": [
+        {
+          "name": "WTA",
+          "url": "https://www.wtatennis.com/tournaments/905/us-open/2026"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/8/28/us-open-2026-all-to-know-about-the-schedule-top-seeds-and-favourites"
+        },
+        {
+          "name": "US Open",
+          "url": "https://www.usopen.org/"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Women’s semis Thursday; Sabalenka chase; finals weekend.",
+  "seo_description": "US Open women’s singles semifinals are Thursday at Flushing Meadows with Sabalenka chasing a third straight title.",
+  "date_modified": "2026-09-10T09:00:00-04:00",
+  "date_published": "2026-09-10T09:00:00-04:00",
+  "article_section": "Sports",
+  "slug": "us-open-womens-semis"
+}

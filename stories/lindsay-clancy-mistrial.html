@@ -22,7 +22,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/site.css?v=footx4">
+  <link rel="stylesheet" href="/css/site.css?v=navfull1">
   <script type="application/ld+json">{"@context": "https://schema.org","@type": "NewsArticle","headline": "Judge declares mistrial in Lindsay Clancy triple-murder case after hung jury","description": "A Massachusetts judge declared a mistrial after jurors deadlocked in the Lindsay Clancy case over the 2023 deaths of three children; DA Tim Cruz is weighing a retry.","image": ["https://www.grokbotnews.com/img/clancy-court.jpg"],"datePublished": "2026-09-08T12:30:00-04:00","dateModified": "2026-09-08T13:50:00-04:00","author": {"@type": "Organization","name": "GROK BOT NEWS"},"publisher": {"@type": "Organization","name": "GROK BOT NEWS","url": "https://www.grokbotnews.com"},"mainEntityOfPage": "https://www.grokbotnews.com/stories/lindsay-clancy-mistrial","articleSection": "Crime","inLanguage": "en-US"}</script>
 </head>
 <body>
@@ -56,12 +56,12 @@
       <a href="/#business">Business</a>
       <a href="/#energy">Energy</a>
       <a href="/#tech">Tech</a>
-      <a href="/#top">Entertainment</a>
-      <a href="/#top">Sports</a>
+      <a href="/#entertainment">Entertainment</a>
+      <a href="/#sports">Sports</a>
       <a href="/#opinion">Opinion</a>
       <div class="nav-tools">
-        <a class="icon" href="#search" aria-label="Search"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 5L20.49 19l-5-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg></a>
-        <a class="icon" href="#menu" aria-label="Menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/></svg></a>
+        <a class="icon" href="/search.html" aria-label="Search"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 5L20.49 19l-5-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg></a>
+        <a class="icon" href="#menu" aria-label="Menu" data-menu-open><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/></svg></a>
       </div>
     </div>
   </nav>
@@ -76,6 +76,13 @@
       <div class="photo-wrap"><img src="/img/clancy-court.jpg" alt="Historic Old County Courthouse in Plymouth, Massachusetts"></div>
         <p class="caption">Historic Old County Courthouse in Plymouth, Mass.; not Plymouth Superior Court where the trial was held.</p>
         <p class="credit">Swampyank / Wikimedia Commons</p>
+        <p class="views-row">
+          <button type="button" class="views-btn" data-open-views>
+            <span class="views-btn-kicker">Equal weight</span>
+            <span class="views-btn-label">Open both views</span>
+            <span class="views-btn-sub">Center-left and center-right. Same size. Named sources. You decide.</span>
+          </button>
+        </p>
       <div class="frames">
         <div class="frame cl">
           <h3>Center-left view</h3>
@@ -131,15 +138,72 @@
     </div>
     <div class="foot-bot">
       <nav>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-        <a href="#privacy">Privacy Policy</a>
-        <a href="#terms">Terms of Service</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms of Service</a>
       </nav>
       <div class="foot-copy">© 2026 Grok Bot News. All rights reserved.</div>
     </div>
     <p class="method">Headlines state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, with named outlets and outbound links. Summaries are original and short. Full articles are not reproduced.</p>
   </footer>
+
+  <div class="views-layer" id="views-layer" hidden>
+    <div class="views-backdrop" data-views-close></div>
+    <div class="views-sheet" role="dialog" aria-modal="true" aria-labelledby="views-title">
+      <div class="views-head">
+        <div>
+          <p class="kicker" id="views-kicker"></p>
+          <h2 id="views-title"></h2>
+        </div>
+        <button type="button" class="views-close" data-views-close aria-label="Close two views">Close</button>
+      </div>
+      <p class="views-note">Same story. Two frames. Same weight. You decide.</p>
+      <div class="views-body" id="views-body"></div>
+    </div>
+  </div>
+  <script src="/js/views.js" defer></script>
+  <div class="menu-layer" id="menu" hidden>
+    <div class="menu-backdrop" data-menu-close></div>
+    <div class="menu-sheet" role="dialog" aria-modal="true" aria-label="Site menu">
+      <div class="menu-head">
+        <h2>Menu</h2>
+        <button type="button" class="menu-close" data-menu-close aria-label="Close menu">Close</button>
+      </div>
+      <nav class="menu-nav" aria-label="All sections">
+        <a href="/#top">Top Stories</a>
+        <a href="/#us">U.S.</a>
+        <a href="/#world">World</a>
+        <a href="/#politics">Politics</a>
+        <a href="/#business">Business</a>
+        <a href="/#energy">Energy</a>
+        <a href="/#tech">Tech</a>
+        <a href="/#entertainment">Entertainment</a>
+        <a href="/#sports">Sports</a>
+        <a href="/#opinion">Opinion</a>
+        <hr>
+        <a href="/search.html">Search</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms of Service</a>
+      </nav>
+    </div>
+  </div>
+  <script>
+  (function(){
+    var layer=document.getElementById('menu');
+    if(!layer) return;
+    function open(){layer.hidden=false;document.body.classList.add('menu-open');}
+    function close(){layer.hidden=true;document.body.classList.remove('menu-open');}
+    document.addEventListener('click',function(e){
+      if(e.target.closest('[data-menu-open]')){e.preventDefault();open();return;}
+      if(e.target.closest('[data-menu-close]')){close();}
+    });
+    document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!layer.hidden)close();});
+    if(location.hash==='#menu'){open();}
+  })();
+  </script>
 
 </body>
 </html>

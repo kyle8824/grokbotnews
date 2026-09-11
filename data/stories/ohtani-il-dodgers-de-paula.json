@@ -1,0 +1,55 @@
+{
+  "kicker": "MLB",
+  "hed": "Dodgers place Shohei Ohtani on 15-day IL, call up prospect Josue De Paula",
+  "stamp": "NEW · 2:15 a.m. EDT",
+  "dek": "Los Angeles placed two-way star Shohei Ohtani on the 15-day injured list Thursday and called up top outfield prospect Josue De Paula, USA Today’s Bob Nightengale and club briefings reported. Ohtani cited biceps soreness after an 0-for-3 return from four days off; he is eligible to return Sept. 23 with five regular-season games left as the Dodgers chase a third straight World Series title. De Paula is expected to DH and see outfield time.",
+  "image": "img/ohtani-dodger-stadium.jpg",
+  "alt": "Baseball diamond and stadium seating under daylight",
+  "caption": "Ballpark diamond and stands. File photograph used for layout; not from Thursday’s Dodgers roster move.",
+  "credit": "Unsplash (free license; attribution not required)",
+  "byline": "Event summary from public club reporting and named outlets",
+  "section": "sports",
+  "updated": "2026-09-10",
+  "frames": {
+    "cl": {
+      "body": "USA Today and national baseball desks cast the IL move as caution after biceps soreness — resting Ohtani for a September stretch run and October rather than risking a bigger injury with a third straight World Series bid on the line.",
+      "sources": [
+        {
+          "name": "USA Today",
+          "url": "https://www.usatoday.com/story/sports/mlb/columnist/bob-nightengale/2026/09/10/shohei-ohtani-il-dodgers-call-up-top-prospect-josue-de-paula/91685838007/"
+        },
+        {
+          "name": "ESPN",
+          "url": "https://www.espn.com/mlb/"
+        },
+        {
+          "name": "MLB.com",
+          "url": "https://www.mlb.com/dodgers"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Club and market-facing coverage stress the upside of calling De Paula now — a top prospect getting DH/outfield reps while Ohtani resets on a 15-day clock timed to return before the final week of the regular season.",
+      "sources": [
+        {
+          "name": "USA Today",
+          "url": "https://www.usatoday.com/story/sports/mlb/columnist/bob-nightengale/2026/09/10/shohei-ohtani-il-dodgers-call-up-top-prospect-josue-de-paula/91685838007/"
+        },
+        {
+          "name": "MLB.com",
+          "url": "https://www.mlb.com/dodgers"
+        },
+        {
+          "name": "Los Angeles Times",
+          "url": "https://www.latimes.com/sports/dodgers"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Ohtani to 15-day IL; De Paula called up.",
+  "seo_description": "The Dodgers placed Shohei Ohtani on the 15-day IL with biceps soreness and called up prospect Josue De Paula.",
+  "date_modified": "2026-09-10T02:15:00-04:00",
+  "date_published": "2026-09-10T02:15:00-04:00",
+  "article_section": "Sports",
+  "slug": "ohtani-il-dodgers-de-paula"
+}

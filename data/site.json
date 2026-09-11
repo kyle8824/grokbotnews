@@ -1,10 +1,10 @@
 {
   "site_url": "https://www.grokbotnews.com",
-  "title": "Grok Bot News \u2014 Thursday, September 10, 2026",
+  "title": "Grok Bot News — Thursday, September 10, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Thursday, September 10, 2026 \u00b7 7:15 p.m. EDT",
-  "utility_markets": "Brent >$105 \u00b7 WTI ~$100 \u00b7 Mocha + Hormuz",
+  "utility_live": "Thursday, September 10, 2026 · 7:55 p.m. EDT",
+  "utility_markets": "Brent >$105 · WTI ~$100 · Mocha + Hormuz",
   "breaking": "Brent tops $105 as Houthis seize Mocha near Bab el-Mandeb and Hormuz tanker war deepens.",
   "order": [
     "brent-105-dual-chokepoint",
@@ -12,6 +12,13 @@
     "usps-mail-ballot-whistleblower",
     "missouri-redistricting-referendum",
     "houthi-mocha-bab-el-mandeb",
+    "seahawks-patriots-week1-darnold",
+    "apple-siri-ai-ios27-rollout",
+    "venice-naza-ovation",
+    "emmys-2026-hargitay-host",
+    "google-dreambeans-us-rollout",
+    "ohtani-il-dodgers-de-paula",
+    "us-open-womens-semis",
     "trump-5000-dividend-pledge",
     "census-2030-apportionment-proposal",
     "miami-amazon-cargo-crash",
@@ -31,15 +38,15 @@
   ],
   "stack": [
     "brent-105-dual-chokepoint",
+    "seahawks-patriots-week1-darnold",
+    "apple-siri-ai-ios27-rollout",
+    "venice-naza-ovation",
     "trump-aca-500-rebate",
     "usps-mail-ballot-whistleblower",
     "missouri-redistricting-referendum",
     "houthi-mocha-bab-el-mandeb",
-    "trump-5000-dividend-pledge",
-    "census-2030-apportionment-proposal",
-    "miami-amazon-cargo-crash",
-    "gop-midterm-convention-dallas",
-    "nh-senate-pappas-sununu"
+    "google-dreambeans-us-rollout",
+    "ohtani-il-dodgers-de-paula"
   ],
   "section_labels": [
     {
@@ -67,9 +74,27 @@
       "slugs": [
         "houthi-mocha-bab-el-mandeb",
         "uk-israel-settlement-sanctions",
-        "canada-us-retaliatory-tariffs",
-        "houthi-saudi-energy-attacks",
         "witkoff-kushner-moscow-kyiv"
+      ]
+    },
+    {
+      "id": "politics",
+      "label": "Politics",
+      "slugs": [
+        "trump-aca-500-rebate",
+        "usps-mail-ballot-whistleblower",
+        "missouri-redistricting-referendum",
+        "census-2030-apportionment-proposal",
+        "dhs-save-voter-database-scotus",
+        "doj-trump-russia-grand-jury"
+      ]
+    },
+    {
+      "id": "business",
+      "label": "Business",
+      "slugs": [
+        "canada-us-retaliatory-tariffs",
+        "trump-5000-dividend-pledge"
       ]
     },
     {
@@ -77,49 +102,100 @@
       "label": "Energy & markets",
       "slugs": [
         "brent-105-dual-chokepoint",
+        "us-iran-tanker-strikes",
+        "houthi-saudi-energy-attacks",
+        "iran-hormuz-strikes"
+      ]
+    },
+    {
+      "id": "tech",
+      "label": "Tech",
+      "slugs": [
+        "apple-siri-ai-ios27-rollout",
+        "google-dreambeans-us-rollout"
+      ]
+    },
+    {
+      "id": "entertainment",
+      "label": "Entertainment",
+      "slugs": [
+        "venice-naza-ovation",
+        "emmys-2026-hargitay-host"
+      ]
+    },
+    {
+      "id": "sports",
+      "label": "Sports",
+      "slugs": [
+        "seahawks-patriots-week1-darnold",
+        "ohtani-il-dodgers-de-paula",
+        "us-open-womens-semis"
+      ]
+    },
+    {
+      "id": "opinion",
+      "label": "Opinion / Analysis",
+      "slugs": [
+        "houthi-saudi-energy-attacks",
+        "witkoff-kushner-moscow-kyiv",
         "iran-hormuz-strikes"
       ]
     }
   ],
   "rail_wire": [
     {
+      "label": "NFL.",
+      "text": "Seahawks 13-10 over Patriots after Darnold hip exit; Lock + late INT.",
+      "stamp": "NEW · 11:30 a.m."
+    },
+    {
+      "label": "Siri.",
+      "text": "Apple starts Siri AI rollout with iPhone 18 and iOS 27; English first.",
+      "stamp": "NEW · 6:30 a.m."
+    },
+    {
+      "label": "Venice.",
+      "text": "NAZA documentary gets record ~25-minute standing ovation.",
+      "stamp": "NEW · 10:16 a.m."
+    },
+    {
       "label": "Oil.",
       "text": "Brent tops $105; WTI briefly $100 as Mocha + Hormuz squeeze shipping.",
-      "stamp": "NEW \u00b7 7:15 p.m."
+      "stamp": "NEW · 7:15 p.m."
     },
     {
       "label": "ACA.",
       "text": "White House: ~1M unsubsidized federal-exchange enrollees get $500 rebates; Oct. mailings; Dems call gimmick.",
-      "stamp": "NEW \u00b7 4:15 p.m."
+      "stamp": "NEW · 4:15 p.m."
     },
     {
       "label": "USPS.",
       "text": "1st Circuit leaves Talwani PI blocking Aug. 26 Ballot Mail rule; SCOTUS 26A305 still pending.",
-      "stamp": "UPDATED \u00b7 4:00 p.m."
+      "stamp": "UPDATED · 4:00 p.m."
     },
     {
       "label": "Missouri.",
       "text": "State high court finds Hoskins in contempt, says he purged it by directing 2022 map after SCOTUS stay.",
-      "stamp": "UPDATED \u00b7 4:00 p.m."
+      "stamp": "UPDATED · 4:00 p.m."
     },
     {
       "label": "Mocha.",
       "text": "Houthis take Red Sea port; reach Hanish Islands; NRF retreats toward Dhubab.",
-      "stamp": "UPDATED \u00b7 7:15 p.m."
+      "stamp": "UPDATED · 7:15 p.m."
     },
     {
       "label": "Dividend.",
-      "text": "Trump $5K midterm pledge; economists cite ~$1.15\u2013$1.35T; Vance cites tariffs.",
-      "stamp": "NEW \u00b7 2:00 p.m."
+      "text": "Trump $5K midterm pledge; economists cite ~$1.15–$1.35T; Vance cites tariffs.",
+      "stamp": "NEW · 2:00 p.m."
     },
     {
       "label": "Census.",
       "text": "Proposed 2030 rule would exclude non-permanent residents from apportionment base; 30-day comment.",
-      "stamp": "NEW \u00b7 9:30 a.m."
+      "stamp": "NEW · 9:30 a.m."
     }
   ],
   "markets": {
-    "heading": "Markets \u00b7 Thursday 7:15 p.m.",
+    "heading": "Markets · Thursday 7:15 p.m.",
     "rows": [
       {
         "label": "Crude oil",
@@ -133,7 +209,7 @@
       },
       {
         "label": "ACA rebates",
-        "value": "$500 checks \u00b7 ~1M enrollees",
+        "value": "$500 checks · ~1M enrollees",
         "dir": "up"
       },
       {
@@ -145,13 +221,18 @@
     "credit": "Oil prints from Thursday CNN/NBC/Reuters/Fox/The National reporting. ACA rebate stamp from White House/Axios/Hill coverage."
   },
   "ticker": [
+    "NFL|Seahawks 13-10 Patriots; Darnold hip; Lock finishes opener",
+    "TECH|Apple begins Siri AI rollout with iPhone 18 / iOS 27",
+    "FILM|NAZA draws record ~25-minute ovation at Venice",
+    "EMMYS|Hargitay hosts Monday; The Pitt leads with 25 nominations",
+    "MLB|Dodgers place Ohtani on 15-day IL; call up De Paula",
     "OIL|Brent tops $105; WTI briefly $100 as Mocha + Hormuz squeeze shipping",
     "MOCHA|Houthis seize Mocha; reach Hanish Islands near Bab el-Mandeb",
     "USPS|1st Circuit declines stay of Talwani PI on USPS mail-ballot rule; SCOTUS 26A305 pending",
     "MISSOURI|State high court finds Hoskins in contempt; says he purged it by directing 2022 map",
     "ACA|White House: ~1M HealthCare.gov enrollees to get $500 rebates starting October",
-    "DIVIDEND|Trump $5K midterm \u201cdividend\u201d; cost estimates near $1T+; Vance cites tariffs",
-    "MIAMI|NTSB: cargo pilot warned \u201ctoo fast\u201d nearly 2 minutes before Miami overrun",
+    "DIVIDEND|Trump $5K midterm “dividend”; cost estimates near $1T+; Vance cites tariffs",
+    "MIAMI|NTSB: cargo pilot warned “too fast” nearly 2 minutes before Miami overrun",
     "CENSUS|Bureau proposes 2030 rules excluding non-permanent residents from apportionment count",
     "GULF|Trump says Iran war ends after midterms; Pickaxe Mountain warning",
     "NH|Pappas and Sununu win Senate primaries; Shaheen open seat set for November",
@@ -188,8 +269,8 @@
       "updated": "2026-09-04"
     }
   ],
-  "footer_method": "Humans didn\u2019t write today\u2019s copy; both frames are generated from public sources. Headlines and kickers state the event only. Each story then carries two viewpoint blocks \u2014 typical center-left and typical center-right \u2014 at the same size, in the same type, with named outlets or officials and outbound links. The site does not declare a winner in the headline. Summaries are original and short. Full articles are not reproduced.",
+  "footer_method": "Humans didn’t write today’s copy; both frames are generated from public sources. Headlines and kickers state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, in the same type, with named outlets or officials and outbound links. The site does not declare a winner in the headline. Summaries are original and short. Full articles are not reproduced.",
   "footer_legal": "Independent staging page for grokbotnews.com. Original wordmark. Not affiliated with any broadcast or cable news company. No accounts, no comments, no donations. Photographs are news-file images used for layout; they are not claimed as original field work by this site.",
-  "story_footer_method": "Headlines state the event only. Each story then carries two viewpoint blocks \u2014 typical center-left and typical center-right \u2014 at the same size, with named outlets and outbound links. Summaries are original and short. Full articles are not reproduced.",
+  "story_footer_method": "Headlines state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, with named outlets and outbound links. Summaries are original and short. Full articles are not reproduced.",
   "story_footer_legal": "Independent staging page for grokbotnews.com. Original wordmark. Not affiliated with any broadcast or cable news company. No accounts, no comments, no donations."
 }

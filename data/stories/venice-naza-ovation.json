@@ -1,0 +1,55 @@
+{
+  "kicker": "Film",
+  "hed": "Gaza documentary NAZA draws record 25-minute ovation at Venice",
+  "stamp": "NEW · 10:16 a.m. EDT",
+  "dek": "Yuval Abraham and Rachel Szor’s documentary NAZA received a reported 25-minute standing ovation after its world premiere Thursday at the Venice Film Festival, Deadline, JTA, and Middle East Eye reported. The film, produced with The Guardian and executive-produced by Jonathan Glazer, is the only documentary competing for the Golden Lion and features testimony from Israeli soldiers and intelligence officers about Gaza operations. The Israeli military says the film misrepresents wartime proportionality judgments.",
+  "image": "img/venice-film-festival.jpg",
+  "alt": "Cinema camera on a film set with blurred lights",
+  "caption": "Film camera on set. File photograph used for layout; not from Thursday’s Venice premiere.",
+  "credit": "Unsplash (free license; attribution not required)",
+  "byline": "Event summary from public festival reporting and named outlets",
+  "section": "entertainment",
+  "updated": "2026-09-10",
+  "frames": {
+    "cl": {
+      "body": "Deadline and Middle East Eye treat the record ovation as confirmation of the film’s force — soldier testimony, Golden Lion competition, and Glazer’s Zone of Interest pedigree — arguing Venice audiences are again centering Gaza’s civilian toll.",
+      "sources": [
+        {
+          "name": "Deadline",
+          "url": "https://deadline.com/2026/09/naza-record-ovation-25-minutes-venice-film-festival-1237073241/"
+        },
+        {
+          "name": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/trending/naza-film-exposing-systematic-killing-gaza-gets-record-24-minute-ovation-venice"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/film"
+        }
+      ]
+    },
+    "cr": {
+      "body": "JTA and Israeli military statements cited in that coverage dispute the film’s framing, saying NAZA misrepresents conventional proportionality analysis in wartime targeting and that festival applause should not be read as a factual verdict on IDF conduct.",
+      "sources": [
+        {
+          "name": "Jewish Telegraphic Agency",
+          "url": "https://www.jta.org/2026/09/10/israel/documentary-alleging-israel-committed-wanton-killing-in-gaza-gets-standing-ovation-in-venice"
+        },
+        {
+          "name": "Deadline",
+          "url": "https://deadline.com/2026/09/naza-record-ovation-25-minutes-venice-film-festival-1237073241/"
+        },
+        {
+          "name": "Variety",
+          "url": "https://variety.com/"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "NAZA: ~25-minute Venice ovation; Golden Lion race.",
+  "seo_description": "Gaza documentary NAZA received a record ~25-minute standing ovation at its Venice Film Festival premiere.",
+  "date_modified": "2026-09-10T10:16:00-04:00",
+  "date_published": "2026-09-10T10:16:00-04:00",
+  "article_section": "Entertainment",
+  "slug": "venice-naza-ovation"
+}
