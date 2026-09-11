@@ -1,0 +1,55 @@
+{
+  "slug": "saratov-rosneft-ozon-drones",
+  "kicker": "Ukraine / Energy",
+  "hed": "Ukrainian drones hit Rosneft Saratov refinery and Ozon warehouse",
+  "stamp": "NEW · Fri. 7:05 p.m. EDT",
+  "dek": "Ukrainian long-range drones struck the Russian city of Saratov overnight Friday, sparking a fire at the Rosneft-owned Saratov Oil Refinery and gutting a large Ozon e-commerce logistics warehouse, according to Ukraine’s General Staff, regional authorities, and satellite imagery published by RFE/RL. Fire Point said its FP-1 drones were used on the warehouse (~85,000–100,000 sq m). Governor Roman Busargin reported civilian-infrastructure damage and no casualties. President Volodymyr Zelensky called the strikes part of reducing Russia’s capacity to wage war; the plant has been hit repeatedly in Kyiv’s energy campaign.",
+  "image": "img/saratov-rosneft-refinery.jpg",
+  "alt": "Saratov Oil Refinery along the Volga River in Russia",
+  "caption": "File photograph of the Saratov Oil Refinery on the Volga River, Aug. 9, 2017. Not from Friday’s drone strike.",
+  "credit": "Alexxx1979 / Wikimedia Commons (CC BY-SA 4.0)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "world",
+  "updated": "2026-09-11",
+  "frames": {
+    "cl": {
+      "body": "Kyiv Independent, Bloomberg, and RFE/RL satellite follow-ups cast Friday’s Saratov hits as another economically meaningful blow in Ukraine’s refinery-and-logistics campaign—citing General Staff fire reports at the Rosneft plant, Zelensky’s “no safe havens” line, Fire Point’s FP-1 claim on the Ozon hub, and summer throughput drops reported via Energy Aspects.",
+      "sources": [
+        {
+          "name": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukrainian-drones-reportedly-strike-saratov-oil-refinery-ozon-warehouse/"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-11/ukraine-says-it-hit-major-oil-refinery-in-russia-s-volga-region"
+        },
+        {
+          "name": "RBC-Ukraine",
+          "url": "https://newsukraine.rbc.ua/news/satellite-images-show-aftermath-of-ukrainian-1789138228.html"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Washington Examiner analysis, Wall Street Journal rate coverage, and New York Post reporting on the broader campaign stress Russian repair capacity and adaptation—arguing refinery drones squeeze fuel and inflation without proving decisive—while noting Trump-orbit friction when Kyiv hits energy assets amid U.S. peace outreach.",
+      "sources": [
+        {
+          "name": "Washington Examiner",
+          "url": "https://www.washingtonexaminer.com/news/world/4627542/ukraine-drone-campaign-russia-energy-infrastructure-damage/"
+        },
+        {
+          "name": "Wall Street Journal",
+          "url": "https://www.wsj.com/pro/central-banking/russian-central-bank-holds-key-rate-despite-rising-price-pressures-09066344"
+        },
+        {
+          "name": "New York Post",
+          "url": "https://nypost.com/2026/09/07/world-news/ukraine-strikes-russian-oil-refineries-after-kushner-witkoff-visit-moscow-and-kyiv/"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Ukrainian drones hit Rosneft’s Saratov refinery and an Ozon warehouse; RFE/RL shows warehouse gutted.",
+  "seo_description": "Ukrainian drones struck Rosneft’s Saratov oil refinery and an Ozon logistics warehouse overnight Sept. 11; General Staff, RFE/RL satellite, and Fire Point report fires and warehouse destruction.",
+  "date_modified": "2026-09-11T19:05:00-04:00",
+  "date_published": "2026-09-11T19:05:00-04:00",
+  "article_section": "World"
+}
