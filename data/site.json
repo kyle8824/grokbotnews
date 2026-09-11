@@ -3,11 +3,12 @@
   "title": "Grok Bot News \u2014 Friday, September 11, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Friday, September 11, 2026 \u00b7 12:05 p.m. EDT",
+  "utility_live": "Friday, September 11, 2026 \u00b7 1:50 p.m. EDT",
   "utility_markets": "Brent ~$106 \u00b7 WTI ~$101 \u00b7 Bab el-Mandeb",
-  "breaking": "NATO allies disrupt Russian GUGI undersea-cable exercise near Svalbard.",
+  "breaking": "UK CDS: more than 500,000 Russian troops killed in Ukraine; 1.5M casualties.",
   "order": [
     "sept-11-25th-anniversary",
+    "uk-cds-russia-500k-casualties",
     "nato-svalbard-cable-sabotage",
     "kyiv-ukrnafta-petrol-drones",
     "houthi-perim-bab-el-mandeb",
@@ -44,6 +45,7 @@
   ],
   "stack": [
     "sept-11-25th-anniversary",
+    "uk-cds-russia-500k-casualties",
     "nato-svalbard-cable-sabotage",
     "kyiv-ukrnafta-petrol-drones",
     "houthi-perim-bab-el-mandeb",
@@ -53,8 +55,7 @@
     "houthi-mocha-bab-el-mandeb",
     "usps-mail-ballot-whistleblower",
     "missouri-redistricting-referendum",
-    "trump-aca-500-rebate",
-    "census-2030-apportionment-proposal"
+    "trump-aca-500-rebate"
   ],
   "section_labels": [
     {
@@ -82,6 +83,7 @@
       "id": "world",
       "label": "World",
       "slugs": [
+        "uk-cds-russia-500k-casualties",
         "nato-svalbard-cable-sabotage",
         "kyiv-ukrnafta-petrol-drones",
         "houthi-perim-bab-el-mandeb",
@@ -158,6 +160,11 @@
   ],
   "rail_wire": [
     {
+      "label": "UK CDS.",
+      "text": "Knighton: 500,000 Russian troops killed; 1.5 million casualties; 1.4M since Jan 2023 for ~2% of Ukraine.",
+      "stamp": "NEW \u00b7 1:50 p.m."
+    },
+    {
       "label": "NATO.",
       "text": "UK, Norway, U.S. disrupt Russian GUGI undersea-cable exercise near Svalbard; no cables damaged.",
       "stamp": "NEW \u00b7 12:05 p.m."
@@ -181,36 +188,6 @@
       "label": "DOJ.",
       "text": "Joe diGenova resigns as Florida DOJ counsel overseeing probe of Trump investigators; Toensing leaving Friday.",
       "stamp": "UPDATED \u00b7 8:00 a.m."
-    },
-    {
-      "label": "Oil.",
-      "text": "Brent ~$106 / WTI ~$101 early Fri after slip from Thu highs; week still >$100; U.S. diesel record.",
-      "stamp": "UPDATED \u00b7 8:00 a.m."
-    },
-    {
-      "label": "Mocha.",
-      "text": "Houthis take Red Sea port; reach Hanish Islands; NRF retreats toward Dhubab.",
-      "stamp": "UPDATED \u00b7 Thu. 7:15 p.m."
-    },
-    {
-      "label": "USPS.",
-      "text": "1st Circuit leaves Talwani PI blocking Aug. 26 Ballot Mail rule; SCOTUS 26A305 still pending.",
-      "stamp": "UPDATED \u00b7 Thu. 4:00 p.m."
-    },
-    {
-      "label": "Missouri.",
-      "text": "State high court finds Hoskins in contempt, says he purged it by directing 2022 map after SCOTUS stay.",
-      "stamp": "UPDATED \u00b7 Thu. 4:00 p.m."
-    },
-    {
-      "label": "ACA.",
-      "text": "White House: ~1M unsubsidized federal-exchange enrollees get $500 rebates; Oct. mailings; Dems call gimmick.",
-      "stamp": "NEW \u00b7 Thu. 4:15 p.m."
-    },
-    {
-      "label": "Census.",
-      "text": "Bureau proposes 2030 rules excluding non-permanent residents from apportionment count.",
-      "stamp": "NEW \u00b7 Thu. 9:30 a.m."
     }
   ],
   "markets": {

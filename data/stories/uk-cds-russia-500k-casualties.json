@@ -1,0 +1,55 @@
+{
+  "slug": "uk-cds-russia-500k-casualties",
+  "kicker": "Ukraine / Britain",
+  "hed": "UK defence chief: more than 500,000 Russian troops killed in Ukraine; 1.5 million casualties",
+  "stamp": "NEW \u00b7 Fri. 1:50 p.m. EDT",
+  "dek": "Air Chief Marshal Sir Richard Knighton, chief of the U.K. Defence Staff, said Friday that more than half a million Russian troops have been killed since Moscow's full-scale invasion began in February 2022, part of about 1.5 million total Russian casualties. British defence intelligence confirmed the 500,000 killed figure among Ukrainian General Staff tallies published midweek; Knighton said 1.4 million of the casualties came since January 2023 for about 2% of Ukrainian territory. He also cited more than 10,000 armored vehicles, nearly 3,000 air-defense and artillery systems, and over 370 aircraft and helicopters lost. There was no immediate comment from Russian officials. Neither Moscow nor Kyiv publishes regular battlefield death totals.",
+  "image": "img/uk-cds-russia-500k-casualties.jpg",
+  "alt": "Ministry of Defence Main Building on Whitehall in London",
+  "caption": "The Ministry of Defence Main Building in London. File photograph; not from Friday's briefing.",
+  "credit": "Andysmith248 / Wikimedia Commons (CC BY-SA 4.0)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "world",
+  "updated": "2026-09-11",
+  "frames": {
+    "cl": {
+      "body": "The Los Angeles Times (AP), Local 10's AP wire, and India Today place Knighton's 500,000-killed / 1.5 million-casualty tally beside Friday's civilian gas-station and shopping-mall drone strikes in Kyiv and Pavlohrad, a slowed Russian advance, and Ukraine's long-range hits on Russian refineries \u2014 framing the milestone as the human cost of Putin's invasion as Moscow still struggles for territory.",
+      "sources": [
+        {
+          "name": "Los Angeles Times / AP",
+          "url": "https://www.latimes.com/world-nation/story/2026-09-11/more-than-500-000-russian-troops-killed-in-ukraine-u-k-defense-chief-says"
+        },
+        {
+          "name": "Local 10 / AP",
+          "url": "https://www.local10.com/news/world/2026/09/11/russian-drones-target-kyiv-gas-stations-aiming-to-rattle-civilians/"
+        },
+        {
+          "name": "India Today",
+          "url": "https://www.indiatoday.in/world/story/russian-troops-killed-ukraine-uk-says-deaths-top-500000-drone-war-escalates-ptag-2992562-2026-09-11"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Forces News and the UK Defence Journal stress Knighton's math \u2014 1.4 million casualties since January 2023 for roughly 2% of Ukraine, plus enormous kit losses \u2014 and his line that Britain will keep standing with Kyiv while Putin could end the war tomorrow; the New York Post's CSIS coverage of an 8-to-1 Russian-to-Ukrainian kill ratio casts the new 500,000-dead mark as confirmation that attrition still favors Ukraine if Western support holds.",
+      "sources": [
+        {
+          "name": "Forces News",
+          "url": "https://www.forcesnews.com/russia/russian-casualties-reach-15-million-mark-full-scale-invasion-ukraine-cds-says"
+        },
+        {
+          "name": "UK Defence Journal",
+          "url": "https://ukdefencejournal.org.uk/russia-passes-a-million-and-a-half-casualties-in-ukraine/"
+        },
+        {
+          "name": "New York Post",
+          "url": "https://nypost.com/2026/07/02/world-news/russia-losing-8-troops-for-every-1-ukraine-solider-killed-report/"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "UK CDS: 500,000 Russian troops killed; 1.5 million casualties since 2022.",
+  "seo_description": "UK Defence Staff chief Sir Richard Knighton says more than 500,000 Russian troops have been killed in Ukraine, part of 1.5 million casualties.",
+  "date_modified": "2026-09-11T13:50:00-04:00",
+  "date_published": "2026-09-11T13:50:00-04:00",
+  "article_section": "World"
+}
