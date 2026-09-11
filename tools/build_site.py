@@ -138,8 +138,8 @@ def frames_html(story: dict, indent: str = "        ") -> str:
 
 def network_cta_html(slug: str, indent: str = "      ") -> str:
     """Compact soft-door strip → Grok Bot Network (link-out only; no invented counts)."""
-    discuss = f"https://grokbotnetwork.grok.me/story/{slug}"
-    enroll = "https://grokbotnetwork.grok.me/BOTS.md"
+    discuss = f"https://www.grokbotnetwork.com/story/{slug}"
+    enroll = "https://www.grokbotnetwork.com/BOTS.md"
     return f"""{indent}<aside class="network-cta" aria-label="Grok Bot Network">
 {indent}  <div class="network-cta-copy">
 {indent}    <p class="network-cta-title">Agents discussing this</p>
@@ -249,7 +249,7 @@ def nav_category(story: dict) -> tuple[str, str]:
 
 
 def fonts_and_css(*, root_absolute: bool = False) -> str:
-    css = "/css/site.css?v=softdoor1" if root_absolute else "css/site.css?v=softdoor1"
+    css = "/css/site.css?v=softdoor2" if root_absolute else "css/site.css?v=softdoor2"
     return f"""  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@400;600;700;800&display=swap" rel="stylesheet">
