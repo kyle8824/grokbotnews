@@ -1,0 +1,67 @@
+{
+  "slug": "netflix-rams-49ers-melbourne-stream",
+  "kicker": "NFL",
+  "hed": "Netflix Rams–49ers stream draws viewer reports of buffering, pixelation and audio dropouts",
+  "stamp": "NEW · 8:35 p.m. EDT",
+  "dek": "As Netflix carried the San Francisco 49ers–Los Angeles Rams Week 1 game from Melbourne Cricket Ground — kickoff promoted for 8:35 p.m. ET Thursday — individual X posts during the U.S. afternoon described buffering, pixelated or off-color video, and audio cutting out on the national stream. USA Today said the matchup is a Netflix exclusive nationally, with local NBC affiliates in the Los Angeles and San Francisco markets. No Netflix Help, Netflix, or NFL outage acknowledgment was found in the same window; Downdetector’s Netflix page listed user-reported problem categories weighted toward video streaming, app, and server connection without a published numeric total.",
+  "image": "img/netflix-rams-49ers-melbourne-stream.jpg",
+  "alt": "Two people on a couch facing a television showing the Netflix logo",
+  "caption": "Viewers watch a television set to Netflix in a living room. File photograph used for layout; not from Thursday’s Rams–49ers Melbourne stream.",
+  "credit": "cottonbro studio / Pexels (free license)",
+  "byline": "Event summary from public how-to-watch reporting, outage monitors, and named outlets; X posts cited as individual user reports only",
+  "section": "sports",
+  "updated": "2026-09-10",
+  "stack_blurb": "Netflix Melbourne NFL stream: buffering / pixel / audio posts; no official outage note.",
+  "seo_description": "Viewer posts described buffering, pixelation, and audio dropouts on Netflix’s Rams–49ers Australia stream; local NBC available in LA and SF.",
+  "date_published": "2026-09-10T20:35:00-04:00",
+  "date_modified": "2026-09-10T20:35:00-04:00",
+  "article_section": "Sports",
+  "frames": {
+    "cl": {
+      "body": "USA Today’s how-to-watch desk underscores that most of the country depends on Netflix alone for the Melbourne game, so afternoon X posts describing never-ending buffering, low-res pixelation, off-color video, and audio dropouts land as a concentrated consumer-quality risk on a national exclusive. Cord Cutters News frames the night as Netflix’s first of five 2026 NFL games — raising the stakes when playback falters. Variety’s coverage of prior Netflix live sports buffering (including the Paul–Tyson card) is the cautionary backdrop viewers cite when feeds chop; Downdetector’s category mix pointed at video streaming, app, and server-connection complaints rather than a confirmed company statement.",
+      "sources": [
+        {
+          "name": "USA Today",
+          "url": "https://www.usatoday.com/story/sports/nfl/2026/09/10/rams-49ers-how-to-watch-netflix-time-channel-stream/91674344007/"
+        },
+        {
+          "name": "Cord Cutters News",
+          "url": "https://cordcuttersnews.com/49ers-vs-rams-streaming-info-time-what-to-know-about-the-nfls-first-ever-game-in-australia/"
+        },
+        {
+          "name": "Variety",
+          "url": "https://variety.com/2024/tv/news/netflix-buffering-streaming-issues-paul-tyson-fight-1236212063/"
+        },
+        {
+          "name": "Downdetector",
+          "url": "https://downdetector.com/status/netflix/"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Netflix Tudum and Cord Cutters News present the Australia kickoff as a scheduled expansion milestone — pregame from 6:30 p.m. ET, kickoff 8:35 p.m. ET, included with a standard subscription — not a declared outage. USA Today notes local NBC (KNBC in Los Angeles; NBC Bay Area/KNTV in San Francisco) remains available in the home markets, a traditional-TV path alongside the national stream. No @NetflixHelp, Netflix, or NFL acknowledgment of a platform outage turned up in the research window. Variety previously quoted co-CEO Greg Peters on live-delivery infrastructure limits after high-concurrency events such as the Love Is Blind reunion, and separately reported Netflix’s Christmas NFL livestreams clearing without major technical snafus after earlier live-event lessons.",
+      "sources": [
+        {
+          "name": "Netflix Tudum",
+          "url": "https://www.netflix.com/tudum/features/nfl-melbourne-game-2026-how-to-watch"
+        },
+        {
+          "name": "USA Today",
+          "url": "https://www.usatoday.com/story/sports/nfl/2026/09/10/rams-49ers-how-to-watch-netflix-time-channel-stream/91674344007/"
+        },
+        {
+          "name": "Cord Cutters News",
+          "url": "https://cordcuttersnews.com/49ers-vs-rams-streaming-info-time-what-to-know-about-the-nfls-first-ever-game-in-australia/"
+        },
+        {
+          "name": "Variety (Love Is Blind)",
+          "url": "https://variety.com/2023/tv/news/love-is-blind-reunion-problem-livestream-explained-1235587728/"
+        },
+        {
+          "name": "Variety (NFL Christmas)",
+          "url": "https://variety.com/2024/tv/news/netflix-nfl-streaming-no-technical-issues-1236259075/"
+        }
+      ]
+    }
+  }
+}
