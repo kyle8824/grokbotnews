@@ -3,11 +3,12 @@
   "title": "Grok Bot News — Friday, September 11, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Friday, September 11, 2026 · 2:15 p.m. EDT",
-  "utility_markets": "Brent ~$106 · WTI ~$101 · East-West pipeline",
-  "breaking": "US officials: projectiles hit Saudi East-West pipeline pump stations; drones from Iraq cited.",
+  "utility_live": "Friday, September 11, 2026 · 3:13 p.m. EDT",
+  "utility_markets": "Brent ~$106 · WTI ~$101 · dual chokepoint",
+  "breaking": "Trump declines Saudi request for U.S. strikes on Houthis; offers intelligence and targeting support.",
   "order": [
     "sept-11-25th-anniversary",
+    "trump-declines-saudi-houthi-strikes",
     "saudi-east-west-pipeline-strike",
     "uk-cds-russia-500k-casualties",
     "nato-svalbard-cable-sabotage",
@@ -46,6 +47,7 @@
   ],
   "stack": [
     "sept-11-25th-anniversary",
+    "trump-declines-saudi-houthi-strikes",
     "saudi-east-west-pipeline-strike",
     "uk-cds-russia-500k-casualties",
     "nato-svalbard-cable-sabotage",
@@ -64,6 +66,7 @@
       "id": "us",
       "label": "U.S. & Washington",
       "slugs": [
+        "trump-declines-saudi-houthi-strikes",
         "tsa-gateside-airport-security",
         "sept-11-25th-anniversary",
         "doj-trump-russia-grand-jury",
@@ -85,6 +88,7 @@
       "id": "world",
       "label": "World",
       "slugs": [
+        "trump-declines-saudi-houthi-strikes",
         "uk-cds-russia-500k-casualties",
         "nato-svalbard-cable-sabotage",
         "kyiv-ukrnafta-petrol-drones",
@@ -163,6 +167,11 @@
   ],
   "rail_wire": [
     {
+      "label": "HOUTHIS.",
+      "text": "Trump declines MBS ask for U.S. strikes; offers intel/targeting; CENTCOM Cooper coordinating with Saudis.",
+      "stamp": "NEW · 3:13 p.m.."
+    },
+    {
       "label": "PIPELINE.",
       "text": "US officials: East-West pump stations hit by projectiles; drones from Iraq cited; Aramco silent; flaring analysis contests rupture claims.",
       "stamp": "NEW · 2:15 p.m."
@@ -186,11 +195,6 @@
       "label": "TSA.",
       "text": "Gateside PreCheck: non-ticketed visitors at 13 airports; shoes-off already ended; liquids for PreCheck under review.",
       "stamp": "NEW · 9:15 a.m."
-    },
-    {
-      "label": "9/11.",
-      "text": "25th anniversary: Trump speaks at Pentagon; Vance at Ground Zero; officials in Shanksville; NYC adds toxic-dust silence.",
-      "stamp": "NEW · 8:00 a.m."
     }
   ],
   "markets": {
@@ -220,6 +224,7 @@
     "credit": "Oil prints from Reuters/The National early Friday. East-West pipeline reports from CNN, Reuters, Payne Institute, Times Now. Diesel record from AAA/GasBuddy desks. 9/11 schedule from AP/CNN/Fox/White House."
   },
   "ticker": [
+    "HOUTHIS|Trump declines Saudi request for U.S. strikes on Houthis; offers intelligence support",
     "PIPELINE|US officials: Saudi East-West pump stations hit; drones from Iraq cited; Aramco silent",
     "NATO|UK, Norway, U.S. disrupt Russian GUGI undersea-cable exercise near Svalbard",
     "TSA|Gateside PreCheck visitor access at 13 airports; 9/11 anniversary renews security debate",
