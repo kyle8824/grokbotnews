@@ -1,0 +1,59 @@
+{
+  "slug": "dc-circuit-campbell-coal-doe",
+  "kicker": "Energy & Courts",
+  "hed": "D.C. Circuit vacates DOE emergency order that kept Michigan coal plant open",
+  "stamp": "NEW \u00b7 Fri. 6:05 p.m. EDT",
+  "dek": "A unanimous D.C. Circuit panel on Friday vacated the Energy Department\u2019s first Federal Power Act \u00a7202(c) emergency order forcing Consumers Energy\u2019s J.H. Campbell coal plant in West Olive, Mich., to stay online past its May 2025 retirement. Judge Cornelia Pillard wrote that \u00a7202(c) is a \u201cnarrow, last-resort backstop\u201d for risks needing immediate DOE action\u2014not a tool to override state and MISO resource-adequacy planning. Michigan A.G. Dana Nessel, Illinois, Minnesota, and environmental groups challenged the order; Consumers said it is reviewing the ruling while still complying with a later 90-day extension through Nov. 14. DOE said the broader emergency-order campaign prevented blackouts and \u201clikely saved hundreds of lives,\u201d citing Campbell\u2019s winter output.",
+  "image": "img/jh-campbell-doe-order.jpg",
+  "alt": "Close-up view of the John Amos coal-fired power plant in West Virginia",
+  "caption": "File photograph of the John Amos coal-fired power plant in West Virginia, July 12, 2023. Not the J.H. Campbell plant in Michigan that was the subject of Friday\u2019s D.C. Circuit ruling.",
+  "credit": "U.S. Geological Survey / Tim F. Smith (public domain)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "us",
+  "updated": "2026-09-11",
+  "frames": {
+    "cl": {
+      "body": "Reuters, Bridge Michigan, and Utility Dive cast the ruling as a rebuke of DOE\u2019s expansive \u201cemergency\u201d reading\u2014highlighting Nessel\u2019s \u201cfake emergencies\u201d line, Earthjustice\u2019s rebuke of a coal-friendly agenda, hundreds of millions in ratepayer costs to keep an aging unit online, and the court\u2019s warning that top-down generator picks threaten energy-market stability.",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/litigation/us-court-blocks-trump-administration-bid-keep-michigan-coal-plant-open-2026-09-11/"
+        },
+        {
+          "name": "Bridge Michigan",
+          "url": "https://bridgemi.com/michigan-environment-watch/court-strikes-trump-order-that-forced-michigan-coal-plant-to-stay-open/"
+        },
+        {
+          "name": "Utility Dive",
+          "url": "https://www.utilitydive.com/news/appeals-court-vacates-doe-emergency-order-michigan-power-plant/830189/"
+        }
+      ]
+    },
+    "cr": {
+      "body": "DOE statements and Energy Department fact sheets, echoed in Utility Dive\u2019s DOE comment and AP coverage of Secretary Chris Wright, frame the \u00a7202(c) campaign as grid insurance amid soaring demand\u2014citing Campbell\u2019s >650 MW daily run through Winter Storm Fern, claims the orders prevented blackouts and saved lives, and pledges to keep defending energy security even as the first order was vacated.",
+      "sources": [
+        {
+          "name": "U.S. Department of Energy",
+          "url": "https://www.energy.gov/articles/energy-secretary-prevents-closure-coal-plant-provided-essential-power-during-winter-storm"
+        },
+        {
+          "name": "DOE Fact Sheet",
+          "url": "https://www.energy.gov/articles/fact-sheet-energy-department-prevented-blackouts-saved-american-lives-during-winter-storms"
+        },
+        {
+          "name": "Utility Dive",
+          "url": "https://www.utilitydive.com/news/appeals-court-vacates-doe-emergency-order-michigan-power-plant/830189/"
+        },
+        {
+          "name": "AP News",
+          "url": "https://apnews.com/article/winter-storm-power-grid-electricity-trump-7c13c74a03182c41e565ca2ac8370762"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "D.C. Circuit vacates DOE order keeping Michigan Campbell coal plant open.",
+  "seo_description": "D.C. Circuit vacates DOE\u2019s first emergency order forcing Michigan\u2019s J.H. Campbell coal plant to stay open past planned retirement; Consumers still under a later extension.",
+  "date_modified": "2026-09-11T18:05:00-04:00",
+  "date_published": "2026-09-11T18:05:00-04:00",
+  "article_section": "U.S."
+}
