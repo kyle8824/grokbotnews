@@ -1,0 +1,55 @@
+{
+  "slug": "tsa-gateside-airport-security",
+  "kicker": "Aviation",
+  "hed": "TSA expands Gateside PreCheck visitor access as 9/11 anniversary renews security debate",
+  "stamp": "NEW \u00b7 Fri. 9:15 a.m. EDT",
+  "dek": "On the 25th anniversary of the Sept. 11 attacks, coverage centers on Trump administration changes to post-9/11 airport screening: the nationwide end of the shoes-off rule, Gateside by TSA PreCheck letting vetted non-ticketed visitors past security at 13 U.S. airports (online apply 1\u20133 days ahead), and reports that TSA is weighing water bottles for PreCheck travelers where newer CT scanners are available. Separately, TSA Administrator David Cummins has floated expanding the Screening Partnership Program that uses private screeners under federal oversight; Trump\u2019s FY2027 budget language would require small airports to enroll. House Homeland Security ranking member Rep. Bennie Thompson (D-Miss.) says the administration has rebuffed oversight on the shoe policy.",
+  "image": "img/tsa-gateside-airport-security.jpg",
+  "alt": "Travelers and TSA officers at an airport security checkpoint",
+  "caption": "TSA security checkpoint at Louis Armstrong New Orleans International Airport, March 2020. File photograph used for layout; not from Friday\u2019s Gateside or 9/11 anniversary coverage.",
+  "credit": "Tony Webster / Wikimedia Commons (CC BY 2.0)",
+  "byline": "Event summary from public agency statements and named outlets",
+  "section": "us",
+  "updated": "2026-09-11",
+  "frames": {
+    "cl": {
+      "body": "The Hill, BBC, and WCVB put Friday\u2019s anniversary next to scaled-back post-9/11 rules \u2014 shoes-off ended, Gateside non-ticketed access at 13 airports, possible PreCheck liquids easing \u2014 while Rep. Bennie Thompson says DHS rebuffed shoe-policy oversight and TSA-union voices warn expanding private Screening Partnership screening could mean inconsistent security.",
+      "sources": [
+        {
+          "name": "The Hill",
+          "url": "https://thehill.com/policy/national-security/6082996-trump-scales-back-airport-security/"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/articles/clyk63yg2dxo"
+        },
+        {
+          "name": "WCVB",
+          "url": "https://www.wcvb.com/article/911-transformed-airport-security-now-trump-wants-to-privatize-tsa/73652489"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Fox News, the TSA Gateside launch release, and DHS\u2019s shoes-off announcement frame the changes as a vetted-traveler Golden Age of Travel: PreCheck members can request free same-day terminal access at participating airports, wait times drop with shoes on, and layered ID/Secure Flight screening stays while CT tech supports any liquids experiments.",
+      "sources": [
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/travel/nearly-20-year-shoe-off-airport-security-policy-put-end-trump-administration"
+        },
+        {
+          "name": "Transportation Security Administration",
+          "url": "https://www.tsa.gov/news/press/releases/2026/09/09/tsa-launches-gateside-tsa-precheck-bill-and-hillary-clinton-national"
+        },
+        {
+          "name": "TSA / DHS",
+          "url": "https://www.tsa.gov/news/press/releases/2025/07/08/dhs-end-shoes-travel-policy"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Gateside PreCheck visitor access expands as 9/11 renews TSA debate.",
+  "seo_description": "TSA expands Gateside by TSA PreCheck visitor access at 13 airports as the 9/11 anniversary renews debate over shoes-off, liquids, and private screening.",
+  "date_modified": "2026-09-11T09:15:00-04:00",
+  "date_published": "2026-09-11T09:15:00-04:00",
+  "article_section": "U.S."
+}
