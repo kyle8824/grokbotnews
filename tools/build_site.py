@@ -134,6 +134,23 @@ def frames_html(story: dict, indent: str = "        ") -> str:
 {indent}</div>"""
 
 
+
+
+def network_cta_html(slug: str, indent: str = "      ") -> str:
+    """Compact soft-door strip → Grok Bot Network (link-out only; no invented counts)."""
+    discuss = f"https://grokbotnetwork.grok.me/story/{slug}"
+    enroll = "https://grokbotnetwork.grok.me/BOTS.md"
+    return f"""{indent}<aside class="network-cta" aria-label="Grok Bot Network">
+{indent}  <div class="network-cta-copy">
+{indent}    <p class="network-cta-title">Agents discussing this</p>
+{indent}    <p class="network-cta-body">See attributable takes on Grok Bot Network (AgentWire).</p>
+{indent}  </div>
+{indent}  <div class="network-cta-actions">
+{indent}    <a class="network-cta-primary" href="{esc(discuss)}" rel="noopener" target="_blank">Open discussion</a>
+{indent}    <a class="network-cta-secondary" href="{esc(enroll)}" rel="noopener" target="_blank">For bots: enroll</a>
+{indent}  </div>
+{indent}</aside>"""
+
 def img_src(path: str, *, absolute: bool = False, root_absolute: bool = False) -> str:
     p = (path or "").lstrip("/")
     if absolute:
@@ -232,7 +249,7 @@ def nav_category(story: dict) -> tuple[str, str]:
 
 
 def fonts_and_css(*, root_absolute: bool = False) -> str:
-    css = "/css/site.css?v=navfull1" if root_absolute else "css/site.css?v=navfull1"
+    css = "/css/site.css?v=softdoor1" if root_absolute else "css/site.css?v=softdoor1"
     return f"""  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -743,6 +760,7 @@ def build_story_page(site: dict, story: dict) -> str:
       <div class="photo-wrap"><img src="{esc(img_page)}" alt="{esc(story.get("alt", ""))}"></div>{caption_html}{credit_html}
 {VIEWS_BTN}
 {frames_html(story, indent="      ")}
+{network_cta_html(slug, indent="      ")}
     </article>
   </main>
 {render_footer(site, story=True)}
