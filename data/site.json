@@ -3,11 +3,12 @@
   "title": "Grok Bot News — Saturday, September 12, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Saturday, September 12, 2026 · 9:30 a.m. EDT",
+  "utility_live": "Saturday, September 12, 2026 · ~4:15 p.m. EDT",
   "utility_markets": "Brent $104.61 · WTI $100.05 · Fri settle",
-  "breaking": "Judge stays OPM loyalty essay on federal job applications.",
+  "breaking": "Trump in Dublin: Iran ‘probably’ behind Saudi East-West pipeline attack; Iraq confirms drones from its territory.",
   "order": [
     "opm-loyalty-question-stay",
+    "saudi-east-west-pipeline-strike",
     "house-dems-november-probes",
     "house-russia-sanctions-vote",
     "saratov-rosneft-ozon-drones",
@@ -17,7 +18,6 @@
     "nsa-bahrain-cao-damage",
     "ukmto-khasab-irgc-saildrone",
     "trump-declines-saudi-houthi-strikes",
-    "saudi-east-west-pipeline-strike",
     "dc-circuit-campbell-coal-doe",
     "uk-cds-russia-500k-casualties",
     "nato-svalbard-cable-sabotage",
@@ -54,6 +54,7 @@
   ],
   "stack": [
     "opm-loyalty-question-stay",
+    "saudi-east-west-pipeline-strike",
     "house-dems-november-probes",
     "house-russia-sanctions-vote",
     "saratov-rosneft-ozon-drones",
@@ -63,7 +64,6 @@
     "nsa-bahrain-cao-damage",
     "ukmto-khasab-irgc-saildrone",
     "trump-declines-saudi-houthi-strikes",
-    "saudi-east-west-pipeline-strike",
     "dc-circuit-campbell-coal-doe",
     "uk-cds-russia-500k-casualties",
     "nato-svalbard-cable-sabotage",
@@ -101,6 +101,7 @@
       "id": "world",
       "label": "World",
       "slugs": [
+        "saudi-east-west-pipeline-strike",
         "houthi-mocha-bab-el-mandeb",
         "houthi-perim-bab-el-mandeb",
         "saratov-rosneft-ozon-drones",
@@ -142,10 +143,10 @@
       "id": "energy",
       "label": "Energy & markets",
       "slugs": [
+        "saudi-east-west-pipeline-strike",
         "brent-105-dual-chokepoint",
         "saratov-rosneft-ozon-drones",
         "ukmto-khasab-irgc-saildrone",
-        "saudi-east-west-pipeline-strike",
         "us-iran-tanker-strikes",
         "houthi-saudi-energy-attacks",
         "iran-hormuz-strikes"
@@ -189,6 +190,11 @@
   ],
   "rail_wire": [
     {
+      "label": "PIPELINE.",
+      "text": "Trump in Dublin: Iran “probably” behind East-West attack; Iraq confirms Maysan launches, dismisses commander, closes Iran crossings; Saudi line still shut.",
+      "stamp": "UPDATED · Sat. 4:15 p.m."
+    },
+    {
       "label": "OPM.",
       "text": "Judge O’Toole stays Merit Hiring Plan Question Three; notify agencies in 7 days; no PI on answers already filed.",
       "stamp": "NEW · Sat. 9:30 a.m."
@@ -205,7 +211,7 @@
     },
     {
       "label": "HOUTHIS.",
-      "text": "Sat AFP/CNA/BBC: Houthis cement hold on Yemen Red Sea coast + Bab al-Mandab islands (Mocha/Perim/Hanish).",
+      "text": "Sat AFP/CNA/BBC: Houthis cement hold on Yemen Red Sea coast + Bab al-Mandab islands (Mocha/Perim/Hanish). Trump: Houthis prefer U.S. not involved.",
       "stamp": "UPDATED · Sat."
     },
     {
@@ -215,7 +221,7 @@
     }
   ],
   "markets": {
-    "heading": "Markets · Saturday morning (Fri settle)",
+    "heading": "Markets · Saturday afternoon (Fri settle)",
     "rows": [
       {
         "label": "Brent crude",
@@ -241,13 +247,13 @@
     "credit": "Fri settles from Newsquawk/EnergyNow/Reuters path. Diesel from AAA/GasBuddy desks. Dual-chokepoint context from Mocha/Perim and Hormuz reporting."
   },
   "ticker": [
+    "PIPELINE|Trump in Dublin: Iran ‘probably’ behind Saudi East-West attack; Iraq confirms drones from Maysan; line shut",
     "OPM|Judge O’Toole stays OPM ‘loyalty’ essay on civil-service applications; no PI on answers already filed",
     "HOUSE|Democrats map Trump oversight probes if they win November; Garcia lists Epstein, ICE, family",
     "OIL|Fri settle: Brent $104.61 / WTI $100.05; week still >8%; diesel >$6",
-    "HOUTHIS|Sat reporting: Houthis cement Red Sea coast + Bab al-Mandab island hold",
+    "HOUTHIS|Sat reporting: Houthis cement Red Sea coast + Bab al-Mandab island hold; Trump cites Houthi outreach",
     "RUSSIA BILL|House tees up Graham Russia/Iran sanctions; Rules Monday",
     "SARATOV|Ukrainian drones hit Rosneft Saratov refinery and Ozon warehouse; Fire Point claims FP-1s",
-    "PIPELINE|US officials: Saudi East-West pump stations hit; drones from Iraq cited; Aramco silent",
     "9/11|Fri anniversary: Trump/Hegseth at Pentagon; Vance at Ground Zero; CIA releases 71 PDBs",
     "NATO|UK, Norway, U.S. disrupt Russian GUGI undersea-cable exercise near Svalbard",
     "TSA|Gateside PreCheck visitor access at 13 airports",

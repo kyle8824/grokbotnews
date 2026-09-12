@@ -1,55 +1,55 @@
 {
   "slug": "saudi-east-west-pipeline-strike",
   "kicker": "Saudi Arabia / Energy",
-  "hed": "US officials: projectiles hit Saudi East-West pipeline pump stations; drones from Iraq cited",
-  "stamp": "NEW · Fri. 2:15 p.m. EDT",
-  "dek": "Two U.S. officials told CNN a key Saudi oil pipeline system was struck by projectiles on Thursday, with early analysis pointing to pump stations beside the East-West (Petroline) line and one official citing drones originating from Iraq. Satellite images showed fire damage or smoke at pumping sites; Aramco and the Saudi government did not immediately confirm an incident. The Payne Institute said VIIRS Nightfire readings along the route looked more like known flare pits entering an emergency flaring regime than new pipeline rupture fires. The line has carried roughly 5 million barrels a day of crude diverted to Yanbu on the Red Sea since Iran tightened Hormuz.",
+  "hed": "Trump says Iran ‘probably’ behind Saudi East-West pipeline attack; Iraq confirms drones from its territory",
+  "stamp": "UPDATED · Sat. 4:15 p.m. EDT",
+  "dek": "In Dublin on Saturday, President Trump said Iran is “probably” responsible for Thursday’s aerial attack on Saudi Arabia’s East-West (Petroline) pipeline — “I think they are, probably they are” — and said he had spoken with Crown Prince Mohammed bin Salman, calling him a “good friend.” He also said Houthis contacted his administration and prefer the U.S. not become directly involved while “letting most ships go through.” Iraq confirmed the drones launched from its territory; Prime Minister Ali al-Zaidi ordered an investigation into Maysan operations command, dismissed the provincial commander (and later the police chief), and closed Iran border crossings after launch sites were reported near the frontier. An Iran-backed militia umbrella denied involvement while praising Houthis. Saudi Arabia shut the pipeline as a precaution and said it would not retaliate for now to give Baghdad room. The line has carried roughly 5 million barrels a day of crude diverted to Yanbu since Hormuz tightened.",
   "image": "img/saudi-east-west-pipeline.jpg",
   "alt": "Oil pipelines running across desert near Jubail, Saudi Arabia",
-  "caption": "Oil pipelines in the Jubail desert, Saudi Arabia. File photograph; not from Thursday's reported pump-station fires.",
+  "caption": "Oil pipelines in the Jubail desert, Saudi Arabia. File photograph; not from Thursday’s reported pump-station fires.",
   "credit": "Suresh Babunair / Wikimedia Commons (CC BY 3.0)",
   "byline": "Event summary from public reporting and named outlets",
   "section": "energy",
-  "updated": "2026-09-11",
+  "updated": "2026-09-12",
   "frames": {
     "cl": {
-      "body": "Reuters (via BOE Report), the Payne Institute at Colorado School of Mines, and Anadolu Agency stress smoke and thermal anomalies without a Saudi/Aramco confirmation, noting FIRMS alone cannot prove what is burning; Payne's Nightfire analysis finds the strongest activity at previously cataloged flare sites with sharp gas-flow spikes consistent with emergency flaring rather than multi-point catastrophic ruptures claimed on social channels.",
+      "body": "CNN, ABC/AP, and Al Jazeera lead with Saturday’s Dublin attribution and Baghdad’s containment push: Trump said Iran was “probably” behind the strike without presenting public evidence; Iraq confirmed launches from Maysan, dismissed the provincial commander and police chief, closed Iran crossings after reported launcher finds, and an Iran-backed Islamic Resistance in Iraq umbrella denied responsibility while praising Houthis. Saudi Energy and Foreign Ministries said the pipeline was shut as a precaution after drones from Iraq hit near Riyadh and Medina, with Riyadh holding off retaliation to give Iraq investigative space as Hormuz and Bab el-Mandeb pressure already squeeze exports.",
       "sources": [
         {
-          "name": "Reuters / BOE Report",
-          "url": "https://boereport.com/2026/09/11/satellite-imagery-shows-smoke-in-vicinity-of-saudi-arabias-east-west-oil-pipeline/"
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/09/12/middleeast/trump-iran-saudi-pipeline-intl"
         },
         {
-          "name": "Payne Institute",
-          "url": "https://payneinstitute.mines.edu/emergency-flaring-detected-along-saudi-arabias-east-west-pipeline/"
+          "name": "ABC / AP",
+          "url": "https://abc7ny.com/post/saudi-pipeline-attack-iraq-races-contain-fallout-iran-backed-militias-accused-attacking-east-west-oil/19823178/"
         },
         {
-          "name": "Anadolu Agency",
-          "url": "https://aa.com.tr/en/middle-east/satellite-data-shows-fire-activity-along-saudi-east-west-oil-pipeline-route/4054536"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/09/12/iraq-probes-drone-strikes-on-saudi-arabia-shuts-three-crossings-to-iran"
         }
       ]
     },
     "cr": {
-      "body": "CNN, Times Now, and OSINT613 foreground U.S. officials' account that pump stations were hit and that drones came from Iraq — a new front via Iranian-aligned militias on the Hormuz-bypass lifeline that moves about 5 million barrels a day to Yanbu — as Houthi gains near Bab el-Mandeb already threaten the Red Sea leg and oil holds above $100.",
+      "body": "Reuters via The Straits Times, Arab News, and Al Arabiya English foreground Trump’s Dublin line that Iran is “probably” responsible, his call with MBS, and Houthi outreach saying they prefer the U.S. stay out while most ships pass — as Riyadh’s Hormuz-bypass lifeline to Yanbu sits offline after Iraq-origin drones and Baghdad races to contain fallout along the Iran border. Reporting pairs the shutdown with Houthi Red Sea advances that already threaten the Bab el-Mandeb leg of Saudi export routes while oil holds above $100 on Friday settles.",
       "sources": [
         {
-          "name": "CNN",
-          "url": "https://www.cnn.com/2026/09/11/politics/saudi-arabian-oil-pipeline-hit-by-projectiles-triggering-fires"
+          "name": "Reuters / Straits Times",
+          "url": "https://www.straitstimes.com/world/europe/trump-says-iran-probably-responsible-for-attack-on-saudi-pipeline"
         },
         {
-          "name": "Times Now",
-          "url": "https://www.timesnownews.com/world/middle-east/saudi-arabia-east-west-oil-pipeline-hit-iran-war-drones-from-iraq-fires-satellite-images-article-156142080"
+          "name": "Arab News",
+          "url": "https://www.arabnews.com/middle-east/trump-says-iran-probably-responsible-for-attack-on-saudi-oil-pipeline-3001439"
         },
         {
-          "name": "OSINT613",
-          "url": "https://www.osint613.com/post/saudi-east-west-pipeline-attacked-22718"
+          "name": "Al Arabiya English",
+          "url": "https://english.alarabiya.net/News/middle-east/2026/09/12/iraq-finds-drone-launchers-near-iran-border-report"
         }
       ]
     }
   },
-  "stack_blurb": "US officials: East-West pump stations hit; drones from Iraq cited; Aramco silent.",
-  "seo_description": "US officials say projectiles hit Saudi East-West pipeline pump stations, with drones from Iraq cited; satellite and flaring analyses leave damage scope contested.",
-  "date_modified": "2026-09-11T14:15:00-04:00",
+  "stack_blurb": "Trump: Iran ‘probably’ behind East-West attack; Iraq confirms drones from Maysan, dismisses commander, closes Iran crossings.",
+  "seo_description": "Trump said in Dublin Iran is probably responsible for the Saudi East-West pipeline attack; Iraq confirmed drones from its territory, dismissed Maysan commanders, and closed Iran border crossings as Saudi Arabia kept the line shut.",
+  "date_modified": "2026-09-12T16:15:00-04:00",
   "date_published": "2026-09-11T14:15:00-04:00",
   "article_section": "Energy"
 }
