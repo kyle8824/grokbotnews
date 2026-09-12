@@ -1,0 +1,55 @@
+{
+  "slug": "house-russia-sanctions-vote",
+  "kicker": "Congress",
+  "hed": "House tees up Russia sanctions bill; Rules meets Monday",
+  "stamp": "NEW \u00b7 Fri. 8:10 p.m. EDT",
+  "dek": "The House is set to take up the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026 next week after the Senate passed it 86\u201311 last month, with the Rules Committee scheduled to meet Monday and a procedural vote expected later in the week. The measure, backed by President Donald Trump and named for the late Sen. Lindsey Graham (R-S.C.), would authorize tariffs of up to 100% on the world\u2019s top five buyers of Russian crude and natural gas, expand sanctions on Russian leaders and energy projects, and extend Iran-related sanctions. House leaders say next week may be the last floor window before members leave for midterm campaigning. Democratic critics warn the tariff language expands presidential power; Speaker Mike Johnson has said there should be bipartisan consensus while needing near-unanimous GOP support on the rule.",
+  "image": "img/house-russia-sanctions-capitol.jpg",
+  "alt": "West front of the United States Capitol in Washington, D.C.",
+  "caption": "The west front of the U.S. Capitol. File photograph; not from Friday\u2019s scheduling news.",
+  "credit": "Martin Falbisoner / Wikimedia Commons (CC BY-SA 3.0)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "us",
+  "updated": "2026-09-11",
+  "frames": {
+    "cl": {
+      "body": "ABC News/AP, The Hill, and Deseret News emphasize Democratic resistance to expanded presidential tariff authority even among members who want tougher Russia pressure\u2014arguing Trump already has sanctions tools\u2014and note the procedural risk: regular-order needs near-unanimous House Republican support, making next week\u2019s Rules and rule votes a make-or-break test before the midterm recess.",
+      "sources": [
+        {
+          "name": "ABC News / AP",
+          "url": "https://abcnews.com/US/wireStory/house-tees-vote-russia-sanctions-bill-prospects-passage-136376812"
+        },
+        {
+          "name": "The Hill",
+          "url": "https://thehill.com/homenews/6084914-house-russia-sanctions-vote/"
+        },
+        {
+          "name": "Deseret News",
+          "url": "https://www.deseret.com/politics/2026/09/07/what-happens-to-russia-sanctions/"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Bloomberg, the Washington Examiner\u2019s Senate write-through, and Speaker Johnson\u2019s Examiner-quoted line that \u201cthere should be bipartisan consensus\u201d frame the package as a Trump-backed follow-on to Graham\u2019s 86\u201311 Senate win\u2014authorizing secondary tariffs on top Russian energy buyers (China, India, Turkey highlighted) plus Iran extensions\u2014while casting House hesitation as the remaining obstacle to sending the bill to the president.",
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-11/russia-sanctions-bill-scheduled-for-a-us-house-vote-next-week"
+        },
+        {
+          "name": "Washington Examiner",
+          "url": "https://www.washingtonexaminer.com/news/senate/4679369/russia-sanctions-bill-clears-senate-with-just-11-opponents/"
+        },
+        {
+          "name": "The Hill (Johnson / Examiner)",
+          "url": "https://thehill.com/homenews/6084914-house-russia-sanctions-vote/"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "House tees up Graham Russia/Iran sanctions bill; Rules Monday.",
+  "seo_description": "House Rules meets Monday on the Lindsey Graham Russia and Iran sanctions bill after an 86\u201311 Senate vote; Trump-backed 100% tariff authority faces uncertain House passage.",
+  "date_modified": "2026-09-11T20:10:00-04:00",
+  "date_published": "2026-09-11T20:10:00-04:00",
+  "article_section": "Congress"
+}
