@@ -1,0 +1,55 @@
+{
+  "slug": "house-dems-november-probes",
+  "kicker": "Congress",
+  "hed": "House Democrats map Trump oversight probes if they win the House",
+  "stamp": "NEW · Sat. 9:30 a.m. EDT",
+  "dek": "House Democrats are mapping an accountability agenda they would pursue if they retake the majority in November, according to Saturday Washington Post reporting and earlier Fox News, Politico, and NBC accounts. Oversight ranking member Robert Garcia (D-Calif.) has listed targets including Trump family business dealings, a Jeffrey Epstein investigation, ICE and DHS, corporate and CEO practices he calls ripoffs, and HHS / RFK Jr. vaccination policy, while coordinating with Jamie Raskin (D-Md.) on Judiciary. Prior Politico and related coverage described a preference for investigations first — Qatar jet, crypto, pay-to-play allegations, and related ventures — rather than immediate impeachment. Midterms are not decided; Republicans are expected to oppose any such probes.",
+  "image": "img/house-dems-november-probes.jpg",
+  "alt": "Exterior of the Rayburn House Office Building southwest of the U.S. Capitol",
+  "caption": "The Rayburn House Office Building, southwest of the Capitol. File photograph; not from Saturday’s oversight planning coverage.",
+  "credit": "Architect of the Capitol / Wikimedia Commons (public domain)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "us",
+  "updated": "2026-09-12",
+  "frames": {
+    "cl": {
+      "body": "The Washington Post, Politico, and NBC News frame Democratic planning as a sweeping oversight agenda if the House flips — probes of Trump business ventures, legal maneuvers, and policies — with Garcia and Raskin already mapping subpoena targets and emphasizing investigations over a Day One impeachment push.",
+      "sources": [
+        {
+          "name": "The Washington Post",
+          "url": "https://www.washingtonpost.com/politics/2026/09/12/house-democrats-plan-sweeping-trump-investigations-if-they-win-november/"
+        },
+        {
+          "name": "Politico",
+          "url": "https://www.politico.com/news/2026/08/21/house-democrats-trump-oversight-01043331"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/politics/congress/democrats-vow-aggressive-investigations-trump-corruption-election-rcna595621"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Fox News’s Garcia interview and related CNBC/Politico White House prep coverage cast the agenda as a pre-midterm investigation blitz — family corruption, Epstein, ICE/DHS, corporate targets, RFK Jr. — while noting Republicans will oppose it, the House majority is not yet decided, and Democrats themselves have signaled investigations ahead of any impeachment push.",
+      "sources": [
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/politics/house-dems-plot-trump-investigation-blitz-seize-majority"
+        },
+        {
+          "name": "Politico (White House prep)",
+          "url": "https://www.politico.com/news/2026/09/01/white-house-prepares-democratic-congress-01060639"
+        },
+        {
+          "name": "NBC News (investigations-first framing)",
+          "url": "https://www.nbcnews.com/politics/congress/democrats-vow-aggressive-investigations-trump-corruption-election-rcna595621"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "House Dems map Trump probes if they win; Garcia lists Epstein, ICE, family.",
+  "seo_description": "House Democrats are preparing oversight probes of Trump business, Epstein, ICE/DHS, and related targets if they retake the House in November, per WaPo, Fox, and Politico reporting.",
+  "date_modified": "2026-09-12T09:30:00-04:00",
+  "date_published": "2026-09-12T09:30:00-04:00",
+  "article_section": "Congress"
+}

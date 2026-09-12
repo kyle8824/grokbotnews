@@ -1,28 +1,30 @@
 {
   "site_url": "https://www.grokbotnews.com",
-  "title": "Grok Bot News \u2014 Friday, September 11, 2026",
+  "title": "Grok Bot News — Saturday, September 12, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Friday, September 11, 2026 \u00b7 8:10 p.m. EDT",
-  "utility_markets": "Brent ~$105\u2013108 \u00b7 WTI ~$100 \u00b7 dual chokepoint",
-  "breaking": "House tees up Russia sanctions bill; Rules meets Monday.",
+  "utility_live": "Saturday, September 12, 2026 · 9:30 a.m. EDT",
+  "utility_markets": "Brent $104.61 · WTI $100.05 · Fri settle",
+  "breaking": "Judge stays OPM loyalty essay on federal job applications.",
   "order": [
-    "sept-11-25th-anniversary",
+    "opm-loyalty-question-stay",
+    "house-dems-november-probes",
     "house-russia-sanctions-vote",
     "saratov-rosneft-ozon-drones",
-    "dc-circuit-campbell-coal-doe",
+    "brent-105-dual-chokepoint",
+    "houthi-perim-bab-el-mandeb",
+    "houthi-mocha-bab-el-mandeb",
     "nsa-bahrain-cao-damage",
     "ukmto-khasab-irgc-saildrone",
     "trump-declines-saudi-houthi-strikes",
     "saudi-east-west-pipeline-strike",
+    "dc-circuit-campbell-coal-doe",
     "uk-cds-russia-500k-casualties",
     "nato-svalbard-cable-sabotage",
     "kyiv-ukrnafta-petrol-drones",
-    "houthi-perim-bab-el-mandeb",
+    "sept-11-25th-anniversary",
     "tsa-gateside-airport-security",
     "doj-trump-russia-grand-jury",
-    "brent-105-dual-chokepoint",
-    "houthi-mocha-bab-el-mandeb",
     "usps-mail-ballot-whistleblower",
     "missouri-redistricting-referendum",
     "trump-aca-500-rebate",
@@ -51,28 +53,30 @@
     "iran-hormuz-strikes"
   ],
   "stack": [
-    "sept-11-25th-anniversary",
+    "opm-loyalty-question-stay",
+    "house-dems-november-probes",
     "house-russia-sanctions-vote",
     "saratov-rosneft-ozon-drones",
-    "dc-circuit-campbell-coal-doe",
+    "brent-105-dual-chokepoint",
+    "houthi-perim-bab-el-mandeb",
+    "houthi-mocha-bab-el-mandeb",
     "nsa-bahrain-cao-damage",
     "ukmto-khasab-irgc-saildrone",
     "trump-declines-saudi-houthi-strikes",
     "saudi-east-west-pipeline-strike",
+    "dc-circuit-campbell-coal-doe",
     "uk-cds-russia-500k-casualties",
     "nato-svalbard-cable-sabotage",
     "kyiv-ukrnafta-petrol-drones",
-    "houthi-perim-bab-el-mandeb",
-    "tsa-gateside-airport-security",
-    "doj-trump-russia-grand-jury",
-    "brent-105-dual-chokepoint",
-    "houthi-mocha-bab-el-mandeb"
+    "sept-11-25th-anniversary"
   ],
   "section_labels": [
     {
       "id": "us",
       "label": "U.S. & Washington",
       "slugs": [
+        "opm-loyalty-question-stay",
+        "house-dems-november-probes",
         "house-russia-sanctions-vote",
         "dc-circuit-campbell-coal-doe",
         "trump-declines-saudi-houthi-strikes",
@@ -97,6 +101,8 @@
       "id": "world",
       "label": "World",
       "slugs": [
+        "houthi-mocha-bab-el-mandeb",
+        "houthi-perim-bab-el-mandeb",
         "saratov-rosneft-ozon-drones",
         "nsa-bahrain-cao-damage",
         "ukmto-khasab-irgc-saildrone",
@@ -104,8 +110,6 @@
         "uk-cds-russia-500k-casualties",
         "nato-svalbard-cable-sabotage",
         "kyiv-ukrnafta-petrol-drones",
-        "houthi-perim-bab-el-mandeb",
-        "houthi-mocha-bab-el-mandeb",
         "uk-israel-settlement-sanctions",
         "witkoff-kushner-moscow-kyiv"
       ]
@@ -114,6 +118,8 @@
       "id": "politics",
       "label": "Politics",
       "slugs": [
+        "opm-loyalty-question-stay",
+        "house-dems-november-probes",
         "house-russia-sanctions-vote",
         "dc-circuit-campbell-coal-doe",
         "doj-trump-russia-grand-jury",
@@ -136,10 +142,10 @@
       "id": "energy",
       "label": "Energy & markets",
       "slugs": [
+        "brent-105-dual-chokepoint",
         "saratov-rosneft-ozon-drones",
         "ukmto-khasab-irgc-saildrone",
         "saudi-east-west-pipeline-strike",
-        "brent-105-dual-chokepoint",
         "us-iran-tanker-strikes",
         "houthi-saudi-energy-attacks",
         "iran-hormuz-strikes"
@@ -183,74 +189,69 @@
   ],
   "rail_wire": [
     {
-      "label": "SARATOV.",
-      "text": "Ukrainian drones hit Rosneft Saratov refinery + Ozon warehouse; RFE/RL shows logistics hub gutted; Fire Point claims FP-1s.",
-      "stamp": "NEW \u00b7 7:05 p.m."
+      "label": "OPM.",
+      "text": "Judge O’Toole stays Merit Hiring Plan Question Three; notify agencies in 7 days; no PI on answers already filed.",
+      "stamp": "NEW · Sat. 9:30 a.m."
     },
     {
-      "label": "9/11.",
-      "text": "Trump + Hegseth speak at Pentagon; Vance at Ground Zero; CIA releases 71 PDBs on bin Laden threats.",
-      "stamp": "UPDATED \u00b7 4:00 p.m."
+      "label": "HOUSE.",
+      "text": "Democrats map Trump oversight probes if they win November; Garcia lists family, Epstein, ICE, RFK Jr.",
+      "stamp": "NEW · Sat. 9:30 a.m."
+    },
+    {
+      "label": "OIL.",
+      "text": "Fri settle: Brent $104.61 / WTI $100.05; week still >8%; U.S. diesel national avg >$6.",
+      "stamp": "UPDATED · Sat."
     },
     {
       "label": "HOUTHIS.",
-      "text": "Trump declines MBS ask for U.S. strikes; offers intel/targeting; CENTCOM Cooper coordinating with Saudis.",
-      "stamp": "NEW \u00b7 3:13 p.m."
+      "text": "Sat AFP/CNA/BBC: Houthis cement hold on Yemen Red Sea coast + Bab al-Mandab islands (Mocha/Perim/Hanish).",
+      "stamp": "UPDATED · Sat."
     },
     {
-      "label": "PIPELINE.",
-      "text": "US officials: East-West pump stations hit by projectiles; drones from Iraq cited; Aramco silent; flaring analysis contests rupture claims.",
-      "stamp": "NEW \u00b7 2:15 p.m."
-    },
-    {
-      "label": "UK CDS.",
-      "text": "Knighton: 500,000 Russian troops killed; 1.5 million casualties; 1.4M since Jan 2023 for ~2% of Ukraine.",
-      "stamp": "NEW \u00b7 1:50 p.m."
-    },
-    {
-      "label": "NATO.",
-      "text": "UK, Norway, U.S. disrupt Russian GUGI undersea-cable exercise near Svalbard; no cables damaged.",
-      "stamp": "NEW \u00b7 12:05 p.m."
+      "label": "RUSSIA BILL.",
+      "text": "House tees up Graham Russia/Iran sanctions; Rules meets Monday.",
+      "stamp": "Fri. 8:10 p.m."
     }
   ],
   "markets": {
-    "heading": "Markets \u00b7 Friday ~7:00 p.m.",
+    "heading": "Markets · Saturday morning (Fri settle)",
     "rows": [
       {
-        "label": "Crude oil",
-        "value": "Brent ~$104\u2013106 / WTI ~$99\u2013101",
+        "label": "Brent crude",
+        "value": "$104.61 Fri settle (−$3.02)",
+        "dir": "down"
+      },
+      {
+        "label": "WTI crude",
+        "value": "$100.05 Fri settle (−$2.43)",
         "dir": "down"
       },
       {
         "label": "U.S. diesel",
-        "value": "Record national avg >$6/gal",
+        "value": "National avg >$6/gal",
         "dir": "up"
       },
       {
         "label": "Chokepoints",
-        "value": "Hormuz + Bab el-Mandeb + East-West",
+        "value": "Hormuz + Bab el-Mandeb live",
         "dir": "up"
-      },
-      {
-        "label": "Observances",
-        "value": "Patriot Day \u00b7 9/11 25th",
-        "dir": "flat"
       }
     ],
-    "credit": "Oil prints from Reuters/CNBC Friday. Saratov strikes from Kyiv Independent/Bloomberg/RFE/RL/WSJ. East-West pipeline and Hormuz reports from CNN/Reuters. Diesel from AAA/GasBuddy desks."
+    "credit": "Fri settles from Newsquawk/EnergyNow/Reuters path. Diesel from AAA/GasBuddy desks. Dual-chokepoint context from Mocha/Perim and Hormuz reporting."
   },
   "ticker": [
+    "OPM|Judge O’Toole stays OPM ‘loyalty’ essay on civil-service applications; no PI on answers already filed",
+    "HOUSE|Democrats map Trump oversight probes if they win November; Garcia lists Epstein, ICE, family",
+    "OIL|Fri settle: Brent $104.61 / WTI $100.05; week still >8%; diesel >$6",
+    "HOUTHIS|Sat reporting: Houthis cement Red Sea coast + Bab al-Mandab island hold",
+    "RUSSIA BILL|House tees up Graham Russia/Iran sanctions; Rules Monday",
     "SARATOV|Ukrainian drones hit Rosneft Saratov refinery and Ozon warehouse; Fire Point claims FP-1s",
-    "9/11|UPDATED: Trump + Hegseth speak at Pentagon; Vance at Ground Zero; CIA releases 71 PDBs",
-    "HOUTHIS|Trump declines Saudi request for U.S. strikes on Houthis; offers intelligence support",
     "PIPELINE|US officials: Saudi East-West pump stations hit; drones from Iraq cited; Aramco silent",
-    "OIL|Brent ~$104\u2013106 / WTI ~$99\u2013101 Fri; week still >$100; U.S. diesel hits record",
+    "9/11|Fri anniversary: Trump/Hegseth at Pentagon; Vance at Ground Zero; CIA releases 71 PDBs",
     "NATO|UK, Norway, U.S. disrupt Russian GUGI undersea-cable exercise near Svalbard",
-    "TSA|Gateside PreCheck visitor access at 13 airports; 9/11 anniversary renews security debate",
-    "DOJ|diGenova resigns as Florida DOJ counsel overseeing Trump-investigators probe; Toensing leaving Friday",
-    "MOCHA|Houthis seize Mocha; reach Hanish Islands near Bab el-Mandeb",
-    "USPS|1st Circuit declines stay of Talwani PI on USPS mail-ballot rule; SCOTUS 26A305 pending",
-    "MISSOURI|State high court finds Hoskins in contempt; says he purged it by directing 2022 map",
+    "TSA|Gateside PreCheck visitor access at 13 airports",
+    "DOJ|diGenova resigns as Florida DOJ counsel overseeing Trump-investigators probe",
     "ACA|White House: ~1M HealthCare.gov enrollees to get $500 rebates starting October"
   ],
   "archive": [
@@ -283,8 +284,8 @@
       "updated": "2026-09-04"
     }
   ],
-  "footer_method": "Humans didn\u2019t write today\u2019s copy; both frames are generated from public sources. Headlines and kickers state the event only. Each story then carries two viewpoint blocks \u2014 typical center-left and typical center-right \u2014 at the same size, in the same type, with named outlets or officials and outbound links. The site does not declare a winner in the headline. Summaries are original and short. Full articles are not reproduced.",
+  "footer_method": "Humans didn’t write today’s copy; both frames are generated from public sources. Headlines and kickers state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, in the same type, with named outlets or officials and outbound links. The site does not declare a winner in the headline. Summaries are original and short. Full articles are not reproduced.",
   "footer_legal": "Independent staging page for grokbotnews.com. Original wordmark. Not affiliated with any broadcast or cable news company. No accounts, no comments, no donations. Photographs are news-file images used for layout; they are not claimed as original field work by this site.",
-  "story_footer_method": "Headlines state the event only. Each story then carries two viewpoint blocks \u2014 typical center-left and typical center-right \u2014 at the same size, with named outlets and outbound links. Summaries are original and short. Full articles are not reproduced.",
+  "story_footer_method": "Headlines state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, with named outlets and outbound links. Summaries are original and short. Full articles are not reproduced.",
   "story_footer_legal": "Independent staging page for grokbotnews.com. Original wordmark. Not affiliated with any broadcast or cable news company. No accounts, no comments, no donations."
 }

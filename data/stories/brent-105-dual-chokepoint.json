@@ -1,55 +1,55 @@
 {
   "slug": "brent-105-dual-chokepoint",
   "kicker": "Energy markets",
-  "hed": "Oil slips Friday but week holds above $100; U.S. diesel hits record as Mocha + Hormuz squeeze persists",
-  "stamp": "UPDATED \u00b7 Fri. 4:00 p.m. EDT",
-  "dek": "Brent crude traded near $104\u2013$106 a barrel and WTI near $99\u2013$101 on Friday after slipping from Thursday\u2019s highs, with Reuters and CNBC reporting both benchmarks still on track to finish the week above $100 for the first time since mid-May. Markets continued to price the dual chokepoint squeeze: Iran-aligned Houthis\u2019 advances near Bab el-Mandeb and the U.S.\u2013Iran tanker war constraining Hormuz flows. U.S. diesel prices hit a record national average above $6 a gallon, adding to inflation and shipping-cost fears even as crude pared some midweek gains.",
+  "hed": "Oil settles Friday: Brent $104.61, WTI $100.05; week still up >8% as dual chokepoint persists",
+  "stamp": "UPDATED · Sat. 9:30 a.m. EDT",
+  "dek": "Brent crude settled Friday at $104.61 a barrel and WTI at $100.05, according to Newsquawk and EnergyNow settlement prints — down on the day but still finishing a week with gains of more than 8% and both benchmarks above $100. U.S. diesel’s national average remained above $6 a gallon. Markets continued to price the dual chokepoint squeeze: Houthi advances near Bab el-Mandeb and constrained Hormuz flows from the U.S.–Iran tanker war.",
   "image": "img/brent-105-oil-markets.jpg",
   "alt": "Oil refinery towers and industrial piping against a clear blue sky",
-  "caption": "Refinery towers and process piping. File photograph used for layout; not from Friday\u2019s oil prints or Mocha advance.",
+  "caption": "Refinery towers and process piping. File photograph used for layout; not from Friday’s oil settlement prints.",
   "credit": "Pexels (free license; attribution not required)",
   "byline": "Event summary from public market desks and named outlets",
   "section": "energy",
-  "updated": "2026-09-11",
+  "updated": "2026-09-12",
   "frames": {
     "cl": {
-      "body": "Reuters, CNBC, and Bloomberg frame Friday\u2019s pullback \u2014 Brent near $104\u2013$106, WTI near $99\u2013$101 in early/midday prints \u2014 against record U.S. diesel above $6 a gallon and warnings that refined products may keep rising even if crude chops, as Hormuz transit stays depressed and Middle East supply gaps feed inflation talk.",
+      "body": "Reuters, EnergyNow, and Newsquawk frame Friday’s settle — Brent $104.61 (−$3.02) and WTI $100.05 (−$2.43) — as a pullback from Thursday’s surge that still left both contracts above $100 for the week, with U.S. diesel’s national average above $6 a gallon keeping refined-product inflation in focus.",
       "sources": [
         {
-          "name": "Reuters",
+          "name": "Newsquawk",
+          "url": "https://www.newsquawk.com/headlines/crude-wrap-wti-v6-settles-usd-243-lower-at-10005bbl"
+        },
+        {
+          "name": "EnergyNow",
+          "url": "https://energynow.ca/2026/09/oil-ends-above-100-despite-friday-pullback-as-middle-east-supply-crisis-drives-big-weekly-gain/"
+        },
+        {
+          "name": "Reuters (week >$100 / Fri path)",
           "url": "https://www.reuters.com/business/energy/oil-prices-set-end-week-over-100-first-time-nearly-4-months-2026-09-11/"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/11/oil-price-today-iran-brent-wti-trump.html"
-        },
-        {
-          "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-11/us-diesel-prices-rise-past-6-a-gallon-for-first-time-ever"
         }
       ]
     },
     "cr": {
-      "body": "The National and Reuters energy desks stress that despite Friday\u2019s slip from Thursday\u2019s surge, Brent and WTI remain on pace for a weekly finish above $100 as Houthi control near Mocha/Bab el-Mandeb and Hormuz tanker attacks keep dual-chokepoint risk elevated for Gulf and Red Sea export routes.",
+      "body": "EnergyNow’s weekly wrap and Reuters energy desks stress that despite Friday’s drop, Brent rose about 8.65% and WTI about 9.37% on the week as Houthi control near Mocha/Bab el-Mandeb and Hormuz tanker risk kept dual-chokepoint premiums embedded heading into the weekend.",
       "sources": [
         {
-          "name": "The National",
-          "url": "https://www.thenationalnews.com/business/energy/2026/09/11/oil-prices-set-to-end-the-week-above-100-as-houthis-seize-key-port-city/"
+          "name": "EnergyNow",
+          "url": "https://energynow.ca/2026/09/oil-ends-above-100-despite-friday-pullback-as-middle-east-supply-crisis-drives-big-weekly-gain/"
         },
         {
           "name": "Reuters",
           "url": "https://www.reuters.com/business/energy/oil-prices-set-end-week-over-100-first-time-nearly-4-months-2026-09-11/"
         },
         {
-          "name": "Fox News",
-          "url": "https://www.foxnews.com/world/iran-backed-terror-groups-latest-territorial-grab-threatens-second-global-shipping-chokepoint"
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/business/energy/2026/09/11/oil-prices-set-to-end-the-week-above-100-as-houthis-seize-key-port-city/"
         }
       ]
     }
   },
-  "stack_blurb": "Brent ~$104\u2013106 / WTI ~$99\u2013101 Fri; week >$100; U.S. diesel record.",
-  "seo_description": "Oil slipped Friday but Brent near $104\u2013106 and WTI near $99\u2013101 still pointed to a weekly finish above $100 as Mocha/Hormuz risks persisted and U.S. diesel hit a record.",
-  "date_modified": "2026-09-11T16:00:00-04:00",
+  "stack_blurb": "Fri settle: Brent $104.61 / WTI $100.05; week >8%; diesel >$6.",
+  "seo_description": "Brent settled Friday at $104.61 and WTI at $100.05 — down on the day but still up more than 8% for the week as Mocha/Hormuz dual-chokepoint risk and record U.S. diesel persisted.",
+  "date_modified": "2026-09-12T09:30:00-04:00",
   "date_published": "2026-09-10T19:15:00-04:00",
   "article_section": "Energy"
 }

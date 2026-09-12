@@ -1,0 +1,55 @@
+{
+  "slug": "opm-loyalty-question-stay",
+  "kicker": "Courts",
+  "hed": "Federal judge stays OPM ‘loyalty’ essay on civil-service applications",
+  "stamp": "NEW · Sat. 9:30 a.m. EDT",
+  "dek": "Boston federal judge George O’Toole on Friday stayed Merit Hiring Plan Question Three under APA §705, blocking agencies from asking GS-5+ civil-service applicants how they would advance the President’s Executive Orders and which EO or policy initiative is “significant to” them. The case is AFGE / AFSCME / NAGE v. Kupor / OPM (25-13305-GAO). O’Toole found the unions likely to succeed on First Amendment and APA claims, ordered OPM to notify agency heads within seven days and file a status report in 14 days, and kept the stay in place until further order. He denied a broader preliminary injunction barring agencies from considering answers already submitted. Unions say more than 70,000 postings included the question; OPM declined to comment on the litigation and previously defended the essay as optional and not a political-belief litmus test under EO 14170’s Merit Hiring Plan.",
+  "image": "img/opm-loyalty-question-stay.jpg",
+  "alt": "Office of Personnel Management sign at the Theodore Roosevelt Building in Washington, D.C.",
+  "caption": "OPM headquarters signage at the Theodore Roosevelt Building, 1900 E Street NW, Washington. File photograph; not from Friday’s Massachusetts court order.",
+  "credit": "G. Edward Johnson / Wikimedia Commons (CC BY 4.0)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "lead",
+  "updated": "2026-09-12",
+  "frames": {
+    "cl": {
+      "body": "Reuters, FedScoop, and Government Executive center O’Toole’s finding that unions are likely to succeed because there is “no legitimate governmental interest in inquiring into the political beliefs of applicants to federal civil service vacancies,” the APA §705 stay forcing agencies to stop asking the essay going forward, union claims that more than 70,000 postings carried the question, and the judge’s First Amendment irreparable-harm analysis for career hiring.",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/government/us-judge-blocks-trump-administrations-loyalty-question-job-applicants-2026-09-12/"
+        },
+        {
+          "name": "FedScoop",
+          "url": "https://fedscoop.com/court-blocks-trump-opm-loyalty-question-federal-hiring/"
+        },
+        {
+          "name": "Government Executive",
+          "url": "https://www.govexec.com/workforce/2026/09/judge-halts-favorite-eo-question-federal-job-applications/415952/"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Bloomberg Law, the CourtListener/RECAP stay order, and Reuters’s prior OPM defense context stress the ruling’s limits: a stay on asking Question Three going forward, not a preliminary injunction barring consideration of answers already on file; EO 14170’s Merit Hiring Plan goal of highly skilled Americans dedicated to American ideals; and OPM’s earlier position that the essay was optional and that hiring cannot be based on political beliefs.",
+      "sources": [
+        {
+          "name": "Bloomberg Law",
+          "url": "https://news.bloomberglaw.com/daily-labor-report/trump-loyalty-question-for-applicants-paused-by-federal-judge"
+        },
+        {
+          "name": "Court order (CourtListener / RECAP)",
+          "url": "https://storage.courtlistener.com/recap/gov.uscourts.mad.291405/gov.uscourts.mad.291405.87.0.pdf"
+        },
+        {
+          "name": "Reuters (OPM defense / EO context)",
+          "url": "https://www.reuters.com/legal/government/us-judge-blocks-trump-administrations-loyalty-question-job-applicants-2026-09-12/"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Judge O’Toole stays OPM loyalty essay; no PI on answers already filed.",
+  "seo_description": "U.S. District Judge George O’Toole Jr. stayed OPM’s Merit Hiring Plan Question Three on civil-service applications under APA §705 while denying a broader injunction on answers already submitted.",
+  "date_modified": "2026-09-12T09:30:00-04:00",
+  "date_published": "2026-09-12T09:30:00-04:00",
+  "article_section": "Courts"
+}
