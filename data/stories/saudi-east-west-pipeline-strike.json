@@ -2,8 +2,8 @@
   "slug": "saudi-east-west-pipeline-strike",
   "kicker": "Saudi Arabia / Energy",
   "hed": "Saudi East-West outage threatens up to 4% of global oil supply; Iraq seizes launch platform",
-  "stamp": "UPDATED · Sun. 9:15 a.m. EDT",
-  "dek": "Saudi oil buyers and traders told Reuters on Sunday that if Riyadh does not restart the East-West (Petroline) pipeline to the Red Sea within days, Yanbu export stocks will run out and up to about 4% of global supply — roughly 4 million barrels a day previously rerouted around Hormuz — could be lost. The line has been shut since Thursday’s drones from Iraq hit near Riyadh and Medina. Iraq’s Security Media Cell said Saturday that forces seized a drone-launch platform used in the attack inside Iraqi territory; Prime Minister Ali al-Zaidi had already dismissed Maysan command figures and closed Iran border crossings after launches were tied to that province. In Dublin on Saturday, President Trump said Iran was “probably” responsible and that he had spoken with Crown Prince Mohammed bin Salman.",
+  "stamp": "UPDATED · Sun. 4:15 p.m. EDT",
+  "dek": "Saudi oil buyers and traders told Reuters on Sunday that if Riyadh does not restart the East-West (Petroline) pipeline to the Red Sea within days, Yanbu export stocks will run out and up to about 4% of global supply — roughly 4 million barrels a day previously rerouted around Hormuz — could be lost. Repair estimates diverge: one source said damage could take up to five to six weeks; another said a sooner fix and possible partial restart while repairs continue. The line has been shut since Thursday’s drones from Iraq hit near Riyadh and Medina. Iraq’s Security Media Cell said Saturday that forces seized a drone-launch platform used in the attack inside Iraqi territory; Prime Minister Ali al-Zaidi had already dismissed Maysan command figures and closed Iran border crossings after launches were tied to that province. In Dublin on Saturday, President Trump said Iran was “probably” responsible and that he had spoken with Crown Prince Mohammed bin Salman.",
   "image": "img/saudi-east-west-pipeline.jpg",
   "alt": "Oil pipelines running across desert near Jubail, Saudi Arabia",
   "caption": "Oil pipelines in the Jubail desert, Saudi Arabia. File photograph; not from Thursday’s reported pump-station fires.",
@@ -13,7 +13,7 @@
   "updated": "2026-09-13",
   "frames": {
     "cl": {
-      "body": "Reuters, CNN, and Al Jazeera frame Sunday’s supply math and Saturday’s Dublin attribution: traders say Yanbu stocks last only days without Petroline, risking ~4 million bpd / ~4% of world supply while Hormuz already constrained; Trump said Iran was “probably” behind the Iraq-origin drones without presenting public evidence; Baghdad dismissed Maysan commanders, closed Iran crossings, and seized a launch platform as Saudi Arabia holds off retaliation to give Iraq investigative space.",
+      "body": "Reuters, CNN, and Al Jazeera frame Sunday’s supply math and repair uncertainty: traders say Yanbu stocks last only days without Petroline, risking ~4 million bpd / ~4% of world supply while Hormuz already constrained; Reuters sources split on repairs — up to 5–6 weeks versus sooner / partial restart; Trump said Iran was “probably” behind the Iraq-origin drones without presenting public evidence; Baghdad dismissed Maysan commanders, closed Iran crossings, and seized a launch platform.",
       "sources": [
         {
           "name": "Reuters",
@@ -30,7 +30,7 @@
       ]
     },
     "cr": {
-      "body": "Anadolu Agency, Arab News, and Al Arabiya English stress Iraq’s seizure of a launch platform inside its territory, al-Zaidi’s investigation after Maysan-origin drones, and Trump’s Dublin line that Iran is “probably” responsible plus his call with MBS — as Riyadh’s Hormuz-bypass lifeline to Yanbu sits offline and Sunday trader warnings put roughly 4% of global supply at risk if stocks run dry.",
+      "body": "Anadolu Agency, Arab News, and Al Arabiya English stress Iraq’s seizure of a launch platform inside its territory, al-Zaidi’s investigation after Maysan-origin drones, and Trump’s Dublin line that Iran is “probably” responsible plus his call with MBS — as Riyadh’s Hormuz-bypass lifeline to Yanbu sits offline, Sunday trader warnings put roughly 4% of global supply at risk if stocks run dry, and repair estimates range from weeks to a possible partial restart sooner.",
       "sources": [
         {
           "name": "Anadolu Agency",
@@ -47,9 +47,9 @@
       ]
     }
   },
-  "stack_blurb": "Saudi pipeline outage risks ~4% of global supply; Iraq seizes launch platform after Maysan drones.",
-  "seo_description": "Reuters: Saudi East-West pipeline outage could erase up to 4% of global oil supply within days; Iraq seizes a drone-launch platform as Trump said Iran was probably responsible.",
-  "date_modified": "2026-09-13T09:15:00-04:00",
+  "stack_blurb": "Saudi East-West outage risks ~4% of supply; repair estimates 5–6 weeks vs sooner/partial.",
+  "seo_description": "Reuters: Saudi East-West pipeline outage could erase up to 4% of global oil supply; repair estimates range from up to 5–6 weeks to a sooner partial restart; Iraq seized a drone-launch platform.",
+  "date_modified": "2026-09-13T16:15:00-04:00",
   "date_published": "2026-09-11T14:15:00-04:00",
   "article_section": "Energy"
 }

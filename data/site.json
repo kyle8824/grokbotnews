@@ -3,13 +3,15 @@
   "title": "Grok Bot News — Sunday, September 13, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Sunday, September 13, 2026 · ~9:15 a.m. EDT",
-  "utility_markets": "Brent $104.61 · WTI $100.05 · Fri settle",
-  "breaking": "Saudi East-West outage may cut up to ~4% of global oil supply within days if Yanbu stocks run out; Iraq seizes drone-launch platform.",
+  "utility_live": "Sunday, September 13, 2026 · ~4:15 p.m. EDT",
+  "utility_markets": "AAA diesel $6.20 record · Fri Brent $104.61 / WTI $100.05",
+  "breaking": "Trump at Doonbeg: U.S. could stay in Iran and ‘keep the oil’ like Venezuela; Saudi East-West outage still risks up to ~4% of global supply.",
   "order": [
     "saudi-east-west-pipeline-strike",
-    "russia-ukraine-450-drones",
+    "trump-iran-keep-oil",
     "hormuz-qeshm-vessel-strike",
+    "russia-ukraine-450-drones",
+    "brent-105-dual-chokepoint",
     "trump-ireland-united-comments",
     "opm-loyalty-question-stay",
     "houthi-mocha-bab-el-mandeb",
@@ -17,7 +19,6 @@
     "house-dems-november-probes",
     "house-russia-sanctions-vote",
     "saratov-rosneft-ozon-drones",
-    "brent-105-dual-chokepoint",
     "nsa-bahrain-cao-damage",
     "ukmto-khasab-irgc-saildrone",
     "trump-declines-saudi-houthi-strikes",
@@ -57,8 +58,10 @@
   ],
   "stack": [
     "saudi-east-west-pipeline-strike",
-    "russia-ukraine-450-drones",
+    "trump-iran-keep-oil",
     "hormuz-qeshm-vessel-strike",
+    "russia-ukraine-450-drones",
+    "brent-105-dual-chokepoint",
     "trump-ireland-united-comments",
     "opm-loyalty-question-stay",
     "houthi-mocha-bab-el-mandeb",
@@ -66,11 +69,9 @@
     "house-dems-november-probes",
     "house-russia-sanctions-vote",
     "saratov-rosneft-ozon-drones",
-    "brent-105-dual-chokepoint",
     "nsa-bahrain-cao-damage",
     "ukmto-khasab-irgc-saildrone",
-    "trump-declines-saudi-houthi-strikes",
-    "dc-circuit-campbell-coal-doe"
+    "trump-declines-saudi-houthi-strikes"
   ],
   "section_labels": [
     {
@@ -103,6 +104,7 @@
       "id": "world",
       "label": "World",
       "slugs": [
+        "trump-iran-keep-oil",
         "hormuz-qeshm-vessel-strike",
         "russia-ukraine-450-drones",
         "saudi-east-west-pipeline-strike",
@@ -123,6 +125,7 @@
       "id": "politics",
       "label": "Politics",
       "slugs": [
+        "trump-iran-keep-oil",
         "trump-ireland-united-comments",
         "opm-loyalty-question-stay",
         "house-dems-november-probes",
@@ -149,6 +152,7 @@
       "label": "Energy & markets",
       "slugs": [
         "saudi-east-west-pipeline-strike",
+        "trump-iran-keep-oil",
         "brent-105-dual-chokepoint",
         "saratov-rosneft-ozon-drones",
         "ukmto-khasab-irgc-saildrone",
@@ -195,9 +199,24 @@
   ],
   "rail_wire": [
     {
+      "label": "IRAN OIL.",
+      "text": "Trump at Doonbeg Irish Open: U.S. could stay in Iran and “keep the oil” like Venezuela deal; war may end around/after midterms.",
+      "stamp": "NEW · Sun. 4:15 p.m."
+    },
+    {
       "label": "PIPELINE.",
-      "text": "Trump in Dublin: Iran “probably” behind East-West attack; Iraq confirms Maysan launches, dismisses commander, closes Iran crossings; Saudi line still shut.",
-      "stamp": "UPDATED · Sat. 4:15 p.m."
+      "text": "Saudi East-West still offline; Reuters: Yanbu stocks days away from emptying; repair estimates 5–6 weeks vs sooner/partial restart.",
+      "stamp": "UPDATED · Sun. 4:15 p.m."
+    },
+    {
+      "label": "HORMUZ.",
+      "text": "UKMTO: vessel struck by unknown projectile (~2300 GMT Sat); Sunday fire + crew evacuation. Iran separately reports Qeshm hit with 1 dead.",
+      "stamp": "UPDATED · Sun. 4:15 p.m."
+    },
+    {
+      "label": "DIESEL.",
+      "text": "AAA national diesel average hits record $6.20; Fri Brent $104.61 / WTI $100.05 still the last verified futures print.",
+      "stamp": "UPDATED · Sun. 4:15 p.m."
     },
     {
       "label": "OPM.",
@@ -205,29 +224,19 @@
       "stamp": "NEW · Sat. 9:30 a.m."
     },
     {
-      "label": "HOUSE.",
-      "text": "Democrats map Trump oversight probes if they win November; Garcia lists family, Epstein, ICE, RFK Jr.",
-      "stamp": "NEW · Sat. 9:30 a.m."
-    },
-    {
-      "label": "OIL.",
-      "text": "Fri settle: Brent $104.61 / WTI $100.05; week still >8%; U.S. diesel national avg >$6.",
-      "stamp": "UPDATED · Sat."
-    },
-    {
       "label": "HOUTHIS.",
-      "text": "Sat AFP/CNA/BBC: Houthis cement hold on Yemen Red Sea coast + Bab al-Mandab islands (Mocha/Perim/Hanish). Trump: Houthis prefer U.S. not involved.",
+      "text": "Sat AFP/CNA/BBC: Houthis cement hold on Yemen Red Sea coast + Bab al-Mandab islands (Mocha/Perim/Hanish).",
       "stamp": "UPDATED · Sat."
-    },
-    {
-      "label": "RUSSIA BILL.",
-      "text": "House tees up Graham Russia/Iran sanctions; Rules meets Monday.",
-      "stamp": "Fri. 8:10 p.m."
     }
   ],
   "markets": {
-    "heading": "Markets · Saturday afternoon (Fri settle)",
+    "heading": "Markets · Sunday afternoon (Fri settle + AAA diesel)",
     "rows": [
+      {
+        "label": "U.S. diesel (AAA)",
+        "value": "$6.20 national avg (record)",
+        "dir": "up"
+      },
       {
         "label": "Brent crude",
         "value": "$104.61 Fri settle (−$3.02)",
@@ -239,30 +248,25 @@
         "dir": "down"
       },
       {
-        "label": "U.S. diesel",
-        "value": "National avg >$6/gal",
-        "dir": "up"
-      },
-      {
         "label": "Chokepoints",
         "value": "Hormuz + Bab el-Mandeb live",
         "dir": "up"
       }
     ],
-    "credit": "Fri settles from Newsquawk/EnergyNow/Reuters path. Diesel from AAA/GasBuddy desks. Dual-chokepoint context from Mocha/Perim and Hormuz reporting."
+    "credit": "AAA diesel record from Fox Business/AAA Sep. 13. Fri crude settles from Newsquawk/EnergyNow/Reuters path. Dual-chokepoint context from Mocha/Perim and Hormuz reporting."
   },
   "ticker": [
-    "PIPELINE|Trump in Dublin: Iran ‘probably’ behind Saudi East-West attack; Iraq confirms drones from Maysan; line shut",
-    "OPM|Judge O’Toole stays OPM ‘loyalty’ essay on civil-service applications; no PI on answers already filed",
-    "HOUSE|Democrats map Trump oversight probes if they win November; Garcia lists Epstein, ICE, family",
-    "OIL|Fri settle: Brent $104.61 / WTI $100.05; week still >8%; diesel >$6",
-    "HOUTHIS|Sat reporting: Houthis cement Red Sea coast + Bab al-Mandab island hold; Trump cites Houthi outreach",
+    "IRAN OIL|Trump at Doonbeg: U.S. could stay in Iran and ‘keep the oil’ like Venezuela; midterms war-end forecast",
+    "PIPELINE|Saudi East-West outage risks ~4% of supply; repair estimates 5–6 weeks vs sooner/partial",
+    "HORMUZ|UKMTO: Hormuz projectile strike + Sunday fire/evac; Iran Qeshm claim: 1 dead — not confirmed same ship",
+    "DIESEL|AAA diesel record $6.20; Fri settle Brent $104.61 / WTI $100.05",
+    "UKRAINE|Russia–Ukraine: 450-drone wave reporting still near top of Sunday stack",
+    "IRELAND|Trump ‘love’ a united Ireland remarks; Sunday Irish Open at Doonbeg",
+    "OPM|Judge O’Toole stays OPM ‘loyalty’ essay on civil-service applications",
+    "HOUTHIS|Houthis cement Red Sea coast + Bab al-Mandab island hold",
     "RUSSIA BILL|House tees up Graham Russia/Iran sanctions; Rules Monday",
-    "SARATOV|Ukrainian drones hit Rosneft Saratov refinery and Ozon warehouse; Fire Point claims FP-1s",
-    "9/11|Fri anniversary: Trump/Hegseth at Pentagon; Vance at Ground Zero; CIA releases 71 PDBs",
     "NATO|UK, Norway, U.S. disrupt Russian GUGI undersea-cable exercise near Svalbard",
     "TSA|Gateside PreCheck visitor access at 13 airports",
-    "DOJ|diGenova resigns as Florida DOJ counsel overseeing Trump-investigators probe",
     "ACA|White House: ~1M HealthCare.gov enrollees to get $500 rebates starting October"
   ],
   "archive": [

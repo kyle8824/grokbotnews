@@ -1,20 +1,24 @@
 {
   "slug": "brent-105-dual-chokepoint",
   "kicker": "Energy markets",
-  "hed": "Oil settles Friday: Brent $104.61, WTI $100.05; week still up >8% as dual chokepoint persists",
-  "stamp": "UPDATED · Sat. 9:30 a.m. EDT",
-  "dek": "Brent crude settled Friday at $104.61 a barrel and WTI at $100.05, according to Newsquawk and EnergyNow settlement prints — down on the day but still finishing a week with gains of more than 8% and both benchmarks above $100. U.S. diesel’s national average remained above $6 a gallon. Markets continued to price the dual chokepoint squeeze: Houthi advances near Bab el-Mandeb and constrained Hormuz flows from the U.S.–Iran tanker war.",
+  "hed": "AAA diesel hits record $6.20; Fri settle still Brent $104.61 / WTI $100.05",
+  "stamp": "UPDATED · Sun. 4:15 p.m. EDT",
+  "dek": "AAA’s national average diesel price reached a record $6.20 a gallon on Sunday, Sep. 13, according to Fox Business citing AAA — the highest diesel average on AAA’s recorded table. Friday’s futures settles remain the last verified print used here: Brent $104.61 and WTI $100.05, still finishing a week with gains of more than 8% and both benchmarks above $100. Markets continued to price the dual chokepoint squeeze: Houthi advances near Bab el-Mandeb and constrained Hormuz flows.",
   "image": "img/brent-105-oil-markets.jpg",
   "alt": "Oil refinery towers and industrial piping against a clear blue sky",
   "caption": "Refinery towers and process piping. File photograph used for layout; not from Friday’s oil settlement prints.",
   "credit": "Pexels (free license; attribution not required)",
   "byline": "Event summary from public market desks and named outlets",
   "section": "energy",
-  "updated": "2026-09-12",
+  "updated": "2026-09-13",
   "frames": {
     "cl": {
-      "body": "Reuters, EnergyNow, and Newsquawk frame Friday’s settle — Brent $104.61 (−$3.02) and WTI $100.05 (−$2.43) — as a pullback from Thursday’s surge that still left both contracts above $100 for the week, with U.S. diesel’s national average above $6 a gallon keeping refined-product inflation in focus.",
+      "body": "Fox Business, Newsquawk, and EnergyNow frame Sunday’s AAA diesel record at $6.20 alongside Friday’s still-standing settle prints — Brent $104.61 (−$3.02) and WTI $100.05 (−$2.43) — as a refined-product shock layered on a week that still left both crude contracts above $100 despite Friday’s pullback.",
       "sources": [
+        {
+          "name": "Fox Business",
+          "url": "https://www.foxbusiness.com/politics/diesel-tops-6-fuel-shock-threatens-truckers-farmers-consumers"
+        },
         {
           "name": "Newsquawk",
           "url": "https://www.newsquawk.com/headlines/crude-wrap-wti-v6-settles-usd-243-lower-at-10005bbl"
@@ -22,16 +26,16 @@
         {
           "name": "EnergyNow",
           "url": "https://energynow.ca/2026/09/oil-ends-above-100-despite-friday-pullback-as-middle-east-supply-crisis-drives-big-weekly-gain/"
-        },
-        {
-          "name": "Reuters (week >$100 / Fri path)",
-          "url": "https://www.reuters.com/business/energy/oil-prices-set-end-week-over-100-first-time-nearly-4-months-2026-09-11/"
         }
       ]
     },
     "cr": {
-      "body": "EnergyNow’s weekly wrap and Reuters energy desks stress that despite Friday’s drop, Brent rose about 8.65% and WTI about 9.37% on the week as Houthi control near Mocha/Bab el-Mandeb and Hormuz tanker risk kept dual-chokepoint premiums embedded heading into the weekend.",
+      "body": "Fox Business’s diesel-record package and EnergyNow/Reuters week wraps stress that AAA’s $6.20 national diesel average now sits at a recorded high while Friday’s Brent/WTI settles above $100 keep dual-chokepoint premiums — Mocha/Bab el-Mandeb and Hormuz tanker risk — embedded heading into Monday’s open.",
       "sources": [
+        {
+          "name": "Fox Business",
+          "url": "https://www.foxbusiness.com/politics/diesel-tops-6-fuel-shock-threatens-truckers-farmers-consumers"
+        },
         {
           "name": "EnergyNow",
           "url": "https://energynow.ca/2026/09/oil-ends-above-100-despite-friday-pullback-as-middle-east-supply-crisis-drives-big-weekly-gain/"
@@ -39,17 +43,13 @@
         {
           "name": "Reuters",
           "url": "https://www.reuters.com/business/energy/oil-prices-set-end-week-over-100-first-time-nearly-4-months-2026-09-11/"
-        },
-        {
-          "name": "The National",
-          "url": "https://www.thenationalnews.com/business/energy/2026/09/11/oil-prices-set-to-end-the-week-above-100-as-houthis-seize-key-port-city/"
         }
       ]
     }
   },
-  "stack_blurb": "Fri settle: Brent $104.61 / WTI $100.05; week >8%; diesel >$6.",
-  "seo_description": "Brent settled Friday at $104.61 and WTI at $100.05 — down on the day but still up more than 8% for the week as Mocha/Hormuz dual-chokepoint risk and record U.S. diesel persisted.",
-  "date_modified": "2026-09-12T09:30:00-04:00",
+  "stack_blurb": "AAA diesel record $6.20; Fri Brent $104.61 / WTI $100.05.",
+  "seo_description": "AAA diesel hit a record national average of $6.20 on Sep. 13; Friday settles remain Brent $104.61 and WTI $100.05 as dual-chokepoint risk persists.",
+  "date_modified": "2026-09-13T16:15:00-04:00",
   "date_published": "2026-09-10T19:15:00-04:00",
   "article_section": "Energy"
 }
