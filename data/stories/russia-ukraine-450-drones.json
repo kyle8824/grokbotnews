@@ -1,0 +1,55 @@
+{
+  "slug": "russia-ukraine-450-drones",
+  "kicker": "Ukraine",
+  "hed": "Russia launches 453 drones overnight; Ukraine hits Tatarstan and Krasnodar oil sites",
+  "stamp": "NEW · Sun. 9:15 a.m. EDT",
+  "dek": "Ukraine’s Armed Forces said Russia launched 453 drones overnight into Sunday, with 409 neutralized and strikes reported at 13 locations, including damage in Stryi (Lviv region) near a residential building, school outbuilding, and railway area. Separately, Russian authorities said a Ukrainian drone attack killed two and injured 12 at an industrial facility in Nizhnekamsk, Tatarstan; Ukraine’s Defence Intelligence said it also struck the Slavyansk-ECO oil refinery in Krasnodar Krai. The Guardian’s Sunday briefing tallied nine killed and dozens wounded in Saturday strikes as Kyiv warns of a hard winter. Kremlin spokesman Dmitry Peskov said a Zelenskyy–Putin meeting on the margins of the Miami G20 was “impossible,” insisting any meeting be in Moscow.",
+  "image": "img/russia-ukraine-450-drones.jpg",
+  "alt": "Port of Odesa waterfront and cranes on the Black Sea",
+  "caption": "Port of Odesa, Ukraine. File photograph; not from Sunday’s overnight drone wave.",
+  "credit": "Zinnsoldat / Wikimedia Commons (CC BY-SA 4.0)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "world",
+  "updated": "2026-09-13",
+  "frames": {
+    "cl": {
+      "body": "Euronews, The Guardian, and AP photography context emphasize civilian and infrastructure damage from Russia’s 450-plus-drone overnight wave — 13 hit locations, Lviv-region Stryi damage near housing and rail, Kharkiv injuries — and Zelenskyy’s warning that Russia aims to “kill the Ukrainian economy” ahead of winter, while Kyiv continues long-range strikes on Russian oil and petrochemical sites.",
+      "sources": [
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/my-europe/2026/09/13/russia-launches-more-than-450-drones-in-overnight-attacks-while-ukraine-strikes-oil-refine"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/13/ukraine-war-briefing-nine-killed-and-dozens-wounded-in-russian-strikes-as-kyiv-braces-for-harsh-winter"
+        },
+        {
+          "name": "AP Photo (via Euronews)",
+          "url": "https://www.euronews.com/my-europe/2026/09/13/russia-launches-more-than-450-drones-in-overnight-attacks-while-ukraine-strikes-oil-refine"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Euronews and Russian regional statements foreground Ukraine’s overnight hits on Nizhnekamsk’s oil/petrochemical hub (two dead, 12 hurt per Russian authorities) and the claimed Slavyansk-ECO refinery strike in Krasnodar, while Peskov ruled out a G20-sidelines Putin–Zelenskyy meeting and Lavrov said Russia would not pause its Ukraine operation during possible talks — casting the energy duel as mutual winter preparation rather than a one-sided Russian air campaign.",
+      "sources": [
+        {
+          "name": "Euronews (Tatarstan / Krasnodar)",
+          "url": "https://www.euronews.com/my-europe/2026/09/13/russia-launches-more-than-450-drones-in-overnight-attacks-while-ukraine-strikes-oil-refine"
+        },
+        {
+          "name": "The Guardian (G20 / winter)",
+          "url": "https://www.theguardian.com/world/2026/sep/13/ukraine-war-briefing-nine-killed-and-dozens-wounded-in-russian-strikes-as-kyiv-braces-for-harsh-winter"
+        },
+        {
+          "name": "Euronews (Peskov / Lavrov)",
+          "url": "https://www.euronews.com/my-europe/2026/09/13/russia-launches-more-than-450-drones-in-overnight-attacks-while-ukraine-strikes-oil-refine"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Russia 453 drones overnight; Ukraine hits Tatarstan and Krasnodar oil sites; Peskov blocks G20 meetup.",
+  "seo_description": "Russia launched 453 drones overnight across Ukraine; Kyiv struck oil facilities in Tatarstan and Krasnodar as Peskov ruled out a G20-sidelines meeting with Zelenskyy.",
+  "date_modified": "2026-09-13T09:15:00-04:00",
+  "date_published": "2026-09-13T09:15:00-04:00",
+  "article_section": "World"
+}

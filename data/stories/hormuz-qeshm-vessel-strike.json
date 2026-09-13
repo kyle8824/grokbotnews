@@ -1,0 +1,55 @@
+{
+  "slug": "hormuz-qeshm-vessel-strike",
+  "kicker": "Strait of Hormuz",
+  "hed": "Iran says commercial vessel struck near Qeshm in Strait of Hormuz; one dead",
+  "stamp": "NEW · Sun. 9:15 a.m. EDT",
+  "dek": "Iranian state media said an Iranian commercial vessel was struck late Saturday near Qeshm Island in the Strait of Hormuz, killing one person and injuring four, according to CNN citing IRIB and IRNA. The reported attack comes as Tehran prepares regional talks in Oman on managing shipping through the chokepoint and amid an ongoing U.S.–Iran contest over Hormuz energy routes. Iran blamed a “terrorist enemy”; there was no immediate independent confirmation of the attacker.",
+  "image": "img/hormuz-qeshm-vessel.jpg",
+  "alt": "OpenStreetMap overview of the Strait of Hormuz and nearby islands",
+  "caption": "Map view of the Strait of Hormuz. File graphic; not from Saturday’s reported Qeshm incident.",
+  "credit": "OpenStreetMap contributors / Wikimedia Commons (CC BY 4.0)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "world",
+  "updated": "2026-09-13",
+  "frames": {
+    "cl": {
+      "body": "CNN and IRNA/IRIB quotes stress Iranian claims of a commercial vessel hit near Qeshm with one dead and four hurt, framed against Bandar Abbas daily life and Oman talks meant to manage Hormuz traffic after weeks of tanker and chokepoint tension — with no independent attribution of the attacker yet published.",
+      "sources": [
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/09/13/middleeast/iran-hormuz-qeshm-attack-intl"
+        },
+        {
+          "name": "IRNA (via CNN)",
+          "url": "https://www.cnn.com/2026/09/13/middleeast/iran-hormuz-qeshm-attack-intl"
+        },
+        {
+          "name": "IRIB (via CNN)",
+          "url": "https://www.cnn.com/2026/09/13/middleeast/iran-hormuz-qeshm-attack-intl"
+        }
+      ]
+    },
+    "cr": {
+      "body": "CNN’s Hormuz reporting pairs the Qeshm claim with the broader U.S.–Iran fight over the energy chokepoint and prior IRGC/Saildrone and tanker incidents already on the wire — reading Sunday’s casualty report as another contested shipping strike in a strait where both sides have claimed hits and denials without a settled public forensic record.",
+      "sources": [
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/09/13/middleeast/iran-hormuz-qeshm-attack-intl"
+        },
+        {
+          "name": "Reuters (Hormuz supply context)",
+          "url": "https://www.reuters.com/business/energy/saudi-pipeline-outage-threatens-loss-4-global-oil-supply-2026-09-13/"
+        },
+        {
+          "name": "The National (Red Sea / Gulf pressure)",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/09/13/houthis-claim-responsibility-for-new-attacks-on-saudi-arabia-in-red-sea-offensive/"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Iran: commercial vessel struck near Qeshm in Hormuz; one dead, four hurt.",
+  "seo_description": "Iranian state media said a commercial vessel was struck near Qeshm Island in the Strait of Hormuz, killing one and injuring four, CNN reported.",
+  "date_modified": "2026-09-13T09:15:00-04:00",
+  "date_published": "2026-09-13T09:15:00-04:00",
+  "article_section": "World"
+}
