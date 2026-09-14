@@ -1,0 +1,55 @@
+{
+  "slug": "epa-power-plant-carbon-repeal",
+  "kicker": "Energy / Environment",
+  "hed": "EPA set to announce final repeal of Biden power-plant carbon limits at Houston G20",
+  "stamp": "NEW \u00b7 Mon. ~12:20 p.m. EDT",
+  "dek": "The Environmental Protection Agency is set Monday to announce a final rule repealing the Biden administration\u2019s greenhouse-gas emission limits on coal- and natural-gas-fired power plants, Reuters reported, with the rollout planned on the sidelines of a G20 energy ministers\u2019 meeting in Houston. The 2024 standards would have required carbon-capture or retirement pathways for covered plants and were projected to cut about 1 billion metric tons of greenhouse gases by 2047; the Trump EPA argues the rules raised costs and threatened reliability. Administrator Lee Zeldin has cast the move as part of a broader deregulatory push, and environmental groups say they will sue.",
+  "image": "img/epa-power-plant-carbon-repeal.jpg",
+  "alt": "Cooling towers and industrial stacks at a fossil-fuel power plant under a cloudy sky",
+  "caption": "Cooling towers at a fossil-fuel power plant. File photograph; not from Monday\u2019s Houston G20 announcement.",
+  "credit": "Unsplash (free license; photographer credit on Unsplash listing for photo-1473341304170-971dccb5ac1e)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "lead",
+  "updated": "2026-09-14",
+  "frames": {
+    "cl": {
+      "body": "Reuters\u2019 Monday exclusive, the AP/ABC wire, and the Center for Biological Diversity\u2019s Maggie Coulter cast the Houston finalization as erasing a core climate tool for a sector that accounts for nearly a quarter of U.S. greenhouse gases \u2014 Coulter called denying that pollution \u201cutterly reckless\u201d and warned of more heat, storms, and wildfire harm \u2014 while advocacy groups argue the repeal will raise health costs in fenceline communities and face immediate court challenges.",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/litigation/epa-undo-carbon-emission-limits-power-plants-g20-meeting-2026-09-14/"
+        },
+        {
+          "name": "ABC News / AP",
+          "url": "https://abcnews.com/US/wireStory/trump-epa-eliminate-rule-limits-planet-warming-greenhouse-136422782"
+        },
+        {
+          "name": "PBS News",
+          "url": "https://www.pbs.org/newshour/nation/the-trump-administration-is-set-to-eliminate-a-rule-that-curbs-greenhouse-gas-emissions-from-power-plants"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Zeldin\u2019s deregulatory framing, the Washington Examiner\u2019s power-plant write-through, and National Rural Electric Cooperative Association CEO Jim Matheson\u2019s Utility Dive remarks cast the repeal as restoring baseload capacity and cutting compliance costs \u2014 Zeldin has said Biden-era carbon rules were designed to \u201csuffocate\u201d coal and that families need reliable, affordable power, while co-ops call the 40% capacity threshold and 90% capture mandate untenable amid data-center load growth.",
+      "sources": [
+        {
+          "name": "Washington Examiner",
+          "url": "https://www.washingtonexaminer.com/policy/energy-and-environment/3438459/trump-epa-repeal-biden-power-plant-emission-rules/"
+        },
+        {
+          "name": "Utility Dive",
+          "url": "https://www.utilitydive.com/news/electric-co-ops-repeal-epa-gas-power-plant-emissions-rules/828377/"
+        },
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/politics/bidens-woke-green-agenda-chopping-block-epa-announces-most-consequential-day-deregulation"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "EPA set to finalize repeal of Biden power-plant carbon limits at Houston G20.",
+  "seo_description": "EPA is set Monday to announce a final rule repealing Biden-era greenhouse-gas limits on coal and gas power plants at a Houston G20 energy meeting.",
+  "date_modified": "2026-09-14T12:20:00-04:00",
+  "date_published": "2026-09-14T12:20:00-04:00",
+  "article_section": "Energy"
+}

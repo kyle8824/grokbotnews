@@ -3,10 +3,11 @@
   "title": "Grok Bot News \u2014 Monday, September 14, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Monday, September 14, 2026 \u00b7 ~11:30 a.m. EDT",
+  "utility_live": "Monday, September 14, 2026 \u00b7 ~12:20 p.m. EDT",
   "utility_markets": "AAA diesel $6.23 record \u00b7 Brent ~$108.83 / WTI ~$103.88 \u00b7 Nasdaq soft on AI",
-  "breaking": "Houthis claim King Khalid Air Base strike; AI stocks slide on Amodei/Altman pace call; Senate tees Tuesday Clarity cloture.",
+  "breaking": "EPA set to finalize power-plant carbon repeal in Houston; Senate tees Tuesday Clarity cloture; Houthis claim King Khalid Air Base strike.",
   "order": [
+    "epa-power-plant-carbon-repeal",
     "clarity-act-senate-cloture",
     "ai-stocks-slowdown-amodei-altman",
     "houthi-king-khalid-air-base",
@@ -62,6 +63,7 @@
     "iran-hormuz-strikes"
   ],
   "stack": [
+    "epa-power-plant-carbon-repeal",
     "clarity-act-senate-cloture",
     "ai-stocks-slowdown-amodei-altman",
     "houthi-king-khalid-air-base",
@@ -74,14 +76,14 @@
     "house-russia-sanctions-vote",
     "opm-loyalty-question-stay",
     "russia-ukraine-450-drones",
-    "houthi-mocha-bab-el-mandeb",
-    "houthi-perim-bab-el-mandeb"
+    "houthi-mocha-bab-el-mandeb"
   ],
   "section_labels": [
     {
       "id": "us",
       "label": "U.S. & Washington",
       "slugs": [
+        "epa-power-plant-carbon-repeal",
         "clarity-act-senate-cloture",
         "opm-loyalty-question-stay",
         "house-dems-november-probes",
@@ -133,6 +135,7 @@
       "id": "politics",
       "label": "Politics",
       "slugs": [
+        "epa-power-plant-carbon-repeal",
         "clarity-act-senate-cloture",
         "trump-iran-keep-oil",
         "trump-ireland-united-comments",
@@ -162,6 +165,7 @@
       "id": "energy",
       "label": "Energy & markets",
       "slugs": [
+        "epa-power-plant-carbon-repeal",
         "oman-hormuz-talks-postponed",
         "saudi-east-west-pipeline-strike",
         "trump-iran-keep-oil",
