@@ -1,0 +1,55 @@
+{
+  "slug": "houthi-king-khalid-air-base",
+  "kicker": "Yemen / Saudi Arabia",
+  "hed": "Houthis claim missile and drone strike on Saudi King Khalid Air Base",
+  "stamp": "NEW · Mon. ~11:30 a.m. EDT",
+  "dek": "Yemen’s Houthis said Monday they fired dozens of ballistic missiles and drones at King Khalid Air Base in Khamis Mushait, near the Saudi–Yemen border, claiming hits on fighter-jet hangars, radars, runways and ammunition depots in retaliation for more than 300 Saudi airstrikes across Yemen in five days. Saudi Civil Defense issued brief alerts for Khamis Mushait and nearby southern cities, then said the danger had passed; there was no immediate official confirmation of damage at the base. A Khamis Mushait resident told AFP of intense blasts and fires lasting a long time. The claim lands as Houthi advances squeeze Red Sea shipping and Gulf–Iran Hormuz talks were postponed.",
+  "image": "img/houthi-king-khalid-air-base.jpg",
+  "alt": "Royal Saudi Air Force F-15 aircraft flying during a Middle East exercise",
+  "caption": "Royal Saudi Air Force F-15s during exercise Spears of Victory, Feb. 2026. File photograph; not from Monday’s claimed strike on King Khalid Air Base.",
+  "credit": "U.S. Air Force photo by Senior Airman Tyler Moody / DVIDS (public domain via Wikimedia Commons)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "world",
+  "updated": "2026-09-14",
+  "frames": {
+    "cl": {
+      "body": "Al Jazeera/AFP, Anadolu Agency, and Channel News Asia/AFP cast Monday’s claim as another cross-border escalation after Saudi–backed government advances and heavy airstrikes in Yemen — with Civil Defense alerts then all-clears, no verified damage assessment from Riyadh, and nearly 86,000 people displaced in recent weeks per IOM — underscoring how the Yemen front is widening civilian and regional risk while oil markets already price dual chokepoint stress.",
+      "sources": [
+        {
+          "name": "Al Jazeera / AFP",
+          "url": "https://www.aljazeera.com/news/2026/9/14/yemen-govt-forces-advance-in-taiz-as-houthis-claim-attack-on-saudi-arabia"
+        },
+        {
+          "name": "Anadolu Agency",
+          "url": "https://www.aa.com.tr/en/middle-east/houthis-claim-large-scale-missile-drone-attack-on-king-khalid-air-base-in-saudi-arabia/4056511"
+        },
+        {
+          "name": "Channel News Asia / AFP",
+          "url": "https://www.channelnewsasia.com/world/houthis-target-saudi-base-iran-denies-yemen-war-involvement-6383191"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Reuters’ Monday Gulf wrap, Houthi spokesman Yahya Saree’s statement on hangars and runways, and reporting that Washington has so far rebuffed Saudi pleas to intervene cast the claimed King Khalid strike as Houthi retaliation for hundreds of Saudi sorties and a pressure play on Riyadh — and on a U.S. administration already declining deeper Yemen involvement — while Iran denied directing the renewed Yemen fighting even as oil and diesel records keep midterm energy politics front-of-mind.",
+      "sources": [
+        {
+          "name": "Reuters (via Geo.tv)",
+          "url": "https://www.geo.tv/latest/682046-gulf-states-call-off-meeting-with-iran-houthis-launch-new-attack-on-saudi"
+        },
+        {
+          "name": "Anadolu Agency",
+          "url": "https://www.aa.com.tr/en/middle-east/houthis-claim-large-scale-missile-drone-attack-on-king-khalid-air-base-in-saudi-arabia/4056511"
+        },
+        {
+          "name": "Channel News Asia / AFP",
+          "url": "https://www.channelnewsasia.com/world/houthis-target-saudi-base-iran-denies-yemen-war-involvement-6383191"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Houthis claim dozens of missiles/drones hit King Khalid Air Base; Saudi alerts lifted.",
+  "seo_description": "Houthis claimed a Monday missile and drone strike on Saudi Arabia’s King Khalid Air Base in Khamis Mushait; Riyadh issued then lifted Civil Defense alerts without confirming damage.",
+  "date_modified": "2026-09-14T11:30:00-04:00",
+  "date_published": "2026-09-14T11:30:00-04:00",
+  "article_section": "World"
+}
