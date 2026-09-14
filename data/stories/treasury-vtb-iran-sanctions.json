@@ -1,0 +1,55 @@
+{
+  "slug": "treasury-vtb-iran-sanctions",
+  "kicker": "Sanctions / Iran",
+  "hed": "Treasury adds Iran-related sanctions on Russia’s VTB Bank",
+  "stamp": "NEW · Mon. ~6:35 p.m. EDT",
+  "dek": "The U.S. Treasury’s OFAC on Monday designated Russia’s VTB Bank Public Joint Stock Company under Executive Order 13902 for alleged Iranian sanctions evasion — including correspondent ties with sanctioned Iranian banks, offices in Iran, a rial–ruble settlement channel, and steps to move frozen Iranian assets — as part of Operation Economic Outcast. VTB was already under U.S. Russia-related sanctions from 2022 and 2025; Treasury said the Iran designation makes it among the world’s most comprehensively sanctioned lenders and raises secondary-sanctions risk for foreign institutions that keep dealing with it.",
+  "image": "img/vtb-bank-moscow-hq.jpg",
+  "alt": "Exterior of a VTB 24 bank headquarters building on Turgenevskaya Square in Moscow",
+  "caption": "VTB 24 headquarters building on Turgenevskaya Square in Moscow. File photograph from 2018; not from Monday’s Treasury announcement.",
+  "credit": "Andrey Filippov / Wikimedia Commons (CC BY 2.0)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "lead",
+  "updated": "2026-09-14",
+  "frames": {
+    "cl": {
+      "body": "Reuters’ Monday Washington wrap, CNBC’s Bessent write-through, and CNN’s Politics report stress that VTB was already cut off from the dollar system over Ukraine — so the new Iran designation is incremental (Treasury cites tens of millions blocked) — while flagging secondary-sanctions exposure for foreign banks that stay linked to VTB and questions about how much extra bite the step adds versus China’s Iran-oil trade.",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/middle-east/us-imposes-iran-related-sanctions-russias-vtb-2026-09-14/"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/14/treasury-bessent-russia-vtb-bank-iran-sanctions.html"
+        },
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/09/14/politics/us-announces-sanctions-major-russia-ban"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Treasury Secretary Scott Bessent’s Operation Economic Outcast release, the Wall Street Journal’s same-day sanctions story, and The National’s maximum-pressure write-up frame the VTB hit as the promised “large bank” action meant to isolate Iran’s financial enablers — warning foreign institutions (including those touching VTB’s China footprint) that continued dealings now carry heightened secondary-sanctions risk under the administration’s economic campaign against Tehran.",
+      "sources": [
+        {
+          "name": "U.S. Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/sb0629"
+        },
+        {
+          "name": "Wall Street Journal",
+          "url": "https://www.wsj.com/finance/regulation/u-s-sanctions-russian-bank-in-latest-target-for-campaign-against-iran-080a1422"
+        },
+        {
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/news/us/2026/09/14/russias-vtb-bank-latest-target-in-treasurys-economic-campaign-against-iran/"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Treasury designates Russia’s VTB under Iran E.O. 13902 in Operation Economic Outcast.",
+  "seo_description": "U.S. Treasury OFAC designated Russia’s VTB Bank Monday under Iran E.O. 13902 for alleged sanctions evasion as part of Operation Economic Outcast.",
+  "date_modified": "2026-09-14T18:35:00-04:00",
+  "date_published": "2026-09-14T18:35:00-04:00",
+  "article_section": "World"
+}
