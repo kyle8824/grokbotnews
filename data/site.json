@@ -3,10 +3,11 @@
   "title": "Grok Bot News \u2014 Monday, September 14, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Monday, September 14, 2026 \u00b7 ~4:05 p.m. EDT",
+  "utility_live": "Monday, September 14, 2026 \u00b7 ~5:10 p.m. EDT",
   "utility_markets": "AAA diesel $6.23 record \u00b7 Brent ~$108\u2013109 / WTI ~$103\u2013104 \u00b7 Nasdaq soft on AI",
-  "breaking": "Brennan subpoenaed for Oct. 15 Florida grand jury; Judge Nichols blocks USPS mail-ballot rule; states sue over public-charge green-card rule; House Rules meets on Graham Russia\u2013Iran bill; Yahodyn drone lead holds.",
+  "breaking": "Big Bend landowners sue DHS over wall fast-track; Brennan subpoenaed for Oct. 15 Florida grand jury; Judge Nichols blocks USPS mail-ballot rule; states sue over public-charge green-card rule; Yahodyn drone lead holds.",
   "order": [
+    "big-bend-landowners-wall-suit",
     "usps-mail-ballot-whistleblower",
     "public-charge-green-card-suits",
     "brennan-florida-grand-jury-subpoena",
@@ -68,6 +69,7 @@
     "iran-hormuz-strikes"
   ],
   "stack": [
+    "big-bend-landowners-wall-suit",
     "usps-mail-ballot-whistleblower",
     "public-charge-green-card-suits",
     "brennan-florida-grand-jury-subpoena",
@@ -81,9 +83,7 @@
     "houthi-king-khalid-air-base",
     "brent-105-dual-chokepoint",
     "saudi-east-west-pipeline-strike",
-    "oman-hormuz-talks-postponed",
-    "hormuz-qeshm-vessel-strike",
-    "trump-iran-keep-oil"
+    "oman-hormuz-talks-postponed"
   ],
   "section_labels": [
     {

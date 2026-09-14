@@ -1,0 +1,55 @@
+{
+  "slug": "big-bend-landowners-wall-suit",
+  "kicker": "Border / Courts",
+  "hed": "Texas landowners sue DHS over Big Bend wall fast-track authority",
+  "stamp": "NEW \u00b7 Mon. ~5:10 p.m. EDT",
+  "dek": "Conserve Big Bend and six West Texas landowners filed Conserve Big Bend v. DHS (D.D.C. No. 1:26-cv-03198) on Monday seeking to vacate Homeland Security\u2019s \u201chigh illegal entry\u201d designations for the Big Bend Sector and enjoin barrier, road, and technology construction on private land. Plaintiffs cite CBP figures showing Big Bend logged about 1.3% of Southwest border apprehensions in FY2025 \u2014 the lowest of nine sectors \u2014 and argue Section 102 waiver authority does not apply; CBP has paused ground-disturbing work inside Big Bend National Park through Sept. 30 while contracts for bollard wall and vehicle-barrier segments outside the park remain active.",
+  "image": "img/big-bend-rio-grande.jpg",
+  "alt": "Rio Grande flowing out of Santa Elena Canyon at sunset in Big Bend National Park",
+  "caption": "Rio Grande at Santa Elena Canyon, Big Bend National Park. File photograph; not from Monday\u2019s courthouse announcement.",
+  "credit": "Public domain \u00b7 Wikimedia Commons / goodfreephotos",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "lead",
+  "updated": "2026-09-14",
+  "frames": {
+    "cl": {
+      "body": "NBC News\u2019s Monday Marfa write-through, the Texas Tribune\u2019s Big Bend explainer, and First Alert 7\u2019s Conserve Big Bend complaint summary cast the suit as private ranchers \u2014 including some who backed Trump\u2019s earlier border crackdown \u2014 challenging a mislabeled \u201chigh illegal entry\u201d designation used to waive environmental review and threaten eminent domain across roughly 600 miles where apprehensions are historically the Southwest\u2019s lowest.",
+      "sources": [
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/news/us-news/texas-landowners-sue-trump-administration-border-big-bend-construction-rcna597734"
+        },
+        {
+          "name": "Texas Tribune",
+          "url": "https://www.texastribune.org/2026/09/14/texas-big-bend-national-park-border-wall-plans-explainer/"
+        },
+        {
+          "name": "First Alert 7",
+          "url": "https://www.firstalert7.com/2026/09/14/big-bend-landowners-sue-dhs-over-border-wall-fast-track-authority/"
+        }
+      ]
+    },
+    "cr": {
+      "body": "CBP Commissioner Rodney Scott\u2019s August park-pause statement, Just the News / Center Square\u2019s Mennell briefing on executive-order and One Big Beautiful Bill funding for a Smart Wall across the sector, and the Washington Examiner\u2019s construction-and-outreach coverage frame Big Bend as a remaining gap the administration says cartels could exploit as other stretches harden \u2014 with spokespeople stressing no 30-foot bollard wall inside the national or state parks, continued technology and vehicle barriers, and outreach to landowners while eminent domain remains available if access is refused.",
+      "sources": [
+        {
+          "name": "CBP (Scott statement)",
+          "url": "https://www.cbp.gov/newsroom/announcements/statement-cbp-commissioner-rodney-s-scott-big-bend-border-security-projects"
+        },
+        {
+          "name": "Just the News",
+          "url": "https://justthenews.com/nation/states/center-square/installation-big-bend-border-wall-set-august-texas"
+        },
+        {
+          "name": "Washington Examiner",
+          "url": "https://www.washingtonexaminer.com/policy/immigration/4639228/border-wall-construction-materials-big-bend-texas-local-pushback/"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Conserve Big Bend + landowners sue DHS over Big Bend wall fast-track.",
+  "seo_description": "Conserve Big Bend and Texas landowners sued DHS Monday to vacate Big Bend \u201chigh illegal entry\u201d designations and block wall construction on private land.",
+  "date_modified": "2026-09-14T17:10:00-04:00",
+  "date_published": "2026-09-14T17:10:00-04:00",
+  "article_section": "Politics"
+}
