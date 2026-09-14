@@ -1,0 +1,55 @@
+{
+  "slug": "yahodyn-poland-border-drone",
+  "kicker": "Ukraine / NATO",
+  "hed": "Russian drone hits train near Poland border; NATO’s Rutte cites Putin ‘desperation’",
+  "stamp": "NEW · Mon. ~3:00 p.m. EDT",
+  "dek": "A Russian jet-powered drone struck a passenger locomotive at Yahodyn station about 2 km from Poland on Sunday, minutes after a diplomatic train carrying former U.K. Prime Minister Boris Johnson, former Swedish Prime Minister Carl Bildt, and European security advisers left early; former CIA Director David Petraeus was on another train still at the station. No casualties were reported after an evacuation warning. On Monday, NATO Secretary-General Mark Rutte called the near-border strikes a sign of Vladimir Putin’s “desperation,” while Polish leaders warned of further escalation and the Kremlin said Russian forces would keep operating across Ukraine.",
+  "image": "img/yahodyn-poland-border-drone.jpg",
+  "alt": "Dorohusk railway station on the Polish side of the Ukraine–Poland rail crossing",
+  "caption": "Dorohusk railway station in Poland, opposite Ukraine’s Yahodyn crossing. File photograph used for layout; not from Sunday’s strike.",
+  "credit": "Wikimedia Commons / Janusz J. (CC BY-SA 3.0)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "world",
+  "updated": "2026-09-14",
+  "frames": {
+    "cl": {
+      "body": "CNN’s Monday NATO-edge analysis, the BBC’s Yahodyn write-through, and Euronews’s Poland–Ukraine reaction cast the locomotive strike — and a same-day hit near the Yahodyn–Dorohusk road crossing — as Putin’s terror “knocking” on the EU/NATO door: Ukrainian Foreign Minister Andrii Sybiha urged denser sanctions, NATO’s Mark Rutte pledged more support for Kyiv after calling the strikes reckless fear-sowing, and Polish Prime Minister Donald Tusk warned that intensified Russian action could spill toward Polish territory.",
+      "sources": [
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/09/14/europe/russia-drone-strike-ukraine-poland-rail-nato-diplomacy-intl"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/articles/cy5zg41dkqwo"
+        },
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/2026/09/14/poland-and-ukraine-slam-russian-strike-on-train-near-their-border-as-escalation"
+        }
+      ]
+    },
+    "cr": {
+      "body": "The New York Post’s Monday Rutte wrap, The Hill’s AP wire, and Al Arabiya’s AFP pickup of the Russian Defense Ministry line present Moscow’s claim that western-Ukraine railway infrastructure is used to move European military cargo — not a VIP assassination plot — while Kremlin spokesman Dmitry Peskov said Monday that Russian forces operate “across the entire territory of Ukraine” and will continue to do so, framing the episode as logistics warfare near a dual-use border corridor rather than a new NATO Article 5 trigger.",
+      "sources": [
+        {
+          "name": "New York Post",
+          "url": "https://nypost.com/2026/09/14/world-news/nato-calls-out-putins-desperation-as-drone-strike-hit-train/"
+        },
+        {
+          "name": "The Hill (AP)",
+          "url": "https://thehill.com/homenews/ap/ap-international/ap-russian-drone-hits-train-near-ukraine-poland-border-soon-after-visiting-dignitaries-passed-through/"
+        },
+        {
+          "name": "Al Arabiya (AFP)",
+          "url": "https://english.alarabiya.net/News/world/2026/09/13/russia-says-hit-ukraine-rail-site-used-to-transport-military-cargo-from-europe"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Russian drone hits Yahodyn train near Poland; NATO’s Rutte cites Putin ‘desperation’; no casualties.",
+  "seo_description": "A Russian drone struck a train at Yahodyn near Poland after European dignitaries passed through; NATO’s Rutte called it Putin desperation. Dual sourced frames.",
+  "date_modified": "2026-09-14T15:00:00-04:00",
+  "date_published": "2026-09-14T15:00:00-04:00",
+  "article_section": "World"
+}

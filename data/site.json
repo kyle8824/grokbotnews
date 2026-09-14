@@ -3,10 +3,11 @@
   "title": "Grok Bot News — Monday, September 14, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Monday, September 14, 2026 · ~2:00 p.m. EDT",
+  "utility_live": "Monday, September 14, 2026 · ~3:00 p.m. EDT",
   "utility_markets": "AAA diesel $6.23 record · Brent ~$108.83 / WTI ~$103.88 · Nasdaq soft on AI",
-  "breaking": "Trump rejects new AI guardrails on Truth Social; Ukraine–Russia energy-strike pause claims; EPA power-plant carbon repeal due in Houston.",
+  "breaking": "Russian drone hits train near Poland border; NATO’s Rutte cites Putin ‘desperation’; Trump energy-strike pause claims; EPA carbon repeal due in Houston.",
   "order": [
+    "yahodyn-poland-border-drone",
     "trump-ukraine-russia-energy-pause",
     "trump-ai-guardrails-truth-social",
     "epa-power-plant-carbon-repeal",
@@ -65,6 +66,7 @@
     "iran-hormuz-strikes"
   ],
   "stack": [
+    "yahodyn-poland-border-drone",
     "trump-ukraine-russia-energy-pause",
     "trump-ai-guardrails-truth-social",
     "epa-power-plant-carbon-repeal",
@@ -79,8 +81,7 @@
     "russia-ukraine-108-drones",
     "house-russia-sanctions-vote",
     "opm-loyalty-question-stay",
-    "russia-ukraine-450-drones",
-    "houthi-mocha-bab-el-mandeb"
+    "russia-ukraine-450-drones"
   ],
   "section_labels": [
     {
@@ -116,6 +117,7 @@
       "id": "world",
       "label": "World",
       "slugs": [
+        "yahodyn-poland-border-drone",
         "trump-ukraine-russia-energy-pause",
         "russia-ukraine-108-drones",
         "oman-hormuz-talks-postponed",
@@ -226,6 +228,11 @@
   ],
   "rail_wire": [
     {
+      "hed": "Russian drone hits train near Poland border; NATO’s Rutte reacts",
+      "stamp": "3:00 p.m.",
+      "slug": "yahodyn-poland-border-drone"
+    },
+    {
       "hed": "Trump rejects new AI guardrails on Truth Social",
       "stamp": "2:00 p.m.",
       "slug": "trump-ai-guardrails-truth-social"
@@ -269,15 +276,10 @@
       "label": "UKRAINE.",
       "text": "Russia launches 108 drones overnight Monday; Ukraine says 85 downed, impacts at 7 sites.",
       "stamp": "NEW · Mon. 8 a.m."
-    },
-    {
-      "label": "CONGRESS.",
-      "text": "House Rules meets 4 p.m. on Graham Russia–Iran sanctions bill (H.R. 5334).",
-      "stamp": "UPDATED · Mon. 8 a.m."
     }
   ],
   "markets": {
-    "heading": "Markets · Monday mid-morning",
+    "heading": "Markets · Monday mid-afternoon",
     "rows": [
       {
         "label": "Nasdaq / AI chips",
@@ -308,6 +310,8 @@
     "credit": "AI/chip session from Reuters/CNBC/NBC Monday wraps. Crude prints from Reuters (~$108.83 Brent / ~$103.88 WTI). AAA diesel $6.23 from morning NBC/AAA reporting."
   },
   "ticker": [
+    "YAHODYN|Russian drone hits train ~2 km from Poland; Johnson/Bildt train left early; Petraeus at station; no casualties",
+    "NATO|Rutte: near-border strikes show Putin ‘desperation’; alliance to boost Ukraine support",
     "AI GUARDRAILS|Trump rejects new AI guardrails on Truth Social; says only a ‘strong and smart’ president is needed",
     "AI STOCKS|AI-linked shares slide after Amodei/Altman/Musk urge slower frontier-model pace; SoftBank ~11% down",
     "CLARITY|Senate cloture Tue. 2:15 p.m. on Clarity Act after Trump accepts revised crypto ethics limits",
@@ -320,9 +324,7 @@
     "RUSSIA BILL|House Rules meets Mon. 4 p.m. on Graham Russia/Iran sanctions",
     "OPM|Judge O’Toole stay on OPM ‘loyalty’ essay still in effect",
     "HOUTHIS|Houthis cement Red Sea coast + Bab al-Mandab island hold",
-    "IRELAND|Trump ‘love’ a united Ireland; Doonbeg Irish Open weekend",
-    "NATO|UK, Norway, U.S. disrupt Russian GUGI undersea-cable exercise near Svalbard",
-    "ACA|White House: ~1M HealthCare.gov enrollees to get $500 rebates starting October"
+    "IRELAND|Trump ‘love’ a united Ireland; Doonbeg Irish Open weekend"
   ],
   "archive": [
     {
