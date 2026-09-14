@@ -1,0 +1,55 @@
+{
+  "slug": "russia-ukraine-108-drones",
+  "kicker": "Ukraine",
+  "hed": "Russia launches 108 drones overnight Monday; Ukraine reports 85 downed",
+  "stamp": "NEW · Mon. 8 a.m. EDT",
+  "dek": "Ukraine’s Air Force said that from about 6 p.m. Sunday into Monday, Russia launched 108 attack UAVs — including Shahed-type drones (some jet-powered), Gerbera drones, and Parodiya decoys — from Oryol, Kursk, occupied Donetsk, and Crimea. As of about 8 a.m., air defenses had destroyed or suppressed 85 drones, with impacts recorded at seven locations; the Air Force said the attack was still ongoing with drones remaining in Ukrainian airspace. The overnight wave followed Sunday’s much larger 450-plus-drone assault reported earlier in the weekend stack.",
+  "image": "img/russia-ukraine-108-drones.jpg",
+  "alt": "City skyline along a river at dusk, file layout art",
+  "caption": "City skyline file photograph used for layout; not from Monday’s overnight drone wave.",
+  "credit": "Pexels (free license; attribution not required)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "world",
+  "updated": "2026-09-14",
+  "frames": {
+    "cl": {
+      "body": "RBC-Ukraine, UNN, and Ground News/LB summaries lead with Ukraine’s Air Force tally — 108 drones overnight, 85 neutralized, seven hit locations — and the warning that the attack remained ongoing Monday morning, framing another night of Russian long-range UAV pressure after Sunday’s larger wave.",
+      "sources": [
+        {
+          "name": "RBC-Ukraine",
+          "url": "https://newsukraine.rbc.ua/news/russia-attacks-ukraine-with-108-drones-including-1789367576.html"
+        },
+        {
+          "name": "UNN",
+          "url": "https://unn.ua/en/news/russia-attacked-ukraine-with-108-unmanned-aerial-vehicles-85-of-which-were-destroyed-or-suppressed-by-air-defense"
+        },
+        {
+          "name": "Ground News (LB summary)",
+          "url": "https://ground.news/article/the-occupiers-attacked-ukraine-with-more-than-a-hundred-drones-air-defense-forces-shot-down-85-targets-there-are-consequences-in-the-regions"
+        }
+      ]
+    },
+    "cr": {
+      "body": "UNN and RBC-Ukraine’s operational detail — launch axes from Oryol/Kursk, occupied Donetsk, and Crimea; mixed Shahed/Gerbera/Parodiya mix; fighter, SAM, EW, and mobile fire groups — is presented as the Monday morning air-war ledger without treating the seven impact sites as a settled civilian-casualty package pending fuller regional tallies.",
+      "sources": [
+        {
+          "name": "UNN",
+          "url": "https://unn.ua/en/news/russia-attacked-ukraine-with-108-unmanned-aerial-vehicles-85-of-which-were-destroyed-or-suppressed-by-air-defense"
+        },
+        {
+          "name": "RBC-Ukraine",
+          "url": "https://newsukraine.rbc.ua/news/russia-attacks-ukraine-with-108-drones-including-1789367576.html"
+        },
+        {
+          "name": "Ground News (LB summary)",
+          "url": "https://ground.news/article/the-occupiers-attacked-ukraine-with-more-than-a-hundred-drones-air-defense-forces-shot-down-85-targets-there-are-consequences-in-the-regions"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Russia 108 drones overnight Mon.; Ukraine says 85 downed, 7 hit sites.",
+  "seo_description": "Ukraine’s Air Force said Russia launched 108 drones overnight into Monday; 85 were destroyed or suppressed and impacts were recorded at seven locations.",
+  "date_modified": "2026-09-14T08:00:00-04:00",
+  "date_published": "2026-09-14T08:00:00-04:00",
+  "article_section": "World"
+}

@@ -1,55 +1,55 @@
 {
   "slug": "brent-105-dual-chokepoint",
   "kicker": "Energy markets",
-  "hed": "AAA diesel hits record $6.20; Fri settle still Brent $104.61 / WTI $100.05",
-  "stamp": "UPDATED · Sun. 4:15 p.m. EDT",
-  "dek": "AAA’s national average diesel price reached a record $6.20 a gallon on Sunday, Sep. 13, according to Fox Business citing AAA — the highest diesel average on AAA’s recorded table. Friday’s futures settles remain the last verified print used here: Brent $104.61 and WTI $100.05, still finishing a week with gains of more than 8% and both benchmarks above $100. Markets continued to price the dual chokepoint squeeze: Houthi advances near Bab el-Mandeb and constrained Hormuz flows.",
+  "hed": "Brent jumps toward $108; AAA diesel hits new record $6.23",
+  "stamp": "UPDATED · Mon. 8 a.m. EDT",
+  "dek": "Oil futures jumped more than 3% on Monday as Saudi Arabia’s East-West pipeline remained shut and Oman postponed Gulf–Iran Hormuz talks: Brent rose about $3.21 to roughly $107.82 a barrel (intraday near $108), while WTI gained about $3.17 to about $103.22, according to Al Jazeera and NBC News market wraps. AAA’s national average diesel price reached a new record $6.23 a gallon on Monday, with regular gasoline around $4.31, NBC News reported citing AAA.",
   "image": "img/brent-105-oil-markets.jpg",
   "alt": "Oil refinery towers and industrial piping against a clear blue sky",
-  "caption": "Refinery towers and process piping. File photograph used for layout; not from Friday’s oil settlement prints.",
+  "caption": "Refinery towers and process piping. File photograph used for layout; not from Monday’s futures prints.",
   "credit": "Pexels (free license; attribution not required)",
   "byline": "Event summary from public market desks and named outlets",
   "section": "energy",
-  "updated": "2026-09-13",
+  "updated": "2026-09-14",
   "frames": {
     "cl": {
-      "body": "Fox Business, Newsquawk, and EnergyNow frame Sunday’s AAA diesel record at $6.20 alongside Friday’s still-standing settle prints — Brent $104.61 (−$3.02) and WTI $100.05 (−$2.43) — as a refined-product shock layered on a week that still left both crude contracts above $100 despite Friday’s pullback.",
+      "body": "NBC News, Al Jazeera, and Anadolu Agency frame Monday’s dual shock — Brent near $108 and AAA diesel’s new $6.23 record — as the market pricing a still-shut Saudi East-West line, thin Hormuz traffic, and the postponement of Oman’s Gulf–Iran meeting, with economists warning diesel costs feed into food and freight inflation.",
       "sources": [
         {
-          "name": "Fox Business",
-          "url": "https://www.foxbusiness.com/politics/diesel-tops-6-fuel-shock-threatens-truckers-farmers-consumers"
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/business/business-news/diesel-oil-prices-jump-saudi-pipeline-shut-hormuz-talks-postponed-iran-rcna597579"
         },
         {
-          "name": "Newsquawk",
-          "url": "https://www.newsquawk.com/headlines/crude-wrap-wti-v6-settles-usd-243-lower-at-10005bbl"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/14/us-says-its-clearing-hormuz-traffic-why-are-oil-futures-beyond-100"
         },
         {
-          "name": "EnergyNow",
-          "url": "https://energynow.ca/2026/09/oil-ends-above-100-despite-friday-pullback-as-middle-east-supply-crisis-drives-big-weekly-gain/"
+          "name": "Anadolu Agency",
+          "url": "https://www.aa.com.tr/en/economy/diesel-prices-continue-to-rise-in-us-exceeding-62-per-gallon/4056446"
         }
       ]
     },
     "cr": {
-      "body": "Fox Business’s diesel-record package and EnergyNow/Reuters week wraps stress that AAA’s $6.20 national diesel average now sits at a recorded high while Friday’s Brent/WTI settles above $100 keep dual-chokepoint premiums — Mocha/Bab el-Mandeb and Hormuz tanker risk — embedded heading into Monday’s open.",
+      "body": "The National, Al Jazeera’s Wright/Hormuz explainer, and Anadolu’s Monday diesel print stress supply-risk premiums: Petroline offline while Hormuz flows remain far below pre-war levels, U.S. Energy Secretary Chris Wright’s claim of roughly two-thirds of prior Hormuz oil volumes notwithstanding, as Brent and WTI both print above $100 into the new week.",
       "sources": [
         {
-          "name": "Fox Business",
-          "url": "https://www.foxbusiness.com/politics/diesel-tops-6-fuel-shock-threatens-truckers-farmers-consumers"
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/business/energy/2026/09/14/oil-nears-108-after-saudi-arabia-shuts-pipeline-amid-attacks/"
         },
         {
-          "name": "EnergyNow",
-          "url": "https://energynow.ca/2026/09/oil-ends-above-100-despite-friday-pullback-as-middle-east-supply-crisis-drives-big-weekly-gain/"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/14/us-says-its-clearing-hormuz-traffic-why-are-oil-futures-beyond-100"
         },
         {
-          "name": "Reuters",
-          "url": "https://www.reuters.com/business/energy/oil-prices-set-end-week-over-100-first-time-nearly-4-months-2026-09-11/"
+          "name": "Anadolu Agency",
+          "url": "https://www.aa.com.tr/en/economy/diesel-prices-continue-to-rise-in-us-exceeding-62-per-gallon/4056446"
         }
       ]
     }
   },
-  "stack_blurb": "AAA diesel record $6.20; Fri Brent $104.61 / WTI $100.05.",
-  "seo_description": "AAA diesel hit a record national average of $6.20 on Sep. 13; Friday settles remain Brent $104.61 and WTI $100.05 as dual-chokepoint risk persists.",
-  "date_modified": "2026-09-13T16:15:00-04:00",
+  "stack_blurb": "Brent ~$107.82 toward $108; AAA diesel record $6.23 Monday.",
+  "seo_description": "Monday oil jump: Brent near $108 and WTI above $103 as AAA diesel hits a record $6.23 amid Saudi East-West outage and postponed Oman Hormuz talks.",
+  "date_modified": "2026-09-14T08:00:00-04:00",
   "date_published": "2026-09-10T19:15:00-04:00",
   "article_section": "Energy"
 }

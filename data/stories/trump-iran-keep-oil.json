@@ -1,19 +1,19 @@
 {
   "slug": "trump-iran-keep-oil",
   "kicker": "Ireland / Iran",
-  "hed": "Trump says U.S. could stay in Iran and ‘keep the oil,’ citing Venezuela deal",
-  "stamp": "NEW · Sun. 4:15 p.m. EDT",
-  "dek": "At the Irish Open in Doonbeg on Sunday, President Trump said the United States could “stay and keep the oil” in Iran, comparing that option to his administration’s Venezuela oil arrangement, and added that Venezuela revenue had “paid for the war many times.” He said the Iran war may end around or just after the November midterms, that gasoline would then “drop like a rock,” and that Iran was “calling constantly” for a deal — while insisting he would only accept the “right deal.”",
+  "hed": "Trump: U.S. could stay in Iran and ‘keep the oil’; asks Zelenskyy to spare Russian diesel",
+  "stamp": "UPDATED · Mon. 8 a.m. EDT",
+  "dek": "At the Irish Open in Doonbeg on Sunday, President Trump said the United States could “stay and keep the oil” in Iran, comparing that option to his administration’s Venezuela oil arrangement, and added that Venezuela revenue had “paid for the war many times.” He said the Iran war may end around or just after the November midterms and that gasoline would then “drop like a rock.” NBC News reported he also told reporters he had asked Ukrainian President Volodymyr Zelenskyy to stop targeting Russian diesel/refining infrastructure because those strikes were “hurting the world” amid record U.S. diesel prices. Monday crude still jumped toward $108.",
   "image": "img/trump-iran-keep-oil.jpg",
   "alt": "Khawr Al Amaya oil platform in the northern Arabian Gulf at sunrise",
   "caption": "Iraq’s Khawr Al Amaya Oil Platform (KAAOT) in the northern Arabian Gulf. U.S. Navy file photograph; not from Sunday’s Doonbeg remarks.",
   "credit": "U.S. Navy / Mass Communication Specialist 2nd Class Lenny M. Francioni (public domain)",
   "byline": "Event summary from public reporting and named outlets",
   "section": "politics",
-  "updated": "2026-09-13",
+  "updated": "2026-09-14",
   "frames": {
     "cl": {
-      "body": "Reuters, The Hill, and The Jerusalem Post lead with Trump’s Doonbeg line that the U.S. might “stay and keep the oil” in Iran like the Venezuela deal, his midterms-timed war-end forecast, and the claim that Tehran is “calling constantly” — alongside market context that Middle East turmoil and the Saudi pipeline outage already have oil traders bracing for a Monday bounce.",
+      "body": "Reuters, The Hill, and NBC News lead with Trump’s Doonbeg “keep the oil” Iran option beside the Venezuela parallel, his midterms-timed war-end forecast, and his reported ask that Zelenskyy stop hitting Russian diesel — as Monday’s $108 Brent print and AAA’s $6.23 diesel record underscored the energy stakes he was describing.",
       "sources": [
         {
           "name": "Reuters",
@@ -24,32 +24,32 @@
           "url": "https://thehill.com/policy/energy-environment/6086928-trump-compares-iran-venezuela-oil/"
         },
         {
-          "name": "Jerusalem Post",
-          "url": "https://www.jpost.com/american-politics/article-908464"
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/business/business-news/diesel-oil-prices-jump-saudi-pipeline-shut-hormuz-talks-postponed-iran-rcna597579"
         }
       ]
     },
     "cr": {
-      "body": "Al Arabiya English, KVIA/ABC, and Arab News stress Trump’s Sunday forecast that the Iran war ends around or after the midterms with gasoline set to “drop like a rock,” his insistence he will only take the “right deal,” and the Venezuela parallel — including his claim that U.S. Venezuela oil revenue has “paid for the war many times” — as he spoke from the Irish Open at Doonbeg.",
+      "body": "Arab News, Al Arabiya English, and CNA stress Trump’s Sunday forecast that the Iran war ends around or after the midterms with gasoline set to “drop like a rock,” his insistence on the “right deal,” and the Venezuela revenue claim — while NBC’s diesel-ask reporting ties his Doonbeg remarks to Monday’s record U.S. diesel average.",
       "sources": [
+        {
+          "name": "Arab News",
+          "url": "https://www.arabnews.com/middle-east/trump-says-us-could-stay-in-iran-and-keep-oil-like-venezuela-deal-3001586"
+        },
         {
           "name": "Al Arabiya English",
           "url": "https://english.alarabiya.net/News/middle-east/2026/09/13/trump-reiterates-that-he-sees-iran-war-ending-after-us-midterm-elections"
         },
         {
-          "name": "KVIA / ABC",
-          "url": "https://kvia.com/news/2026/09/13/trump-blames-high-gas-prices-on-ukraine-says-tehran-wants-a-deal/"
-        },
-        {
-          "name": "Arab News",
-          "url": "https://www.arabnews.com/middle-east/trump-says-us-could-stay-in-iran-and-keep-oil-like-venezuela-deal-3001586"
+          "name": "CNA",
+          "url": "https://www.channelnewsasia.com/world/trump-says-us-could-stay-in-iran-and-keep-oil-venezuela-deal-6381856"
         }
       ]
     }
   },
-  "stack_blurb": "Trump: U.S. could stay in Iran and ‘keep the oil,’ citing Venezuela deal.",
-  "seo_description": "At Doonbeg’s Irish Open, President Trump said the U.S. could stay in Iran and keep the oil like the Venezuela deal, and that the war may end around the November midterms.",
-  "date_modified": "2026-09-13T16:15:00-04:00",
+  "stack_blurb": "Trump: stay in Iran / ‘keep the oil’; asks Zelenskyy to spare Russian diesel.",
+  "seo_description": "Trump said the U.S. could stay in Iran and keep the oil like Venezuela, and asked Zelenskyy to stop hitting Russian diesel as U.S. diesel hit a record and Brent neared $108.",
+  "date_modified": "2026-09-14T08:00:00-04:00",
   "date_published": "2026-09-13T16:15:00-04:00",
   "article_section": "Politics"
 }

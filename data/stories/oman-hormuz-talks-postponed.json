@@ -1,0 +1,55 @@
+{
+  "slug": "oman-hormuz-talks-postponed",
+  "kicker": "Diplomacy / Hormuz",
+  "hed": "Oman postpones Monday Gulf–Iran Hormuz meeting; Iran cites Saudi request",
+  "stamp": "NEW · Mon. 8 a.m. EDT",
+  "dek": "Omani Foreign Minister Badr Albusaidi said a regional meeting set for Monday in Salalah between Gulf countries and Iran to discuss Strait of Hormuz shipping arrangements was postponed “in the interests of consensus.” Iranian officials said the delay followed a Saudi request; Oman’s state reporting said conditions for constructive dialogue were not in place. No new date was announced. Market desks cited the postponement alongside the Saudi East-West outage as a Monday driver of Brent’s jump toward $108.",
+  "image": "img/oman-hormuz-talks-postponed.jpg",
+  "alt": "Central business district skyline of Ruwi in Muscat, Oman",
+  "caption": "Ruwi central business district, Muscat, Oman. File photograph; not from Monday’s postponed Salalah meeting.",
+  "credit": "Gyanibash / Wikimedia Commons (CC BY-SA 3.0)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "world",
+  "updated": "2026-09-14",
+  "frames": {
+    "cl": {
+      "body": "Reuters, The National, and NBC News frame the Salalah postponement as a diplomatic stumble that compounds Monday energy risk: without a Gulf–Iran shipping-lane session, Hormuz remains contested while Petroline stays dark and crude prints near $108.",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/middle-east/oman-meeting-between-gulf-states-iran-postponed-omani-foreign-minister-says-2026-09-13/"
+        },
+        {
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/09/14/iran-gulf-talks-shelved-as-oman-says-conditions-not-right/"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/business/business-news/diesel-oil-prices-jump-saudi-pipeline-shut-hormuz-talks-postponed-iran-rcna597579"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Türkiye Today’s Baghaei briefing, Reuters’s Albusaidi post, and Al Jazeera’s Monday explainer stress Iran’s claim that Saudi Arabia asked for the delay, Oman’s consensus rationale, and Tehran’s line that an Iran–Oman Hormuz understanding remains finalized even if the wider Gulf ministers’ session did not convene Monday.",
+      "sources": [
+        {
+          "name": "Türkiye Today",
+          "url": "https://www.turkiyetoday.com/region/oman-meeting-canceled-at-saudi-arabias-request-iran-says-3228108"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/energy/diplomacy-stumbles-with-postponement-meeting-strait-hormuz-proposal-2026-09-13/"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/14/us-says-its-clearing-hormuz-traffic-why-are-oil-futures-beyond-100"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Oman postpones Mon. Gulf–Iran Hormuz talks; Iran cites Saudi request.",
+  "seo_description": "Oman postponed Monday’s Salalah meeting between Gulf states and Iran on Hormuz shipping; Iran said Saudi Arabia requested the delay; no new date set.",
+  "date_modified": "2026-09-14T08:00:00-04:00",
+  "date_published": "2026-09-14T08:00:00-04:00",
+  "article_section": "World"
+}
