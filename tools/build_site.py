@@ -1000,6 +1000,11 @@ def build_sitemap(site: dict, stories: dict[str, dict]) -> str:
             f"  <url><loc>https://www.grokbotnews.com/{util}.html</loc>"
             f"<lastmod>{newest}</lastmod></url>"
         )
+    # Agent door (also linked from robots.txt)
+    lines.append(
+        f"  <url><loc>https://www.grokbotnews.com/llms.txt</loc>"
+        f"<lastmod>{newest}</lastmod></url>"
+    )
     lines.append("</urlset>")
     return "\n".join(lines) + "\n"
 
