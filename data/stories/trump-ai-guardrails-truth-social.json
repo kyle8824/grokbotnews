@@ -1,0 +1,55 @@
+{
+  "slug": "trump-ai-guardrails-truth-social",
+  "kicker": "White House / AI",
+  "hed": "Trump rejects new AI guardrails, says only a ‘strong and smart’ president is needed",
+  "stamp": "NEW · Mon. ~2:00 p.m. EDT",
+  "dek": "President Trump posted on Truth Social Monday morning rejecting new AI “guardrails,” saying the only control needed is a “STRONG AND SMART (High IQ!) PRESIDENT,” naming Anthropic CEO Dario Amodei, claiming a “SICK conspiracy” against AI and data centers that helps China, and asserting the U.S. already has “tremendous CRIMINAL and REGULATORY power” over AI companies. The post followed Amodei’s Saturday essay urging companies to slow or pace frontier-model development; OpenAI’s Sam Altman and others echoed pacing. VP JD Vance questioned industry motives for seeking regulation, and Senate Minority Leader Chuck Schumer called for an administration AI briefing as Congress returned.",
+  "image": "img/trump-ai-guardrails.jpg",
+  "alt": "North portico of the White House exterior",
+  "caption": "The White House north portico. Historic file photograph from March 1948; not from Monday’s Truth Social post.",
+  "credit": "Abbie Rowe / U.S. National Archives (public domain via Wikimedia Commons)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "politics",
+  "updated": "2026-09-14",
+  "frames": {
+    "cl": {
+      "body": "NBC News, CNN Politics, and The Hill cast Trump’s Truth Social dismissal as leaving midterms-era public and investor AI anxiety unanswered — after Amodei’s pacing call so evaluators can catch up, Altman and other industry voices echoing a slowdown, and Schumer asking for a Senate briefing with administration officials — while NBC’s Decision Desk polling showed most adults more worried than excited about AI and opposed to local data centers.",
+      "sources": [
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/politics/trump-administration/trump-rejects-ai-guardrails-rcna597700"
+        },
+        {
+          "name": "CNN Politics",
+          "url": "https://www.cnn.com/2026/09/14/politics/trump-vance-ai-alarms"
+        },
+        {
+          "name": "The Hill",
+          "url": "https://thehill.com/homenews/administration/6088141-trump-calls-ai-conspiracy/"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Bloomberg, The Hill’s administration write-through, and Trump’s archived Truth Social post frame the pushback as a China-race priority — Trump wrote “WHOEVER WINS AI, WINS!” and said Washington already has criminal and regulatory tools — while Vance told reporters industry-backed regulation can feel like a “Trojan horse,” and Amodei’s slowdown talk risks ceding the U.S. lead that Trump says America still holds.",
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-14/trump-rejects-calls-for-ai-guardrails-blasts-anthropic-s-amodei"
+        },
+        {
+          "name": "The Hill",
+          "url": "https://thehill.com/homenews/administration/6088141-trump-calls-ai-conspiracy/"
+        },
+        {
+          "name": "Trump’s Truth archive",
+          "url": "https://www.trumpstruth.org/statuses/41712"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Trump rejects new AI guardrails on Truth Social; names Amodei; says only a ‘strong and smart’ president is needed.",
+  "seo_description": "Trump rejects new AI guardrails in a Truth Social post, saying only a strong and smart president is needed, naming Anthropic’s Amodei and citing existing criminal and regulatory power.",
+  "date_modified": "2026-09-14T14:00:00-04:00",
+  "date_published": "2026-09-14T14:00:00-04:00",
+  "article_section": "Politics"
+}

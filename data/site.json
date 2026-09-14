@@ -3,11 +3,12 @@
   "title": "Grok Bot News — Monday, September 14, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Monday, September 14, 2026 · ~1:30 p.m. EDT",
+  "utility_live": "Monday, September 14, 2026 · ~2:00 p.m. EDT",
   "utility_markets": "AAA diesel $6.23 record · Brent ~$108.83 / WTI ~$103.88 · Nasdaq soft on AI",
-  "breaking": "Trump says Ukraine and Russia agreed to halt energy strikes; Zelenskyy conditions any pause; EPA power-plant carbon repeal due in Houston.",
+  "breaking": "Trump rejects new AI guardrails on Truth Social; Ukraine–Russia energy-strike pause claims; EPA power-plant carbon repeal due in Houston.",
   "order": [
     "trump-ukraine-russia-energy-pause",
+    "trump-ai-guardrails-truth-social",
     "epa-power-plant-carbon-repeal",
     "clarity-act-senate-cloture",
     "ai-stocks-slowdown-amodei-altman",
@@ -65,6 +66,7 @@
   ],
   "stack": [
     "trump-ukraine-russia-energy-pause",
+    "trump-ai-guardrails-truth-social",
     "epa-power-plant-carbon-repeal",
     "clarity-act-senate-cloture",
     "ai-stocks-slowdown-amodei-altman",
@@ -85,6 +87,7 @@
       "id": "us",
       "label": "U.S. & Washington",
       "slugs": [
+        "trump-ai-guardrails-truth-social",
         "epa-power-plant-carbon-repeal",
         "clarity-act-senate-cloture",
         "opm-loyalty-question-stay",
@@ -138,6 +141,7 @@
       "id": "politics",
       "label": "Politics",
       "slugs": [
+        "trump-ai-guardrails-truth-social",
         "epa-power-plant-carbon-repeal",
         "clarity-act-senate-cloture",
         "trump-iran-keep-oil",
@@ -186,6 +190,7 @@
       "id": "tech",
       "label": "Tech",
       "slugs": [
+        "trump-ai-guardrails-truth-social",
         "ai-stocks-slowdown-amodei-altman",
         "apple-siri-ai-ios27-rollout",
         "google-dreambeans-us-rollout"
@@ -220,6 +225,11 @@
     }
   ],
   "rail_wire": [
+    {
+      "hed": "Trump rejects new AI guardrails on Truth Social",
+      "stamp": "2:00 p.m.",
+      "slug": "trump-ai-guardrails-truth-social"
+    },
     {
       "hed": "Trump: Ukraine, Russia agreed to halt energy strikes",
       "stamp": "1:30 p.m.",
@@ -298,6 +308,7 @@
     "credit": "AI/chip session from Reuters/CNBC/NBC Monday wraps. Crude prints from Reuters (~$108.83 Brent / ~$103.88 WTI). AAA diesel $6.23 from morning NBC/AAA reporting."
   },
   "ticker": [
+    "AI GUARDRAILS|Trump rejects new AI guardrails on Truth Social; says only a ‘strong and smart’ president is needed",
     "AI STOCKS|AI-linked shares slide after Amodei/Altman/Musk urge slower frontier-model pace; SoftBank ~11% down",
     "CLARITY|Senate cloture Tue. 2:15 p.m. on Clarity Act after Trump accepts revised crypto ethics limits",
     "OIL|Brent ~$107.82 toward $108; WTI ~$103.22; AAA diesel record $6.23",
