@@ -1,0 +1,55 @@
+{
+  "slug": "public-charge-green-card-suits",
+  "kicker": "Immigration / Courts",
+  "hed": "States and cities sue to block expanded public-charge green-card rule set for Friday",
+  "stamp": "NEW · Mon. ~4:00 p.m. EDT",
+  "dek": "New York Attorney General Letitia James led 22 states and D.C. in a Monday Southern District of New York suit challenging a Department of Homeland Security public-charge rule set to take effect Friday that would again let officers weigh non-cash benefits such as SNAP and Medicaid when deciding green-card applications. A parallel case led by New York City Mayor Zohran Mamdani includes Chicago, San Francisco, Seattle and other localities. Plaintiffs call the rule unlawful under the Administrative Procedure Act; a DHS spokesperson cast the challengers as sanctuary jurisdictions trying to keep noncitizens on welfare programs.",
+  "image": "img/public-charge-green-card.jpg",
+  "alt": "Specimen of a U.S. permanent resident card, also called a green card",
+  "caption": "Specimen of a U.S. permanent resident card (green card). U.S. government image; not from Monday’s filings.",
+  "credit": "USCIS / Wikimedia Commons (public domain)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "lead",
+  "updated": "2026-09-14",
+  "frames": {
+    "cl": {
+      "body": "Reuters’s Monday filing wrap, ABC News’s mayors-and-states coverage, and James’s AG press statement cast the twin SDNY suits as a replay of successful challenges to the first-term public-charge expansion: Democratic AGs and city leaders argue DHS exceeds statute, leaves families guessing which benefits jeopardize status, and will push eligible households off food and health aid before Friday’s effective date.",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/government/states-cities-sue-block-trump-immigration-rule-public-benefits-2026-09-14/"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/Politics/mayors-states-sue-trump-new-green-card-restrictions/story?id=136426646"
+        },
+        {
+          "name": "N.Y. Attorney General",
+          "url": "https://ag.ny.gov/press-release/2026/attorney-general-james-leads-major-challenge-trump-administrations-attack"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Fox News’s Monday Mamdani–James report and DHS’s statement quoted by Reuters frame the suits as sanctuary-state resistance to restoring a first-term public-charge screen — DHS called plaintiffs “left-wing leaders” worried noncitizens might leave welfare programs — while Fox notes the White House had no immediate comment and that asylum seekers and citizens are outside the green-card benefits test.",
+      "sources": [
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/politics/mamdani-letitia-james-sue-block-trump-admin-from-refusing-immigrants-over-welfare-status"
+        },
+        {
+          "name": "Reuters (DHS statement)",
+          "url": "https://www.reuters.com/legal/government/states-cities-sue-block-trump-immigration-rule-public-benefits-2026-09-14/"
+        },
+        {
+          "name": "Fox News Video",
+          "url": "https://www.foxnews.com/video/6405041476112"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "States and cities sue over public-charge green-card rule set for Friday.",
+  "seo_description": "Democratic-led states and cities sued Monday to block a DHS public-charge rule set for Friday that would again weigh SNAP and Medicaid in green-card decisions.",
+  "date_modified": "2026-09-14T16:00:00-04:00",
+  "date_published": "2026-09-14T16:00:00-04:00",
+  "article_section": "Politics"
+}

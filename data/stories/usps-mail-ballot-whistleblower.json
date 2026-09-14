@@ -1,55 +1,55 @@
 {
   "slug": "usps-mail-ballot-whistleblower",
-  "kicker": "Postal Service",
-  "hed": "First Circuit declines to stay block on USPS mail-ballot rule as SCOTUS still weighs DOJ bid",
-  "stamp": "UPDATED · Thu. 4:00 p.m. EDT",
-  "dek": "A three-judge panel of the Boston-based 1st U.S. Circuit Court of Appeals on Thursday declined to stay U.S. District Judge Indira Talwani’s preliminary injunction blocking mandatory parts of the Postal Service’s Aug. 26 Ballot Mail for Federal Elections rule for the Nov. 3 midterms, Reuters reported. The Biden-appointed panel said states and Congress regulate elections under the Constitution, not the executive branch, and saw no error in Talwani’s finding that letting the rule take effect would likely disenfranchise millions of voters. California Attorney General Rob Bonta hailed the ruling; USPS and the White House had no immediate comment. The Justice Department’s Supreme Court stay application in United States Postal Service v. California, No. 26A305 — filed before the 1st Circuit ruled — remains pending.",
+  "kicker": "Postal Service / Courts",
+  "hed": "Second federal judge blocks USPS mail-ballot rule as SCOTUS still weighs DOJ stay",
+  "stamp": "UPDATED · Mon. ~4:00 p.m. EDT",
+  "dek": "U.S. District Judge Carl J. Nichols in Washington issued a preliminary injunction late Sunday blocking the Postal Service from enforcing its Aug. 21 Ballot Mail for Federal Elections final rule — including new envelope-design requirements and a federal voter portal — after finding key parts likely exceed Congress’s grant of authority and risk midterm disenfranchisement. The order adds a second nationwide lower-court block alongside Judge Indira Talwani’s earlier Boston injunction, which the First Circuit left in place last week while the Justice Department’s Supreme Court stay application (No. 26A305) remains pending.",
   "image": "img/ballots.jpg",
   "alt": "Election worker in blue gloves holding a vote-by-mail envelope",
-  "caption": "",
+  "caption": "Mail-ballot processing. File photograph; not from Sunday’s D.C. ruling.",
   "credit": "Mail-ballot processing · file",
   "byline": "Event summary from public reporting and named outlets",
   "section": "lead",
-  "updated": "2026-09-10",
+  "updated": "2026-09-14",
   "frames": {
     "cl": {
-      "body": "Reuters, the ACLU’s joint challenger statement, and SCOTUSblog’s emergency-docket coverage frame Thursday’s 1st Circuit order as leaving Talwani’s injunction in place through the midterms, citing the panel’s warning of chaos and widespread disenfranchisement and Bonta’s claim that the appeals court rejected another attempt to disrupt mail voting.",
+      "body": "Bloomberg Law’s Monday write-through, The Hill’s court-battles report, and UPI’s second-judge coverage cast Nichols’s Sunday PI as another midterm-season setback for Trump’s mail-voting overhaul: a Trump-appointed judge concluding no statute authorizes the portal and voter-list conditions, noting the short window before Nov. 3, and leaving Talwani’s Boston block and the pending SCOTUS stay bid as the administration’s remaining path.",
       "sources": [
         {
-          "name": "Reuters",
-          "url": "https://www.reuters.com/world/us-appeals-court-rejects-trump-bid-implement-mail-in-voting-restrictions-2026-09-10/"
+          "name": "Bloomberg Law",
+          "url": "https://news.bloomberglaw.com/litigation/democrats-win-new-block-on-trump-mail-ballot-curbs-for-midterms"
         },
         {
-          "name": "ACLU",
-          "url": "https://www.aclu.org/press-releases/appeals-court-maintains-preliminary-injunction-blocking-u-s-postal-service-from-enforcing-key-parts-of-new-rule-to-restrict-mail-ballots"
+          "name": "The Hill",
+          "url": "https://thehill.com/regulation/court-battles/6087668-second-judge-freeze-donald-trump-usps-mail-in-voting-restrictions-midterms/"
         },
         {
-          "name": "SCOTUSblog",
-          "url": "https://www.scotusblog.com/2026/09/trump-administration-again-appeals-mail-in-ballot-dispute-to-the-supreme-court/"
+          "name": "UPI",
+          "url": "https://www.upi.com/Top_News/US/2026/09/14/second-judge-blocks-trump-mail-voting-plan-usps/2661789406715/"
         }
       ]
     },
     "cr": {
-      "body": "After the 1st Circuit left Talwani’s PI in place, the administration’s live path remains the pending Supreme Court stay application. The DOJ filing, Washington Examiner, and Fox News stress Solicitor General D. John Sauer’s argument that the Postal Service’s barcode and recipient-list rules are a modest anti-fraud mail regulation and that irreparable harm follows if the injunction stands while more states mail ballots.",
+      "body": "The Washington Examiner’s Monday Nichols wrap, Just the News’s court brief, and the administration’s still-pending DOJ Supreme Court stay application frame the D.C. injunction as one more lower-court obstacle while Solicitor General Sauer argues the Postal Service’s barcode and recipient-list rules are modest anti-fraud mail regulation — and that irreparable harm follows if injunctions lock in status quo as more states begin mailing ballots.",
       "sources": [
+        {
+          "name": "Washington Examiner",
+          "url": "https://www.washingtonexaminer.com/news/justice/4725698/trump-nominated-judge-blocks-usps-mail-in-ballot-rule/"
+        },
+        {
+          "name": "Just the News",
+          "url": "https://justthenews.com/government/courts-law/another-judge-blocks-trumps-mail-ballot-rule"
+        },
         {
           "name": "DOJ PI stay application",
           "url": "https://www.supremecourt.gov/DocketPDF/26/26A305/423226/20260906094442523_USPS%20v.%20State%20of%20California%20PI%20No.%2026A%20-%20Stay%20App.pdf"
-        },
-        {
-          "name": "Washington Examiner",
-          "url": "https://www.washingtonexaminer.com/news/supreme-court/4715478/trump-appeal-supreme-court-mail-in-ballot-restrictions/"
-        },
-        {
-          "name": "Fox News",
-          "url": "https://www.foxnews.com/politics/trump-admin-mail-ballot-fight-lands-back-supreme-court"
         }
       ]
     }
   },
-  "stack_blurb": "1st Circuit leaves Talwani PI in place; SCOTUS 26A305 still pending.",
-  "seo_description": "The 1st Circuit on Thursday declined to stay Judge Talwani’s injunction blocking the USPS Aug. 26 mail-ballot rule while the Supreme Court still weighs DOJ application 26A305.",
-  "date_modified": "2026-09-10T16:00:00-04:00",
+  "stack_blurb": "Judge Nichols blocks USPS mail-ballot rule; Talwani PI + SCOTUS 26A305 still live.",
+  "seo_description": "Judge Carl Nichols issued a second preliminary injunction blocking the USPS mail-ballot rule while the Supreme Court still weighs DOJ’s stay of Judge Talwani’s order.",
+  "date_modified": "2026-09-14T16:00:00-04:00",
   "date_published": "2026-09-08T12:00:00-04:00",
   "article_section": "Politics"
 }
