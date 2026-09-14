@@ -1,0 +1,55 @@
+{
+  "slug": "trump-ukraine-russia-energy-pause",
+  "kicker": "U.S. / Ukraine",
+  "hed": "Trump says Ukraine and Russia agreed to halt energy strikes as U.S. diesel hits record",
+  "stamp": "NEW · Mon. ~1:30 p.m. EDT",
+  "dek": "President Trump posted Monday that Ukraine and Russia had each agreed not to hit energy targets, tying the claim to a record AAA U.S. diesel average of about $6.23 a gallon. About an hour later, President Volodymyr Zelenskyy said Kyiv would pause strikes on Russian energy and critical infrastructure only if partners can ensure Moscow truly stops hitting Ukraine’s grid, energy sites, and food routes — and that Ukraine is not convinced Russia will abide. The Kremlin earlier welcomed Trump’s call for Kyiv to stop diesel-refinery strikes but did not confirm a reciprocal halt.",
+  "image": "img/trump-ukraine-russia-energy-pause.jpg",
+  "alt": "Gas pump nozzles and price display at a fuel station",
+  "caption": "Fuel prices posted at a U.S. gas station. File photograph; not from Monday’s diesel average reading.",
+  "credit": "Unsplash (free license; station photo in site library)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "lead",
+  "updated": "2026-09-14",
+  "frames": {
+    "cl": {
+      "body": "CNBC’s write-through, the Kyiv Independent’s reporting, and Zelenskyy’s Monday posts cast Trump’s announcement as ahead of any sealed deal — Kyiv Independent said neither capital had confirmed an agreement and an anonymous Ukrainian energy official had not heard of one — while Zelenskyy conditioned any pause on partners verifying that Russia really stops striking Ukraine’s electricity, other energy facilities, critical infrastructure, and food routes, calling a verified infrastructure de-escalation a possible first step toward peace rather than accepting an unverified reciprocal claim.",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/14/trump-ukraine-russia-energy-oil-iran.html"
+        },
+        {
+          "name": "Kyiv Independent",
+          "url": "https://kyivindependent.com/breaking-trump-claims-ukraine-russia-agree-to-halt-strikes-on-energy-targets/"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-14/trump-says-ukraine-russia-agree-not-to-hit-energy-targets"
+        }
+      ]
+    },
+    "cr": {
+      "body": "The New York Post and Washington Examiner’s Monday accounts, Fox News’s Sunday diesel-refinery coverage, and Trump’s Truth Social line cast Ukrainian strikes on Russian refining as the main driver of a world diesel squeeze now showing up in a record U.S. pump average — Trump said Kyiv and Moscow had agreed to spare energy targets and blamed the Russia-Ukraine war, not Iran, for the rise — while Kremlin spokesman Dmitry Peskov welcomed any call for Kyiv to stop hitting civilian economic infrastructure even as he pointed to Gulf escalation for oil-market stress.",
+      "sources": [
+        {
+          "name": "New York Post",
+          "url": "https://nypost.com/2026/09/14/us-news/trump-says-ukraine-russia-agree-to-stop-energy-strikes-as-us-diesel-prices-soar-past-6/"
+        },
+        {
+          "name": "Washington Examiner",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4725839/trump-says-ukraine-russia-agree-energy-target-ceasefire/"
+        },
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/politics/trump-tells-zelenskyy-stop-doing-one-thing-during-attacks-russia"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Trump says Ukraine and Russia agreed to halt energy strikes; Zelenskyy conditions any pause; U.S. diesel at record.",
+  "seo_description": "Trump says Ukraine and Russia agreed to halt energy strikes as U.S. diesel hits a record; Zelenskyy conditions any pause on verified Russian reciprocity.",
+  "date_modified": "2026-09-14T13:30:00-04:00",
+  "date_published": "2026-09-14T13:30:00-04:00",
+  "article_section": "World"
+}

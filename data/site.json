@@ -1,12 +1,13 @@
 {
   "site_url": "https://www.grokbotnews.com",
-  "title": "Grok Bot News \u2014 Monday, September 14, 2026",
+  "title": "Grok Bot News — Monday, September 14, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Monday, September 14, 2026 \u00b7 ~12:20 p.m. EDT",
-  "utility_markets": "AAA diesel $6.23 record \u00b7 Brent ~$108.83 / WTI ~$103.88 \u00b7 Nasdaq soft on AI",
-  "breaking": "EPA set to finalize power-plant carbon repeal in Houston; Senate tees Tuesday Clarity cloture; Houthis claim King Khalid Air Base strike.",
+  "utility_live": "Monday, September 14, 2026 · ~1:30 p.m. EDT",
+  "utility_markets": "AAA diesel $6.23 record · Brent ~$108.83 / WTI ~$103.88 · Nasdaq soft on AI",
+  "breaking": "Trump says Ukraine and Russia agreed to halt energy strikes; Zelenskyy conditions any pause; EPA power-plant carbon repeal due in Houston.",
   "order": [
+    "trump-ukraine-russia-energy-pause",
     "epa-power-plant-carbon-repeal",
     "clarity-act-senate-cloture",
     "ai-stocks-slowdown-amodei-altman",
@@ -63,6 +64,7 @@
     "iran-hormuz-strikes"
   ],
   "stack": [
+    "trump-ukraine-russia-energy-pause",
     "epa-power-plant-carbon-repeal",
     "clarity-act-senate-cloture",
     "ai-stocks-slowdown-amodei-altman",
@@ -111,6 +113,7 @@
       "id": "world",
       "label": "World",
       "slugs": [
+        "trump-ukraine-russia-energy-pause",
         "russia-ukraine-108-drones",
         "oman-hormuz-talks-postponed",
         "trump-iran-keep-oil",
@@ -165,6 +168,7 @@
       "id": "energy",
       "label": "Energy & markets",
       "slugs": [
+        "trump-ukraine-russia-energy-pause",
         "epa-power-plant-carbon-repeal",
         "oman-hormuz-talks-postponed",
         "saudi-east-west-pipeline-strike",
@@ -217,48 +221,53 @@
   ],
   "rail_wire": [
     {
+      "hed": "Trump: Ukraine, Russia agreed to halt energy strikes",
+      "stamp": "1:30 p.m.",
+      "slug": "trump-ukraine-russia-energy-pause"
+    },
+    {
       "label": "AI STOCKS.",
-      "text": "Nvidia ~3% down, SoftBank ~11% Tokyo drop after Amodei/Altman/Musk urge slower frontier pace; Altman: pacing \u2260 stopping, no OpenAI IPO this year.",
-      "stamp": "NEW \u00b7 Mon. ~10:30 a.m."
+      "text": "Nvidia ~3% down, SoftBank ~11% Tokyo drop after Amodei/Altman/Musk urge slower frontier pace; Altman: pacing ≠ stopping, no OpenAI IPO this year.",
+      "stamp": "NEW · Mon. ~10:30 a.m."
     },
     {
       "label": "CLARITY.",
       "text": "Tue. 2:15 p.m. cloture on Clarity Act; weekend draft adds Trump-accepted ethics + Treasury stablecoin circuit-breaker; needs ~7 Dems.",
-      "stamp": "NEW \u00b7 Mon. 9:45 a.m."
+      "stamp": "NEW · Mon. 9:45 a.m."
     },
     {
       "label": "OIL.",
       "text": "Brent ~$107.82 (toward $108) / WTI ~$103.22 Monday; AAA diesel record $6.23; regular gas ~$4.31.",
-      "stamp": "UPDATED \u00b7 Mon. 8 a.m."
+      "stamp": "UPDATED · Mon. 8 a.m."
     },
     {
       "label": "PIPELINE.",
       "text": "Saudi East-West still offline; Yanbu stocks measured in days; up to ~4% of global supply at risk.",
-      "stamp": "UPDATED \u00b7 Mon. 8 a.m."
+      "stamp": "UPDATED · Mon. 8 a.m."
     },
     {
       "label": "DIPLOMACY.",
-      "text": "Oman postpones Monday Gulf\u2013Iran Hormuz meeting in Salalah; Iran cites Saudi request.",
-      "stamp": "NEW \u00b7 Mon. 8 a.m."
+      "text": "Oman postpones Monday Gulf–Iran Hormuz meeting in Salalah; Iran cites Saudi request.",
+      "stamp": "NEW · Mon. 8 a.m."
     },
     {
       "label": "HORMUZ.",
       "text": "Weekend UKMTO projectile strike + fire/evac; Sunday ~14 vessel transits still a fraction of pre-war flow.",
-      "stamp": "UPDATED \u00b7 Mon. 8 a.m."
+      "stamp": "UPDATED · Mon. 8 a.m."
     },
     {
       "label": "UKRAINE.",
       "text": "Russia launches 108 drones overnight Monday; Ukraine says 85 downed, impacts at 7 sites.",
-      "stamp": "NEW \u00b7 Mon. 8 a.m."
+      "stamp": "NEW · Mon. 8 a.m."
     },
     {
       "label": "CONGRESS.",
-      "text": "House Rules meets 4 p.m. on Graham Russia\u2013Iran sanctions bill (H.R. 5334).",
-      "stamp": "UPDATED \u00b7 Mon. 8 a.m."
+      "text": "House Rules meets 4 p.m. on Graham Russia–Iran sanctions bill (H.R. 5334).",
+      "stamp": "UPDATED · Mon. 8 a.m."
     }
   ],
   "markets": {
-    "heading": "Markets \u00b7 Monday mid-morning",
+    "heading": "Markets · Monday mid-morning",
     "rows": [
       {
         "label": "Nasdaq / AI chips",
@@ -282,7 +291,7 @@
       },
       {
         "label": "Chokepoints",
-        "value": "East-West offline \u00b7 Hormuz thin",
+        "value": "East-West offline · Hormuz thin",
         "dir": "up"
       }
     ],
@@ -293,14 +302,14 @@
     "CLARITY|Senate cloture Tue. 2:15 p.m. on Clarity Act after Trump accepts revised crypto ethics limits",
     "OIL|Brent ~$107.82 toward $108; WTI ~$103.22; AAA diesel record $6.23",
     "PIPELINE|Saudi East-West still offline; Yanbu stocks days; ~4% supply risk",
-    "DIPLOMACY|Oman postpones Mon. Gulf\u2013Iran Hormuz talks; Iran cites Saudi request",
+    "DIPLOMACY|Oman postpones Mon. Gulf–Iran Hormuz talks; Iran cites Saudi request",
     "HORMUZ|Weekend UKMTO projectile strike; thin Sunday transit counts",
-    "IRAN OIL|Trump: U.S. could stay in Iran and \u2018keep the oil\u2019; Zelenskyy diesel ask",
+    "IRAN OIL|Trump: U.S. could stay in Iran and ‘keep the oil’; Zelenskyy diesel ask",
     "UKRAINE|Russia 108 drones overnight Mon.; Ukraine says 85 downed",
     "RUSSIA BILL|House Rules meets Mon. 4 p.m. on Graham Russia/Iran sanctions",
-    "OPM|Judge O\u2019Toole stay on OPM \u2018loyalty\u2019 essay still in effect",
+    "OPM|Judge O’Toole stay on OPM ‘loyalty’ essay still in effect",
     "HOUTHIS|Houthis cement Red Sea coast + Bab al-Mandab island hold",
-    "IRELAND|Trump \u2018love\u2019 a united Ireland; Doonbeg Irish Open weekend",
+    "IRELAND|Trump ‘love’ a united Ireland; Doonbeg Irish Open weekend",
     "NATO|UK, Norway, U.S. disrupt Russian GUGI undersea-cable exercise near Svalbard",
     "ACA|White House: ~1M HealthCare.gov enrollees to get $500 rebates starting October"
   ],
@@ -334,8 +343,8 @@
       "updated": "2026-09-04"
     }
   ],
-  "footer_method": "Humans didn\u2019t write today\u2019s copy; both frames are generated from public sources. Headlines and kickers state the event only. Each story then carries two viewpoint blocks \u2014 typical center-left and typical center-right \u2014 at the same size, in the same type, with named outlets or officials and outbound links. The site does not declare a winner in the headline. Summaries are original and short. Full articles are not reproduced.",
+  "footer_method": "Humans didn’t write today’s copy; both frames are generated from public sources. Headlines and kickers state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, in the same type, with named outlets or officials and outbound links. The site does not declare a winner in the headline. Summaries are original and short. Full articles are not reproduced.",
   "footer_legal": "Independent staging page for grokbotnews.com. Original wordmark. Not affiliated with any broadcast or cable news company. No accounts, no comments, no donations. Photographs are news-file images used for layout; they are not claimed as original field work by this site.",
-  "story_footer_method": "Headlines state the event only. Each story then carries two viewpoint blocks \u2014 typical center-left and typical center-right \u2014 at the same size, with named outlets and outbound links. Summaries are original and short. Full articles are not reproduced.",
+  "story_footer_method": "Headlines state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, with named outlets and outbound links. Summaries are original and short. Full articles are not reproduced.",
   "story_footer_legal": "Independent staging page for grokbotnews.com. Original wordmark. Not affiliated with any broadcast or cable news company. No accounts, no comments, no donations."
 }
