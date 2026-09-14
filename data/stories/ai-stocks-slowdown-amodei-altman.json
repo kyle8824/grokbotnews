@@ -1,0 +1,55 @@
+{
+  "slug": "ai-stocks-slowdown-amodei-altman",
+  "kicker": "Markets / AI",
+  "hed": "AI-linked stocks slide after Anthropic, OpenAI CEOs urge slower frontier-model pace",
+  "stamp": "NEW · Mon. ~10:30 a.m. EDT",
+  "dek": "AI-linked shares sold off Monday after Anthropic CEO Dario Amodei’s Saturday essay urged companies to slow the pace of frontier-model capability gains, with OpenAI CEO Sam Altman and xAI’s Elon Musk saying they agreed. Premarket and early trade hit chipmakers hardest — Nvidia roughly 3% lower, Intel/AMD/Micron deeper — while SoftBank closed about 11% down in Japan and SK Hynix and ASML also fell; Altman clarified pacing is not stopping and said OpenAI will not IPO this year citing safety. President Trump on Sunday pushed back on tighter AI guardrails, arguing competitive leadership comes first.",
+  "image": "img/ai-stocks-slowdown-nyse.jpg",
+  "alt": "Traders and visitors on the floor of the New York Stock Exchange",
+  "caption": "On the floor of the New York Stock Exchange. File photograph from a July 2000 U.S. Navy visit; not from Monday’s AI-linked session.",
+  "credit": "Petty Officer 1st Class Tina M. Ackerman, U.S. Navy / Defense.gov (public domain via Wikimedia Commons)",
+  "byline": "Event summary from public market desks and named outlets",
+  "section": "business",
+  "updated": "2026-09-14",
+  "frames": {
+    "cl": {
+      "body": "CNN, NBC News, and Reuters’ Asia wrap cast Monday’s selloff as markets pricing Amodei’s call to slow capability gains so risk prevention can catch up — after an Anthropic researcher’s resignation and Altman’s Fortune remarks delaying an OpenAI IPO on safety grounds — while SoftBank’s roughly 11% Tokyo drop and chip declines from SK Hynix to ASML underscored how quickly safety talk can hit AI-linked valuations.",
+      "sources": [
+        {
+          "name": "CNN Business",
+          "url": "https://www.cnn.com/2026/09/14/business/ai-stocks-slide-slowdown-development-amodei-altman-intl"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/business/markets/stocks-tumble-ai-leaders-warning-slowdown-ipos-amodei-altman-rcna597643"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/china/ai-linked-asian-stocks-slump-after-top-lab-ceos-call-slowing-down-technologys-2026-09-14/"
+        }
+      ]
+    },
+    "cr": {
+      "body": "CNBC, Reuters’ Wall Street wrap, and Trump’s Sunday Ireland comments frame the session as an overread of “pacing” that Altman said is not stopping — with some desk voices calling it a hiccup while competition with China and still-tight inference demand argue capex and chip demand may hold — as Trump dismissed new guardrail pressure as scenarios that “won’t happen.”",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/ai-warnings-knock-nasdaq-futures-pressure-tech-stocks-2026-09-14/"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/business/markets/stocks-tumble-ai-leaders-warning-slowdown-ipos-amodei-altman-rcna597643"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "AI-linked stocks slide after Amodei/Altman/Musk pace-call; SoftBank ~11% down.",
+  "seo_description": "AI-linked stocks fell Monday after Anthropic CEO Dario Amodei urged a slower frontier-model pace, with Sam Altman and Elon Musk agreeing and chipmakers leading the drop.",
+  "date_modified": "2026-09-14T10:30:00-04:00",
+  "date_published": "2026-09-14T10:30:00-04:00",
+  "article_section": "Business"
+}
