@@ -1,28 +1,30 @@
 {
   "site_url": "https://www.grokbotnews.com",
-  "title": "Grok Bot News \u2014 Monday, September 14, 2026",
+  "title": "Grok Bot News — Tuesday, September 15, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Monday, September 14, 2026 \u00b7 ~8:20 p.m. EDT",
-  "utility_markets": "AAA diesel $6.23 record \u00b7 Brent ~$108\u2013109 / WTI ~$103\u2013104 \u00b7 Nasdaq soft on AI",
-  "breaking": "Boston judge blocks DHS student/journalist visa-duration rule (Saylor PI); Treasury VTB Iran sanctions; Big Bend landowners sue DHS; Brennan subpoenaed Oct. 15; USPS mail-ballot rule still enjoined.",
+  "utility_live": "Tuesday, September 15, 2026 · ~8:00 a.m. EDT",
+  "utility_markets": "AAA diesel $6.27 record · Brent ~$106.93 / WTI ~$102.65 early Tue · East-West outage risk",
+  "breaking": "SCOTUS leaves USPS mail-ballot rule blocked for midterms; Saylor PI holds on DHS visa-duration; NATO downs drone over Lithuania; Trump Iran-deal post + CENTCOM rejects El Gaia mine claim; House Rules clears Russia–Iran sanctions.",
   "order": [
-    "saylor-visa-duration-injunction",
-    "treasury-vtb-iran-sanctions",
-    "big-bend-landowners-wall-suit",
     "usps-mail-ballot-whistleblower",
+    "saylor-visa-duration-injunction",
+    "lithuania-nato-drone-shootdown",
+    "trump-iran-centcom-el-gaia",
     "public-charge-green-card-suits",
-    "brennan-florida-grand-jury-subpoena",
-    "yahodyn-poland-border-drone",
     "trump-ukraine-russia-energy-pause",
     "house-russia-sanctions-vote",
+    "yahodyn-poland-border-drone",
+    "treasury-vtb-iran-sanctions",
+    "brent-105-dual-chokepoint",
+    "saudi-east-west-pipeline-strike",
+    "big-bend-landowners-wall-suit",
+    "brennan-florida-grand-jury-subpoena",
     "trump-ai-guardrails-truth-social",
     "epa-power-plant-carbon-repeal",
     "clarity-act-senate-cloture",
     "ai-stocks-slowdown-amodei-altman",
     "houthi-king-khalid-air-base",
-    "brent-105-dual-chokepoint",
-    "saudi-east-west-pipeline-strike",
     "oman-hormuz-talks-postponed",
     "hormuz-qeshm-vessel-strike",
     "trump-iran-keep-oil",
@@ -71,29 +73,26 @@
     "iran-hormuz-strikes"
   ],
   "stack": [
-    "saylor-visa-duration-injunction",
-    "treasury-vtb-iran-sanctions",
-    "big-bend-landowners-wall-suit",
     "usps-mail-ballot-whistleblower",
+    "saylor-visa-duration-injunction",
+    "lithuania-nato-drone-shootdown",
+    "trump-iran-centcom-el-gaia",
     "public-charge-green-card-suits",
-    "brennan-florida-grand-jury-subpoena",
-    "yahodyn-poland-border-drone",
     "trump-ukraine-russia-energy-pause",
     "house-russia-sanctions-vote",
-    "trump-ai-guardrails-truth-social",
-    "epa-power-plant-carbon-repeal",
-    "clarity-act-senate-cloture",
-    "ai-stocks-slowdown-amodei-altman",
-    "houthi-king-khalid-air-base",
-    "brent-105-dual-chokepoint"
+    "yahodyn-poland-border-drone",
+    "treasury-vtb-iran-sanctions",
+    "brent-105-dual-chokepoint",
+    "saudi-east-west-pipeline-strike",
+    "big-bend-landowners-wall-suit"
   ],
   "section_labels": [
     {
       "id": "us",
       "label": "U.S. & Washington",
       "slugs": [
-        "saylor-visa-duration-injunction",
         "usps-mail-ballot-whistleblower",
+        "saylor-visa-duration-injunction",
         "public-charge-green-card-suits",
         "house-russia-sanctions-vote",
         "trump-ai-guardrails-truth-social",
@@ -123,9 +122,11 @@
       "id": "world",
       "label": "World",
       "slugs": [
-        "treasury-vtb-iran-sanctions",
+        "lithuania-nato-drone-shootdown",
+        "trump-iran-centcom-el-gaia",
         "yahodyn-poland-border-drone",
         "trump-ukraine-russia-energy-pause",
+        "treasury-vtb-iran-sanctions",
         "russia-ukraine-108-drones",
         "oman-hormuz-talks-postponed",
         "trump-iran-keep-oil",
@@ -150,8 +151,8 @@
       "id": "politics",
       "label": "Politics",
       "slugs": [
-        "saylor-visa-duration-injunction",
         "usps-mail-ballot-whistleblower",
+        "saylor-visa-duration-injunction",
         "public-charge-green-card-suits",
         "house-russia-sanctions-vote",
         "trump-ai-guardrails-truth-social",
@@ -183,13 +184,14 @@
       "id": "energy",
       "label": "Energy & markets",
       "slugs": [
-        "treasury-vtb-iran-sanctions",
+        "trump-iran-centcom-el-gaia",
         "trump-ukraine-russia-energy-pause",
+        "brent-105-dual-chokepoint",
+        "saudi-east-west-pipeline-strike",
+        "treasury-vtb-iran-sanctions",
         "epa-power-plant-carbon-repeal",
         "oman-hormuz-talks-postponed",
-        "saudi-east-west-pipeline-strike",
         "trump-iran-keep-oil",
-        "brent-105-dual-chokepoint",
         "saratov-rosneft-ozon-drones",
         "ukmto-khasab-irgc-saildrone",
         "us-iran-tanker-strikes",
@@ -243,12 +245,12 @@
       "slug": "saylor-visa-duration-injunction"
     },
     {
-      "hed": "Treasury adds Iran sanctions on Russia\u2019s VTB Bank",
+      "hed": "Treasury adds Iran sanctions on Russia’s VTB Bank",
       "stamp": "6:35 p.m.",
       "slug": "treasury-vtb-iran-sanctions"
     },
     {
-      "hed": "Russian drone hits train near Poland border; NATO\u2019s Rutte reacts",
+      "hed": "Russian drone hits train near Poland border; NATO’s Rutte reacts",
       "stamp": "3:00 p.m.",
       "slug": "yahodyn-poland-border-drone"
     },
@@ -264,42 +266,42 @@
     },
     {
       "label": "AI STOCKS.",
-      "text": "Nvidia ~3% down, SoftBank ~11% Tokyo drop after Amodei/Altman/Musk urge slower frontier pace; Altman: pacing \u2260 stopping, no OpenAI IPO this year.",
-      "stamp": "NEW \u00b7 Mon. ~10:30 a.m."
+      "text": "Nvidia ~3% down, SoftBank ~11% Tokyo drop after Amodei/Altman/Musk urge slower frontier pace; Altman: pacing ≠ stopping, no OpenAI IPO this year.",
+      "stamp": "NEW · Mon. ~10:30 a.m."
     },
     {
       "label": "CLARITY.",
       "text": "Tue. 2:15 p.m. cloture on Clarity Act; weekend draft adds Trump-accepted ethics + Treasury stablecoin circuit-breaker; needs ~7 Dems.",
-      "stamp": "NEW \u00b7 Mon. 9:45 a.m."
+      "stamp": "NEW · Mon. 9:45 a.m."
     },
     {
       "label": "OIL.",
       "text": "Brent ~$107.82 (toward $108) / WTI ~$103.22 Monday; AAA diesel record $6.23; regular gas ~$4.31.",
-      "stamp": "UPDATED \u00b7 Mon. 8 a.m."
+      "stamp": "UPDATED · Mon. 8 a.m."
     },
     {
       "label": "PIPELINE.",
       "text": "Saudi East-West still offline; Yanbu stocks measured in days; up to ~4% of global supply at risk.",
-      "stamp": "UPDATED \u00b7 Mon. 8 a.m."
+      "stamp": "UPDATED · Mon. 8 a.m."
     },
     {
       "label": "DIPLOMACY.",
-      "text": "Oman postpones Monday Gulf\u2013Iran Hormuz meeting in Salalah; Iran cites Saudi request.",
-      "stamp": "NEW \u00b7 Mon. 8 a.m."
+      "text": "Oman postpones Monday Gulf–Iran Hormuz meeting in Salalah; Iran cites Saudi request.",
+      "stamp": "NEW · Mon. 8 a.m."
     },
     {
       "label": "HORMUZ.",
       "text": "Weekend UKMTO projectile strike + fire/evac; Sunday ~14 vessel transits still a fraction of pre-war flow.",
-      "stamp": "UPDATED \u00b7 Mon. 8 a.m."
+      "stamp": "UPDATED · Mon. 8 a.m."
     },
     {
       "label": "UKRAINE.",
       "text": "Russia launches 108 drones overnight Monday; Ukraine says 85 downed, impacts at 7 sites.",
-      "stamp": "NEW \u00b7 Mon. 8 a.m."
+      "stamp": "NEW · Mon. 8 a.m."
     }
   ],
   "markets": {
-    "heading": "Markets \u00b7 Monday late afternoon",
+    "heading": "Markets · Monday late afternoon",
     "rows": [
       {
         "label": "Nasdaq / AI chips",
@@ -323,30 +325,27 @@
       },
       {
         "label": "Chokepoints",
-        "value": "East-West offline \u00b7 Hormuz thin",
+        "value": "East-West offline · Hormuz thin",
         "dir": "up"
       }
     ],
     "credit": "AI/chip session from Reuters/CNBC/NBC Monday wraps. Crude prints from Reuters (~$108.83 Brent / ~$103.88 WTI). AAA diesel $6.23 from morning NBC/AAA reporting."
   },
   "ticker": [
-    "VISA RULE|Judge Saylor PI blocks DHS end of duration-of-status for F/J/I; Sept. 15 start paused",
-    "VTB|Treasury OFAC designates Russia\u2019s VTB under Iran E.O. 13902; secondary risk for foreign banks",
+    "SCOTUS denies USPS mail-ballot stay — rule blocked for midterms",
+    "Saylor PI holds: DHS F/J/I visa-duration rule off on Sept. 15",
+    "NATO jets down drone over Lithuania near Kaunas",
+    "Trump: Iran wants deal ‘quickly’; CENTCOM rejects El Gaia mine claim",
+    "AAA diesel $6.27 record · Brent ~$107 early Tue",
+    "House Rules clears Graham Russia–Iran sanctions — rule vote today",
+    "VTB|Treasury OFAC designates Russia’s VTB under Iran E.O. 13902; secondary risk for foreign banks",
     "YAHODYN|Russian drone hits train ~2 km from Poland; Johnson/Bildt train left early; Petraeus at station; no casualties",
-    "NATO|Rutte: near-border strikes show Putin \u2018desperation\u2019; alliance to boost Ukraine support",
-    "AI GUARDRAILS|Trump rejects new AI guardrails on Truth Social; says only a \u2018strong and smart\u2019 president is needed",
+    "NATO|Rutte: near-border strikes show Putin ‘desperation’; alliance to boost Ukraine support",
+    "AI GUARDRAILS|Trump rejects new AI guardrails on Truth Social; says only a ‘strong and smart’ president is needed",
     "AI STOCKS|AI-linked shares slide after Amodei/Altman/Musk urge slower frontier-model pace; SoftBank ~11% down",
     "CLARITY|Senate cloture Tue. 2:15 p.m. on Clarity Act after Trump accepts revised crypto ethics limits",
     "OIL|Brent ~$107.82 toward $108; WTI ~$103.22; AAA diesel record $6.23",
-    "PIPELINE|Saudi East-West still offline; Yanbu stocks days; ~4% supply risk",
-    "DIPLOMACY|Oman postpones Mon. Gulf\u2013Iran Hormuz talks; Iran cites Saudi request",
-    "HORMUZ|Weekend UKMTO projectile strike; thin Sunday transit counts",
-    "IRAN OIL|Trump: U.S. could stay in Iran and \u2018keep the oil\u2019; Zelenskyy diesel ask",
-    "UKRAINE|Russia 108 drones overnight Mon.; Ukraine says 85 downed",
-    "RUSSIA BILL|House Rules meets Mon. 4 p.m. on Graham Russia/Iran sanctions",
-    "OPM|Judge O\u2019Toole stay on OPM \u2018loyalty\u2019 essay still in effect",
-    "HOUTHIS|Houthis cement Red Sea coast + Bab al-Mandab island hold",
-    "IRELAND|Trump \u2018love\u2019 a united Ireland; Doonbeg Irish Open weekend"
+    "PIPELINE|Saudi East-West still offline; Yanbu stocks days; ~4% supply risk"
   ],
   "archive": [
     {
@@ -378,8 +377,8 @@
       "updated": "2026-09-04"
     }
   ],
-  "footer_method": "Humans didn\u2019t write today\u2019s copy; both frames are generated from public sources. Headlines and kickers state the event only. Each story then carries two viewpoint blocks \u2014 typical center-left and typical center-right \u2014 at the same size, in the same type, with named outlets or officials and outbound links. The site does not declare a winner in the headline. Summaries are original and short. Full articles are not reproduced.",
+  "footer_method": "Humans didn’t write today’s copy; both frames are generated from public sources. Headlines and kickers state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, in the same type, with named outlets or officials and outbound links. The site does not declare a winner in the headline. Summaries are original and short. Full articles are not reproduced.",
   "footer_legal": "Independent staging page for grokbotnews.com. Original wordmark. Not affiliated with any broadcast or cable news company. No accounts, no comments, no donations. Photographs are news-file images used for layout; they are not claimed as original field work by this site.",
-  "story_footer_method": "Headlines state the event only. Each story then carries two viewpoint blocks \u2014 typical center-left and typical center-right \u2014 at the same size, with named outlets and outbound links. Summaries are original and short. Full articles are not reproduced.",
+  "story_footer_method": "Headlines state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, with named outlets and outbound links. Summaries are original and short. Full articles are not reproduced.",
   "story_footer_legal": "Independent staging page for grokbotnews.com. Original wordmark. Not affiliated with any broadcast or cable news company. No accounts, no comments, no donations."
 }

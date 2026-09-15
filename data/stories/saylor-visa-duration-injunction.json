@@ -1,36 +1,36 @@
 {
   "slug": "saylor-visa-duration-injunction",
   "kicker": "Courts / Immigration",
-  "hed": "Boston judge blocks DHS rule capping foreign student and journalist visa stays",
-  "stamp": "NEW \u00b7 Mon. ~8:20 p.m. EDT",
-  "dek": "U.S. District Judge F. Dennis Saylor IV in Boston issued a preliminary injunction Monday blocking the Department of Homeland Security\u2019s final rule that would have ended \u201cduration of status\u201d for F, J, and I nonimmigrants \u2014 generally capping students and exchange visitors at four years and foreign media I-visa holders at 240 days \u2014 one day before the Sept. 15 effective date. Saylor found the rule likely arbitrary and capricious under the Administrative Procedure Act, saying DHS\u2019s national-security rationale \u201cborders on the absurd\u201d; the injunction pauses nationwide implementation while litigation continues, with a status conference set for Oct. 2.",
+  "hed": "Boston judge’s PI keeps DHS student/journalist visa-duration rule off as Sept. 15 start hits",
+  "stamp": "UPDATED · Tue. ~8:00 a.m. EDT",
+  "dek": "U.S. District Judge F. Dennis Saylor IV’s Monday preliminary injunction postponing the effective date of DHS’s final rule ending “duration of status” for F, J, and I nonimmigrants remained in force Tuesday morning — the day the four-year student/exchange and 240-day journalist caps were set to begin. The order bars implementation pending further proceedings, with a status conference set for Oct. 2; higher-ed and labor plaintiffs had argued the fixed-term regime and unappealable extension denials were arbitrary under the APA.",
   "image": "img/moakley-courthouse-boston.jpg",
-  "alt": "John Joseph Moakley United States Courthouse on Boston\u2019s Fan Pier waterfront",
-  "caption": "John Joseph Moakley U.S. Courthouse in Boston, where Judge F. Dennis Saylor IV sits. File photograph from September 2024; not from Monday\u2019s hearing.",
+  "alt": "John Joseph Moakley United States Courthouse on Boston’s Fan Pier waterfront",
+  "caption": "John Joseph Moakley U.S. Courthouse in Boston, where Judge F. Dennis Saylor IV sits. File photograph from September 2024; not from Monday’s hearing.",
   "credit": "4300streetcar / Wikimedia Commons (CC BY 4.0)",
   "byline": "Event summary from public reporting and named outlets",
   "section": "lead",
-  "updated": "2026-09-14",
+  "updated": "2026-09-15",
   "frames": {
     "cl": {
-      "body": "Reuters\u2019 Monday Boston wrap, Inside Higher Ed\u2019s campus read, and Forbes\u2019 Stuart Anderson litigation coverage cast Saylor\u2019s PI as a last-minute win for higher-ed and labor plaintiffs: the court held DHS failed to answer ~22,000 comments or show a rational link between a four-year cap and security, while universities warned Ph.D. timelines, enrollment, and U.S. talent recruitment would take an immediate hit if the Sept. 15 start stood.",
+      "body": "Reuters’s Monday Boston wrap, AFP’s Tuesday follow, and Fragomen’s practitioner alert cast Tuesday as the non-start that campuses and newsrooms sought: Saylor postponed the Sept. 15 effective date and enjoined implementation, noting discretionary, unappealable extension denials and national-security rationales that the court called thin — leaving F/J/I duration-of-status admissions in place for now.",
       "sources": [
         {
           "name": "Reuters",
           "url": "https://www.reuters.com/world/us-judge-blocks-trump-limits-duration-visas-foreign-students-journalists-2026-09-14/"
         },
         {
-          "name": "Inside Higher Ed",
-          "url": "https://www.insidehighered.com/news/global/international-students-us/2026/09/14/judge-blocks-controversial-international-student"
+          "name": "AFP",
+          "url": "https://www.afp.com/en/us-judge-postpones-new-visa-rules-foreign-students-journalists"
         },
         {
-          "name": "Forbes",
-          "url": "https://www.forbes.com/sites/stuartanderson/2026/08/18/university-groups-file-immigration-lawsuit-to-block-student-rule/"
+          "name": "Fragomen",
+          "url": "https://www.fragomen.com/insights/united-states-district-court-postpones-implementation-of-dhs-final-rule-eliminating-duration-of-status-for-f-j-and-i-nonimmigrants.html"
         }
       ]
     },
     "cr": {
-      "body": "DHS\u2019s July final-rule release (Secretary Markwayne Mullin), The Washington Times\u2019 Monday court write-through, and the Washington Examiner\u2019s duration-of-status defense frame the rule as closing a decades-old open-ended stay that let some F/J/I holders avoid routine federal re-vetting \u2014 arguing fixed admissions plus USCIS extensions restore temporary-visa integrity even as a Bush-appointed judge pauses the Sept. 15 start pending appeal options.",
+      "body": "DHS’s July final-rule release (Secretary Markwayne Mullin), The Washington Times’ Monday court write-through, and the Washington Examiner’s duration-of-status defense frame the rule as closing a decades-old open-ended stay that let some F/J/I holders avoid routine federal re-vetting — arguing fixed admissions plus USCIS extensions restore temporary-visa integrity even as a Bush-appointed judge pauses the Sept. 15 start pending appeal options.",
       "sources": [
         {
           "name": "U.S. DHS",
@@ -47,9 +47,9 @@
       ]
     }
   },
-  "stack_blurb": "Judge Saylor PI blocks DHS F/J/I duration-of-status end one day before Sept. 15.",
-  "seo_description": "Boston Judge F. Dennis Saylor IV issued a preliminary injunction Monday blocking DHS\u2019s rule ending duration of status for foreign students, exchange visitors, and journalists.",
-  "date_modified": "2026-09-14T20:20:00-04:00",
+  "stack_blurb": "Saylor PI still bars DHS F/J/I duration-of-status end on planned Sept. 15 start.",
+  "seo_description": "Boston Judge F. Dennis Saylor IV issued a preliminary injunction Monday blocking DHS’s rule ending duration of status for foreign students, exchange visitors, and journalists.",
+  "date_modified": "2026-09-15T08:00:00-04:00",
   "date_published": "2026-09-14T20:20:00-04:00",
   "article_section": "Politics"
 }

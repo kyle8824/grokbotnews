@@ -1,0 +1,55 @@
+{
+  "slug": "lithuania-nato-drone-shootdown",
+  "kicker": "NATO / Lithuania",
+  "hed": "NATO jets shoot down drone over Lithuania after overnight Belarus-border alert",
+  "stamp": "NEW · Tue. ~8:00 a.m. EDT",
+  "dek": "Italian Eurofighter jets on NATO Baltic Air Policing from Šiauliai shot down an unidentified drone near Pratkūnai in Lithuania’s Kaišiadorys district shortly after midnight Tuesday, Lithuanian authorities said — the first shoot-down of a drone over Lithuanian territory. Crisis officials said the craft likely entered from Belarus, flew about 30 minutes, and triggered temporary air-threat alerts around Vilnius and Kaunas; wreckage was recovered and origin/explosives status remained under investigation. Poland separately scrambled jets overnight after retrieving a suspected Russian drone from Baltic waters Monday.",
+  "image": "img/lithuania-nato-drone-shootdown.jpg",
+  "alt": "Panorama of Kaunas, Lithuania, near the overnight drone shoot-down area",
+  "caption": "Kaunas panorama. File photograph; not from Tuesday’s Pratkūnai intercept.",
+  "credit": "Arroww / Wikimedia Commons (CC BY-SA 3.0)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "world",
+  "updated": "2026-09-15",
+  "frames": {
+    "cl": {
+      "body": "LRT’s Tuesday BNS report, Reuters’s Vilnius wire, and The Guardian’s NATO wrap cast the Šiauliai Eurofighter intercept as a first-for-Lithuania airspace defense after a Belarus-track drone triggered Operation Skydas-style alerts — emphasizing recovered debris, no reported casualties, and the spillover context of Russian drones near Poland’s border a day earlier.",
+      "sources": [
+        {
+          "name": "LRT",
+          "url": "https://www.lrt.lt/en/news-in-english/19/3053032/nato-jets-shoot-down-drone-that-entered-lithuanian-airspace"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/aerospace-defense/nato-fighter-shoots-down-drone-lithuania-2026-09-14/"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/15/nato-jets-shoot-down-drone-violating-lithuania-airspace-kaunas"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Reuters’s overnight brief, Polish defense reporting on the Monday Baltic recovery near Jarosławiec, and Lithuanian military statements stressing that investigators had not yet typed the drone or confirmed an explosive payload frame Tuesday’s intercept as a precautionary NATO air-policing kinetic engagement on an unidentified track — not yet an attributed state attack — while Poland’s jet scramble underscored heightened Allied readiness along the eastern flank.",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/aerospace-defense/nato-fighter-shoots-down-drone-lithuania-2026-09-14/"
+        },
+        {
+          "name": "PBS News (AP Poland context)",
+          "url": "https://www.pbs.org/newshour/world/zelenskyy-says-ukraine-will-pause-strikes-on-russia-if-kremlin-spares-critical-infrastructure"
+        },
+        {
+          "name": "UNN / Lithuanian Armed Forces",
+          "url": "https://unn.ua/en/news/new-details-have-emerged-about-nato-aircrafts-first-shootdown-of-a-drone-over-lithuania"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Italian NATO jets down drone over Lithuania near Kaunas; first shoot-down on Lithuanian soil.",
+  "seo_description": "NATO Baltic Air Policing jets shot down a drone over Lithuania near Pratkūnai overnight Tuesday after a likely Belarus entry. Dual sourced frames.",
+  "date_modified": "2026-09-15T08:00:00-04:00",
+  "date_published": "2026-09-15T08:00:00-04:00",
+  "article_section": "World"
+}

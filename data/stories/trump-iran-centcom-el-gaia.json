@@ -1,0 +1,55 @@
+{
+  "slug": "trump-iran-centcom-el-gaia",
+  "kicker": "Iran / Oil",
+  "hed": "Trump says Iran wants deal ‘quickly and badly’; CENTCOM rejects Hormuz mine claim on El Gaia",
+  "stamp": "NEW · Tue. ~8:00 a.m. EDT",
+  "dek": "President Trump posted Monday on Truth Social that Iran wants to make a deal “quickly and badly” and that he will decide whether the United States engages. Separately, U.S. Central Command rejected an IRGC claim that the Panama-flagged tanker El Gaia struck naval mines in the Strait of Hormuz, saying Iran hit the vessel with a missile last month and again with a drone off Oman over the weekend while a regional partner towed the ship. Tuesday oil rose again as Saudi East-West pipeline outage concerns persisted; Brent traded near $106.93 and WTI near $102.65 in early session prints.",
+  "image": "img/el-gaia-hormuz-centcom.jpg",
+  "alt": "Oil tanker taking on crude at Al Basrah Oil Terminal in the Persian Gulf",
+  "caption": "An oil tanker at Iraq’s Al Basrah Oil Terminal in the Persian Gulf. U.S. Navy file photograph; not the El Gaia.",
+  "credit": "U.S. Navy / Photographer's Mate Airman Eben Boothby (public domain)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "world",
+  "updated": "2026-09-15",
+  "frames": {
+    "cl": {
+      "body": "Reuters’s Tuesday oil wrap, The Independent’s live Iran-war desk, and Anadolu’s CENTCOM denial cast the dual Monday messages as parallel tracks: Trump signaling openness to an Iran deal on his timeline while CENTCOM labeled the IRGC mine claim “FALSE,” tying El Gaia damage to prior missile and weekend drone strikes that keep Hormuz risk priced into Brent’s climb above $106.",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/energy/oil-prices-rise-saudi-pipeline-outage-fresh-attacks-raise-supply-concerns-2026-09-15/"
+        },
+        {
+          "name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-oil-tanker-hormuz-b3050243.html"
+        },
+        {
+          "name": "Anadolu Agency",
+          "url": "https://www.aa.com.tr/en/us-israel-iran-war/us-rejects-iranian-claim-that-tanker-hit-mine-near-hormuz/4057217"
+        }
+      ]
+    },
+    "cr": {
+      "body": "DNA India’s Truth Social write-through, Al Jazeera’s Tuesday liveblog on East-West outage and Houthi fighting, and CENTCOM’s public denial language frame Trump’s “quickly and badly” post as leverage messaging while U.S. Central Command presents the El Gaia episode as IRGC intimidation of commercial shipping — rejecting a mine narrative as Iran and partners trade competing accounts of who disabled the Panama-flagged tanker.",
+      "sources": [
+        {
+          "name": "DNA India",
+          "url": "https://www.dnaindia.com/world/report-us-iran-tensions-escalate-trump-says-tehran-wants-quick-deal-centcom-rejects-naval-mine-claim-3220523"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/9/15/iran-war-live-centcom-refutes-iran-claim-supertanker-hit-hormuz-mines"
+        },
+        {
+          "name": "Anadolu Agency",
+          "url": "https://www.aa.com.tr/en/us-israel-iran-war/us-rejects-iranian-claim-that-tanker-hit-mine-near-hormuz/4057217"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Trump: Iran wants deal fast; CENTCOM rejects El Gaia mine claim; oil higher.",
+  "seo_description": "Trump said Iran wants a deal quickly; CENTCOM rejected an IRGC mine claim on tanker El Gaia as oil rose on Gulf supply risk.",
+  "date_modified": "2026-09-15T08:00:00-04:00",
+  "date_published": "2026-09-15T08:00:00-04:00",
+  "article_section": "World"
+}

@@ -1,16 +1,16 @@
 {
   "slug": "public-charge-green-card-suits",
   "kicker": "Immigration / Courts",
-  "hed": "States and cities sue to block expanded public-charge green-card rule set for Friday",
-  "stamp": "NEW · Mon. ~4:00 p.m. EDT",
-  "dek": "New York Attorney General Letitia James led 22 states and D.C. in a Monday Southern District of New York suit challenging a Department of Homeland Security public-charge rule set to take effect Friday that would again let officers weigh non-cash benefits such as SNAP and Medicaid when deciding green-card applications. A parallel case led by New York City Mayor Zohran Mamdani includes Chicago, San Francisco, Seattle and other localities. Plaintiffs call the rule unlawful under the Administrative Procedure Act; a DHS spokesperson cast the challengers as sanctuary jurisdictions trying to keep noncitizens on welfare programs.",
+  "hed": "Public-charge green-card suits advance as Friday DHS effective date nears",
+  "stamp": "UPDATED · Tue. ~8:00 a.m. EDT",
+  "dek": "Twin Southern District of New York suits filed Monday by 22 states plus D.C. (led by N.Y. Attorney General Letitia James) and a separate city coalition (led by New York City Mayor Zohran Mamdani with Chicago and others) remained the live challenge Tuesday to a DHS public-charge rule set to take effect Friday, Sept. 18. The rule would broaden officers’ discretion to weigh means-tested benefits such as SNAP and Medicaid in green-card decisions; plaintiffs seek APA relief before the effective date.",
   "image": "img/public-charge-green-card.jpg",
   "alt": "Specimen of a U.S. permanent resident card, also called a green card",
   "caption": "Specimen of a U.S. permanent resident card (green card). U.S. government image; not from Monday’s filings.",
   "credit": "USCIS / Wikimedia Commons (public domain)",
   "byline": "Event summary from public reporting and named outlets",
   "section": "lead",
-  "updated": "2026-09-14",
+  "updated": "2026-09-15",
   "frames": {
     "cl": {
       "body": "Reuters’s Monday filing wrap, ABC News’s mayors-and-states coverage, and James’s AG press statement cast the twin SDNY suits as a replay of successful challenges to the first-term public-charge expansion: Democratic AGs and city leaders argue DHS exceeds statute, leaves families guessing which benefits jeopardize status, and will push eligible households off food and health aid before Friday’s effective date.",
@@ -47,9 +47,9 @@
       ]
     }
   },
-  "stack_blurb": "States and cities sue over public-charge green-card rule set for Friday.",
-  "seo_description": "Democratic-led states and cities sued Monday to block a DHS public-charge rule set for Friday that would again weigh SNAP and Medicaid in green-card decisions.",
-  "date_modified": "2026-09-14T16:00:00-04:00",
+  "stack_blurb": "States/cities SDNY suits vs public-charge rule still live; Friday effective date.",
+  "seo_description": "State and city suits challenging DHS’s public-charge green-card rule remain pending as the Friday Sept. 18 effective date approaches.",
+  "date_modified": "2026-09-15T08:00:00-04:00",
   "date_published": "2026-09-14T16:00:00-04:00",
   "article_section": "Politics"
 }

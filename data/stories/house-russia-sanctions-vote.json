@@ -1,55 +1,55 @@
 {
   "slug": "house-russia-sanctions-vote",
   "kicker": "Congress",
-  "hed": "House Rules meeting underway on Graham Russia–Iran sanctions bill",
-  "stamp": "UPDATED · Mon. ~4:00 p.m. EDT",
-  "dek": "The House Rules Committee convened Monday at 4 p.m. Eastern in Capitol room H-313 on Senate amendments to H.R. 5334, the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026 — a procedural step toward a possible floor vote later this week, not final passage. The Senate passed the measure 86–11 on Aug. 7. The bill would authorize tariffs of up to 100% on the world’s top five buyers of Russian crude and natural gas, expand Russia/Iran-related sanctions, and faces Democratic concerns over expanded presidential tariff authority.",
+  "hed": "House Rules clears Graham Russia–Iran sanctions; floor rule vote set Tuesday",
+  "stamp": "UPDATED · Tue. ~8:00 a.m. EDT",
+  "dek": "The House Rules Committee voted 7–3 late Monday to advance a rule for the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026 (H.R. 5334), clearing a procedural path after the Senate’s 86–11 August passage. Debate on the House rule was expected around noon Tuesday Eastern; if the rule passes, final passage is teed for Wednesday before an extended recess. Democrats continue to object to expanded presidential tariff authority in the package.",
   "image": "img/house-russia-sanctions-capitol.jpg",
   "alt": "West front of the United States Capitol in Washington, D.C.",
   "caption": "The west front of the U.S. Capitol. File photograph; not from Monday’s Rules Committee meeting.",
   "credit": "Martin Falbisoner / Wikimedia Commons (CC BY-SA 3.0)",
   "byline": "Event summary from public reporting and named outlets",
   "section": "us",
-  "updated": "2026-09-14",
+  "updated": "2026-09-15",
   "frames": {
     "cl": {
-      "body": "The Hill, AP/ABC, and Monday agenda write-ups emphasize Democratic resistance to expanded presidential tariff authority even among members who want tougher Russia pressure, and note that a Rules meeting alone does not pass the bill — regular-order still needs near-unanimous House Republican support on the rule before any floor vote.",
+      "body": "RFE/RL’s Tuesday Rules wrap, Fox News’s Democratic tariff-dilemma piece, and The Hill’s committee coverage emphasize Meeks/Neal/Beyer objections that the bill expands presidential tariff power while failing to mandate Russia sanctions — a procedural Tuesday rule vote still standing between the Senate-passed text and any Wednesday floor outcome.",
       "sources": [
         {
+          "name": "RFE/RL",
+          "url": "https://www.rferl.org/a/us-house-panel-advances-russia-iran-sanctions-bill-putin/33855848.html"
+        },
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/politics/house-democrats-face-trump-tariff-dilemma-major-russia-sanctions-bill-heads-floor"
+        },
+        {
           "name": "The Hill",
-          "url": "https://thehill.com/homenews/6084914-house-russia-sanctions-vote/"
-        },
-        {
-          "name": "ABC News / AP",
-          "url": "https://abcnews.com/US/wireStory/house-tees-vote-russia-sanctions-bill-prospects-passage-136376812"
-        },
-        {
-          "name": "111 Things (Rules agenda)",
-          "url": "https://111things.com/national/house-panel-weighs-russia-sanctions-bill-as-tariff-fight-looms/"
+          "url": "https://thehill.com/homenews/house/6089480-house-approves-russia-sanctions-bill/"
         }
       ]
     },
     "cr": {
-      "body": "Bloomberg’s scheduling report, the Washington Examiner’s Senate write-through, and Speaker Johnson’s bipartisan-consensus line frame Monday’s 4 p.m. Rules meeting as the next Trump-backed checkpoint after Graham’s 86–11 Senate win — authorizing secondary tariffs on top Russian energy buyers while casting House hesitation as the remaining obstacle.",
+      "body": "TASS’s Tuesday committee wire, Bloomberg’s prior scheduling report, and Speaker-side scheduling notes frame the 7–3 Rules advance as moving Graham’s Russia/Iran package — including secondary tariffs on top Russian energy buyers — onto the Tuesday rule calendar with a possible Wednesday final vote before the House’s midterm recess.",
       "sources": [
+        {
+          "name": "TASS",
+          "url": "https://tass.com/world/2187601"
+        },
+        {
+          "name": "RFE/RL",
+          "url": "https://www.rferl.org/a/us-house-panel-advances-russia-iran-sanctions-bill-putin/33855848.html"
+        },
         {
           "name": "Bloomberg",
           "url": "https://www.bloomberg.com/news/articles/2026-09-11/russia-sanctions-bill-scheduled-for-a-us-house-vote-next-week"
-        },
-        {
-          "name": "Washington Examiner",
-          "url": "https://www.washingtonexaminer.com/news/senate/4679369/russia-sanctions-bill-clears-senate-with-just-11-opponents/"
-        },
-        {
-          "name": "The Hill",
-          "url": "https://thehill.com/homenews/6084914-house-russia-sanctions-vote/"
         }
       ]
     }
   },
-  "stack_blurb": "House Rules meeting underway Mon. 4 p.m. on Graham Russia/Iran sanctions bill.",
-  "seo_description": "House Rules Committee meets Monday 4 p.m. on Senate amendments to the Lindsey Graham Russia and Iran sanctions bill after an 86–11 Senate vote.",
-  "date_modified": "2026-09-14T16:00:00-04:00",
+  "stack_blurb": "Rules 7–3 advances Graham Russia/Iran sanctions; House rule vote Tue; floor Wed.",
+  "seo_description": "House Rules voted 7–3 to advance the Graham Russia–Iran sanctions bill toward a Tuesday rule vote and possible Wednesday passage.",
+  "date_modified": "2026-09-15T08:00:00-04:00",
   "date_published": "2026-09-11T20:10:00-04:00",
   "article_section": "Congress"
 }
