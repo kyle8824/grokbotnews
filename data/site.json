@@ -3,15 +3,16 @@
   "title": "Grok Bot News — Tuesday, September 15, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Tuesday, September 15, 2026 · ~8:00 a.m. EDT",
+  "utility_live": "Tuesday, September 15, 2026 · ~9:15 a.m. EDT",
   "utility_markets": "AAA diesel $6.27 record · Brent ~$106.93 / WTI ~$102.65 early Tue · East-West outage risk",
-  "breaking": "SCOTUS leaves USPS mail-ballot rule blocked for midterms; Saylor PI holds on DHS visa-duration; NATO downs drone over Lithuania; Trump Iran-deal post + CENTCOM rejects El Gaia mine claim; House Rules clears Russia–Iran sanctions.",
+  "breaking": "SCOTUS denies stay of Talwani PI on USPS mail-ballot rule (26A305); Saylor PI still blocks DHS visa-duration rule due Sept. 15; NATO downs drone over Lithuania; Trump Iran-deal post + CENTCOM rejects El Gaia mine claim; House Rules clears Russia–Iran sanctions.",
   "order": [
-    "usps-mail-ballot-whistleblower",
+    "scotus-usps-mail-ballot-denied",
     "saylor-visa-duration-injunction",
     "lithuania-nato-drone-shootdown",
     "trump-iran-centcom-el-gaia",
     "public-charge-green-card-suits",
+    "usps-mail-ballot-whistleblower",
     "trump-ukraine-russia-energy-pause",
     "house-russia-sanctions-vote",
     "yahodyn-poland-border-drone",
@@ -73,10 +74,11 @@
     "iran-hormuz-strikes"
   ],
   "stack": [
-    "usps-mail-ballot-whistleblower",
+    "scotus-usps-mail-ballot-denied",
     "saylor-visa-duration-injunction",
     "lithuania-nato-drone-shootdown",
     "trump-iran-centcom-el-gaia",
+    "usps-mail-ballot-whistleblower",
     "public-charge-green-card-suits",
     "trump-ukraine-russia-energy-pause",
     "house-russia-sanctions-vote",
@@ -84,16 +86,19 @@
     "treasury-vtb-iran-sanctions",
     "brent-105-dual-chokepoint",
     "saudi-east-west-pipeline-strike",
-    "big-bend-landowners-wall-suit"
+    "big-bend-landowners-wall-suit",
+    "brennan-florida-grand-jury-subpoena",
+    "clarity-act-senate-cloture"
   ],
   "section_labels": [
     {
       "id": "us",
       "label": "U.S. & Washington",
       "slugs": [
-        "usps-mail-ballot-whistleblower",
+        "scotus-usps-mail-ballot-denied",
         "saylor-visa-duration-injunction",
         "public-charge-green-card-suits",
+        "usps-mail-ballot-whistleblower",
         "house-russia-sanctions-vote",
         "trump-ai-guardrails-truth-social",
         "epa-power-plant-carbon-repeal",
@@ -151,9 +156,10 @@
       "id": "politics",
       "label": "Politics",
       "slugs": [
-        "usps-mail-ballot-whistleblower",
+        "scotus-usps-mail-ballot-denied",
         "saylor-visa-duration-injunction",
         "public-charge-green-card-suits",
+        "usps-mail-ballot-whistleblower",
         "house-russia-sanctions-vote",
         "trump-ai-guardrails-truth-social",
         "epa-power-plant-carbon-repeal",
@@ -240,68 +246,58 @@
   ],
   "rail_wire": [
     {
+      "hed": "SCOTUS leaves USPS mail-ballot block in place for midterms",
+      "stamp": "9:15 a.m.",
+      "slug": "scotus-usps-mail-ballot-denied"
+    },
+    {
       "hed": "Boston judge blocks DHS visa-duration caps for students, journalists",
-      "stamp": "8:20 p.m.",
+      "stamp": "Mon 8:20 p.m.",
       "slug": "saylor-visa-duration-injunction"
     },
     {
+      "hed": "NATO jets shoot down drone over Lithuania",
+      "stamp": "Tue ~8:00 a.m.",
+      "slug": "lithuania-nato-drone-shootdown"
+    },
+    {
+      "hed": "Trump Iran-deal post; CENTCOM rejects El Gaia mine claim",
+      "stamp": "Tue ~8:00 a.m.",
+      "slug": "trump-iran-centcom-el-gaia"
+    },
+    {
       "hed": "Treasury adds Iran sanctions on Russia’s VTB Bank",
-      "stamp": "6:35 p.m.",
+      "stamp": "Mon 6:35 p.m.",
       "slug": "treasury-vtb-iran-sanctions"
-    },
-    {
-      "hed": "Russian drone hits train near Poland border; NATO’s Rutte reacts",
-      "stamp": "3:00 p.m.",
-      "slug": "yahodyn-poland-border-drone"
-    },
-    {
-      "hed": "Trump rejects new AI guardrails on Truth Social",
-      "stamp": "2:00 p.m.",
-      "slug": "trump-ai-guardrails-truth-social"
-    },
-    {
-      "hed": "Trump: Ukraine, Russia agreed to halt energy strikes",
-      "stamp": "1:30 p.m.",
-      "slug": "trump-ukraine-russia-energy-pause"
-    },
-    {
-      "label": "AI STOCKS.",
-      "text": "Nvidia ~3% down, SoftBank ~11% Tokyo drop after Amodei/Altman/Musk urge slower frontier pace; Altman: pacing ≠ stopping, no OpenAI IPO this year.",
-      "stamp": "NEW · Mon. ~10:30 a.m."
     },
     {
       "label": "CLARITY.",
       "text": "Tue. 2:15 p.m. cloture on Clarity Act; weekend draft adds Trump-accepted ethics + Treasury stablecoin circuit-breaker; needs ~7 Dems.",
-      "stamp": "NEW · Mon. 9:45 a.m."
+      "stamp": "UPDATED · Tue. 9:15 a.m."
+    },
+    {
+      "label": "VISA RULE.",
+      "text": "Saylor PI still blocks DHS F/J/I duration-of-status end; Sept. 15 effective date paused pending Oct. 2 status conference.",
+      "stamp": "NEW · Tue. 9:15 a.m."
     },
     {
       "label": "OIL.",
-      "text": "Brent ~$107.82 (toward $108) / WTI ~$103.22 Monday; AAA diesel record $6.23; regular gas ~$4.31.",
-      "stamp": "UPDATED · Mon. 8 a.m."
+      "text": "Brent ~$106.93 / WTI ~$102.65 early Tue; AAA diesel record $6.27; East-West outage risk.",
+      "stamp": "UPDATED · Tue. early"
     },
     {
       "label": "PIPELINE.",
       "text": "Saudi East-West still offline; Yanbu stocks measured in days; up to ~4% of global supply at risk.",
-      "stamp": "UPDATED · Mon. 8 a.m."
+      "stamp": "UPDATED · Tue."
     },
     {
-      "label": "DIPLOMACY.",
-      "text": "Oman postpones Monday Gulf–Iran Hormuz meeting in Salalah; Iran cites Saudi request.",
-      "stamp": "NEW · Mon. 8 a.m."
-    },
-    {
-      "label": "HORMUZ.",
-      "text": "Weekend UKMTO projectile strike + fire/evac; Sunday ~14 vessel transits still a fraction of pre-war flow.",
-      "stamp": "UPDATED · Mon. 8 a.m."
-    },
-    {
-      "label": "UKRAINE.",
-      "text": "Russia launches 108 drones overnight Monday; Ukraine says 85 downed, impacts at 7 sites.",
-      "stamp": "NEW · Mon. 8 a.m."
+      "label": "LITHUANIA.",
+      "text": "Italian NATO Eurofighters from Šiauliai shot down drone overnight that entered from Belarus; origin undetermined.",
+      "stamp": "NEW · Tue. 8 a.m."
     }
   ],
   "markets": {
-    "heading": "Markets · Monday late afternoon",
+    "heading": "Markets · Tuesday early (carry)",
     "rows": [
       {
         "label": "Nasdaq / AI chips",
@@ -332,20 +328,18 @@
     "credit": "AI/chip session from Reuters/CNBC/NBC Monday wraps. Crude prints from Reuters (~$108.83 Brent / ~$103.88 WTI). AAA diesel $6.23 from morning NBC/AAA reporting."
   },
   "ticker": [
-    "SCOTUS denies USPS mail-ballot stay — rule blocked for midterms",
-    "Saylor PI holds: DHS F/J/I visa-duration rule off on Sept. 15",
-    "NATO jets down drone over Lithuania near Kaunas",
-    "Trump: Iran wants deal ‘quickly’; CENTCOM rejects El Gaia mine claim",
-    "AAA diesel $6.27 record · Brent ~$107 early Tue",
-    "House Rules clears Graham Russia–Iran sanctions — rule vote today",
+    "SCOTUS|Denies DOJ stay of Talwani PI on USPS mail-ballot rule (26A305); Alito–Thomas dissent; Kavanaugh concurs on timing",
+    "VISA RULE|Judge Saylor PI still blocks DHS end of duration-of-status for F/J/I; Sept. 15 start paused",
+    "LITHUANIA|NATO Italian Eurofighters shoot down drone over Lithuania after Belarus-border entry",
+    "IRAN|Trump Iran-deal Truth Social post; CENTCOM rejects El Gaia mine claim",
     "VTB|Treasury OFAC designates Russia’s VTB under Iran E.O. 13902; secondary risk for foreign banks",
-    "YAHODYN|Russian drone hits train ~2 km from Poland; Johnson/Bildt train left early; Petraeus at station; no casualties",
-    "NATO|Rutte: near-border strikes show Putin ‘desperation’; alliance to boost Ukraine support",
-    "AI GUARDRAILS|Trump rejects new AI guardrails on Truth Social; says only a ‘strong and smart’ president is needed",
-    "AI STOCKS|AI-linked shares slide after Amodei/Altman/Musk urge slower frontier-model pace; SoftBank ~11% down",
     "CLARITY|Senate cloture Tue. 2:15 p.m. on Clarity Act after Trump accepts revised crypto ethics limits",
-    "OIL|Brent ~$107.82 toward $108; WTI ~$103.22; AAA diesel record $6.23",
-    "PIPELINE|Saudi East-West still offline; Yanbu stocks days; ~4% supply risk"
+    "OIL|Brent ~$106.93; WTI ~$102.65 early Tue; AAA diesel record $6.27",
+    "PIPELINE|Saudi East-West still offline; Yanbu stocks days; ~4% supply risk",
+    "YAHODYN|Russian drone hits train ~2 km from Poland; no casualties",
+    "RUSSIA BILL|House Rules clears Graham Russia/Iran sanctions path",
+    "OPM|Judge O’Toole stay on OPM ‘loyalty’ essay still in effect",
+    "HOUTHIS|Houthis cement Red Sea coast + Bab al-Mandab island hold"
   ],
   "archive": [
     {

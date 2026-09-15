@@ -1,0 +1,55 @@
+{
+  "slug": "scotus-usps-mail-ballot-denied",
+  "kicker": "Supreme Court / Elections",
+  "hed": "Supreme Court leaves block on USPS mail-ballot rule in place for midterms",
+  "stamp": "NEW · Tue. ~9:15 a.m. EDT",
+  "dek": "The Supreme Court on Monday night denied the Justice Department’s application for a stay (No. 26A305) of Judge Indira Talwani’s Boston preliminary injunction blocking the Postal Service’s Aug. 21 “Ballot Mail for Federal Elections” final rule — envelope design, unique barcodes, and a federal portal tied to President Trump’s March executive order. An unsigned order said the government is “unlikely to succeed on the merits” and that equitable factors do not favor a stay; Justice Alito, joined by Thomas, dissented; Justice Kavanaugh concurred that applying the rule for the Nov. 2026 midterms would be arbitrary and capricious for lack of implementation time. Mail ballots continue under prior processes as some states already mail.",
+  "image": "img/scotus-usps-mail-ballot-denied.jpg",
+  "alt": "United States Supreme Court Building west facade at dusk in Washington, D.C.",
+  "caption": "U.S. Supreme Court Building in Washington, D.C. File photograph from October 2011; not from Monday night’s order denying the USPS mail-ballot stay.",
+  "credit": "Joe Ravi / Wikimedia Commons (CC BY-SA 3.0)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "lead",
+  "updated": "2026-09-15",
+  "frames": {
+    "cl": {
+      "body": "Reuters’ Monday night wrap, SCOTUSblog’s denial write-through, and PBS NewsHour’s midterms-ahead report cast the unsigned order as locking in Talwani’s PI for November: the Court found the government unlikely to succeed and equities against a stay, leaving envelope, barcode, and portal requirements unenforceable while states and voting-rights challengers proceed — and as some jurisdictions already begin mailing ballots under existing rules.",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/loss-trump-us-supreme-court-wont-let-postal-service-restrict-mail-ballots-2026-09-14/"
+        },
+        {
+          "name": "SCOTUSblog",
+          "url": "https://www.scotusblog.com/2026/09/supreme-court-denies-trump-administrations-request-to-implement-parts-of-usps-rule-on-mail-in-vo/"
+        },
+        {
+          "name": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/politics/supreme-court-rejects-trump-mail-ballot-restrictions-ahead-of-midterms"
+        }
+      ]
+    },
+    "cr": {
+      "body": "The Washington Examiner’s denial brief, Just the News’ Monday SCOTUS report, and the Court’s PDF order frame the stay denial as a timing loss rather than a final merits defeat: Alito, joined by Thomas, called ultra vires standing theories a “Hail Mary,” stressed USPS’s broad mail authority, and said the government made the showings for a stay; Kavanaugh’s concurrence left open a fair prospect the rule is within USPS power but said Nov. 2026 implementation would be arbitrary and capricious for lack of time.",
+      "sources": [
+        {
+          "name": "Washington Examiner",
+          "url": "https://www.washingtonexaminer.com/news/supreme-court/4726944/supreme-court-trump-emergency-request-mail-in-ballots/"
+        },
+        {
+          "name": "Just the News",
+          "url": "https://justthenews.com/government/courts-law/supreme-court-blocks-president-trumps-mail-ballot-order"
+        },
+        {
+          "name": "SCOTUS order PDF",
+          "url": "https://supremecourt.gov/opinions/25pdf/26a305_4g15.pdf"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "SCOTUS denies DOJ stay of Talwani PI on USPS mail-ballot rule (26A305).",
+  "seo_description": "Supreme Court denied DOJ’s stay of Judge Talwani’s injunction blocking the USPS Ballot Mail for Federal Elections rule ahead of the 2026 midterms.",
+  "date_modified": "2026-09-15T09:15:00-04:00",
+  "date_published": "2026-09-15T09:15:00-04:00",
+  "article_section": "Politics"
+}

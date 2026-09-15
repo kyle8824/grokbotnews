@@ -1,55 +1,55 @@
 {
   "slug": "usps-mail-ballot-whistleblower",
-  "kicker": "Supreme Court / Elections",
-  "hed": "Supreme Court leaves USPS mail-ballot rule blocked for midterms",
-  "stamp": "UPDATED · Tue. ~8:00 a.m. EDT",
-  "dek": "The Supreme Court on Monday night denied the Justice Department’s emergency stay application in Postal Service v. California (No. 26A305), leaving intact U.S. District Judge Indira Talwani’s preliminary injunction that blocks the Postal Service’s Aug. 21 Ballot Mail for Federal Elections final rule — specialized envelopes, unique barcodes, and a Federal Ballot Mail Portal — from taking effect for the November midterms. An unsigned order said the government was unlikely to succeed on the merits and that equitable factors did not favor a stay. Justice Kavanaugh concurred, saying midterm application would be arbitrary and capricious for lack of implementation time; Justices Alito and Thomas dissented.",
-  "image": "img/scotus-usps-mail-ballot.jpg",
-  "alt": "West facade of the United States Supreme Court Building in Washington, D.C.",
-  "caption": "West facade of the U.S. Supreme Court Building. File photograph; not from Monday night’s order in No. 26A305.",
-  "credit": "Duncan Lock / Wikimedia Commons (CC BY-SA 3.0)",
+  "kicker": "Postal Service / Courts",
+  "hed": "Second federal judge blocked USPS mail-ballot rule before SCOTUS denied stay",
+  "stamp": "UPDATED · Tue. ~9:15 a.m. EDT",
+  "dek": "U.S. District Judge Carl J. Nichols in Washington issued a preliminary injunction late Sunday blocking the Postal Service from enforcing its Aug. 21 Ballot Mail for Federal Elections final rule — including new envelope-design requirements and a federal voter portal — adding a second nationwide lower-court block alongside Judge Indira Talwani’s Boston injunction. On Monday night the Supreme Court denied the Justice Department’s stay application (No. 26A305) of Talwani’s PI, leaving the rule blocked for the midterms (see lead: scotus-usps-mail-ballot-denied).",
+  "image": "img/ballots.jpg",
+  "alt": "Election worker in blue gloves holding a vote-by-mail envelope",
+  "caption": "Mail-ballot processing. File photograph; not from Sunday’s D.C. ruling.",
+  "credit": "Mail-ballot processing · file",
   "byline": "Event summary from public reporting and named outlets",
   "section": "politics",
   "updated": "2026-09-15",
   "frames": {
     "cl": {
-      "body": "Votebeat’s Tuesday write-through, Reuters’s Monday SCOTUS wrap, and CBS News cast the denial as locking in status-quo mail voting for November after states and election officials warned they could not rebuild envelopes and portal workflows before ballots already began mailing — with the unsigned majority finding the government unlikely to prevail against Talwani’s injunction and Kavanaugh separately concluding midterm enforcement would violate the APA’s arbitrary-and-capricious standard.",
+      "body": "Bloomberg Law’s Monday write-through, The Hill’s court-battles report, and UPI’s second-judge coverage cast Nichols’s Sunday PI as another midterm-season setback for Trump’s mail-voting overhaul: a Trump-appointed judge concluding no statute authorizes the portal and voter-list conditions, noting the short window before Nov. 3 — later reinforced when SCOTUS denied the stay of Talwani’s Boston block.",
       "sources": [
         {
-          "name": "Votebeat",
-          "url": "https://www.votebeat.org/national/2026/09/15/trump-mail-voting-executive-order-supreme-court-decision-2026-election/"
+          "name": "Bloomberg Law",
+          "url": "https://news.bloomberglaw.com/litigation/democrats-win-new-block-on-trump-mail-ballot-curbs-for-midterms"
         },
         {
-          "name": "Reuters",
-          "url": "https://www.reuters.com/world/loss-trump-us-supreme-court-wont-let-postal-service-restrict-mail-ballots-2026-09-14/"
+          "name": "The Hill",
+          "url": "https://thehill.com/regulation/court-battles/6087668-second-judge-freeze-donald-trump-usps-mail-in-voting-restrictions-midterms/"
         },
         {
-          "name": "CBS News",
-          "url": "https://www.cbsnews.com/news/supreme-court-blocks-new-postal-service-mail-ballots-trump/"
+          "name": "UPI",
+          "url": "https://www.upi.com/Top_News/US/2026/09/14/second-judge-blocks-trump-mail-voting-plan-usps/2661789406715/"
         }
       ]
     },
     "cr": {
-      "body": "The Washington Examiner’s Monday denial brief, Just the News’s SCOTUS report, and Justice Alito’s dissent (joined by Thomas) frame the stay denial as leaving a nationwide injunction in place despite Alito’s argument that some challengers lack standing, that ultra vires claims are a “Hail Mary,” and that USPS has broad statutory mail authority — while the dissent stressed the government’s interest in enforcing anti-fraud ballot-mail rules before November.",
+      "body": "The Washington Examiner’s Monday Nichols wrap, Just the News’s court brief, and the DOJ stay application (denied Monday night in No. 26A305) framed the D.C. injunction as one more lower-court obstacle while Solicitor General Sauer argued the Postal Service’s barcode and recipient-list rules are modest anti-fraud mail regulation — and that irreparable harm follows if injunctions lock in status quo as more states begin mailing ballots.",
       "sources": [
         {
           "name": "Washington Examiner",
-          "url": "https://www.washingtonexaminer.com/news/supreme-court/4726944/supreme-court-trump-emergency-request-mail-in-ballots/"
+          "url": "https://www.washingtonexaminer.com/news/justice/4725698/trump-nominated-judge-blocks-usps-mail-in-ballot-rule/"
         },
         {
           "name": "Just the News",
-          "url": "https://justthenews.com/government/courts-law/supreme-court-blocks-president-trumps-mail-ballot-order"
+          "url": "https://justthenews.com/government/courts-law/another-judge-blocks-trumps-mail-ballot-rule"
         },
         {
-          "name": "SCOTUS order (26A305)",
-          "url": "https://supremecourt.gov/opinions/25pdf/26a305_4g15.pdf"
+          "name": "DOJ PI stay application",
+          "url": "https://www.supremecourt.gov/DocketPDF/26/26A305/423226/20260906094442523_USPS%20v.%20State%20of%20California%20PI%20No.%2026A%20-%20Stay%20App.pdf"
         }
       ]
     }
   },
-  "stack_blurb": "SCOTUS denies DOJ stay; USPS mail-ballot rule stays enjoined for midterms.",
-  "seo_description": "Supreme Court denied the DOJ stay in Postal Service v. California, leaving the USPS mail-ballot rule blocked for the 2026 midterms. Dual sourced frames.",
-  "date_modified": "2026-09-15T08:00:00-04:00",
+  "stack_blurb": "Nichols PI + Talwani PI; SCOTUS denied DOJ stay Mon night (26A305).",
+  "seo_description": "Judge Carl Nichols issued a second PI blocking the USPS mail-ballot rule; the Supreme Court later denied DOJ’s stay of Judge Talwani’s order.",
+  "date_modified": "2026-09-15T09:15:00-04:00",
   "date_published": "2026-09-08T12:00:00-04:00",
   "article_section": "Politics"
 }
