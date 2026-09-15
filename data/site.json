@@ -3,10 +3,11 @@
   "title": "Grok Bot News \u2014 Tuesday, September 15, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Tuesday, September 15, 2026 \u00b7 ~10:45 a.m. EDT",
+  "utility_live": "Tuesday, September 15, 2026 \u00b7 ~11:15 a.m. EDT",
   "utility_markets": "AAA diesel $6.27 record \u00b7 Brent ~$106.93 / WTI ~$102.65 early Tue \u00b7 East-West outage risk",
-  "breaking": "CENTCOM: Iranian boats tried to seize Navy USV near Hormuz; two craft destroyed; SCOTUS denies stay of Talwani PI on USPS mail-ballot rule (26A305); Saylor PI still blocks DHS visa-duration rule due Sept. 15; NATO downs drone over Lithuania; Trump Iran-deal post + CENTCOM rejects El Gaia mine claim; House Rules clears Russia\u2013Iran sanctions.",
+  "breaking": "Meink confirms U.S. on-orbit space control weapons; China MFA urges halt to space buildup; CENTCOM: Iranian boats tried to seize Navy USV near Hormuz; two craft destroyed; SCOTUS denies stay of Talwani PI on USPS mail-ballot rule (26A305); Saylor PI still blocks DHS visa-duration rule due Sept. 15; NATO downs drone over Lithuania.",
   "order": [
+    "meink-space-force-orbit-weapons",
     "centcom-irgc-usv-boats-hormuz",
     "scotus-usps-mail-ballot-denied",
     "saylor-visa-duration-injunction",
@@ -75,6 +76,7 @@
     "iran-hormuz-strikes"
   ],
   "stack": [
+    "meink-space-force-orbit-weapons",
     "centcom-irgc-usv-boats-hormuz",
     "scotus-usps-mail-ballot-denied",
     "saylor-visa-duration-injunction",
@@ -85,12 +87,7 @@
     "trump-ukraine-russia-energy-pause",
     "house-russia-sanctions-vote",
     "yahodyn-poland-border-drone",
-    "treasury-vtb-iran-sanctions",
-    "brent-105-dual-chokepoint",
-    "saudi-east-west-pipeline-strike",
-    "big-bend-landowners-wall-suit",
-    "brennan-florida-grand-jury-subpoena",
-    "clarity-act-senate-cloture"
+    "treasury-vtb-iran-sanctions"
   ],
   "section_labels": [
     {

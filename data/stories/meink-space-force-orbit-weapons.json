@@ -1,0 +1,55 @@
+{
+  "slug": "meink-space-force-orbit-weapons",
+  "kicker": "Space Force / Orbit",
+  "hed": "Air Force secretary confirms U.S. has on-orbit space control weapons; China urges halt to buildup",
+  "stamp": "NEW \u00b7 Tue. ~11:15 a.m. EDT",
+  "dek": "Air Force Secretary Troy Meink told the Air & Space Forces Association conference Monday that the United States now has \"on-orbit space control weapons capable of defending the joint force against hostile adversary action\" \u2014 the first public Pentagon acknowledgment of such systems, with no type, number, or launch date disclosed. A Space Force spokesperson said space control can use kinetic and non-kinetic means to disrupt, degrade, or destroy adversary capabilities when directed. On Tuesday, Chinese Foreign Ministry spokesperson Guo Jiakun urged Washington to stop expanding military capabilities in outer space and warned against weaponizing the domain; Meink tied related Golden Dome work to Space-Based Interceptors and a Space-Based AMTI constellation with first launches this month.",
+  "image": "img/meink-space-force-orbit-weapons.jpg",
+  "alt": "U.S. Space Force leader speaks to Space Delta 8 guardians at Schriever Space Force Base",
+  "caption": "Lt. Gen. David N. Miller Jr. speaks to Space Delta 8 \u2014 Satellite Communications guardians at Schriever Space Force Base, Colo., June 24, 2024. File photo; not from Meink\u2019s Monday AFA keynote.",
+  "credit": "U.S. Space Force / 1st Lt. Danielle Rose (public domain)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "lead",
+  "updated": "2026-09-15",
+  "frames": {
+    "cl": {
+      "body": "BBC\u2019s Tuesday write-through, Defense One\u2019s National Harbor account, and Xinhua\u2019s Tuesday MFA brief cast Meink\u2019s disclosure as a first-of-its-kind public admission that risks accelerating an orbital arms race: experts quoted by Defense One said rivals may now match the rhetoric, while Guo Jiakun urged the U.S. to stop expanding military buildup in outer space, oppose weaponizing the domain, and uphold strategic stability \u2014 framing the announcement as preparation for war in space rather than quiet deterrence.",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/articles/ck790xg41ygro"
+        },
+        {
+          "name": "Defense One",
+          "url": "https://www.defenseone.com/defense-systems/2026/09/us-military-has-orbit-space-weapons-air-force-secretary-reveals/415964/"
+        },
+        {
+          "name": "Xinhua",
+          "url": "https://english.news.cn/20260915/52002f52e45d4f45a11234a176ea919c/c.html"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Air & Space Forces Magazine\u2019s Monday keynote report, DefenseScoop\u2019s first-confirmation wrap, and The War Zone\u2019s Space Force follow-up frame the line as intentional deterrence: Meink called the phrasing \"very well thought out,\" refused kinetic/non-kinetic details so adversaries cannot game them, and linked on-orbit control to defending joint-force dominance against China and Russia counterspace programs while Golden Dome\u2019s Space-Based Interceptor and SpaceX-backed AMTI constellation move toward fielding.",
+      "sources": [
+        {
+          "name": "Air & Space Forces Magazine",
+          "url": "https://www.airandspaceforces.com/meink-space-force-on-orbit-space-control-weapons/"
+        },
+        {
+          "name": "DefenseScoop",
+          "url": "https://defensescoop.com/2026/09/14/meink-space-force-has-deployed-space-control-weapons-to-orbit/"
+        },
+        {
+          "name": "The War Zone",
+          "url": "https://www.twz.com/space/u-s-admits-it-has-weapons-in-orbit"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Meink: U.S. has on-orbit space control weapons; China urges halt to space buildup.",
+  "seo_description": "Air Force Secretary Troy Meink confirmed U.S. on-orbit space control weapons; China urged a halt to military buildup in space.",
+  "date_modified": "2026-09-15T11:15:00-04:00",
+  "date_published": "2026-09-15T11:15:00-04:00",
+  "article_section": "World"
+}
