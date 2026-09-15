@@ -3,11 +3,12 @@
   "title": "Grok Bot News — Tuesday, September 15, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Tuesday, September 15, 2026 · ~3:20 p.m. EDT",
-  "utility_markets": "AAA diesel $6.27 record · Brent ~$106.93 / WTI ~$102.65 early Tue · East-West outage risk",
-  "breaking": "Senate Clarity Act cloture fails 49–50 (short of 60) on H.R. 3633; Trump Truth Social: SCOTUS mail-ballot stay denial a ‘big loss’; Biletskyi confirms Operation Vivaldi in N. Donetsk near Lyman; Meink confirms U.S. on-orbit space control weapons; CENTCOM: Iranian boats tried to seize Navy USV near Hormuz.",
+  "utility_live": "Tuesday, September 15, 2026 · ~4:10 p.m. EDT",
+  "utility_markets": "AAA diesel ~$6.27 record · Brent ~$106.93 / WTI ~$102.65 early Tue · East-West outage risk",
+  "breaking": "Overnight Russia~200 drones + Ukraine Syzran/refinery hits after Trump energy-pause claim; Peskov: ‘very good idea,’ not sealed; Senate Clarity Act cloture fails 49–50; Biletskyi confirms Operation Vivaldi in N. Donetsk; Trump SCOTUS mail-ballot ‘big loss’ post.",
   "order": [
     "clarity-act-senate-cloture",
+    "trump-ukraine-russia-energy-pause",
     "ukraine-vivaldi-donetsk-offensive",
     "trump-scotus-mail-ballot-reaction",
     "meink-space-force-orbit-weapons",
@@ -18,7 +19,6 @@
     "trump-iran-centcom-el-gaia",
     "public-charge-green-card-suits",
     "usps-mail-ballot-whistleblower",
-    "trump-ukraine-russia-energy-pause",
     "house-russia-sanctions-vote",
     "yahodyn-poland-border-drone",
     "treasury-vtb-iran-sanctions",
@@ -79,6 +79,7 @@
   ],
   "stack": [
     "clarity-act-senate-cloture",
+    "trump-ukraine-russia-energy-pause",
     "ukraine-vivaldi-donetsk-offensive",
     "trump-scotus-mail-ballot-reaction",
     "meink-space-force-orbit-weapons",
@@ -89,7 +90,6 @@
     "trump-iran-centcom-el-gaia",
     "usps-mail-ballot-whistleblower",
     "public-charge-green-card-suits",
-    "trump-ukraine-russia-energy-pause",
     "house-russia-sanctions-vote"
   ],
   "section_labels": [
@@ -130,12 +130,12 @@
       "id": "world",
       "label": "World",
       "slugs": [
+        "trump-ukraine-russia-energy-pause",
         "ukraine-vivaldi-donetsk-offensive",
         "lithuania-nato-drone-shootdown",
         "centcom-irgc-usv-boats-hormuz",
         "trump-iran-centcom-el-gaia",
         "yahodyn-poland-border-drone",
-        "trump-ukraine-russia-energy-pause",
         "treasury-vtb-iran-sanctions",
         "russia-ukraine-108-drones",
         "oman-hormuz-talks-postponed",
@@ -195,8 +195,8 @@
       "id": "energy",
       "label": "Energy & markets",
       "slugs": [
-        "trump-iran-centcom-el-gaia",
         "trump-ukraine-russia-energy-pause",
+        "trump-iran-centcom-el-gaia",
         "brent-105-dual-chokepoint",
         "saudi-east-west-pipeline-strike",
         "treasury-vtb-iran-sanctions",
@@ -250,6 +250,11 @@
     }
   ],
   "rail_wire": [
+    {
+      "hed": "Overnight energy strikes after Trump pause claim; Peskov: ‘very good idea,’ not sealed",
+      "slug": "trump-ukraine-russia-energy-pause",
+      "stamp": "4:10 p.m."
+    },
     {
       "hed": "Senate ~2:15 p.m. cloture on Clarity Act after Dem counteroffer; GOP says final text",
       "slug": "clarity-act-senate-cloture",
@@ -333,6 +338,7 @@
     "credit": "AI/chip session from Reuters/CNBC/NBC Monday wraps. Crude prints from Reuters (~$108.83 Brent / ~$103.88 WTI). AAA diesel $6.23 from morning NBC/AAA reporting."
   },
   "ticker": [
+    "ENERGY|Overnight Russia~200 drones + Ukraine Syzran hits after Trump pause claim; Peskov calls idea ‘very good,’ not sealed; AAA diesel ~$6.27",
     "CLARITY|Senate ~2:15 p.m. cloture on H.R. 3633; Dem overnight counteroffer; GOP rejects further talks before 60-vote test",
     "SCOTUS|Denies DOJ stay of Talwani PI on USPS mail-ballot rule (26A305); Alito–Thomas dissent; Kavanaugh concurs on timing",
     "VISA RULE|Judge Saylor PI still blocks DHS end of duration-of-status for F/J/I; Sept. 15 start paused",
