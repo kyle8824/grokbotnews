@@ -3,10 +3,11 @@
   "title": "Grok Bot News — Tuesday, September 15, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Tuesday, September 15, 2026 · ~6:05 p.m. EDT",
+  "utility_live": "Tuesday, September 15, 2026 · ~7:05 p.m. EDT",
   "utility_markets": "AAA diesel ~$6.27 record · Brent ~$106.93 / WTI ~$102.65 early Tue · East-West outage risk",
-  "breaking": "Schumer/Padilla release DHS Unlawful Voter Initiative whistleblower file; Dems demand halt by Sept. 21; DHS defends public-roll alien cross-checks; Pentagon IG: Epic Fury ~$33.4B; Clarity Act cloture fails 49–50; PA man charged in alleged ISIS rifle plot.",
+  "breaking": "N.D. Texas charges 7 noncitizens over alleged illegal voting; Tarrant adds 2 local cases; Schumer/Padilla DHS Unlawful Voter Initiative whistleblower file; Pentagon IG: Epic Fury ~$33.4B; Clarity Act cloture fails 49–50; PA man charged in alleged ISIS rifle plot.",
   "order": [
+    "texas-noncitizen-voting-charges",
     "clarity-act-senate-cloture",
     "dhs-unlawful-voter-initiative-whistleblower",
     "pentagon-ig-epic-fury-costs",
@@ -81,7 +82,9 @@
     "iran-hormuz-strikes"
   ],
   "stack": [
+    "texas-noncitizen-voting-charges",
     "clarity-act-senate-cloture",
+    "dhs-unlawful-voter-initiative-whistleblower",
     "pentagon-ig-epic-fury-costs",
     "pa-isis-kramer-charged",
     "trump-ukraine-russia-energy-pause",
@@ -92,15 +95,14 @@
     "scotus-usps-mail-ballot-denied",
     "saylor-visa-duration-injunction",
     "lithuania-nato-drone-shootdown",
-    "trump-iran-centcom-el-gaia",
-    "usps-mail-ballot-whistleblower",
-    "public-charge-green-card-suits"
+    "trump-iran-centcom-el-gaia"
   ],
   "section_labels": [
     {
       "id": "us",
       "label": "U.S. & Washington",
       "slugs": [
+        "texas-noncitizen-voting-charges",
         "pa-isis-kramer-charged",
         "pentagon-ig-epic-fury-costs",
         "clarity-act-senate-cloture",
@@ -168,6 +170,7 @@
       "id": "politics",
       "label": "Politics",
       "slugs": [
+        "texas-noncitizen-voting-charges",
         "clarity-act-senate-cloture",
         "scotus-usps-mail-ballot-denied",
         "saylor-visa-duration-injunction",
@@ -258,6 +261,11 @@
   ],
   "rail_wire": [
     {
+      "hed": "N.D. Texas: 7 noncitizens charged over alleged illegal voting; Tarrant adds 2",
+      "slug": "texas-noncitizen-voting-charges",
+      "stamp": "7:05 p.m."
+    },
+    {
       "hed": "Pentagon IG: Epic Fury ~$33.4B through June; munitions shortfalls flagged",
       "slug": "pentagon-ig-epic-fury-costs",
       "stamp": "5:15 p.m."
@@ -311,11 +319,6 @@
       "label": "LITHUANIA.",
       "text": "Italian NATO Eurofighters from Šiauliai shot down drone overnight that entered from Belarus; origin undetermined.",
       "stamp": "NEW · Tue. 8 a.m."
-    },
-    {
-      "label": "CLARITY.",
-      "text": "Tue. ~2:15 p.m. cloture on motion to proceed to H.R. 3633; Dem overnight counteroffer rejected; needs ~7 Dems if GOP holds.",
-      "stamp": "UPDATED · Tue. 2:15 p.m."
     }
   ],
   "markets": {
@@ -350,6 +353,7 @@
     "credit": "AI/chip session from Reuters/CNBC/NBC Monday wraps. Crude prints from Reuters (~$108.83 Brent / ~$103.88 WTI). AAA diesel $6.23 from morning NBC/AAA reporting."
   },
   "ticker": [
+    "TEXAS VOTING|N.D. Texas charges 7 noncitizens (voting by alien / false citizenship); Tarrant DA adds 2 local cases; Paxton/HSI/FBI collaborate",
     "PENTAGON IG|Epic Fury ~$33.4B through June ($22.3B munitions); A&S cites strategic inventory shortfalls",
     "ENERGY|Overnight Russia~200 drones + Ukraine Syzran hits after Trump pause claim; Peskov calls idea ‘very good,’ not sealed; AAA diesel ~$6.27",
     "CLARITY|Senate ~2:15 p.m. cloture on H.R. 3633; Dem overnight counteroffer; GOP rejects further talks before 60-vote test",

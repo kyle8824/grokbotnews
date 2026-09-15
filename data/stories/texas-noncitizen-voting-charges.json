@@ -1,0 +1,55 @@
+{
+  "slug": "texas-noncitizen-voting-charges",
+  "kicker": "Elections / Justice",
+  "hed": "Federal prosecutors charge seven noncitizens in North Texas over alleged illegal voting; two more charged locally",
+  "stamp": "NEW · Tue. ~7:05 p.m. EDT",
+  "dek": "At a Fort Worth news conference Tuesday, U.S. Attorney Ryan Raybould for the Northern District of Texas announced charges against seven noncitizens — six by Sept. 10 indictment and one by complaint — for alleged voting by an alien, false statements of citizenship to register or vote, or false statements on a naturalization application tied mainly to the 2024 general election in Tarrant and Dallas counties. Texas Attorney General Ken Paxton’s office said it collaborated with the U.S. Attorney’s Office, FBI, and HSI on the arrests. Tarrant County prosecutors separately charged two additional people, bringing the publicly announced local total to nine. Prosecutors said most of the federal defendants are lawful permanent residents; one is described as an undocumented noncitizen previously ordered deported. Several cases involve alleged provisional ballots that were rejected. Defendants are presumed innocent.",
+  "image": "img/texas-noncitizen-voting-charges.jpg",
+  "alt": "Eldon B. Mahon United States Courthouse in Fort Worth, Texas",
+  "caption": "The Eldon B. Mahon United States Courthouse in Fort Worth, Texas, seat of the Northern District. File photograph; not from Tuesday’s charging announcement.",
+  "credit": "Renelibrary / Wikimedia Commons (CC BY-SA 4.0)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "politics",
+  "updated": "2026-09-15",
+  "frames": {
+    "cl": {
+      "body": "Reuters’ Tuesday survey of Miami and Wisconsin defendants challenging the 1996 federal noncitizen-voting statute, Associated Press reporting via the Los Angeles Times on Schumer and Padilla’s Unlawful Voter Initiative whistleblower file, and Sen. Padilla’s joint release with Schumer cast the North Texas cases against a backdrop of Democratic warnings that DHS’s midterm voter probes rely on questionable data, portal self-lookups, and TECS quotas that risk wrongly implicating naturalized citizens — while noting the Fort Worth batch is a tiny slice of ~800,000 Tarrant 2024 ballots and that some charged conduct involved rejected provisional ballots.",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/government/noncitizens-accused-illegal-us-voting-challenge-trumps-authority-prosecute-them-2026-09-15/"
+        },
+        {
+          "name": "Los Angeles Times (AP)",
+          "url": "https://www.latimes.com/world-nation/story/2026-09-15/dhs-voter-probe-may-break-state-laws-wrongly-implicate-u-s-citizens-whistleblower-alleges"
+        },
+        {
+          "name": "Sen. Alex Padilla",
+          "url": "https://www.padilla.senate.gov/newsroom/press-releases/padilla-schumer-announce-dhs-whistleblower-report-revealing-trump-administration-directed-officers-to-break-state-laws-in-voter-fraud-hunt/"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Fox News’ Tuesday Fort Worth write-through of Raybould’s announcement, Paxton’s OAG press release, and Texas Scorecard’s same-day note that election officials referred 117 potential noncitizen-voting cases to the attorney general after SAVE-database review frame the seven federal charges — plus Tarrant’s two local cases — as concrete election-integrity prosecutions after SOS paperwork flags, HSI/FBI arrests, and alleged false citizenship claims on registrations, driver licenses, or provisional-voter affidavits; Paxton said foreign nationals “attempted to cheat the system,” while Raybould said prosecutors focus on the unlawful act, not which candidate received any vote.",
+      "sources": [
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/us/seven-noncitizens-charged-in-north-texas-election-integrity-investigation"
+        },
+        {
+          "name": "Texas Attorney General",
+          "url": "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-announces-arrest-foreign-nationals-who-voted-illegally-2024-election"
+        },
+        {
+          "name": "Texas Scorecard",
+          "url": "https://texasscorecard.com/state/texas-election-officials-refer-117-potential-noncitizen-voting-cases-to-attorney-general/"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "N.D. Texas charges seven noncitizens over alleged illegal voting; Tarrant adds two local cases.",
+  "seo_description": "Federal prosecutors in North Texas charged seven noncitizens over alleged illegal voting or false citizenship claims; Tarrant County charged two more. Dual-frame coverage.",
+  "date_modified": "2026-09-15T19:05:00-04:00",
+  "date_published": "2026-09-15T19:05:00-04:00",
+  "article_section": "Politics"
+}
