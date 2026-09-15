@@ -1,9 +1,9 @@
 {
   "slug": "clarity-act-senate-cloture",
   "kicker": "Congress / Crypto",
-  "hed": "Senate takes 2:15 p.m. cloture vote on Clarity Act after Democrats send overnight counteroffer",
-  "stamp": "UPDATED · Tue. ~2:15 p.m. EDT",
-  "dek": "The Senate is scheduled to vote at approximately 2:15 p.m. Eastern Tuesday on cloture on the motion to proceed to H.R. 3633, the Digital Asset Market Clarity Act — a 60-vote procedural step that would open floor debate, not enact the bill. Late Monday, after a meeting in Minority Leader Chuck Schumer’s office, Senate Democrats delivered a written counterproposal seeking tighter ethics limits, Blockchain Regulatory Certainty Act changes, and Ag-title adjustments. Republican sponsors Sens. Cynthia Lummis, Tim Scott, and John Boozman say their Sunday 635-page substitute already incorporates 126 Democratic-requested edits — including Trump-accepted ethics language and a Treasury stablecoin deposit-flight circuit breaker — and have rejected further talks before the vote. Republicans hold 53 seats, so at least seven Democrats or independents are needed if the GOP conference stays united.",
+  "hed": "Senate cloture on Clarity Act fails 49–50, short of 60 votes to open floor debate",
+  "stamp": "UPDATED · Tue. ~3:20 p.m. EDT",
+  "dek": "The Senate on Tuesday rejected cloture on the motion to proceed to H.R. 3633, the Digital Asset Market Clarity Act, by a 49–50 tally — well short of the 60 votes required to end debate and take up the bill on the floor. The procedural loss is not a final-passage vote, but with fewer than 40 legislative days left before a new Congress and midterm campaigning underway, sponsors and industry advocates say the market-structure push is unlikely to revive before year-end. Negotiators had released a 635-page Sunday substitute said to incorporate 126 Democratic-requested edits, including Trump-accepted ethics limits and a Treasury stablecoin deposit-flight circuit breaker; Democrats sent an overnight counteroffer Monday that Republicans rejected before the vote. Multiple Republicans joined Democrats in voting no, so the motion did not even clear a simple majority.",
   "image": "img/clarity-act-senate.jpg",
   "alt": "West front of the United States Capitol in Washington, D.C.",
   "caption": "The west front of the U.S. Capitol. File photograph; not from Tuesday’s Clarity Act cloture vote.",
@@ -13,15 +13,15 @@
   "updated": "2026-09-15",
   "frames": {
     "cl": {
-      "body": "Decrypt’s Tuesday floor-test wrap, CNBC’s pre-vote write-through, and American Banker’s stablecoin-yield analysis frame Democrats and bank lobbies as still unsatisfied — Warner, Gallego, and Warnock say ethics text leaves enforcement gaps around the first family, Warren calls loopholes too wide, and eight banking trades including the ABA say the Treasury circuit breaker only kicks in after deposit flight — while Gillibrand has urged colleagues to vote to get on the bill and keep negotiating on the floor.",
+      "body": "Cointelegraph’s post-vote wrap, Decrypt’s pre-floor ethics reporting, and American Banker’s stablecoin analysis cast the failure as ethics and banking safeguards still unresolved — highlighting Warren’s floor push to vote no over Trump-family crypto conflicts, Monday’s letter from 18 state attorneys general warning the bill could weaken state fraud enforcement, and bank-trade objections that the Treasury circuit breaker only triggers after deposit flight — while noting Bitcoin briefly slipped below $75,000 after the tally.",
       "sources": [
         {
-          "name": "Decrypt",
-          "url": "https://decrypt.co/378246/democrats-goalposts-clarity-act-key-senate-vote"
+          "name": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/us-senate-fails-to-advance-clarity-act"
         },
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/14/clarity-act-senate-vote-crypto-regulation.html"
+          "name": "Decrypt",
+          "url": "https://decrypt.co/378268/now-or-never-clarity-act-bitcoin-cynthia-lummis"
         },
         {
           "name": "American Banker",
@@ -30,15 +30,15 @@
       ]
     },
     "cr": {
-      "body": "Lummis’s office release of the final text, Decrypt’s quote of Senate Banking spokesperson Jeff Naft that Democrats “move the goalposts again” after 126 changes, and CoinGape’s report of Lummis aide Katie Warbinton saying Democrats “have not budged an inch” cast Tuesday cloture as a take-it-or-leave-it test of whether the chamber will even begin debate — with White House crypto adviser Patrick Witt calling remaining edits “punctuation” and Lummis saying “there’s nothing left to give.”",
+      "body": "CoinDesk’s floor-loss report, Decrypt’s quote of Lummis that a failed cloture means “we’re done” after 120-plus Democratic asks, and CoinGape’s write-through of Republicans rejecting the overnight counteroffer frame Tuesday as Democrats moving the goalposts and GOP holdouts joining them — with Lummis telling colleagues not to “hand our future to someone else,” industry PACs left to rethink midterm spending, and the SEC/CFTC now the default path for crypto rules without a market-structure statute.",
       "sources": [
         {
-          "name": "Sen. Lummis press release",
-          "url": "https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text/"
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/15/crypto-clarity-act-flames-out-in-failed-u-s-senate-vote"
         },
         {
           "name": "Decrypt",
-          "url": "https://decrypt.co/378246/democrats-goalposts-clarity-act-key-senate-vote"
+          "url": "https://decrypt.co/378268/now-or-never-clarity-act-bitcoin-cynthia-lummis"
         },
         {
           "name": "CoinGape",
@@ -47,9 +47,9 @@
       ]
     }
   },
-  "stack_blurb": "Senate 2:15 p.m. Clarity Act cloture; Dems counteroffer rejected; 60-vote test.",
-  "seo_description": "The Senate votes at 2:15 p.m. Eastern on Clarity Act cloture after Democrats sent an overnight counteroffer and Republicans rejected further talks before the 60-vote test.",
-  "date_modified": "2026-09-15T14:15:00-04:00",
+  "stack_blurb": "Senate Clarity Act cloture fails 49–50; short of 60; market-structure push stalled.",
+  "seo_description": "The Senate rejected Clarity Act cloture 49–50 on Tuesday, short of the 60 votes needed to open floor debate on H.R. 3633 after ethics and banking disputes.",
+  "date_modified": "2026-09-15T15:20:00-04:00",
   "date_published": "2026-09-14T09:45:00-04:00",
   "article_section": "Congress"
 }
