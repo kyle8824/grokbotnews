@@ -1,13 +1,14 @@
 {
   "site_url": "https://www.grokbotnews.com",
-  "title": "Grok Bot News — Tuesday, September 15, 2026",
+  "title": "Grok Bot News \u2014 Tuesday, September 15, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Tuesday, September 15, 2026 · ~12:05 p.m. EDT",
-  "utility_markets": "AAA diesel $6.27 record · Brent ~$106.93 / WTI ~$102.65 early Tue · East-West outage risk",
-  "breaking": "Biletskyi confirms Operation Vivaldi offensive in N. Donetsk near Lyman (~75+10 sq km claimed); Meink confirms U.S. on-orbit space control weapons; CENTCOM: Iranian boats tried to seize Navy USV near Hormuz; SCOTUS denies stay of Talwani PI on USPS mail-ballot rule (26A305); NATO downs drone over Lithuania.",
+  "utility_live": "Tuesday, September 15, 2026 \u00b7 ~1:45 p.m. EDT",
+  "utility_markets": "AAA diesel $6.27 record \u00b7 Brent ~$106.93 / WTI ~$102.65 early Tue \u00b7 East-West outage risk",
+  "breaking": "Trump Truth Social: SCOTUS mail-ballot stay denial a \u2018big loss,\u2019 criticizes his appointees; Biletskyi confirms Operation Vivaldi in N. Donetsk near Lyman; Meink confirms U.S. on-orbit space control weapons; CENTCOM: Iranian boats tried to seize Navy USV near Hormuz; SCOTUS denies stay of Talwani PI on USPS mail-ballot rule (26A305).",
   "order": [
     "ukraine-vivaldi-donetsk-offensive",
+    "trump-scotus-mail-ballot-reaction",
     "meink-space-force-orbit-weapons",
     "centcom-irgc-usv-boats-hormuz",
     "scotus-usps-mail-ballot-denied",
@@ -78,6 +79,7 @@
   ],
   "stack": [
     "ukraine-vivaldi-donetsk-offensive",
+    "trump-scotus-mail-ballot-reaction",
     "meink-space-force-orbit-weapons",
     "centcom-irgc-usv-boats-hormuz",
     "scotus-usps-mail-ballot-denied",
@@ -88,8 +90,7 @@
     "public-charge-green-card-suits",
     "trump-ukraine-russia-energy-pause",
     "house-russia-sanctions-vote",
-    "yahodyn-poland-border-drone",
-    "treasury-vtb-iran-sanctions"
+    "yahodyn-poland-border-drone"
   ],
   "section_labels": [
     {
@@ -97,6 +98,7 @@
       "label": "U.S. & Washington",
       "slugs": [
         "scotus-usps-mail-ballot-denied",
+        "trump-scotus-mail-ballot-reaction",
         "saylor-visa-duration-injunction",
         "public-charge-green-card-suits",
         "usps-mail-ballot-whistleblower",
@@ -274,38 +276,38 @@
       "slug": "trump-iran-centcom-el-gaia"
     },
     {
-      "hed": "Treasury adds Iran sanctions on Russia’s VTB Bank",
+      "hed": "Treasury adds Iran sanctions on Russia\u2019s VTB Bank",
       "stamp": "Mon 6:35 p.m.",
       "slug": "treasury-vtb-iran-sanctions"
     },
     {
       "label": "CLARITY.",
       "text": "Tue. 2:15 p.m. cloture on Clarity Act; weekend draft adds Trump-accepted ethics + Treasury stablecoin circuit-breaker; needs ~7 Dems.",
-      "stamp": "UPDATED · Tue. 9:15 a.m."
+      "stamp": "UPDATED \u00b7 Tue. 9:15 a.m."
     },
     {
       "label": "VISA RULE.",
       "text": "Saylor PI still blocks DHS F/J/I duration-of-status end; Sept. 15 effective date paused pending Oct. 2 status conference.",
-      "stamp": "NEW · Tue. 9:15 a.m."
+      "stamp": "NEW \u00b7 Tue. 9:15 a.m."
     },
     {
       "label": "OIL.",
       "text": "Brent ~$106.93 / WTI ~$102.65 early Tue; AAA diesel record $6.27; East-West outage risk.",
-      "stamp": "UPDATED · Tue. early"
+      "stamp": "UPDATED \u00b7 Tue. early"
     },
     {
       "label": "PIPELINE.",
       "text": "Saudi East-West still offline; Yanbu stocks measured in days; up to ~4% of global supply at risk.",
-      "stamp": "UPDATED · Tue."
+      "stamp": "UPDATED \u00b7 Tue."
     },
     {
       "label": "LITHUANIA.",
-      "text": "Italian NATO Eurofighters from Šiauliai shot down drone overnight that entered from Belarus; origin undetermined.",
-      "stamp": "NEW · Tue. 8 a.m."
+      "text": "Italian NATO Eurofighters from \u0160iauliai shot down drone overnight that entered from Belarus; origin undetermined.",
+      "stamp": "NEW \u00b7 Tue. 8 a.m."
     }
   ],
   "markets": {
-    "heading": "Markets · Tuesday early (carry)",
+    "heading": "Markets \u00b7 Tuesday early (carry)",
     "rows": [
       {
         "label": "Nasdaq / AI chips",
@@ -329,24 +331,24 @@
       },
       {
         "label": "Chokepoints",
-        "value": "East-West offline · Hormuz thin",
+        "value": "East-West offline \u00b7 Hormuz thin",
         "dir": "up"
       }
     ],
     "credit": "AI/chip session from Reuters/CNBC/NBC Monday wraps. Crude prints from Reuters (~$108.83 Brent / ~$103.88 WTI). AAA diesel $6.23 from morning NBC/AAA reporting."
   },
   "ticker": [
-    "SCOTUS|Denies DOJ stay of Talwani PI on USPS mail-ballot rule (26A305); Alito–Thomas dissent; Kavanaugh concurs on timing",
+    "SCOTUS|Denies DOJ stay of Talwani PI on USPS mail-ballot rule (26A305); Alito\u2013Thomas dissent; Kavanaugh concurs on timing",
     "VISA RULE|Judge Saylor PI still blocks DHS end of duration-of-status for F/J/I; Sept. 15 start paused",
     "LITHUANIA|NATO Italian Eurofighters shoot down drone over Lithuania after Belarus-border entry",
     "IRAN|Trump Iran-deal Truth Social post; CENTCOM rejects El Gaia mine claim",
-    "VTB|Treasury OFAC designates Russia’s VTB under Iran E.O. 13902; secondary risk for foreign banks",
+    "VTB|Treasury OFAC designates Russia\u2019s VTB under Iran E.O. 13902; secondary risk for foreign banks",
     "CLARITY|Senate cloture Tue. 2:15 p.m. on Clarity Act after Trump accepts revised crypto ethics limits",
     "OIL|Brent ~$106.93; WTI ~$102.65 early Tue; AAA diesel record $6.27",
     "PIPELINE|Saudi East-West still offline; Yanbu stocks days; ~4% supply risk",
     "YAHODYN|Russian drone hits train ~2 km from Poland; no casualties",
     "RUSSIA BILL|House Rules clears Graham Russia/Iran sanctions path",
-    "OPM|Judge O’Toole stay on OPM ‘loyalty’ essay still in effect",
+    "OPM|Judge O\u2019Toole stay on OPM \u2018loyalty\u2019 essay still in effect",
     "HOUTHIS|Houthis cement Red Sea coast + Bab al-Mandab island hold"
   ],
   "archive": [
@@ -379,8 +381,8 @@
       "updated": "2026-09-04"
     }
   ],
-  "footer_method": "Humans didn’t write today’s copy; both frames are generated from public sources. Headlines and kickers state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, in the same type, with named outlets or officials and outbound links. The site does not declare a winner in the headline. Summaries are original and short. Full articles are not reproduced.",
+  "footer_method": "Humans didn\u2019t write today\u2019s copy; both frames are generated from public sources. Headlines and kickers state the event only. Each story then carries two viewpoint blocks \u2014 typical center-left and typical center-right \u2014 at the same size, in the same type, with named outlets or officials and outbound links. The site does not declare a winner in the headline. Summaries are original and short. Full articles are not reproduced.",
   "footer_legal": "Independent staging page for grokbotnews.com. Original wordmark. Not affiliated with any broadcast or cable news company. No accounts, no comments, no donations. Photographs are news-file images used for layout; they are not claimed as original field work by this site.",
-  "story_footer_method": "Headlines state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, with named outlets and outbound links. Summaries are original and short. Full articles are not reproduced.",
+  "story_footer_method": "Headlines state the event only. Each story then carries two viewpoint blocks \u2014 typical center-left and typical center-right \u2014 at the same size, with named outlets and outbound links. Summaries are original and short. Full articles are not reproduced.",
   "story_footer_legal": "Independent staging page for grokbotnews.com. Original wordmark. Not affiliated with any broadcast or cable news company. No accounts, no comments, no donations."
 }
