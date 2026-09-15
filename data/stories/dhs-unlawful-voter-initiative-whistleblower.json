@@ -1,0 +1,55 @@
+{
+  "slug": "dhs-unlawful-voter-initiative-whistleblower",
+  "kicker": "Homeland Security / Elections",
+  "hed": "Schumer and Padilla release DHS whistleblower file on Unlawful Voter Initiative; agency defends roll checks",
+  "stamp": "NEW · Tue. ~6:05 p.m. EDT",
+  "dek": "Senate Democrats Chuck Schumer and Alex Padilla on Monday released a roughly 30-page anonymous DHS whistleblower disclosure — amplified Tuesday via Associated Press reporting carried by the Los Angeles Times and ABC News — alleging that USCIS Fraud Detection and National Security Directorate officers were diverted in late August to an “Unlawful Voter Initiative,” told to search state voter portals (sometimes by misrepresenting themselves), work under quotas of about five reviews per hour (~40 per day) toward a ~Sept. 12 phase target, and create TECS law-enforcement records that could sweep in naturalized U.S. citizens. Democracy Defenders Fund represents the anonymous client. Schumer and Padilla demanded DHS halt the effort and report by Sept. 21. A DHS spokesperson said the department cross-referenced publicly available rolls with known aliens, called the work “not rocket science,” rejected rushed/untrained framing, and said it is laser-focused on prosecuting and removing aliens who vote.",
+  "image": "img/dhs-unlawful-voter-initiative-whistleblower.jpg",
+  "alt": "Nebraska Avenue Complex, a Department of Homeland Security headquarters facility in Washington, D.C.",
+  "caption": "The Nebraska Avenue Complex in Washington, D.C., a DHS headquarters facility. File photograph from 2017; not from the whistleblower disclosure or Tuesday’s coverage.",
+  "credit": "Antony-22 / Wikimedia Commons (CC BY-SA 4.0)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "politics",
+  "updated": "2026-09-15",
+  "frames": {
+    "cl": {
+      "body": "AP via the Los Angeles Times (Ali Swenson), ABC News, and Sen. Padilla’s joint press release with Schumer cast Monday’s ~30-page disclosure as evidence that FDNS officers were ordered to drop other work, watch a ~1h45 training, then run DHS lists against state voter sites under ~40/day quotas — including alleged instructions to misrepresent as voters where portals require self-lookup, rely on unreliable DHS data / “supplemental magic,” and create TECS records that can implicate naturalized citizens — while Schumer called the effort “schemes to rig” and Padilla labeled it a pretext to manufacture evidence and intimidate, demanding a halt and report by Sept. 21.",
+      "sources": [
+        {
+          "name": "Los Angeles Times (AP)",
+          "url": "https://www.latimes.com/world-nation/story/2026-09-15/dhs-voter-probe-may-break-state-laws-wrongly-implicate-u-s-citizens-whistleblower-alleges"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/Politics/dhs-agents-allegedly-directed-misrepresent-access-state-voter/story?id=136462724"
+        },
+        {
+          "name": "Sen. Alex Padilla",
+          "url": "https://www.padilla.senate.gov/newsroom/press-releases/padilla-schumer-announce-dhs-whistleblower-report-revealing-trump-administration-directed-officers-to-break-state-laws-in-voter-fraud-hunt/"
+        }
+      ]
+    },
+    "cr": {
+      "body": "The Washington Examiner’s write-through of the Democratic release, DHS’s statement as quoted in AP/LA Times and ABC, and Fox News’ July coverage of Secretary Mullin’s letters alleging ~256,000 potential noncitizens on rolls in California, New Jersey, Nevada, and Pennsylvania frame the initiative as ordinary cross-checks of publicly available voter rolls against known aliens — with DHS calling it “not rocket science,” rejecting rushed/untrained framing as “diligent and professional,” and saying it is laser-focused on prosecuting and removing aliens who vote so “only American citizens are electing American leaders,” while treating Mullin’s July figures as the administration’s stated rationale for probes, not proven illegal votes.",
+      "sources": [
+        {
+          "name": "Washington Examiner",
+          "url": "https://www.washingtonexaminer.com/policy/immigration/4727020/whistleblower-dhs-voter-fraud-investigation-state-laws/"
+        },
+        {
+          "name": "DHS (Mullin letters)",
+          "url": "https://www.dhs.gov/news/2026/07/17/dhs-secretary-markwayne-mullin-sends-letters-secretaries-state-warning-about-non"
+        },
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/politics/quarter-million-noncitizens-registered-vote-4-key-states-dhs-alleges"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Schumer/Padilla release DHS Unlawful Voter Initiative whistleblower file; DHS defends public-roll cross-checks.",
+  "seo_description": "Schumer and Padilla released a DHS whistleblower disclosure on the Unlawful Voter Initiative alleging portal misrepresentation and TECS quotas; DHS says it cross-checked public rolls with known aliens.",
+  "date_modified": "2026-09-15T18:05:00-04:00",
+  "date_published": "2026-09-15T18:05:00-04:00",
+  "article_section": "Politics"
+}
