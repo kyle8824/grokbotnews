@@ -1,0 +1,55 @@
+{
+  "slug": "pentagon-ig-epic-fury-costs",
+  "kicker": "Defense / Iran",
+  "hed": "Pentagon IG: Operation Epic Fury cost ~$33.4B through June; munitions shortfalls flagged",
+  "stamp": "NEW · Tue. ~5:15 p.m. EDT",
+  "dek": "The Defense Department Inspector General’s first public Lead IG accounting of Operation Epic Fury, covering Feb. 28 through June 30, pegs DoD costs at about $33.4 billion — including $22.3 billion in expended munitions, $3.7 billion in equipment losses, and $7.4 billion in obligations — while excluding infrastructure repair. The report cites Acquisition and Sustainment officials saying munitions spend caused “strategic inventory shortfalls” and industrial bottlenecks, and tallies hundreds of damaged or destroyed buildings at U.S. bases across the Gulf region, dozens of aircraft losses, and 417 wounded with seven killed in action in the period.",
+  "image": "img/pentagon-ig-epic-fury-costs.jpg",
+  "alt": "U.S. Air Force F-15E Strike Eagle in flight",
+  "caption": "A U.S. Air Force F-15E Strike Eagle in a file photograph. Not from the Pentagon Inspector General’s Operation Epic Fury cost report.",
+  "credit": "U.S. Air Force / Capt. John Peltier (public domain via Wikimedia Commons)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "lead",
+  "updated": "2026-09-15",
+  "frames": {
+    "cl": {
+      "body": "BBC, NBC News, and Breaking Defense foreground the IG’s confirmation that A&S told investigators munitions expenditure produced “strategic inventory shortfalls” and bottlenecks in solid rocket motors, high-grade explosives/propellants, and skilled labor — undercutting President Trump’s “virtually unlimited” ammo claims and Defense Secretary Pete Hegseth’s “not true” pushback on shortage reporting. They also stress that the $33.4 billion figure omits base-infrastructure repair after Iranian strikes damaged or destroyed hundreds of buildings in Kuwait, Bahrain, Qatar, the UAE, Saudi Arabia, Iraq, Oman, and Jordan, leaving the public cost incomplete.",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/articles/c9gk58xgng0vo"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/politics/national-security/pentagon-watchdog-says-iran-war-led-munitions-shortfall-rcna597019"
+        },
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/09/iran-war-costs-airplanes-buildings-stockpile-concerns-ig-report/"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Anadolu Agency, Breaking Defense, and Stars and Stripes read the same IG text as an industrial-rebuild brief: the report says DoD is streamlining procurement and stockpiling critical components; Anadolu notes the White House sought an $87.6 billion supplemental with $21 billion for munitions, and that Hegseth told Congress replenishment funding was needed to avoid critical shortfalls while still arguing media “scare” stories overstated day-to-day shortages. In this frame, inventory gaps are why expanding the defense industrial base matters after a campaign that CENTCOM said flew tens of thousands of sorties against Iranian targets.",
+      "sources": [
+        {
+          "name": "Anadolu Agency",
+          "url": "https://aa.com.tr/en/world/iran-war-exposed-strategic-us-munitions-shortfalls-pentagon-watchdog/4057270"
+        },
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/09/iran-war-costs-airplanes-buildings-stockpile-concerns-ig-report/"
+        },
+        {
+          "name": "Stars and Stripes",
+          "url": "https://www.stripes.com/theaters/us/2026-09-15/dodig-iran-war-cost-munitions-22860181.html"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Pentagon IG: Epic Fury ~$33.4B through June; A&S flags munitions shortfalls.",
+  "seo_description": "Pentagon Inspector General pegs Operation Epic Fury at about $33.4 billion through June 30 and cites strategic munitions inventory shortfalls; dual frames on costs vs industrial rebuild.",
+  "date_modified": "2026-09-15T17:15:00-04:00",
+  "date_published": "2026-09-15T17:15:00-04:00",
+  "article_section": "U.S. & Washington"
+}
