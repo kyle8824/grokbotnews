@@ -1,0 +1,55 @@
+{
+  "slug": "centcom-irgc-usv-boats-hormuz",
+  "kicker": "Iran / Hormuz",
+  "hed": "U.S. destroys two Iranian boats after attempted seizure of Navy surface drone near Hormuz",
+  "stamp": "NEW \u00b7 Tue. ~10:45 a.m. EDT",
+  "dek": "U.S. officials told Axios that Islamic Revolutionary Guard Corps small boats tried Monday to take a U.S. Navy unmanned surface vessel patrolling the Strait of Hormuz; an American drone then fired two missiles that destroyed both craft and killed most aboard. CENTCOM spokesperson Capt. Tim Hawkins said the seizure attempt failed after a \u201cforceful\u201d response and that the surface drone \u201cremains under U.S. operational control.\u201d Iranian state media and Hormozgan deputy governor Ahmad Nafisi described the targets as fishing boats struck near Larak Island and Bandar Kargan, with fishermen missing and search-and-rescue underway; U.S. forces had not initially publicized the strike.",
+  "image": "img/centcom-irgc-usv-boats-hormuz.jpg",
+  "alt": "USS Tempest patrol craft transits the Strait of Hormuz",
+  "caption": "USS Tempest (PC 2) transits the Strait of Hormuz in a U.S. Navy file photograph. Not from Monday\u2019s reported boat strike near Larak Island.",
+  "credit": "U.S. Navy / Mass Communication Specialist 2nd Class Matthew Riggs (public domain)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "lead",
+  "updated": "2026-09-15",
+  "frames": {
+    "cl": {
+      "body": "Iran International\u2019s Monday night write-through, Mehr News Agency\u2019s Hormozgan brief, and Tasnim\u2019s Tuesday follow-up foreground provincial official Ahmad Nafisi\u2019s account that two fishing boats were hit by a U.S. drone about 12 miles from Larak Island and 30 miles from Kargan, with fishermen missing and rescue teams searching \u2014 casting the episode as another civilian-maritime casualty claim in contested Gulf waters before Washington\u2019s seizure narrative circulated widely.",
+      "sources": [
+        {
+          "name": "Iran International",
+          "url": "https://www.iranintl.com/en/202609143516"
+        },
+        {
+          "name": "Mehr News Agency",
+          "url": "https://en.mehrnews.com/news/247757/Several-Iranian-fishermen-missing-after-drone-attack-on-boats"
+        },
+        {
+          "name": "Tasnim News",
+          "url": "https://www.tasnimnews.ir/en/news/2026/09/15/3697184/fishing-boats-attacked-south-of-iran"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Axios\u2019s Tuesday scoop citing U.S. officials, Arab Times\u2019 CENTCOM confirmation wrap, and Fox News Digital\u2019s Tuesday Hormuz live desk frame the strike as a successful defense of a Navy unmanned surface vessel: Capt. Tim Hawkins said Iranian small boats tried to take possession of the USV, CENTCOM \u201cforcefully responded,\u201d the drone stayed under U.S. control, and the episode fits a week of IRGC pressure on commercial and unmanned traffic through the strait.",
+      "sources": [
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/09/15/us-iran-boats-navy-drone-strait-hormuz"
+        },
+        {
+          "name": "Arab Times",
+          "url": "https://www.arabtimesonline.com/news/us-military-destroys-two-iranian-boats-after-attempt-to-seize-navy-drone/"
+        },
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/live-news/iran-war-trump-talks-strait-hormuz-saudi-strikes-09-15-26"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "CENTCOM: Iranian boats tried to seize Navy USV near Hormuz; two craft destroyed.",
+  "seo_description": "U.S. forces destroyed two Iranian boats after an attempted seizure of a Navy unmanned surface vessel near the Strait of Hormuz; Iran called them fishing boats.",
+  "date_modified": "2026-09-15T10:45:00-04:00",
+  "date_published": "2026-09-15T10:45:00-04:00",
+  "article_section": "World"
+}
