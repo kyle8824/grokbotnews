@@ -1,0 +1,55 @@
+{
+  "slug": "ukraine-vivaldi-donetsk-offensive",
+  "kicker": "Ukraine / Donetsk",
+  "hed": "Ukrainian commander confirms Operation Vivaldi offensive in northern Donetsk near Lyman",
+  "stamp": "NEW · Tue. ~12:05 p.m. EDT",
+  "dek": "Brig. Gen. Andrii Biletskyi, commander of Ukraine’s 3rd Army Corps, said Tuesday that Ukrainian forces had launched offensive operation “Vivaldi” in northern Donetsk Oblast: clearing about 75 sq km of Russian infiltration groups and liberating roughly 10 sq km more, including Serednie, with Novoselivka, Oleksandrivka, Yarova and the outskirts of Korovyi Yar cleared. He framed the move as the first of four “seasons,” urged a strict information blackout, and claimed heavy Russian losses; Reuters said it could not independently verify the assertions. Open-source analysts have floated larger 200–240 sq km estimates that Biletskyi did not confirm.",
+  "image": "img/ukraine-vivaldi-donetsk-offensive.jpg",
+  "alt": "Rolling landscape in Sloviansk district, Donetsk Oblast, Ukraine",
+  "caption": "Countryside in Sloviansk district, Donetsk Oblast. File photograph; not from Tuesday’s reported Vivaldi operations near Lyman.",
+  "credit": "lisinkij / Wikimedia Commons (CC BY-SA 3.0)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "lead",
+  "updated": "2026-09-15",
+  "frames": {
+    "cl": {
+      "body": "Reuters’s Kyiv wire, Ukrainska Pravda’s Tuesday write-through, and Hromadske’s English brief cast Biletskyi’s Telegram confirmation as Kyiv’s first official acknowledgment of a northern Donetsk push north of the Sloviansk–Kramatorsk fortress belt: 3rd Army Corps units under an information blackout cleared ~75 sq km of infiltration pockets, liberated ~10 sq km including Serednie, named Novoselivka, Oleksandrivka, Yarova and Korovyi Yar outskirts, and described Vivaldi as the opening “season” of a four-phase effort against Russia’s 20th and 25th armies.",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/europe/ukraine-launches-offensive-push-north-donetsk-region-senior-commander-says-2026-09-15/"
+        },
+        {
+          "name": "Ukrainska Pravda",
+          "url": "https://www.pravda.com.ua/eng/news/2026/09/15/8053480/"
+        },
+        {
+          "name": "Hromadske",
+          "url": "https://hromadske.ua/en/war/271027-ukraine-confirms-counteroffensive-near-lyman-says-first-phase-retook-75-square-kilometers"
+        }
+      ]
+    },
+    "cr": {
+      "body": "The same Reuters dispatch stressed that reporters could not verify Biletskyi’s territorial or casualty claims amid a drone-era “kill zone” that obscures front lines; Kyiv Post noted Ukrainian figures of ~1,500 Russian troops and thousands of drones remain unverified and that OSINT estimates of 200–240 sq km lost near Lyman were analyst assessments Biletskyi did not confirm Tuesday; Defence Matters framed the disclosed first phase as a drone-and-infantry counter-push rather than a confirmed strategic breakthrough while Russian MoD daily briefs continued to claim local advances without naming Vivaldi.",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/europe/ukraine-launches-offensive-push-north-donetsk-region-senior-commander-says-2026-09-15/"
+        },
+        {
+          "name": "Kyiv Post",
+          "url": "https://www.kyivpost.com/post/84556"
+        },
+        {
+          "name": "Defence Matters",
+          "url": "https://defencematters.eu/operation-vivaldi-ukraine-counter-offensive-lyman/"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "Biletskyi confirms Operation Vivaldi in N. Donetsk near Lyman; ~75+10 sq km claimed.",
+  "seo_description": "Ukraine’s 3rd Army Corps commander confirms Operation Vivaldi in northern Donetsk near Lyman, claiming cleared and liberated ground under an information blackout. Dual sourced frames.",
+  "date_modified": "2026-09-15T12:05:00-04:00",
+  "date_published": "2026-09-15T12:05:00-04:00",
+  "article_section": "World"
+}
