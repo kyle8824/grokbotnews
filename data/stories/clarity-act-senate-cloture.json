@@ -1,55 +1,55 @@
 {
   "slug": "clarity-act-senate-cloture",
   "kicker": "Congress / Crypto",
-  "hed": "Senate tees Tuesday cloture on Clarity Act after Trump accepts revised crypto ethics limits",
-  "stamp": "NEW \u00b7 Mon. 9:45 a.m. EDT",
-  "dek": "Senate Majority Leader John Thune has scheduled a cloture vote Tuesday at 2:15 p.m. Eastern on the motion to proceed to H.R. 3633, the Digital Asset Market Clarity Act \u2014 a 60-vote procedural step that would open debate, not pass the bill. Over the weekend, Sens. Cynthia Lummis, Tim Scott and John Boozman released what they called a final 635-page draft incorporating 126 Democratic-requested changes, including ethics language reflecting substantially all of a Tillis\u2013Gallego package that President Trump has accepted: covered federal officials and spouses would need to divest significant crypto interests or place them in a blind trust, with a role for state attorneys general in enforcement. The text also adds Treasury circuit-breaker authority if payment stablecoins drive widespread deposit flight from community banks. Republicans hold 53 seats, so at least seven Democrats or independents must join if the GOP conference stays united.",
+  "hed": "Senate takes 2:15 p.m. cloture vote on Clarity Act after Democrats send overnight counteroffer",
+  "stamp": "UPDATED · Tue. ~2:15 p.m. EDT",
+  "dek": "The Senate is scheduled to vote at approximately 2:15 p.m. Eastern Tuesday on cloture on the motion to proceed to H.R. 3633, the Digital Asset Market Clarity Act — a 60-vote procedural step that would open floor debate, not enact the bill. Late Monday, after a meeting in Minority Leader Chuck Schumer’s office, Senate Democrats delivered a written counterproposal seeking tighter ethics limits, Blockchain Regulatory Certainty Act changes, and Ag-title adjustments. Republican sponsors Sens. Cynthia Lummis, Tim Scott, and John Boozman say their Sunday 635-page substitute already incorporates 126 Democratic-requested edits — including Trump-accepted ethics language and a Treasury stablecoin deposit-flight circuit breaker — and have rejected further talks before the vote. Republicans hold 53 seats, so at least seven Democrats or independents are needed if the GOP conference stays united.",
   "image": "img/clarity-act-senate.jpg",
   "alt": "West front of the United States Capitol in Washington, D.C.",
-  "caption": "The west front of the U.S. Capitol. File photograph; not from Monday\u2019s Senate negotiations.",
+  "caption": "The west front of the U.S. Capitol. File photograph; not from Tuesday’s Clarity Act cloture vote.",
   "credit": "Martin Falbisoner / Wikimedia Commons (public domain edit of west-front file)",
   "byline": "Event summary from public reporting and named outlets",
   "section": "lead",
-  "updated": "2026-09-14",
+  "updated": "2026-09-15",
   "frames": {
     "cl": {
-      "body": "CNBC, AP/ABC wire coverage, and Sen. Chris Van Hollen\u2019s Sunday statement frame Tuesday\u2019s cloture as still unresolved for Democrats who say ethics language and bank-deposit protections remain inadequate \u2014 Van Hollen argued the bill \u201cmasquerades\u201d as consumer protection and urged a no vote \u2014 while the American Bankers Association and nearly 80 banking groups pressed Thune and Schumer to harden the stablecoin interest/rewards ban before any floor action.",
+      "body": "Decrypt’s Tuesday floor-test wrap, CNBC’s pre-vote write-through, and American Banker’s stablecoin-yield analysis frame Democrats and bank lobbies as still unsatisfied — Warner, Gallego, and Warnock say ethics text leaves enforcement gaps around the first family, Warren calls loopholes too wide, and eight banking trades including the ABA say the Treasury circuit breaker only kicks in after deposit flight — while Gillibrand has urged colleagues to vote to get on the bill and keep negotiating on the floor.",
       "sources": [
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/378246/democrats-goalposts-clarity-act-key-senate-vote"
+        },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/09/14/clarity-act-senate-vote-crypto-regulation.html"
         },
         {
-          "name": "ABC News / AP",
-          "url": "https://abcnews.com/Business/wireStory/trump-agreed-new-ethics-rules-crypto-bill-line-136414216"
-        },
-        {
-          "name": "Euronews",
-          "url": "https://www.euronews.com/business/2026/09/14/trump-concedes-on-ethics-rules-clearing-the-way-for-major-crypto-legislation"
+          "name": "American Banker",
+          "url": "https://www.americanbanker.com/news/new-crypto-bill-looks-at-stablecoin-yield-but-passage-still-unlikely"
         }
       ]
     },
     "cr": {
-      "body": "Lummis, Scott and Boozman\u2019s Monday release, the Washington Examiner\u2019s Sept. 13 procedural write-through, and CryptoSlate\u2019s ethics-concession reporting cast the weekend text as Republicans\u2019 last-best offer after Trump accepted Tillis\u2013Gallego-style limits and more than 120 Democratic edits \u2014 Lummis said Democrats \u201cgot what they wanted\u201d and that a no vote rejects ethics reforms and U.S. digital-asset leadership, while noting Tuesday only decides whether debate begins.",
+      "body": "Lummis’s office release of the final text, Decrypt’s quote of Senate Banking spokesperson Jeff Naft that Democrats “move the goalposts again” after 126 changes, and CoinGape’s report of Lummis aide Katie Warbinton saying Democrats “have not budged an inch” cast Tuesday cloture as a take-it-or-leave-it test of whether the chamber will even begin debate — with White House crypto adviser Patrick Witt calling remaining edits “punctuation” and Lummis saying “there’s nothing left to give.”",
       "sources": [
         {
           "name": "Sen. Lummis press release",
           "url": "https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text/"
         },
         {
-          "name": "Washington Examiner",
-          "url": "https://www.washingtonexaminer.com/op-eds/4719820/clarity-act-trump-crypto-regulation/"
+          "name": "Decrypt",
+          "url": "https://decrypt.co/378246/democrats-goalposts-clarity-act-key-senate-vote"
         },
         {
-          "name": "CryptoSlate",
-          "url": "https://cryptoslate.com/trump-concession-sends-clarity-act-odds-above-32-before-make-or-break-senate-vote/"
+          "name": "CoinGape",
+          "url": "https://coingape.com/republicans-reject-clarity-act-counteroffer-from-democrats/"
         }
       ]
     }
   },
-  "stack_blurb": "Senate cloture Tue. 2:15 p.m. on Clarity Act after Trump ethics concession.",
-  "seo_description": "The Senate schedules Tuesday 2:15 p.m. cloture on the Clarity Act after Trump accepted revised crypto ethics limits and sponsors released a final weekend draft.",
-  "date_modified": "2026-09-14T09:45:00-04:00",
+  "stack_blurb": "Senate 2:15 p.m. Clarity Act cloture; Dems counteroffer rejected; 60-vote test.",
+  "seo_description": "The Senate votes at 2:15 p.m. Eastern on Clarity Act cloture after Democrats sent an overnight counteroffer and Republicans rejected further talks before the 60-vote test.",
+  "date_modified": "2026-09-15T14:15:00-04:00",
   "date_published": "2026-09-14T09:45:00-04:00",
   "article_section": "Congress"
 }

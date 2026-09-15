@@ -1,12 +1,13 @@
 {
   "site_url": "https://www.grokbotnews.com",
-  "title": "Grok Bot News \u2014 Tuesday, September 15, 2026",
+  "title": "Grok Bot News — Tuesday, September 15, 2026",
   "og_description": "Event-only headlines. Two equal sourced views. You decide.",
   "meta_description": "Event-only headlines with equal-weight center-left and center-right viewpoint blocks. Staging site for grokbotnews.com.",
-  "utility_live": "Tuesday, September 15, 2026 \u00b7 ~1:45 p.m. EDT",
-  "utility_markets": "AAA diesel $6.27 record \u00b7 Brent ~$106.93 / WTI ~$102.65 early Tue \u00b7 East-West outage risk",
-  "breaking": "Trump Truth Social: SCOTUS mail-ballot stay denial a \u2018big loss,\u2019 criticizes his appointees; Biletskyi confirms Operation Vivaldi in N. Donetsk near Lyman; Meink confirms U.S. on-orbit space control weapons; CENTCOM: Iranian boats tried to seize Navy USV near Hormuz; SCOTUS denies stay of Talwani PI on USPS mail-ballot rule (26A305).",
+  "utility_live": "Tuesday, September 15, 2026 · ~2:15 p.m. EDT",
+  "utility_markets": "AAA diesel $6.27 record · Brent ~$106.93 / WTI ~$102.65 early Tue · East-West outage risk",
+  "breaking": "Senate ~2:15 p.m. cloture on Clarity Act (H.R. 3633) after Dem overnight counteroffer; GOP rejects further talks; Trump Truth Social: SCOTUS mail-ballot stay denial a ‘big loss’; Biletskyi confirms Operation Vivaldi in N. Donetsk near Lyman; Meink confirms U.S. on-orbit space control weapons; CENTCOM: Iranian boats tried to seize Navy USV near Hormuz.",
   "order": [
+    "clarity-act-senate-cloture",
     "ukraine-vivaldi-donetsk-offensive",
     "trump-scotus-mail-ballot-reaction",
     "meink-space-force-orbit-weapons",
@@ -27,7 +28,6 @@
     "brennan-florida-grand-jury-subpoena",
     "trump-ai-guardrails-truth-social",
     "epa-power-plant-carbon-repeal",
-    "clarity-act-senate-cloture",
     "ai-stocks-slowdown-amodei-altman",
     "houthi-king-khalid-air-base",
     "oman-hormuz-talks-postponed",
@@ -78,6 +78,7 @@
     "iran-hormuz-strikes"
   ],
   "stack": [
+    "clarity-act-senate-cloture",
     "ukraine-vivaldi-donetsk-offensive",
     "trump-scotus-mail-ballot-reaction",
     "meink-space-force-orbit-weapons",
@@ -89,14 +90,14 @@
     "usps-mail-ballot-whistleblower",
     "public-charge-green-card-suits",
     "trump-ukraine-russia-energy-pause",
-    "house-russia-sanctions-vote",
-    "yahodyn-poland-border-drone"
+    "house-russia-sanctions-vote"
   ],
   "section_labels": [
     {
       "id": "us",
       "label": "U.S. & Washington",
       "slugs": [
+        "clarity-act-senate-cloture",
         "scotus-usps-mail-ballot-denied",
         "trump-scotus-mail-ballot-reaction",
         "saylor-visa-duration-injunction",
@@ -105,7 +106,6 @@
         "house-russia-sanctions-vote",
         "trump-ai-guardrails-truth-social",
         "epa-power-plant-carbon-repeal",
-        "clarity-act-senate-cloture",
         "opm-loyalty-question-stay",
         "house-dems-november-probes",
         "dc-circuit-campbell-coal-doe",
@@ -161,6 +161,7 @@
       "id": "politics",
       "label": "Politics",
       "slugs": [
+        "clarity-act-senate-cloture",
         "scotus-usps-mail-ballot-denied",
         "saylor-visa-duration-injunction",
         "public-charge-green-card-suits",
@@ -168,7 +169,6 @@
         "house-russia-sanctions-vote",
         "trump-ai-guardrails-truth-social",
         "epa-power-plant-carbon-repeal",
-        "clarity-act-senate-cloture",
         "trump-iran-keep-oil",
         "trump-ireland-united-comments",
         "opm-loyalty-question-stay",
@@ -185,8 +185,8 @@
       "id": "business",
       "label": "Business",
       "slugs": [
-        "ai-stocks-slowdown-amodei-altman",
         "clarity-act-senate-cloture",
+        "ai-stocks-slowdown-amodei-altman",
         "canada-us-retaliatory-tariffs",
         "trump-5000-dividend-pledge"
       ]
@@ -251,6 +251,16 @@
   ],
   "rail_wire": [
     {
+      "hed": "Senate ~2:15 p.m. cloture on Clarity Act after Dem counteroffer; GOP says final text",
+      "slug": "clarity-act-senate-cloture",
+      "stamp": "2:15 p.m."
+    },
+    {
+      "hed": "Trump Truth Social: SCOTUS mail-ballot stay denial a ‘big loss’; criticizes appointees",
+      "slug": "trump-scotus-mail-ballot-reaction",
+      "stamp": "1:45 p.m."
+    },
+    {
       "hed": "CENTCOM: Iranian boats tried to seize Navy USV near Hormuz; two craft destroyed.",
       "slug": "centcom-irgc-usv-boats-hormuz",
       "stamp": "10:45 a.m."
@@ -261,53 +271,38 @@
       "slug": "scotus-usps-mail-ballot-denied"
     },
     {
-      "hed": "Boston judge blocks DHS visa-duration caps for students, journalists",
-      "stamp": "Mon 8:20 p.m.",
-      "slug": "saylor-visa-duration-injunction"
-    },
-    {
-      "hed": "NATO jets shoot down drone over Lithuania",
-      "stamp": "Tue ~8:00 a.m.",
-      "slug": "lithuania-nato-drone-shootdown"
-    },
-    {
-      "hed": "Trump Iran-deal post; CENTCOM rejects El Gaia mine claim",
-      "stamp": "Tue ~8:00 a.m.",
-      "slug": "trump-iran-centcom-el-gaia"
-    },
-    {
-      "hed": "Treasury adds Iran sanctions on Russia\u2019s VTB Bank",
-      "stamp": "Mon 6:35 p.m.",
-      "slug": "treasury-vtb-iran-sanctions"
-    },
-    {
-      "label": "CLARITY.",
-      "text": "Tue. 2:15 p.m. cloture on Clarity Act; weekend draft adds Trump-accepted ethics + Treasury stablecoin circuit-breaker; needs ~7 Dems.",
-      "stamp": "UPDATED \u00b7 Tue. 9:15 a.m."
+      "hed": "Ukraine Vivaldi offensive confirmed near Lyman/Donetsk",
+      "stamp": "Tue ~12:05 p.m.",
+      "slug": "ukraine-vivaldi-donetsk-offensive"
     },
     {
       "label": "VISA RULE.",
       "text": "Saylor PI still blocks DHS F/J/I duration-of-status end; Sept. 15 effective date paused pending Oct. 2 status conference.",
-      "stamp": "NEW \u00b7 Tue. 9:15 a.m."
+      "stamp": "NEW · Tue. 9:15 a.m."
     },
     {
       "label": "OIL.",
       "text": "Brent ~$106.93 / WTI ~$102.65 early Tue; AAA diesel record $6.27; East-West outage risk.",
-      "stamp": "UPDATED \u00b7 Tue. early"
+      "stamp": "UPDATED · Tue. early"
     },
     {
       "label": "PIPELINE.",
       "text": "Saudi East-West still offline; Yanbu stocks measured in days; up to ~4% of global supply at risk.",
-      "stamp": "UPDATED \u00b7 Tue."
+      "stamp": "UPDATED · Tue."
     },
     {
       "label": "LITHUANIA.",
-      "text": "Italian NATO Eurofighters from \u0160iauliai shot down drone overnight that entered from Belarus; origin undetermined.",
-      "stamp": "NEW \u00b7 Tue. 8 a.m."
+      "text": "Italian NATO Eurofighters from Šiauliai shot down drone overnight that entered from Belarus; origin undetermined.",
+      "stamp": "NEW · Tue. 8 a.m."
+    },
+    {
+      "label": "CLARITY.",
+      "text": "Tue. ~2:15 p.m. cloture on motion to proceed to H.R. 3633; Dem overnight counteroffer rejected; needs ~7 Dems if GOP holds.",
+      "stamp": "UPDATED · Tue. 2:15 p.m."
     }
   ],
   "markets": {
-    "heading": "Markets \u00b7 Tuesday early (carry)",
+    "heading": "Markets · Tuesday early (carry)",
     "rows": [
       {
         "label": "Nasdaq / AI chips",
@@ -331,24 +326,24 @@
       },
       {
         "label": "Chokepoints",
-        "value": "East-West offline \u00b7 Hormuz thin",
+        "value": "East-West offline · Hormuz thin",
         "dir": "up"
       }
     ],
     "credit": "AI/chip session from Reuters/CNBC/NBC Monday wraps. Crude prints from Reuters (~$108.83 Brent / ~$103.88 WTI). AAA diesel $6.23 from morning NBC/AAA reporting."
   },
   "ticker": [
-    "SCOTUS|Denies DOJ stay of Talwani PI on USPS mail-ballot rule (26A305); Alito\u2013Thomas dissent; Kavanaugh concurs on timing",
+    "CLARITY|Senate ~2:15 p.m. cloture on H.R. 3633; Dem overnight counteroffer; GOP rejects further talks before 60-vote test",
+    "SCOTUS|Denies DOJ stay of Talwani PI on USPS mail-ballot rule (26A305); Alito–Thomas dissent; Kavanaugh concurs on timing",
     "VISA RULE|Judge Saylor PI still blocks DHS end of duration-of-status for F/J/I; Sept. 15 start paused",
     "LITHUANIA|NATO Italian Eurofighters shoot down drone over Lithuania after Belarus-border entry",
     "IRAN|Trump Iran-deal Truth Social post; CENTCOM rejects El Gaia mine claim",
-    "VTB|Treasury OFAC designates Russia\u2019s VTB under Iran E.O. 13902; secondary risk for foreign banks",
-    "CLARITY|Senate cloture Tue. 2:15 p.m. on Clarity Act after Trump accepts revised crypto ethics limits",
+    "VTB|Treasury OFAC designates Russia’s VTB under Iran E.O. 13902; secondary risk for foreign banks",
     "OIL|Brent ~$106.93; WTI ~$102.65 early Tue; AAA diesel record $6.27",
     "PIPELINE|Saudi East-West still offline; Yanbu stocks days; ~4% supply risk",
     "YAHODYN|Russian drone hits train ~2 km from Poland; no casualties",
     "RUSSIA BILL|House Rules clears Graham Russia/Iran sanctions path",
-    "OPM|Judge O\u2019Toole stay on OPM \u2018loyalty\u2019 essay still in effect",
+    "OPM|Judge O’Toole stay on OPM ‘loyalty’ essay still in effect",
     "HOUTHIS|Houthis cement Red Sea coast + Bab al-Mandab island hold"
   ],
   "archive": [
@@ -381,8 +376,8 @@
       "updated": "2026-09-04"
     }
   ],
-  "footer_method": "Humans didn\u2019t write today\u2019s copy; both frames are generated from public sources. Headlines and kickers state the event only. Each story then carries two viewpoint blocks \u2014 typical center-left and typical center-right \u2014 at the same size, in the same type, with named outlets or officials and outbound links. The site does not declare a winner in the headline. Summaries are original and short. Full articles are not reproduced.",
+  "footer_method": "Humans didn’t write today’s copy; both frames are generated from public sources. Headlines and kickers state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, in the same type, with named outlets or officials and outbound links. The site does not declare a winner in the headline. Summaries are original and short. Full articles are not reproduced.",
   "footer_legal": "Independent staging page for grokbotnews.com. Original wordmark. Not affiliated with any broadcast or cable news company. No accounts, no comments, no donations. Photographs are news-file images used for layout; they are not claimed as original field work by this site.",
-  "story_footer_method": "Headlines state the event only. Each story then carries two viewpoint blocks \u2014 typical center-left and typical center-right \u2014 at the same size, with named outlets and outbound links. Summaries are original and short. Full articles are not reproduced.",
+  "story_footer_method": "Headlines state the event only. Each story then carries two viewpoint blocks — typical center-left and typical center-right — at the same size, with named outlets and outbound links. Summaries are original and short. Full articles are not reproduced.",
   "story_footer_legal": "Independent staging page for grokbotnews.com. Original wordmark. Not affiliated with any broadcast or cable news company. No accounts, no comments, no donations."
 }
