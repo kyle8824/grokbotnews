@@ -1,0 +1,55 @@
+{
+  "slug": "cbo-iran-war-cost-inflation",
+  "kicker": "Budget / Iran",
+  "hed": "CBO: Iran war ~$38B through Aug. 1; +~0.5 ppt inflation early 2027",
+  "stamp": "NEW · Tue. ~8:15 p.m. EDT",
+  "dek": "The Congressional Budget Office said Tuesday combat operations against Iran cost the Defense Department about $38.1 billion from Feb. 28 through Aug. 1, 2026 — mostly $21.7 billion to replace expended munitions ($13.1B interceptors, $7.3B land-attack cruise, $1.2B other) — and would run roughly $2–3 billion more per month if fighting continues. The estimate excludes base-repair costs; CBO also projects about 0.5 percentage points higher personal-consumption inflation in Q1 2027, largely from energy disruption via Hormuz and the Red Sea, and says rebuilding some interceptor stocks would take “at least five years.” A separate Pentagon IG tally put Epic Fury at ~$33.4B through June; Pentagon figures cited to Congress have topped $42B.",
+  "image": "img/cbo-iran-war-cost-inflation.jpg",
+  "alt": "Arleigh Burke-class destroyer USS Barry launches a Tomahawk cruise missile",
+  "caption": "USS Barry (DDG 52) launches a Tomahawk cruise missile in a 2011 file photograph. Land-attack cruise missiles are among the munitions CBO says will cost billions to replace after the Iran campaign. Not from the September 2026 CBO report.",
+  "credit": "U.S. Navy / Mass Communication Specialist 3rd Class Jonathan Sunderman (public domain via Wikimedia Commons)",
+  "byline": "Event summary from public reporting and named outlets",
+  "section": "lead",
+  "updated": "2026-09-15",
+  "frames": {
+    "cl": {
+      "body": "CNN, ABC News, and NBC News stress that CBO’s ~$38B figure still omits repair of U.S. bases damaged by Iranian strikes, that munitions rebuild could take at least five years with half or more of some interceptor inventories already spent, and that war-linked energy disruption is set to add roughly half a percentage point to inflation early in 2027 — hitting household gas, diesel, and borrowing costs while Congress has yet to enact full war funding.",
+      "sources": [
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/09/15/politics/cbo-releases-iran-war-cost-estimate"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/Politics/iran-war-costs-38-billion-cbo-warns-higher/story?id=136465149"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/politics/national-security/iran-war-driving-inflation-americans-cbo-report-says-rcna597978"
+        }
+      ]
+    },
+    "cr": {
+      "body": "Breaking Defense, the Washington Examiner, and Roll Call read the same CBO math as lining up with Defense Secretary Pete Hegseth’s ~$37.5B July tally and the White House’s $87.6B supplemental (about $67B defense) for munitions replenishment and industrial-base acceleration — framing the $2–3B monthly burn and multi-year rebuild as the price of degrading Iran and closing shortfalls Hegseth said would become critical without urgent funds, with IG-plus-CBO numbers as transparency rather than proof the campaign failed.",
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/09/iran-war-costs-38b-plus-2-3b-per-month-going-forward-cbo-says/"
+        },
+        {
+          "name": "Washington Examiner",
+          "url": "https://www.washingtonexaminer.com/policy/defense/4657796/updated-estimated-cost-iran-war-pete-hegseth/"
+        },
+        {
+          "name": "Roll Call",
+          "url": "https://rollcall.com/2026/09/15/iran-war-has-cost-38-billion-and-counting-cbo-says/"
+        }
+      ]
+    }
+  },
+  "stack_blurb": "CBO: Iran war ~$38B through Aug. 1; +~0.5 ppt inflation Q1 2027.",
+  "seo_description": "CBO pegs Iran war DoD costs at about $38.1 billion through Aug. 1 and ~0.5 ppt higher inflation in early 2027; dual frames on incomplete costs vs replenishment supplemental.",
+  "date_modified": "2026-09-15T20:15:00-04:00",
+  "date_published": "2026-09-15T20:15:00-04:00",
+  "article_section": "U.S. & Washington"
+}
